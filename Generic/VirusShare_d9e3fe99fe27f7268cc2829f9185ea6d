@@ -1,0 +1,20 @@
+[COMMON]
+Dir=AutoRun
+
+[autorun]
+ICON = AutoRun\PDFT.ico
+OPEN = AutoRun.exe
+
+[Variables]
+ProductName=ABBYY PDF Transformer+
+GuideDir=ABBYY PDF Transformer+\Guide
+ReadmeDir=ABBYY PDF Transformer+\Readme\
+_CommandsRect=[258, 70, 540, 250]
+_CommentRect=[258, 240, 500, 350]
+_FontRatio=1.5
+_SpaceRatio=0.2
+_FontName=Tahoma	
+_FontCommentName=Tahoma
+_FontSelectedColor=2020e0
+_FontSize=14
+_FontCommentSize=13
