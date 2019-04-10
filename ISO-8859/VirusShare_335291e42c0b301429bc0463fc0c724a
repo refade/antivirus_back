@@ -1,0 +1,167 @@
+/* ui */
+document.write("<scr"+"ipt src=\"http://www.kmib.co.kr/js/jquery-ui.js\" type=\"text/javascript\"></scr"+"ipt>");
+
+document.domain = "kmib.co.kr";
+
+var noticeObj, noticeTimer;
+$(document).ready(function(){
+
+	//gnb
+	$(document).mouseup(function (e) {
+		var container = $("#nav");
+		if (!container.is(e.target) && container.has(e.target).length === 0){
+			//console.log("run");
+			if ($("div.gnb_all").css("display") == "block") {
+				$("#slideToggle").removeClass("btn_close");
+				$("#slideToggle").addClass("btn_toggle");
+				$("#slideToggle").html("<span><em></em><em></em><em></em></span><strong>ÀüÃ¼</strong>");
+				//$("div.gnb_all").hide();
+				$("div.gnb_all").hide("slide", {direction:"up"}, 1000);
+			}
+		}	
+	});
+	$("#slideToggle").click(function(){
+		if ($("div.gnb_all").css("display") == "block")
+		{
+			$(this).removeClass("btn_close");
+			$(this).addClass("btn_toggle");
+			$(this).html("<span><em></em><em></em><em></em></span><strong>ÀüÃ¼</strong>");
+			//$("div.gnb_all").hide();
+			$("div.gnb_all").hide("slide", {direction:"up"}, 1000);
+		}
+		else
+		{
+			$(this).removeClass("btn_toggle");
+			$(this).addClass("btn_close");
+			$(this).html("<strong>´Ý±â</strong>");
+			$("div.gnb_all").show("slide", {direction:"up"}, 1000);
+		}
+	});
+
+	$("#wrap").focus();
+
+	//¸¹ÀÌº»±â»ç
+	$(".rank .rank_lst div:not("+$(".rank .tab_mnu li a.on ").attr("href")+")").hide()
+	$(".rank .tab_mnu li a").click(function(){
+		$(".rank .tab_mnu li a").removeClass("on");
+		$(this).addClass("on");
+		$(".rank .rank_lst div").hide();
+		$($(this).attr("href")).show();
+		return false;
+	}); 
+
+
+	//Æ÷Åä°¶·¯¸®
+	var photoObj = $(".photogallery>div.b_area>div.l_area>ul>li");
+	var photoTimer, photoRolCnt, photoCnt;
+	photoCnt = photoObj.length;
+	photoRolCnt = 0;
+	var tit, link, img;
+	tit = photoObj.eq(0).find("a").text();
+	link = photoObj.eq(0).find("a").attr("href");
+	img = photoObj.eq(0).find("img").attr("src");
+	photoObj.eq(0).find("a").addClass("on");
+	$(".photogallery>div.b_area>div.r_area>ul>li>a").attr("href", link);
+	$(".photogallery>div.b_area>div.r_area>ul>li>a").find("strong.tit").text(tit);
+	$(".photogallery>div.b_area>div.r_area>ul>li>a").find("img").attr("src", img);
+	photoObj.bind("mouseover", function(){
+		clearInterval(photoTimer);
+		photoRolCnt = $(this).index();
+		$(this).find("a").addClass("on").parent().siblings().find("a").removeClass("on");
+		tit = $(this).find("a").text();
+		link = $(this).find("a").attr("href");
+		img = $(this).find("img").attr("src");
+		$(".photogallery>div.b_area>div.r_area>ul>li>a").attr("href", link);
+		$(".photogallery>div.b_area>div.r_area>ul>li>a").find("strong.tit").text(tit);
+		$(".photogallery>div.b_area>div.r_area>ul>li>a").find("img").attr("src", img);
+	});
+	photoObj.bind("mouseout", function(){photoTimer = setInterval(function(){rollingPhoto()}, 3000);});
+	$(".photogallery>div.b_area>div.r_area").bind("mouseover", function(){clearInterval(photoTimer);});
+	$(".photogallery>div.b_area>div.r_area").bind("mouseout", function(){photoTimer = setInterval(function(){rollingPhoto()}, 3000);});
+	photoTimer = setInterval(function(){rollingPhoto()}, 3000);
+	function rollingPhoto()
+	{
+		photoRolCnt = photoRolCnt + 1;
+		if (photoRolCnt==photoCnt)
+		{
+			photoRolCnt = 0;
+		}
+		photoObj.eq(photoRolCnt).find("a").addClass("on").parent().siblings().find("a").removeClass("on");
+		tit = photoObj.eq(photoRolCnt).find("a").text();
+		link =photoObj.eq(photoRolCnt).find("a").attr("href");
+		img = photoObj.eq(photoRolCnt).find("img").attr("src");
+		$(".photogallery>div.b_area>div.r_area>ul>li>a").attr("href", link);
+		$(".photogallery>div.b_area>div.r_area>ul>li>a").find("strong.tit").text(tit);
+		$(".photogallery>div.b_area>div.r_area>ul>li>a").find("img").attr("src", img);
+	}
+
+});
+
+
+$(window).unload(function(){
+	$(".gnb>ul").children("li").children("div").each(function(){
+		$(this).hide();
+		$(this).parent().children("a").removeClass("on");
+	});
+});
+
+function ShowFlash(url, width, height){
+        document.write('<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="' + width + '" height="' + height + '" VIEWASTEXT>');
+        document.write('<param name="movie" value="' + url + '">');
+        document.write('<param name="quality" value="high">');
+        document.write('<param name="wmode" value="transparent">');
+        document.write('<embed src="' + url + '" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="' + width + '" height="' + height + '"></embed>');
+        document.write('</object>');
+}
+
+function getMCookie(name)
+{
+	var cookieValue = unescape(document.cookie);
+	//alert(cookieValue);
+	var arg = cookieValue.split(";");
+	for(var i=0; i<arg.length; i++)
+	{
+		if (arg[i].indexOf(name)>=0)
+		{
+			var prefix = "status=";
+			var csIndex = arg[i].indexOf(prefix);
+			if (csIndex == -1) return null;
+			var ceIndex = arg[i].indexOf("&", csIndex + prefix.length);
+			if (ceIndex == -1) ceIndex = arg[i].length;
+			return unescape(arg[i].substring(csIndex + prefix.length, ceIndex));
+		}
+	}
+}
+
+function resizeSubFrame(dynheight) {  
+		document.getElementById("subIframe").height = parseInt(dynheight) + 10;  
+}
+
+/* adsrv ºÐ¼® */
+//document.write("<scr"+"ipt language=\"javascript\" src=\"http://www.kmib.co.kr/js/ems.js\"></scr"+"ipt>");
+
+/* ±¸±Û */
+document.write("<scr"+"ipt src=\"http://www.google.com/jsapi\" type=\"text/javascript\"></scr"+"ipt>");
+
+/* Nitmus */
+document.write("<scr"+"ipt src=\"http://adsvr.kmib.co.kr/NetInsight/trace/script'\" type=\"text/javascript\"></scr"+"ipt>");
+
+
+document.write("<script async src='https://www.googletagmanager.com/gtag/js?id=UA-55134398-1'></script>");
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments)};
+gtag('js', new Date());
+gtag('config', 'UA-55134398-1');
+
+function specialCharRemove(searchWord) {
+	var regSearchWord = searchWord;
+	var pattern = /[^(°¡-ÆR¤¡-¤¾¤¿-¤Óa-zA-Z0-9)]/gi;   // Æ¯¼ö¹®ÀÚ Á¦°Å
+	 
+	//var pattern = /[^(0-9)]/gi;   // ¼ýÀÚÀÌ¿Ü´Â Á¦°Å
+	 
+	if(pattern.test(regSearchWord)){
+		regSearchWord = regSearchWord.replace(pattern,"");
+	}
+
+	return regSearchWord;
+}
