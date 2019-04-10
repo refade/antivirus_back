@@ -1,0 +1,10 @@
+#EXTM3U
+#EXT-X-TARGETDURATION:11
+#EXT-X-MEDIA-SEQUENCE:0
+#EXT-X-DISCONTINUITY
+#EXTINF:10,title="Better Now",artist="Post Malone",url="song_spot=\"M\" MediaBaseId=\"2393994\" itunesTrackId=\"0\" amgTrackId=\"-1\" amgArtistId=\"0\" TAID=\"30779802\" TPID=\"56298503\" cartcutId=\"0408420001\" amgArtworkURL=\"http://image.iheart.com/ihr-ingestion-pipeline-production-umg/00602567647454_20180425031645425/00602567647454_T1_cvrart.jpg\" length=\"00:03:47\" unsID=\"-1\" spotInstanceId=\"-1\""
+http://cdn-chunks.prod.ihrhls.com/4422/cAO0JwvoaAHp-154056803-10031.aac
+#EXTINF:10,title="Better Now",artist="Post Malone",url="song_spot=\"M\" MediaBaseId=\"2393994\" itunesTrackId=\"0\" amgTrackId=\"-1\" amgArtistId=\"0\" TAID=\"30779802\" TPID=\"56298503\" cartcutId=\"0408420001\" amgArtworkURL=\"http://image.iheart.com/ihr-ingestion-pipeline-production-umg/00602567647454_20180425031645425/00602567647454_T1_cvrart.jpg\" length=\"00:03:47\" unsID=\"-1\" spotInstanceId=\"-1\""
+http://cdn-chunks.prod.ihrhls.com/4422/lLOogX3Py9np-154056804-9984.aac
+#EXTINF:10,title="Better Now",artist="Post Malone",url="song_spot=\"M\" MediaBaseId=\"2393994\" itunesTrackId=\"0\" amgTrackId=\"-1\" amgArtistId=\"0\" TAID=\"30779802\" TPID=\"56298503\" cartcutId=\"0408420001\" amgArtworkURL=\"http://image.iheart.com/ihr-ingestion-pipeline-production-umg/00602567647454_20180425031645425/00602567647454_T1_cvrart.jpg\" length=\"00:03:47\" unsID=\"-1\" spotInstanceId=\"-1\""
+http://cdn-chunks.prod.ihrhls.com/4422/ikgkVevQCWyp-154056805-9984.aac
