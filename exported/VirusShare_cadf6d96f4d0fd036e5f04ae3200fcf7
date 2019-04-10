@@ -1,0 +1,474 @@
+<!------------------------ 输出样式 --------------------------------->
+var sogouTall = '<form action="/gbook/save.asp?action=adk" method="post" name="sendQueenFBean" id="sogouMessage" >'
+		+ '<div class="sogoulyb skin1" style="z-index:1000;position: absolute;text-align:left;right:0" id="sogoubox">'
+	    + '<h2 id="sogouh2">'
+	    + '<img src="/js/collapse1.gif" alt="Minimize" width="15" height="14" onclick="javascript:sogouChSize();" id="sogouImg">'
+	    + 'Message boards'
+	    + '</h2>'
+	    + '<div class="lybody" id="sogouTable">'
+	    + '<div class="lybtext">'
+	    + '<textarea  cols="25" rows="5" name="content" onclick="javascript:sogouClearDefault(1);" onblur="javascript:sogouReDefault(1);">'
+	    + 'If you are interested in our products or services,click here to leave a message.'
+	    + '</textarea></div>'
+	    + '<input type="hidden" name="s_refer_info" value="">'
+	    + '<div class="lybphone" style="display:block">'
+	    + '<input  type="text" value="Enter your phone number" size="20" name="ContactWay" onclick="javascript:sogouClearDefault(2);" onblur="javascript:sogouReDefault(2);">'
+	    + '</div>'
+	    + '<div class="lybemail" style="display:block">'
+	    + '<input  type="text" value="Please enter your email" size="20" name="Contactmail" onclick="javascript:sogouClearDefault(3);" onblur="javascript:sogouReDefault(3);">'
+	    + '</div>'
+	    + '<div class="lybadd" style="display:block">'
+	    + '<input  type="text" value="Please fill your name, or Mr. xx / Ms" size="20" name="Contact" onclick="javascript:sogouClearDefault(4);" onblur="javascript:sogouReDefault(4);">'
+	    + '</div>'
+	    + '<p class="donot">No illegal speech!</p>'
+	    + '<div class="lybfoot">'
+	    + '<input type="submit" class="lybtn" value="Send">'
+	    + '</div>'
+	    + '<input type=hidden name="FaqTitle" value="Message boards">'
+	    + '<iframe id="sogouIframe" src=\'\' name=sogouMsgFrame style=\'display:none;\'></iframe>'
+	    + '</div></div></form>'
+
+document.writeln(sogouTall);
+var cssTag = document.createElement('link');
+cssTag.setAttribute('rel','stylesheet');
+cssTag.setAttribute('type','text/css');
+cssTag.setAttribute('href','/js/lyb2.css');
+document.getElementsByTagName('head')[0].appendChild(cssTag);
+
+var msgDefaultValue = "If you are interested in our products or services,click here to leave a message.";
+var contDefaultValue = "Please Enter the phone number so we can contact you.";
+
+
+var sogouSizeType = 0;
+function sogouChSize(){
+	var imgUrl;
+	var imgText;
+	var styleClass;
+	if(sogouSizeType == 0){
+			sogouSizeType = 1;
+			imgUrl = "/js/max1.gif";
+			imgText = "Maximize";
+			styleClass = "lybmin min1";			
+			document.getElementById('sogouTable').style.display = "none";
+			SogouMsgDisplay.fixMessageBoardPosition();
+	}else{
+			sogouSizeType = 0;
+			imgUrl = "/js/collapse1.gif";
+			imgText = "Minimize";
+			styleClass = "sogoulyb skin1";
+			document.getElementById('sogouTable').style.display = "";
+			SogouMsgDisplay.fixMessageBoardPosition();
+	}
+		
+	var imgObj = document.getElementById('sogouImg');
+	imgObj.src = imgUrl;
+	imgObj.alt = imgText;
+  	document.getElementById('sogoubox').className = styleClass;
+}
+var SogouMsgBrowser = {};
+SogouMsgBrowser.ieVersion = /msie (\d+)/.exec(navigator.userAgent.toLowerCase());
+SogouMsgBrowser.higherThanIE6 = SogouMsgBrowser.ieVersion && parseInt(SogouMsgBrowser.ieVersion[1]) > 6;
+SogouMsgBrowser.onQuirkMode = document.compatMode && document.compatMode.indexOf('Back') == 0;
+
+if(SogouMsgBrowser.ieVersion && !(SogouMsgBrowser.higherThanIE6)) {
+	document.execCommand("BackgroundImageCache", false, true);
+}
+
+function stopBubble(a){
+	var a=a||window.event;
+	if(a.stopPropagation){
+		a.stopPropagation();
+	}else {
+		window.event.cancelBubble=true;
+	}
+}
+
+document.getElementById("sogouTable").onmouseup=function(e){stopBubble(e);}
+document.getElementById("sogouTable").onmousedown=function(e){stopBubble(e);}
+document.getElementById("sogouTable").onclick=function(e){stopBubble(e);}
+
+var SogouMsgBoard = {	  
+		
+	  mbWrap : null,
+	  mbBody : null,
+	  
+	  init: function(){	 
+	  	this.mbWrap = document.getElementById("sogoubox");
+	  	this.mbWrap.style.display = '';
+	  	this.mbBody = document.getElementById("sogouTable");
+	  }
+};
+
+SogouMsgBoard.init();
+
+var SogouMsgDisplay = {
+	
+	initFormStyle: function() {	
+		SogouMsgBoard.mbBody.style.overflow = 'hidden';
+		SogouMsgBoard.mbBody.style.display = 'none';
+		SogouMsgBoard.mbWrap.style.top = document.documentElement.clientHeight - SogouMsgBoard.mbWrap.clientHeight + 'px';
+		if (window.addEventListener || SogouMsgBrowser.higherThanIE6 && (!SogouMsgBrowser.onQuirkMode)) {
+			SogouMsgBoard.mbWrap.style.top = '';
+			SogouMsgBoard.mbWrap.style.bottom = '0';
+			SogouMsgBoard.mbWrap.style.position = 'fixed';
+		} else {
+			window.attachEvent('onscroll', this.fixMessageBoardPosition);
+			window.attachEvent('onresize', this.fixMessageBoardPosition);
+			this.fixMessageBoardPosition();
+		}
+		
+		this.initTween();
+	},
+	
+	initTween: function () {
+		if (!this.initHeight) {
+			this.initHeight = 1;
+		}
+		SogouMsgBoard.mbBody.style.display = '';
+		this.min = 0;
+		this.max = SogouMsgBoard.mbBody.offsetHeight;				
+		this.initHeight += 2;
+		if (window.attachEvent && (!SogouMsgBrowser.higherThanIE6 || SogouMsgBrowser.onQuirkMode) && (!window.opera)) {
+			SogouMsgDisplay.fixMessageBoardPosition();
+		}
+
+		if (this.initHeight > this.max) {
+			
+		} else {
+			setTimeout(SogouMsgDisplay.initTween, 0);
+		}
+	},
+	
+	fixMessageBoardPosition: function () {
+		if (window.addEventListener || SogouMsgBrowser.higherThanIE6 && (!SogouMsgBrowser.onQuirkMode)) {
+		
+		}else{
+			var page = !SogouMsgBrowser.onQuirkMode ? document.documentElement : document.body;
+			SogouMsgBoard.mbWrap.style.top = parseInt(page.clientHeight) + parseInt(page.scrollTop) - SogouMsgBoard.mbWrap.offsetHeight + 'px';
+		}
+	}
+};
+
+<!--   调用弹出  ---->
+function SogouPopupDemo(direction){
+	setTimeout(function(){SogouMsgDisplay.initFormStyle();}, 10);
+}var FaqTitle=document.getElementsByName("FaqTitle")[0].value;
+var sogou_msg_reffer ='';
+var sogou_msg_url ='';
+var sogou_submit_url = 'http://beta.sogou.com/js/SOGOUPV.gif?v?=1000?r?=sogou_msg_reffer?l?=sogou_msg_url?acid?=FaqTitle?t?=sogouGotoUrl';
+	
+<!------------------------ 功能函数 --------------------------------->
+	
+function sogouValidMessage()
+{
+		var msgValue = document.getElementsByName("content")[0].value;
+		
+		if(sogouTrim(msgValue) == ""){
+			alert("Message content can not be empty");
+			return;
+		}else if(sogouTrim(msgValue) == msgDefaultValue){
+			alert("You do not enter message content!");
+			return;
+		}else{
+			
+		  if(sogouCheckLength(msgValue)>400){
+		  	alert("Message content can not be more than 400 characters");
+				return;
+		  }
+			
+			if(null != sogouValidateParChar(msgValue)){
+				alert("Message content can not contain <or>");
+				return;
+			}
+		}
+		
+		if(false){
+				var phoneValue = document.getElementsByName("ContactWay")[0].value;
+					if(sogouTrim(phoneValue) == ""){
+						alert("Phone number can not be empty");
+						return;
+					}else if(sogouTrim(phoneValue) == "Enter your phone number"){
+							alert("You did not fill in the phone number!");
+							return;
+					}else if(sogouCheckLength(phoneValue)>15){
+						alert("Phone number is too long！");
+						return;
+					}
+				
+		}else{
+		  var phoneValue = document.getElementsByName("ContactWay")[0].value;
+		   if(sogouTrim(phoneValue) == "Enter your phone number")
+			 document.getElementsByName("ContactWay")[0].value = "";
+		}
+		
+		if(false){
+			var emailValue = document.getElementsByName("Contactmail")[0].value;
+					if(sogouTrim(emailValue) == ""){
+						alert("E-mail can not be empty");
+						return;
+					}else if(sogouTrim(emailValue) == "Please enter your email"){
+							alert("You did not fill in your E-mail");
+							return;
+					}else if(sogouCheckLength(emailValue)>256){
+						alert("Characters is too long！");
+						return;
+					}
+			
+		}else{
+		var emailValue = document.getElementsByName("Contactmail")[0].value;
+		 if(sogouTrim(emailValue) == "Please enter your email")
+			 document.getElementsByName("Contactmail")[0].value = "";
+		}
+		
+		if(false){
+			var addValue = document.getElementsByName("Contact")[0].value;
+					if(sogouTrim(addValue) == ""){
+						alert("Contacts can not be empty");
+						return;
+					}else if(sogouTrim(addValue) == "Please fill your name, or Mr. xx / Ms"){
+							alert("You did not fill in a contact!");
+							return;
+					}else if(sogouCheckLength(addValue)>256){
+						alert("Characters is too long！");
+						return;
+					}
+			
+		}else{
+		var addValue = document.getElementsByName("Contact")[0].value;
+		 if(sogouTrim(addValue) == "Please enter the contacts")
+			 document.getElementsByName("Contact")[0].value = "";
+		}
+		
+		
+		if(!confirm('Are you sure to send the message?')) 
+		{
+			return false;
+		}
+
+		document.getElementsByName("content")[0].value = escape(msgValue);
+		document.getElementsByName("ContactWay")[0].value = escape(document.getElementsByName("ContactWay")[0].value);
+		document.getElementsByName("Contactmail")[0].value = escape(document.getElementsByName("Contactmail")[0].value);
+		document.getElementsByName("Contact")[0].value = escape(document.getElementsByName("Contact")[0].value);
+		document.getElementsByName("FaqTitle")[0].value = escape(document.getElementsByName("FaqTitle")[0].value);
+		document.getElementsByName("s_refer_info")[0].value=sogou_msg_reffer;
+		
+		document.getElementById("sogouMessage").submit();
+		document.getElementsByName("content")[0].value = msgDefaultValue;
+		document.getElementsByName("ContactWay")[0].value = "Enter your phone number";
+		document.getElementsByName("Contactmail")[0].value = "Please enter your email";
+		document.getElementsByName("Contact")[0].value = "Please fill your name, or Mr. xx / Ms";
+}
+	
+function sogouTrim(str){  
+ 	return str.replace(/(^\s*)|(\s*$)/g,"");
+}
+
+function sogouCheckLength(tarValue){
+	var regLen = /[\u4e00-\u9fa5]/g;
+  var realLen = (tarValue.replace(regLen,"aa")).length;   
+  return realLen;  	
+}
+
+function sogouValidateParChar(tarValue){
+	var regLen = /<|>/g;
+	return tarValue.match(regLen);
+ 	
+}
+	
+function sogouClearDefault(type){
+	if(type == 1){
+		var msgValue = document.getElementsByName("content")[0].value;
+		if(msgValue == msgDefaultValue){
+			document.getElementsByName("content")[0].value = "";
+		}
+	}else if(type == 2){
+		var msgValue = document.getElementsByName("ContactWay")[0].value;
+		if(msgValue == "Enter your phone number")
+			document.getElementsByName("ContactWay")[0].value = "";
+	}else if(type == 3){
+		var msgValue = document.getElementsByName("Contactmail")[0].value;
+		if(msgValue == "Please enter your email")
+			document.getElementsByName("Contactmail")[0].value = "";
+	}else if(type == 4){
+		var msgValue = document.getElementsByName("Contact")[0].value;
+		if(msgValue == "Please fill your name, or Mr. xx / Ms")
+			document.getElementsByName("Contact")[0].value = "";
+	}
+}
+
+function sogouReDefault(type){
+		if(type == 1){
+		var msgValue = document.getElementsByName("content")[0].value;
+		if(msgValue == ""){
+			document.getElementsByName("content")[0].value = msgDefaultValue;
+		}
+	}else if(type == 2){
+		var msgValue = document.getElementsByName("ContactWay")[0].value;
+		if(msgValue == "")
+			document.getElementsByName("ContactWay")[0].value = "Enter your phone number";
+	}else if(type == 3){
+		var msgValue = document.getElementsByName("Contactmail")[0].value;
+		if(msgValue == "")
+			document.getElementsByName("Contactmail")[0].value = "Please enter your email";
+	}else if(type == 4){
+		var msgValue = document.getElementsByName("Contact")[0].value;
+		if(msgValue == "")
+			document.getElementsByName("Contact")[0].value = "Please fill your name, or Mr. xx / Ms";
+	}
+}
+
+
+<!------------------------ add pingback --------------------------------->
+
+var tagArray = new Array("A","AREA");
+
+function sogouBindEvent(oTarget,sEvtType,fnHandle){
+	if(!oTarget){return;}
+	if(oTarget.addEventListener){
+		oTarget.addEventListener(sEvtType,fnHandle,false);
+	}else if(oTarget.attachEvent){
+		oTarget.attachEvent("on" + sEvtType,fnHandle);
+	}else{
+		oTarget["on" + sEvtType] = fnHandle;
+	}
+}
+
+function sogouIsIE(){
+	var sUserAgt = navigator.userAgent;
+	var isOpera = sUserAgt.indexOf("Opera") > -1;
+	return sUserAgt.indexOf("compatible") > -1 && sUserAgt.indexOf("MSIE") > -1	&& !isOpera;
+}
+
+function sogouFmtEvt(oEvt){
+	if(sogouIsIE()){
+		oEvt.charCode = (oEvt.type == "keypress") ? oEvt.keyCode : 0;
+		oEvt.eventPhase = 2;
+		oEvt.isChar = (oEvt.charCode > 0);
+		oEvt.pageX = oEvt.clientX + document.body.scrollLeft;
+		oEvt.pageY = oEvt.clientY + document.body.scrollTop;
+		oEvt.preventDefault = function(){
+			this.returnValue = false;
+		};
+		if(oEvt.type == "mouseout"){
+			oEvt.relatedTarget = oEvt.toElement;
+		}else if(oEvt.type == "mouseover"){
+			oEvt.relatedTarget = oEvt.fromElement;
+		}
+		oEvt.stopPropagation = function(){
+			this.cancelBubble = true;
+		};
+		oEvt.target = oEvt.srcElement;
+		oEvt.time = (new Date()).getTime();		
+	}
+	return oEvt;
+}
+
+function sogouGetEvent(){
+	if(window.event){
+		return sogouFmtEvt(window.event);
+	}else{
+		return sogouGetEvent.caller.arguments[0];
+	}
+}
+
+
+function initSogouInfo(){
+		if (window.parent != window.self){try{sogou_msg_reffer = parent.document.referrer;}catch(err) {sogou_msg_reffer = document.referrer;} try {sogou_msg_url = parent.document.location;}catch(err){sogou_msg_url = document.location;}}
+	  else {sogou_msg_reffer = document.referrer;sogou_msg_url = document.location;}
+	  
+		var sogou_submit_form_str='<form name="sogouReferForm" id="sogouReferForm" method="post" target="sogouMsgFrame" action=""></form>';
+		var sogou_ifame='<iframe id="sogouIframe" src="" name="sogouMsgFrame" style="display:none;"></iframe>';
+		document.writeln(sogou_submit_form_str);
+		document.writeln("");
+		document.writeln(sogou_ifame);	
+}
+
+function sogouSubReferInfo(sogouPvValue,gotoUrl){
+	  try{
+	  var formObj =  document.getElementById('sogouReferForm');
+	  if(null == formObj || 'undefined' == formObj){
+
+	  }else{
+	  		formObj.action= sogou_submit_url.replace("sogouGotoUrl",gotoUrl).replace("SOGOUPV",sogouPvValue).replace("sogou_msg_reffer",sogou_msg_reffer).replace("sogou_msg_url",sogou_msg_url).replace("FaqTitle",FaqTitle);
+	 			formObj.submit();
+	  }
+	 
+	}catch(e){
+	}
+	
+ }
+
+function sogouSubUrl(){
+	try{
+	 var o = sogouGetEvent().target;
+	 var i=0;
+	 if(!isOInArray(o.tagName)){
+	   do{
+	 	   o = o.parentElement;
+	 	   i++;
+	   }while(!isOInArray(o.tagName) && o.tagName != 'BODY' && i<3)
+	  }
+
+	 sogouSubReferInfo("ck", o.getAttribute("href"));
+	}catch(e){
+  }
+}
+
+
+function isOInArray(tagStr){
+	for(var i=0;i<tagArray.length;i++){
+		if(tagStr == tagArray[i]){
+			return true;
+		}	
+	}
+	return false;
+}
+
+function sogou_bindAllLInkEvent(){
+ for(var i=0;i<tagArray.length;i++){
+ 		sogou_bindTagEvent(tagArray[i]);
+ 	}
+}
+
+function sogou_bindTagEvent(tagStr){
+	var links = document.getElementsByTagName(tagStr);
+	for(var i=0;i<links.length;i++){
+		sogouBindEvent(links[i],"click",sogouSubUrl);
+	}
+}
+
+function sogou_domReady( f ) {
+if ( sogou_domReady.done ) return f();   
+if ( sogou_domReady.timer ) { 
+sogou_domReady.ready.push( f ); 
+} else { 
+sogouBindEvent(window,"load",isDOMReady);	  
+sogou_domReady.ready = [ f ];   
+sogou_domReady.timer = setInterval( isDOMReady, 10 ); 
+} 
+}  
+
+function isDOMReady() { 
+
+if ( sogou_domReady.done ) return false;   
+
+if ( document &&  document.getElementsByTagName &&  document.getElementById &&  document.body ) {   
+
+clearInterval( sogou_domReady.timer ); 
+sogou_domReady.timer = null;   
+
+for ( var i = 0; i < sogou_domReady.ready.length; i++ ) 
+sogou_domReady.ready[i]();   
+sogou_domReady.ready = null; 
+sogou_domReady.done = true; 
+} 
+}
+
+initSogouInfo();
+sogou_domReady(sogou_bindAllLInkEvent);
+window.setTimeout("sogouSubReferInfo('ts','null')",10);
+sogouBindEvent(window,"load",SogouPopupDemo);
+
+document.writeln("<SCRIPT src=\"/js/pingback4lyb.js\" ></SCRIPT>");
+
+	
