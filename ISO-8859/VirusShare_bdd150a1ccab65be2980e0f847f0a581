@@ -1,0 +1,545 @@
+var GALERIAS = {};
+
+GALERIAS.presentacion = function(contenido_id,foto_id, idioma) {
+	contenido_id = ((contenido_id != null) || !isNaN(contenido_id)) ? contenido_id : 0;
+	foto_id = ((foto_id != null) || !isNaN(foto_id)) ? foto_id : 0;
+	//alert(idioma + "/includes/contenidos/galerias/" + contenido_id + ".galeria.json");
+	$.getJSON(
+		idioma + "/includes/contenidos/galerias/" + contenido_id + ".galeria.json",
+		function(galeria) {
+			galeria.foto_id = foto_id;
+			$("body").presentacion({galeria: galeria});
+		}
+	);
+};
+
+(function($) {
+	/**
+	 * $ is an alias to jQuery object
+	 */
+	$.fn.presentacion = function(settings) {
+		// Settings to configure the jQuery presentacion plugin how you like
+		settings = jQuery.extend({
+			// Configuration related to overlay
+			overlayBgColor: 		'#000',		// (string) Background color to overlay; inform a hexadecimal value like: #RRGGBB. Where RR, GG, and BB are the hexadecimal values for the red, green, and blue values of the color.
+			overlayOpacity:			0.8,		// (integer) Opacity value to overlay; inform: 0.X. Where X are number from 0 to 9
+			// Configuration related to container image box
+			containerBorderSize:	[10,10,0,10],			// (integer) If you adjust the padding in the CSS for the container, #presentacion-container-image-box, you will need to update this value
+			containerResizeSpeed:	400,		// (integer) Specify the resize duration of container image. These number are miliseconds. 400 is default.
+			// Configuration related to texts in caption. For example: Image 2 of 8. You can alter either "Image" and "of" texts.
+			//txtImage:				'Imagen',	// (string) Specify text "Image"
+			txtImage:				'',	// lo cambio para varios idiomas
+			//txtOf:					'de',		// (string) Specify text "of"
+			txtOf:					' / ',		// lo cambio para varios idiomas
+			// Configuration related to keyboard navigation
+			keyToClose:				'c',		// (string) (c = close) Letter to close the jQuery presentacion interface. Beyond this letter, the letter X and the SCAPE key is used to.
+			keyToPrev:				'p',		// (string) (p = previous) Letter to show the previous image
+			keyToNext:				'n',		// (string) (n = next) Letter to show the next image.
+			// Don´t alter these variables in any way
+			imageArray:				[],
+			activeImage:			0,
+			autoPlay:				false,
+			playInterval:			4000,
+			galeria: {titulo: "", listado: [], foto_id: 0}
+		},settings);
+		// Caching the jQuery object with all elements matched
+		var jQueryMatchedObj = this; // This, in this context, refer to jQuery object
+		/**
+		 * Initializing the plugin calling the start function
+		 * @return boolean false
+		 */
+		function _initialize() {
+			_start(this,jQueryMatchedObj); // This, in this context, refer to object (link) which the user have clicked
+			return false; // Avoid the browser following the link
+		}
+		/**
+		 * Start the jQuery presentacion plugin
+		 *
+		 * @param object objClicked The object (link) whick the user have clicked
+		 * @param object jQueryMatchedObj The jQuery object with all elements matched
+		 */
+		function _start(objClicked,jQueryMatchedObj) {
+			// Hime some elements to avoid conflict with overlay in IE. These elements appear above the overlay.
+			$('embed, object, select').css({ 'visibility' : 'hidden' });
+			// Cargo las pripiedades de la galería
+			// Call the function to create the markup structure; style some elements; assign events in some elements.
+			_set_interface();
+			// Unset image active information
+			settings.activeImage = 0;
+			
+			if(settings.galeria.foto_id > 0) {
+				$.each(settings.galeria.listado,function(foto_indice) {
+					if(this.id_contenido == settings.galeria.foto_id) {   
+						settings.activeImage = foto_indice;
+						return false;
+					}
+				});
+			}
+			// Call the function to create carrusel
+			_set_carrusel();
+			// Call the function that prepares image exibition
+			if(settings.autoPlay) _play(0); else _set_image_to_view();
+		}
+		/**
+		 * Create the jQuery presentacion plugin interface
+		 */
+		function _set_interface() {
+			// Apply the HTML markup into body tag
+			var plantilla =	'<div id="presentacion">';
+			plantilla +=		'	<div id="jquery-overlay"></div>';
+			plantilla +=		'	<div id="presentacion_contenido_envoltura">';
+			plantilla +=		'	<div id="presentacion_contenido">';
+			plantilla +=		'		<div id="presentacion_title">';
+			plantilla +=		'			<div class="presentacion-title-buttons">';
+			plantilla +=		'				<div id="presentacion-nav-btnPlay" class="presentacion-boton" alt="Play" style="display: none;"></div>';
+			plantilla +=		'				<div id="presentacion-nav-btnPause" class="presentacion-boton" alt="Pause" style="display: none;"></div>';
+			plantilla +=		'				<div id="presentacion-nav-btnClose" class="presentacion-boton" alt="Cerrar"></div>';
+			plantilla +=		'			</div>';
+			plantilla +=		'			<div class="presentacion-title-text"></div>';
+			plantilla +=		'		</div>';
+			plantilla +=		'		<div id="jquery_presentacion">';
+			plantilla +=		'			<div id="presentacion-container-image-box">';
+			plantilla +=		'				<div id="presentacion-container-image">';
+			plantilla +=		'					<img id="presentacion-image">';
+			plantilla +=		'					<div id="presentacion-nav">';
+			plantilla +=		'						<div id="presentacion-nav-btnPrev" class="presentacion-boton" alt="Anterior"></div>';
+			plantilla +=		'						<div id="presentacion-nav-btnNext" class="presentacion-boton" alt="Siguiente"></div>';
+			plantilla +=		'					</div>';
+			plantilla +=		'					<div id="presentacion-loading"></div>';
+			plantilla +=		'				</div>';
+			plantilla +=		'			</div>';
+			plantilla +=		'			<div id="presentacion-container-image-data-box">';
+			plantilla +=		'				<div id="presentacion-container-image-data">';
+			plantilla +=		'					<div id="presentacion-image-details">';
+			plantilla +=		'						<div id="presentacion-image-details-caption"></div>';
+			plantilla +=		'						<div id="presentacion-image-details-currentNumber"></div>';
+			plantilla +=		'					</div>';
+			plantilla +=		'				</div>';
+			plantilla +=		'			</div>';
+			plantilla +=		'		</div>';
+			plantilla +=		'	</div>';
+			plantilla +=		'	</div>';
+			plantilla +=		'	<div id="presentacion_carousel_envoltura">';
+			plantilla +=		'	<div id="presentacion_carousel">';
+			plantilla +=		'		<div id="presentacion-car-btnPrev" class="presentacion-boton" alt="Retroceder"></div>';
+			plantilla +=		'		<div id="presentacion-car-btnNext" class="presentacion-boton" alt="Avanzar"></div>';
+			plantilla +=		'		<div id="presentacion-car-thumbs"><div id="presentacion-car-thumbs-container"></div></div>';
+			plantilla +=		'	</div>';
+			plantilla +=		'	</div>';
+			plantilla +=		'</div>';
+			$('body').append(plantilla);
+			// Get page sizes
+			var arrPageSizes = ___getPageSize();
+			// Style overlay and show it
+			$('#jquery-overlay').css({
+				backgroundColor:	settings.overlayBgColor,
+				opacity:			settings.overlayOpacity,
+				width:				arrPageSizes[0],
+				height:				arrPageSizes[1]
+			}).fadeIn();
+			// Get page scroll
+			var arrPageScroll = ___getPageScroll();
+			// Calculate top and left offset for the jquery_presentacion div object and show it
+			$('#jquery_presentacion').show();
+			// If window was resized, calculate the new overlay dimensions
+			$(window).resize(function() {
+				// Get page sizes
+				var arrPageSizes = ___getPageSize();
+				// Style overlay and show it
+				$('#jquery-overlay').css({
+					width:		arrPageSizes[0],
+					height:		arrPageSizes[1]
+				});
+			});
+			// Botones
+			$('#presentacion .presentacion-boton').hover(function() {$(this).addClass("activo2")},function() {$(this).removeClass("activo2")});
+			$('#presentacion-nav-btnPlay').click(function() {_play()});
+			$('#presentacion-nav-btnPause').click(function() {_pause()});
+			$('#presentacion-nav-btnClose').click(function() {_finish();return false;});
+			var carrusel_move = false;
+			$('#presentacion-car-btnPrev').mousehold(50,
+				function() {
+					var carrusel_left = parseInt($("#presentacion-car-thumbs-container").css("left"));
+					if(carrusel_left < ($("#presentacion-car-thumbs").width() - $("#presentacion-car-thumbs-container").width())) {return false;}
+					$("#presentacion-car-thumbs-container").css({left: (carrusel_left - 10)});
+				}
+			)
+			$('#presentacion-car-btnNext').mousehold(50,
+				function() {
+					var carrusel_left = parseInt($("#presentacion-car-thumbs-container").css("left"));
+					if(carrusel_left >= 0) {return false;}
+					$("#presentacion-car-thumbs-container").css({left: (carrusel_left + 10)});
+				}
+			)
+		}
+		/**
+		 * Load the carrusel
+		 */
+		function _set_carrusel() {
+			$(settings.galeria.listado).each(
+				function(indice) {
+					if(this.thumb) {
+						var thumb = $('<img src="' + this.thumb + '" width="65" height="65" indice="' + indice + '"/>');
+						$("#presentacion-car-thumbs-container").append(thumb);
+						$(thumb).click(function() {_set_image_active(indice)}).hover(function() {$(this).addClass("activo2")},function() {$(this).removeClass("activo2")});
+					}
+				}
+			);
+			$("#presentacion-car-thumbs-container").width(settings.galeria.listado.length*71);
+			//$("#presentacion-car-thumbs-container").width('50%');
+			var carrusel_inicio = ($("#presentacion-car-thumbs").width() - $("#presentacion-car-thumbs-container").width())/2;
+			if(carrusel_inicio < 0) {carrusel_inicio = 0;}
+			$("#presentacion-car-thumbs-container").css({left: carrusel_inicio});
+		}
+		/**
+		 * Set de number of the image active
+		 */
+		function _set_image_active(indice) {
+			settings.activeImage = indice;
+			_set_image_to_view();
+		}
+		/**
+		 * Prepares image exibition; doing a image´s preloader to calculate it´s size
+		 */
+		function _set_image_to_view() {
+			clearTimeout(bucle); // Initialize autoplay
+			// Show the loading
+			$('#presentacion-loading').show();
+			$('.presentacion-title-text,#presentacion-image,#presentacion-nav,#presentacion-container-image-data-box').hide();
+			// Image preload process
+			var objImagePreloader = new Image();
+			objImagePreloader.onload = function() {
+				$('#presentacion-image').attr('src',settings.galeria.listado[settings.activeImage].foto);
+				// Perfomance an effect in the image container resizing it
+				_resize_container_image_box(objImagePreloader.width,objImagePreloader.height);
+				//	clear onLoad, IE behaves irratically with animated gifs otherwise
+				objImagePreloader.onload=function(){};
+			};
+			objImagePreloader.src = settings.galeria.listado[settings.activeImage].foto;
+		};
+		/**
+		 * Perfomance an effect in the image container resizing it
+		 *
+		 * @param integer intImageWidth The image´s width that will be showed
+		 * @param integer intImageHeight The image´s height that will be showed
+		 */
+		function _resize_container_image_box(intImageWidth,intImageHeight) {
+			// Get current width and height
+			var intCurrentWidth = $('#presentacion-container-image-box').width();
+			var intCurrentHeight = $('#presentacion-container-image-box').height();
+			// Get the width and height of the selected image plus the padding
+			var intWidth = (intImageWidth + settings.containerBorderSize[1] + settings.containerBorderSize[3]); // Plus the image´s width and the left and right padding value
+			var intHeight = (intImageHeight + settings.containerBorderSize[0] + settings.containerBorderSize[2]); // Plus the image´s height and the left and right padding value
+			// Diferences
+			var intDiffW = intCurrentWidth - intWidth;
+			var intDiffH = intCurrentHeight - intHeight;
+			// Perfomance the effect
+			$('#presentacion-container-image-box').animate({ width: intWidth, height: intHeight },settings.containerResizeSpeed,function() { _show_image(); });
+			if ( ( intDiffW == 0 ) && ( intDiffH == 0 ) ) {
+				if ( $.browser.msie ) {
+					___pause(250);
+				} else {
+					___pause(100);
+				}
+			}
+			$('#presentacion-container-image-data-box').css({ width: intImageWidth });
+			$('#presentacion-nav-btnPrev').css({top: (intImageHeight + settings.containerBorderSize[1] + settings.containerBorderSize[3] - 52)/2});
+			$('#presentacion-nav-btnNext').css({top: (intImageHeight + settings.containerBorderSize[0] + settings.containerBorderSize[2] - 52)/2});
+			/* var arrPageSizes = ___getPageSize();
+			var margen_top = ((arrPageSizes[3] - intImageHeight)/2) - 40;
+			$('#jquery_presentacion').css({top: ((margen_top > 0) ? margen_top : 0)}); */
+		};
+		/**
+		 * Show the prepared image
+		 */
+		var bucle = null;
+		function _show_image() {
+			$('#presentacion-loading').hide();
+			$('#presentacion-image').fadeIn(function() {
+				_show_image_data();
+				_set_navigation();
+				_active_image_carrusel();
+			 	if(settings.autoPlay) {bucle = setTimeout(function() {if(settings.autoPlay) _next();},settings.playInterval);}
+			});
+			_preload_neighbor_images();
+		};
+		/**
+		 * Show the image information
+		 */
+		function _show_image_data() {
+			var titulo =  settings.galeria.listado[settings.activeImage].titulo ? settings.galeria.listado[settings.activeImage].titulo : "";
+			var texto =  settings.galeria.listado[settings.activeImage].texto ? settings.galeria.listado[settings.activeImage].texto : "";
+			$('.presentacion-title-text').html(titulo).show();
+			$('#presentacion-image-details-caption').html(texto);
+			$('#presentacion-image-details-currentNumber').html(settings.txtImage + ' ' + ( settings.activeImage + 1 ) + ' ' + settings.txtOf + ' ' + settings.galeria.listado.length);
+			$('#presentacion-container-image-data-box').slideDown('fast');
+		}
+		/**
+		 * Display the button navigations
+		 */
+		function _set_navigation() {
+			$('#presentacion-nav-btnPrev,#presentacion-nav-btnNext').hide();
+			// Show the prev button, if not the first image in set
+			if ( settings.activeImage != 0 ) {
+				$('#presentacion-nav-btnPrev').show()
+					.unbind()
+					.hover(function() {$(this).addClass("activo")},function() {$(this).removeClass("activo")})
+					.bind('click',function() {
+						$('#presentacion-nav-btnPrev,#presentacion-nav-btnNext').hide();
+						settings.activeImage = settings.activeImage - 1;
+						_set_image_to_view();
+						return false;
+					});
+			}
+
+			// Show the next button, if not the last image in set
+			if ( settings.activeImage != ( settings.galeria.listado.length -1 ) ) {
+				$('#presentacion-nav-btnNext').show()
+					.unbind()
+					.hover(function() {$(this).addClass("activo")},function() {$(this).removeClass("activo")})
+					.bind('click',function() {
+						$('#presentacion-nav-btnPrev,#presentacion-nav-btnNext').hide();
+						settings.activeImage = settings.activeImage + 1;
+						_set_image_to_view();
+						return false;
+					});
+			}
+			$('#presentacion-nav').show();
+			// Enable keyboard navigation
+			_enable_keyboard_navigation();
+		}
+		/**
+		 * Active the image in carrusel
+		 */
+		function _active_image_carrusel() {
+			$('#presentacion-car-thumbs-container img').removeClass("activo");
+			$("#presentacion-car-thumbs-container img[indice='" + settings.activeImage + "']").addClass("activo");
+		}
+		/**
+		 * Enable a support to keyboard navigation
+		 */
+		function _enable_keyboard_navigation() {
+			$(document).keydown(function(objEvent) {
+				_keyboard_action(objEvent);
+			});
+		}
+		/**
+		 * Disable the support to keyboard navigation
+		 *
+		 */
+		function _disable_keyboard_navigation() {
+			$(document).unbind();
+		}
+		/**
+		 * Perform the keyboard actions
+		 *
+		 */
+		function _keyboard_action(objEvent) {
+			// To ie
+			if ( objEvent == null ) {
+				keycode = event.keyCode;
+				escapeKey = 27;
+			// To Mozilla
+			} else {
+				keycode = objEvent.keyCode;
+				escapeKey = objEvent.DOM_VK_ESCAPE;
+			}
+			// Get the key in lower case form
+			key = String.fromCharCode(keycode).toLowerCase();
+			// Verify the keys to close the ligthBox
+			if ( ( key == settings.keyToClose ) || ( key == 'x' ) || ( keycode == escapeKey ) ) {
+				_finish();
+			}
+			// Verify the key to show the previous image
+			if ( ( key == settings.keyToPrev ) || ( keycode == 37 ) ) {
+				// If we´re not showing the first image, call the previous
+				if ( settings.activeImage != 0 ) {
+					settings.activeImage = settings.activeImage - 1;
+					_set_image_to_view();
+					_disable_keyboard_navigation();
+				}
+			}
+			// Verify the key to show the next image
+			if ( ( key == settings.keyToNext ) || ( keycode == 39 ) ) {
+				// If we´re not showing the last image, call the next
+				if ( settings.activeImage != ( settings.galeria.listado.length - 1 ) ) {
+					settings.activeImage = settings.activeImage + 1;
+					_set_image_to_view();
+					_disable_keyboard_navigation();
+				}
+			}
+		}
+		/**
+		 * Preload prev and next images being showed
+		 *
+		 */
+		function _preload_neighbor_images() {
+			if ( (settings.galeria.listado.length -1) > settings.activeImage ) {
+				objNext = new Image();
+				objNext.src = settings.galeria.listado[settings.activeImage + 1].foto;
+			}
+			if ( settings.activeImage > 0 ) {
+				objPrev = new Image();
+				objPrev.src = settings.galeria.listado[settings.activeImage -1].foto;
+			}
+		}
+		/**
+		 * Preload prev and next images being showed
+		 *
+		 */
+		function _next(start) {
+			var start = ((start == null) || (!start)) ? false : true;
+			var nextImage = (settings.activeImage + 1);
+			if(nextImage >= settings.galeria.listado.length) {
+				if(start) nextImage = 0;
+				else {
+					_pause();
+					return;
+				}
+			}
+			settings.activeImage = nextImage;
+			_set_image_to_view();
+		}
+
+		function _play(nextImage) {
+			if((nextImage != null) && (!isNaN(nextImage))) settings.activeImage = nextImage - 1;
+			settings.autoPlay = true;
+			$("#presentacion .presentacion-boton").removeClass("activo");
+			$("#presentacion-nav-btnPlay").addClass("activo");
+			_next(true);
+		}
+
+		function _pause() {
+			settings.autoPlay = false;
+			$("#presentacion .presentacion-boton").removeClass("activo");
+			$("#presentacion-nav-btnPause").addClass("activo");
+		}
+		/**
+		 * Remove jQuery presentacion plugin HTML markup
+		 *
+		 */
+		function _finish() {
+			$('#jquery-overlay').fadeOut();
+			$('#presentacion').remove();
+			// Show some elements to avoid conflict with overlay in IE. These elements appear above the overlay.
+			$('embed, object, select').css({ 'visibility' : 'visible' });
+			$("#gebruiker_shadow").show();
+			$("#mensenwat").show();
+		}
+		/**
+		 / THIRD FUNCTION
+		 * getPageSize() by quirksmode.com
+		 *
+		 * @return Array Return an array with page width, height and window width, height
+		 */
+		function ___getPageSize() {
+			var xScroll, yScroll;
+			if (window.innerHeight && window.scrollMaxY) {
+				xScroll = window.innerWidth + window.scrollMaxX;
+				yScroll = window.innerHeight + window.scrollMaxY;
+			} else if (document.body.scrollHeight > document.body.offsetHeight){ // all but Explorer Mac
+				xScroll = document.body.scrollWidth;
+				yScroll = document.body.scrollHeight;
+			} else { // Explorer Mac...would also work in Explorer 6 Strict, Mozilla and Safari
+				xScroll = document.body.offsetWidth;
+				yScroll = document.body.offsetHeight;
+			}
+			var windowWidth, windowHeight;
+			if (self.innerHeight) {	// all except Explorer
+				if(document.documentElement.clientWidth){
+					windowWidth = document.documentElement.clientWidth;
+				} else {
+					windowWidth = self.innerWidth;
+				}
+				windowHeight = self.innerHeight;
+			} else if (document.documentElement && document.documentElement.clientHeight) { // Explorer 6 Strict Mode
+				windowWidth = document.documentElement.clientWidth;
+				windowHeight = document.documentElement.clientHeight;
+			} else if (document.body) { // other Explorers
+				windowWidth = document.body.clientWidth;
+				windowHeight = document.body.clientHeight;
+			}
+			// for small pages with total height less then height of the viewport
+			if(yScroll < windowHeight){
+				pageHeight = windowHeight;
+			} else {
+				pageHeight = yScroll;
+			}
+			// for small pages with total width less then width of the viewport
+			if(xScroll < windowWidth){
+				pageWidth = xScroll;
+			} else {
+				pageWidth = windowWidth;
+			}
+			arrayPageSize = new Array(pageWidth,pageHeight,windowWidth,windowHeight);
+			return arrayPageSize;
+		};
+		/**
+		 / THIRD FUNCTION
+		 * getPageScroll() by quirksmode.com
+		 *
+		 * @return Array Return an array with x,y page scroll values.
+		 */
+		function ___getPageScroll() {
+			var xScroll, yScroll;
+			if (self.pageYOffset) {
+				yScroll = self.pageYOffset;
+				xScroll = self.pageXOffset;
+			} else if (document.documentElement && document.documentElement.scrollTop) {	 // Explorer 6 Strict
+				yScroll = document.documentElement.scrollTop;
+				xScroll = document.documentElement.scrollLeft;
+			} else if (document.body) {// all other Explorers
+				yScroll = document.body.scrollTop;
+				xScroll = document.body.scrollLeft;
+			}
+			arrayPageScroll = new Array(xScroll,yScroll);
+			return arrayPageScroll;
+		};
+		 /**
+		  * Stop the code execution from a escified time in milisecond
+		  *
+		  */
+		 function ___pause(ms) {
+			var date = new Date();
+			curDate = null;
+			do { var curDate = new Date(); }
+			while ( curDate - date < ms);
+		 };
+		// Return the jQuery object for chaining. The unbind method is used to avoid click conflict when the plugin is called more than once
+		// return this.unbind('click').click(_initialize);
+		$("#presentacion").remove();
+		_initialize();
+	};
+})(jQuery); // Call and execute the function immediately passing the jQuery object
+
+jQuery.fn.mousehold = function(timeout, f) {
+	if (timeout && typeof timeout == 'function') {
+		f = timeout;
+		timeout = 100;
+	}
+	if (f && typeof f == 'function') {
+		var timer = 0;
+		var fireStep = 0;
+		return this.each(function() {
+			jQuery(this).mousedown(function() {
+				fireStep = 1;
+				var ctr = 0;
+				var t = this;
+				timer = setInterval(function() {
+					ctr++;
+					f.call(t, ctr);
+					fireStep = 2;
+				}, timeout);
+			})
+
+			clearMousehold = function() {
+				clearInterval(timer);
+				if (fireStep == 1) f.call(this, 1);
+				fireStep = 0;
+			}
+
+			jQuery(this).mouseout(clearMousehold);
+			jQuery(this).mouseup(clearMousehold);
+		})
+	}
+};
