@@ -1,0 +1,21 @@
+/*
+ * Translated default messages for the jQuery validation plugin.
+ * Language: JA
+ * Skipped date/dateISO/number.
+ */
+jQuery.extend(jQuery.validator.messages, {
+	required: "<br>↑必須項目です",
+	maxlength: jQuery.format("<br>↑{0} 文字以下を入力してください"),
+	minlength: jQuery.format("<br>↑{0} 文字以上を入力してください"),
+	rangelength: jQuery.format("<br>↑{0} 文字以上 {1} 文字以下で入力してください"),
+	email: "<br>↑メールアドレスの形式が正しくありません",
+	url: "<br>↑URLを入力してください",
+	dateISO: "<br>↑日付を入力してください",
+	number: "<br>↑有効な数字を入力してください",
+	digits: "<br>↑0-9までを入力してください",
+	equalTo: "<br>↑同じ値を入力してください",
+	range: jQuery.format("<br>↑{0} から {1} までの値を入力してください"),
+	max: jQuery.format("<br>↑{0} 以下の値を入力してください"),
+	min: jQuery.format("<br>↑{0} 以上の値を入力してください"),
+	creditcard: "<br>↑クレジットカード番号を入力してください"
+});
