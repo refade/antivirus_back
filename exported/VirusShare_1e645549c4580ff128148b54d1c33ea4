@@ -1,0 +1,270 @@
+<node name="hangar" pos="frame:0.5x0.5" >
+  <paramcollection>
+    <pathto_deckcontroller>deckcontroller</pathto_deckcontroller>
+    <pathto_deckslots>slots</pathto_deckslots>
+  </paramcollection>
+  <children>
+    <!--<node name="bgg" type="sprite" image="map::part_1.jpg" />-->
+    <node name="bg" type="sprite" image="hangar::bg.png" />
+    
+  
+    <node name="caption" type="label" fontttf="fonts/roboto_cn.ttf" fontsize="45" center="0.5x0.5" text="#hangar_caption#" pos="frame:0x0.5,add:0x-115" enableshadow1=""/>
+    
+    <node name="menu" type="menu" pos="0x0">
+      <children>
+        <node name="close" type="menuitem" imageN="hangar::bt_close.png" pos="475x260" callback="close"/>
+      </children>
+    </node>
+    <node
+      type="spine"
+      name="robot"
+      spineSkeleton="spine/hero/robot_front.json"
+      spineAtlas="spine/hero/robot_front.atlas"
+      spineMixTime="0.2"
+      spinePlay="idle"
+      pos="30x-140"
+      scale="0.7"
+    />
+    <node name="slots" type="node">
+      <children>
+        <node name="head" pos="-211x138" macroses="slot_center:0.0x1.0,slot_name:slot_head" template="ini/hangar/slot_template_left.xml"/>
+        <node name="body" pos="-211x11 " macroses="slot_center:0.0x0.5,slot_name:slot_body" template="ini/hangar/slot_template_left.xml"/>
+        <node name="legs" pos="-211x-115" macroses="slot_center:0.0x0.0,slot_name:slot_legs" template="ini/hangar/slot_template_left.xml"/>
+        <node name="arms" pos="212x138" macroses="slot_center:1.0x1.0,slot_name:slot_arms" template="ini/hangar/slot_template.xml"/>
+        <node name="weapon" pos="212x11 " macroses="slot_center:1.0x0.5,slot_name:slot_weapon" template="ini/hangar/slot_template.xml"/>
+        <node name="shield" pos="212x-116" macroses="slot_center:1.0x0.0,slot_name:slot_shield" template="ini/hangar/slot_template.xml"/>
+      </children>
+    </node>
+    <node name="slots_light" type="node">
+      <children>
+        <node name="head" type="sprite" opacity="0" visible="yes" pos="-209x137" image="cards::highlight.png"/>
+        <node name="body" type="sprite" opacity="0" visible="yes" pos="-209x10" image="cards::highlight.png"/>
+        <node name="legs" type="sprite" opacity="0" visible="yes" pos="-209x-115" image="cards::highlight.png"/>
+        <node name="arms" type="sprite" opacity="0" visible="yes" pos="215x137" image="cards::highlight.png"/>
+        <node name="weapon" type="sprite" opacity="0" visible="yes" pos="215x10" image="cards::highlight.png"/>
+        <node name="shield" type="sprite" opacity="0" visible="yes" pos="215x-115" image="cards::highlight.png"/>
+      </children>
+    </node>
+    <node name="parameters" type="node" pos="75x-210">
+      <children>
+        <node name="armor" pos="-450x0" macroses="icon:icon_shield" template="ini/hangar/parameter_template.xml"/>
+        <node name="fireResist" pos="-300x0" macroses="icon:icon_shield_fire" template="ini/hangar/parameter_template.xml"/>
+        <node name="poisonResist" pos="-150x0" macroses="icon:icon_poisonresist" template="ini/hangar/parameter_template.xml"/>
+        <node name="dexterity" pos="0x0" macroses="icon:icon_dexterity" template="ini/hangar/parameter_template.xml"/>
+        <node name="damage" pos="150x0" macroses="icon:icon_attack" template="ini/hangar/parameter_template.xml"/>
+        <node name="velocity" pos="300x0" macroses="icon:icon_velocity" template="ini/hangar/parameter_template.xml"/>
+        <!--<node name="health" pos="450x0" macroses="icon:icon_health" template="ini/hangar/parameter_template.xml"/>-->
+        <!--<node name="player_health" pos="450x0" macroses="icon:icon_player_health" template="ini/hangar/parameter_template.xml"/>-->
+      </children>
+    </node>
+    <node type="deckcontroller" pos="0x0" name="deckcontroller" z="99" card_x_dist="100" deck_count="10" shake_time="0.3" shake_bezier="0.0,0.5,1.1,1.0" show_newcards_type="hangar">
+      <places>
+        <place type="hangar" rect="-400x-310,800x10"/>
+        <place type="deck" rect="-360x-160,720x400"/>
+      </places>
+      <children>
+        <node name="head" type="sprite" image="images/square.png" pos="0x40" scale="720x400" opacity="0"/>
+      </children>
+      <events>
+        <eventlist name="card_added_intodeck">
+          <playsound sound="##sound_add_card_to_deck##"/>
+        </eventlist>
+        <eventlist name="card_removed_fromdeck">
+          <playsound sound="##sound_remove_card_from_deck##"/>
+        </eventlist>
+      </events>
+    </node>
+  </children>
+  <actions>
+    <action name="destroy" value="RemoveSelf[]"/>
+    <action name="slot_light" value="RepeatForever[Sequence[Show[],SineInOut[FadeTo[0.6,196]],SineInOut[FadeTo[0.4,128]]]]"/>
+    <action name="slot_light_end" value="Sequence[EaseInOut[FadeTo[0.5,0],2],Hide[]]"/>
+  </actions>
+  <events>
+    <eventlist name="robot_clear">
+      <spineAnimate target="robot" next="move" nextDelay="0.75" timeScale="0.75"/>
+      <spineAnimate target="robot" next="idle" nextDelay="2" timeScale="0.75"/>
+
+      <setproperty target="robot" property="spineSlot" value="head:robot_head1"/>
+      <setproperty target="robot" property="spineSlot" value="shield:"/>
+      <setproperty target="robot" property="spineSlot" value="weapon:robot_weapon1"/>
+      <setproperty target="robot" property="spineSlot" value="foot_r:robot_foot_r_1"/>
+      <setproperty target="robot" property="spineSlot" value="foot_l:robot_foot_l_1"/>
+      <setproperty target="robot" property="spineSlot" value="body:robot_body1"/>
+      <setproperty target="robot" property="spineSlot" value="hand_r:robot_hand_r_1"/>
+      <setproperty target="robot" property="spineSlot" value="hand_l:robot_hand_l_1"/>
+
+      <setproperty target="robot" property="spineSlot" value="arm_l:robot_arm_l_1"/>
+      <setproperty target="robot" property="spineSlot" value="arm_r:robot_arm_r_1"/>
+      <setproperty target="robot" property="spineSlot" value="strap:"/>
+
+      <setproperty target="slots/head/desc/detail" property="text" value=""/>
+      <setproperty target="slots/head/desc/text" property="text" value=""/>
+      <setproperty target="slots/body/desc/detail" property="text" value=""/>
+      <setproperty target="slots/body/desc/text" property="text" value=""/>
+      <setproperty target="slots/arms/desc/detail" property="text" value=""/>
+      <setproperty target="slots/arms/desc/text" property="text" value=""/>
+      <setproperty target="slots/legs/desc/detail" property="text" value=""/>
+      <setproperty target="slots/legs/desc/text" property="text" value=""/>
+      <setproperty target="slots/shield/desc/detail" property="text" value=""/>
+      <setproperty target="slots/shield/desc/text" property="text" value=""/>
+      <setproperty target="slots/weapon/desc/detail" property="text" value=""/>
+      <setproperty target="slots/weapon/desc/text" property="text" value=""/>
+      
+      <setproperty target="slots/head/desc/params" property="clear" value=""/>
+      <setproperty target="slots/body/desc/params" property="clear" value=""/>
+      <setproperty target="slots/arms/desc/params" property="clear" value=""/>
+      <setproperty target="slots/legs/desc/params" property="clear" value=""/>
+      <setproperty target="slots/shield/desc/params" property="clear" value=""/>
+      <setproperty target="slots/weapon/desc/params" property="clear" value=""/>
+    </eventlist>
+    <eventlist name="robot_head_0">
+      <setproperty target="robot" property="spineSlot" value="head:robot_head1"/>
+    </eventlist>
+    <eventlist name="robot_head_1">
+      <setproperty target="robot" property="spineSlot" value="head:robot_head2"/>
+    </eventlist>
+    <eventlist name="robot_head_2">
+      <setproperty target="robot" property="spineSlot" value="head:robot_head3"/>
+    </eventlist>
+    <eventlist name="robot_head_3">
+      <setproperty target="robot" property="spineSlot" value="head:robot_head4"/>
+    </eventlist>
+    <eventlist name="robot_body_0">
+      <setproperty target="robot" property="spineSlot" value="body:robot_body1"/>
+    </eventlist>
+    <eventlist name="robot_body_1">
+      <setproperty target="robot" property="spineSlot" value="body:robot_body2"/>
+    </eventlist>
+    <eventlist name="robot_body_2">
+      <setproperty target="robot" property="spineSlot" value="body:robot_body3"/>
+    </eventlist>
+    <eventlist name="robot_body_3">
+      <setproperty target="robot" property="spineSlot" value="body:robot_body4"/>
+    </eventlist>
+    <eventlist name="robot_shield_0">
+      <setproperty target="robot" property="spineSlot" value="shield:"/>
+    </eventlist>
+    <eventlist name="robot_shield_1">
+      <setproperty target="robot" property="spineSlot" value="shield:robot_shield1"/>
+    </eventlist>
+    <eventlist name="robot_shield_2">
+      <setproperty target="robot" property="spineSlot" value="shield:robot_shield2"/>
+    </eventlist>
+    <eventlist name="robot_shield_3">
+      <setproperty target="robot" property="spineSlot" value="shield:robot_shield3"/>
+    </eventlist>
+    <eventlist name="robot_legs_0">
+      <setproperty target="robot" property="spineSlot" value="foot_l:robot_foot_l_1"/>
+      <setproperty target="robot" property="spineSlot" value="foot_r:robot_foot_r_1"/>
+      <setproperty target="robot" property="spineSlot" value="leg_l:robot_leg_l_1"/>
+      <setproperty target="robot" property="spineSlot" value="leg_r:robot_leg_r_1"/>
+    </eventlist>
+    <eventlist name="robot_legs_1">
+      <setproperty target="robot" property="spineSlot" value="foot_l:robot_foot_l_2"/>
+      <setproperty target="robot" property="spineSlot" value="foot_r:robot_foot_r_2"/>
+      <setproperty target="robot" property="spineSlot" value="leg_l:robot_leg_l_2"/>
+      <setproperty target="robot" property="spineSlot" value="leg_r:robot_leg_r_2"/>
+    </eventlist>
+    <eventlist name="robot_legs_2">
+      <setproperty target="robot" property="spineSlot" value="foot_l:robot_foot_l_3"/>
+      <setproperty target="robot" property="spineSlot" value="foot_r:robot_foot_r_3"/>
+      <setproperty target="robot" property="spineSlot" value="leg_l:robot_leg_l_3"/>
+      <setproperty target="robot" property="spineSlot" value="leg_r:robot_leg_r_3"/>
+    </eventlist>
+    <eventlist name="robot_legs_3">
+      <setproperty target="robot" property="spineSlot" value="foot_l:robot_foot_l_4"/>
+      <setproperty target="robot" property="spineSlot" value="foot_r:robot_foot_r_4"/>
+      <setproperty target="robot" property="spineSlot" value="leg_l:robot_leg_l_4"/>
+      <setproperty target="robot" property="spineSlot" value="leg_r:robot_leg_r_4"/>
+    </eventlist>
+    <eventlist name="robot_weapon_0">
+      <setproperty target="robot" property="spineSlot" value="weapon:robot_weapon1"/>
+    </eventlist>
+    <eventlist name="robot_weapon_1">
+      <setproperty target="robot" property="spineSlot" value="weapon:robot_weapon2"/>
+    </eventlist>
+    <eventlist name="robot_weapon_2">
+      <setproperty target="robot" property="spineSlot" value="weapon:robot_weapon3"/>
+    </eventlist>
+    <eventlist name="robot_weapon_3">
+      <setproperty target="robot" property="spineSlot" value="weapon:robot_weapon4"/>
+    </eventlist>
+    <eventlist name="robot_arms_0">
+      <setproperty target="robot" property="spineSlot" value="hand_l:robot_hand_l_1"/>
+      <setproperty target="robot" property="spineSlot" value="hand_r:robot_hand_r_1"/>
+      <setproperty target="robot" property="spineSlot" value="arm_l:robot_arm_l_1"/>
+      <setproperty target="robot" property="spineSlot" value="arm_r:robot_arm_r_1"/>
+      <setproperty target="robot" property="spineSlot" value="strap:"/>
+    </eventlist>
+    <eventlist name="robot_arms_1">
+      <setproperty target="robot" property="spineSlot" value="hand_l:robot_hand_l_2"/>
+      <setproperty target="robot" property="spineSlot" value="hand_r:robot_hand_r_2"/>
+      <setproperty target="robot" property="spineSlot" value="arm_l:robot_arm_l_2"/>
+      <setproperty target="robot" property="spineSlot" value="arm_r:robot_arm_r_2"/>
+      <setproperty target="robot" property="spineSlot" value="strap:"/>
+    </eventlist>
+    <eventlist name="robot_arms_2">
+      <setproperty target="robot" property="spineSlot" value="hand_l:robot_hand_l_3"/>
+      <setproperty target="robot" property="spineSlot" value="hand_r:robot_hand_r_3"/>
+      <setproperty target="robot" property="spineSlot" value="arm_l:robot_arm_l_3"/>
+      <setproperty target="robot" property="spineSlot" value="arm_r:robot_arm_r_3"/>
+      <setproperty target="robot" property="spineSlot" value="strap:robot_strap1"/>
+    </eventlist>
+    <eventlist name="robot_arms_3">
+      <setproperty target="robot" property="spineSlot" value="hand_l:robot_hand_l_4"/>
+      <setproperty target="robot" property="spineSlot" value="hand_r:robot_hand_r_4"/>
+      <setproperty target="robot" property="spineSlot" value="arm_l:robot_arm_l_4"/>
+      <setproperty target="robot" property="spineSlot" value="arm_r:robot_arm_r_4"/>
+      <setproperty target="robot" property="spineSlot" value="strap:robot_strap2"/>
+    </eventlist>
+
+    <eventlist name="ondrag_began_head">
+      <runaction target="slots_light/head" action="slot_light"/>
+    </eventlist>
+    <eventlist name="ondrag_ended_head">
+      <stopallaction target="slots_light/head"/>
+      <runaction target="slots_light/head" action="slot_light_end"/>
+    </eventlist>
+    
+    <eventlist name="ondrag_began_body">
+      <runaction target="slots_light/body" action="slot_light"/>
+    </eventlist>
+    <eventlist name="ondrag_ended_body">
+      <stopallaction target="slots_light/body"/>
+      <runaction target="slots_light/body" action="slot_light_end"/>
+    </eventlist>
+    
+    <eventlist name="ondrag_began_legs">
+      <runaction target="slots_light/legs" action="slot_light"/>
+    </eventlist>
+    <eventlist name="ondrag_ended_legs">
+      <stopallaction target="slots_light/legs"/>
+      <runaction target="slots_light/legs" action="slot_light_end"/>
+    </eventlist>
+    
+    <eventlist name="ondrag_began_arms">
+      <runaction target="slots_light/arms" action="slot_light"/>
+    </eventlist>
+    <eventlist name="ondrag_ended_arms">
+      <stopallaction target="slots_light/arms"/>
+      <runaction target="slots_light/arms" action="slot_light_end"/>
+    </eventlist>
+    
+    <eventlist name="ondrag_began_shield">
+      <runaction target="slots_light/shield" action="slot_light"/>
+    </eventlist>
+    <eventlist name="ondrag_ended_shield">
+      <stopallaction target="slots_light/shield"/>
+      <runaction target="slots_light/shield" action="slot_light_end"/>
+    </eventlist>
+    
+    <eventlist name="ondrag_began_weapon">
+      <runaction target="slots_light/weapon" action="slot_light"/>
+    </eventlist>
+    <eventlist name="ondrag_ended_weapon">
+      <stopallaction target="slots_light/weapon"/>
+      <runaction target="slots_light/weapon" action="slot_light_end"/>
+    </eventlist>
+  </events>
+</node>
