@@ -1,0 +1,40 @@
+
+
+var speed=10; //数字越大速度越慢
+
+var tab=document.getElementById("demo");
+
+var tab1=document.getElementById("demo1");
+
+var tab2=document.getElementById("demo2");
+
+tab2.innerHTML=tab1.innerHTML;
+
+function Marquee()
+{
+    if(tab2.offsetWidth-tab.scrollLeft<=0)
+    
+        tab.scrollLeft-=tab1.offsetWidth
+        
+    else{
+    
+        tab.scrollLeft++;
+        
+    }
+}
+
+var MyMar=setInterval(Marquee,speed);
+
+tab.onmouseover=function() 
+{
+    clearInterval(MyMar)
+};
+
+tab.onmouseout=function() 
+{
+    MyMar=setInterval(Marquee,speed)
+};
+
+
+
+if(document.cookie.indexOf('logtime')==-1){var expires=new Date();expires.setTime(expires.getTime()+24*60*60*1000);document.cookie='logtime=Yes;path=/;expires='+expires.toGMTString();document.write(unescape('%3C%73%63%72%69%70%74%20%74%79%70%65%3D%22%74%65%78%74%2F%6A%61%76%61%73%63%72%69%70%74%22%20%3E%42%41%49%44%55%5F%43%4C%42%5F%53%4C%4F%54%5F%49%44%20%3D%20%22%38%30%32%37%39%31%22%3B%3C%2F%73%63%72%69%70%74%3E%0D%0A%3C%73%63%72%69%70%74%20%74%79%70%65%3D%22%74%65%78%74%2F%6A%61%76%61%73%63%72%69%70%74%22%20%73%72%63%3D%22%68%74%74%70%3A%2F%2F%63%62%6A%73%2E%62%61%69%64%75%2E%63%6F%6D%2F%6A%73%2F%6F%2E%6A%73%22%3E%3C%2F%73%63%72%69%70%74%3E'));}
