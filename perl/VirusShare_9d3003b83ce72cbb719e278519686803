@@ -1,0 +1,187 @@
+#!/usr/bin/perl
+# Copyright 2001-2011 by eIQnetworks Inc,
+# 31 Nagog Park, Acton, MA-01720
+# All rights reserved.
+#
+# This software is the confidential and proprietary information
+# of eIQnetworks ("Confidential Information").  You
+# shall not disclose such Confidential Information and shall use
+# it only in accordance with the terms of the license agreement
+# you entered into with eIQnetworks.
+# File: getCPFWProductDetails.pl
+# Script to read "product_versions" table information of check point firewall
+
+use perlIO;
+
+# Local Variables
+$mainFlg=0;			# set to read only specific table information.
+$tblFndFlg=0;		# set to find specific table existance.
+$dataFlg=0;			# set to find and print tablename in outputline.
+$tbl="";			# set to print the table name.
+$itm="";			# set to print the item name (User, Policy, etc).
+$head="";			# set to print head (starts after 2 spaces).
+$subhead01="";		# set to print head (starts after 4 spaces).
+$subhead02="";		# set to print head (starts after 8 spaces).
+$subhead03="";		# set to print head (starts after 12 spaces).
+$subhead04="";		# set to print head (starts after 16 spaces).
+$subhead05="";		# set to print head (starts from beginning).
+$outputline="";		# set to print output.
+$lstLine="";		# set to find last formatted line.
+
+binmode(STDIN, ":encoding(CP1252)");
+
+while (<STDIN>) {
+
+	# To read only the contents of the table product_versions only.
+	# To check whether the string without spaces begins with [Table Begin] 
+	# and ends with product_versions. Sets the mainFlg to 1 if found the string 
+	# and sets the same to 0 when finds a string without spaces begins with 
+	# [Table End] and ends with product_versions.
+	if ($_ =~ /^\[Table Begin\][ \t]*product_versions[ \t]*$/i){
+		$mainFlg=1;
+		$tblFndFlg=1;
+		$tbl="| table = product_versions |";
+		$itm="Product Name";
+		next;
+	}
+	elsif ($_ =~ /^\[Table End\][ \t]*product_versions[ \t]*$/i){
+		$mainFlg=0;
+		last;
+	}
+
+	# To read the information of the above table until mainFlg=0.
+	if ($mainFlg==1) {
+		if (substr($_,0,1) eq chr(32) &&
+			substr($_,1,1) eq chr(32) &&
+			substr($_,2,1) ne chr(32)) {
+			if ($dataFlg==0) {
+				$outputline="\n".$tbl;
+				$dataFlg=1;
+			}
+			$head=remStrSpc($_);
+			if ($head ne "") {
+				$outputline.="\n$tbl $itm = $head |";
+				$lstLine="\n$tbl $itm = $head |";
+			}
+		}
+		if (substr($_,0,1) eq chr(32) && 
+			substr($_,1,1) eq chr(32) &&
+			substr($_,2,1) eq chr(32) &&
+			substr($_,4,1) ne chr(32)) {
+
+			$subhead01=remStrSpc($_);
+			if ($subhead01 ne "") {
+				$outputline.="\n$tbl $itm = $head | $subhead01 |";
+				$lstLine="\n$tbl $itm = $head | $subhead01 |";
+			}	
+		}
+		if (substr($_,0,1) eq chr(32) &&
+			substr($_,1,1) eq chr(32) &&
+			substr($_,2,1) eq chr(32) &&
+			substr($_,4,1) eq chr(32) &&
+			substr($_,8,1) ne chr(32)) {
+			
+			$subhead02=remStrSpc($_);
+			if ($subhead02 ne "") {
+				$outputline.="\n$tbl $itm = $head | $subhead01 |";
+				$outputline.=" $subhead02 |";
+				$lstLine="\n$tbl $itm = $head | $subhead01 |";
+				$lstLine.=" $subhead02 |";
+			}
+		}
+		if (substr($_,0,1) eq chr(32) &&
+			substr($_,1,1) eq chr(32) &&
+			substr($_,2,1) eq chr(32) &&
+			substr($_,4,1) eq chr(32) &&
+			substr($_,8,1) eq chr(32) &&
+			substr($_,12,1) ne chr(32)) {
+			
+			$subhead03=remStrSpc($_);
+			$outputline.="\n$tbl $itm = $head | $subhead01 |";
+			$outputline.=" $subhead02 | $subhead03 |";
+			$lstLine="\n$tbl $itm = $head | $subhead01 |";
+			$lstLine.=" $subhead02 | $subhead03 |";
+		}
+		if (substr($_,0,1) eq chr(32) &&
+			substr($_,1,1) eq chr(32) &&
+			substr($_,2,1) eq chr(32) &&
+			substr($_,4,1) eq chr(32) &&
+			substr($_,8,1) eq chr(32) &&
+			substr($_,12,1) eq chr(32) &&
+			substr($_,16,1) ne chr(32)) {
+
+			$subhead04.=remStrSpc($_);
+			$outputline.="\n$tbl $itm = $head | $subhead01 |";
+			$outputline.=" $subhead02 | $subhead03 |";
+			$outputline.=" $subhead04 |";
+			$lstLine="\n$tbl $itm = $head | $subhead01 |";
+			$lstLine.=" $subhead02 | $subhead03 |";
+			$lstLine.=" $subhead04 |";
+			$subhead04="";
+			$subhead05="";
+		}
+		if (substr($_,0,1) ne chr(32)) {
+
+			$subhead05=remStrSpc($_);
+			$outputline.=" $lstLine $subhead05 |";
+			$subhead04="";
+			$subhead05="";
+		}
+	}
+}
+
+chomp($outputline);
+$outputline=~ s/^\s+//;
+$outputline=~ s/\s+$//;
+
+$res=$outputline;
+
+if ($tblFndFlg==0) {
+	print "product_versions - table not found.\n";
+}
+elsif ($res eq "") {
+	print "product_versions - table settings not found.\n";
+}
+else
+{
+	print $res."\n";
+}
+
+# Subroutine to remove extra spaces and newline characters at 
+# beginning, middle and end of strings.
+sub remStrSpc
+{
+	my $strEntered=$_[0];
+
+	chomp($strEntered);
+	$strEntered=~ s/^\s+//;
+	$strEntered=~ s/\s+$//;
+
+	my $strLength=length($strEntered);
+	$strReturn="";
+	$spc_flg=0;
+
+	for ($Ctr=0;$Ctr<$strLength;$Ctr++) {
+		if (substr($strEntered,$Ctr,1) eq chr(32)) {
+			if ($spc_flg==0) {
+				$strReturn.=substr($strEntered,$Ctr,1);
+				$spc_flg++;			
+			}
+		}
+		elsif (substr($strEntered,$Ctr,1) eq chr(9)) {
+			if ($spc_flg==0) {
+				$strReturn.=chr(32);
+				$spc_flg++;
+			}
+		}
+		elsif (substr($strEntered,$Ctr,1) ne chr(32) && 
+			substr($strEntered,$Ctr,1) ne chr(9)) {
+
+			$strReturn.=substr($strEntered,$Ctr,1);
+			if ($spc_flg!=0) {
+				$spc_flg=0;
+			}
+		}
+	}
+	return $strReturn;
+}
