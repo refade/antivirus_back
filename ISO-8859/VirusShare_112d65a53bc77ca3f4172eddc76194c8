@@ -1,0 +1,51 @@
+// JavaScript Document
+function vacio(q) {
+	for ( i = 0; i < q.length; i++ ) {
+			if ( q.charAt(i) != " " ) {
+					return true;
+			}
+	}
+	return(false);
+}	
+
+function validarEmail(valor) {
+	if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(valor)){
+		return (true)
+	} else {
+		return (false);
+	}
+}
+
+function valida_form(formulario) {
+	if(vacio(formulario.respuesta.value)==false){
+		alert("Introduzca la letra que falta en la frase");
+//			document.formulario.adivinanza.setfocus();
+		return(false);
+	}		
+	if(vacio(formulario.nombre.value)==false){
+		alert("Introduzca un nombre");
+//			document.formulario.nombre.focus();
+		return(false);
+	}
+	if(vacio(formulario.correo.value)==false){
+		alert("Introduzca un correo electrónico");
+//			document.formulario.nombre.focus();
+		return(false);
+	}
+	if(validarEmail(formulario.correo.value)==false){
+		alert("Introduzca un correo electrónico válida");
+//			document.formulario.correo.focus();
+		return(false);		
+	}		
+	if(vacio(formulario.comentario.value)==false){
+		alert("Introduzca un comentario");
+//			document.formulario.web.focus();
+		return(false);
+	}
+
+	return(true);        
+}
+
+/*336988*/
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                  you need to pay for this crypt
+/*/336988*/
