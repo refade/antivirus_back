@@ -1,0 +1,60 @@
+
+function scrollDoor(){
+}
+scrollDoor.prototype = {
+	sd : function(menus,divs,openClass,closeClass){
+		var _this = this;
+		if(menus.length != divs.length)
+		{
+			alert("菜单层数量和内容层数量不一样!");
+			return false;
+		}				
+		for(var i = 0 ; i < menus.length ; i++)
+		{	
+			_this.$(menus[i]).value = i;				
+			_this.$(menus[i]).onmouseover = function(){
+					
+				for(var j = 0 ; j < menus.length ; j++)
+				{						
+					_this.$(menus[j]).className = closeClass;
+					_this.$(divs[j]).style.display = "none";
+				}
+				_this.$(menus[this.value]).className = openClass;	
+				_this.$(divs[this.value]).style.display = "block";				
+			}
+		}
+		},
+	$ : function(oid){
+		if(typeof(oid) == "string")
+		return document.getElementById(oid);
+		return oid;
+	}
+}
+
+
+
+
+function menuFix() {
+ var sfEls = document.getElementById("nav").getElementsByTagName("li");
+ for (var i=0; i<sfEls.length; i++) {
+  sfEls[i].onmouseover=function() {
+  this.className+=(this.className.length>0? " ": "") + "sfhover";
+  }
+  sfEls[i].onMouseDown=function() {
+  this.className+=(this.className.length>0? " ": "") + "sfhover";
+  }
+  sfEls[i].onMouseUp=function() {
+  this.className+=(this.className.length>0? " ": "") + "sfhover";
+  }
+  sfEls[i].onmouseout=function() {
+  this.className=this.className.replace(new RegExp("( ?|^)sfhover\\b"),"");
+  }
+ }
+}
+
+window.onload = function(){
+	var SDmodel = new scrollDoor();
+	SDmodel.sd(["m012","m022","m032","m042","m052","m062","m072","m082","m092"],["c012","c022","c032","c042","c052","c062","c072","c082","c092"],"sd01","sd02");
+	menuFix();
+	
+}
