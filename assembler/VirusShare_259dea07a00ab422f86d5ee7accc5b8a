@@ -1,0 +1,32 @@
+.textlink:before,
+.downloadlink:before,
+.textblock .zoom:after,
+#overlay_content .close,
+.tooltip,
+.tooltip span:after,
+.header nav a:before,
+.header nav a.menue:after,
+.header .search:before,
+.header .search:after,
+.header .search a:after,
+.flyout .stripe.grey a.close,
+#locnav.brand h1,
+#stage .controls .prev,
+#stage .controls .next,
+.minipk .option:after,
+.flaps dt:after,
+ul.checkmark li:after,
+.clue:after,
+.clue.success:after,
+div.jumpmark > a,
+.linklist h3:after {
+	background-image: url(../img/sprite@2x.png);
+	background-size: 1000px 1000px;
+	}
+
+/*multiple*/
+.flyout .stripe.white a.close {
+	background: url(../img/sprite@2x.png) no-repeat -184px -12px, linear-gradient(to bottom, #fff 0%, #F3F3F3 100%);
+	background: url(../img/sprite@2x.png) no-repeat -184px -12px, -webkit-linear-gradient(top, #fff 0%, #F3F3F3 100%);
+	background-size: 1000px 1000px, 100% 100%;
+	}
