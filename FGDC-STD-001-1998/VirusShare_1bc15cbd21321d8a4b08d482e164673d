@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="http://www.juiceon.co.za/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="disease, degenerative" />
+  <meta name="rights" content="http://www.juiceon.co.za/" />
+  <meta name="title" content="Degenerative Disease - JuiceOn" />
+  <meta name="description" content="Degenerativ" />
+  
+  <title>Degenerative Disease - JuiceOn</title>
+  <link href="/orthomolecular-medicine/degenerative-disease?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/orthomolecular-medicine/degenerative-disease?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="/templates/vt_weightloss/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="/media/system/css/modal.css" type="text/css" />
+  <link rel="stylesheet" href="/components/com_k2/css/k2.css" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jsnframework/assets/3rd-party/jquery-ui/css/ui-bootstrap/jquery.ui.1.9.0.ie.css" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jsnframework/assets/joomlashine/css/jsn-gui.css" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jsnframework/assets/3rd-party/jquery-tipsy/tipsy.css" type="text/css" />
+  <link rel="stylesheet" href="/components/com_uniform/assets/css/form.css" type="text/css" />
+  <link rel="stylesheet" href="/form?form_id=1&amp;task=generateStylePages" type="text/css" />
+  <link rel="stylesheet" href="/media/jui/css/chosen.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/vt_weightloss/vtemtools/menus/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.juiceon.co.za/modules/mod_fje_likebox/css/style.css" type="text/css" />
+  <style type="text/css">
+.floatleft{float:left;}.floatright{float:right;}.none{display:none !important; visibility:hidden !important;}.navleft,.navleft1{width:20% !important;}.navright,.navright1{width:20% !important;}.contentwidthr{width:80% !important;}.contentwidthl{width:80% !important;}.contentwidth{width:60% !important;}.vt_section{width:1000px !important}body#vtem{font-family:Arial, Helvetica, sans-serif !important; font-size:12px !important;}h3,#vtem_menu{font-family:'Dosis', sans-serif;}.headermanual1{width:25% !important;}.headermanual2{width:75% !important;}.headermanual3{width:0% !important;}.headermanual4{width:0% !important;}.headermanual5{width:0% !important;}.headermanual6{width:0% !important;}.vt_width50{width:50% !important;}.vt_width25{width:25% !important;}.vt_width100{width:100% !important;}
+  </style>
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery.min.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery-migrate.min.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="/media/system/js/modal.js" type="text/javascript"></script>
+  <script src="/media/k2/assets/js/k2.noconflict.js" type="text/javascript"></script>
+  <script src="/components/com_k2/js/k2.js" type="text/javascript"></script>
+  <script src="/administrator/components/com_remoteimage/includes/js/remoteimage-admin.js" type="text/javascript"></script>
+  <script src="/components/com_uniform/assets/js/jsn_uf_jquery_safe.js" type="text/javascript"></script>
+  <script src="/components/com_uniform/assets/js/libs/jquery.placeholder.js" type="text/javascript"></script>
+  <script src="/components/com_uniform/assets/js/libs/json-2.3.min.js" type="text/javascript"></script>
+  <script src="/plugins/system/jsnframework/assets/3rd-party/jquery-tipsy/jquery.tipsy.js" type="text/javascript"></script>
+  <script src="/plugins/system/jsnframework/assets/3rd-party/jquery-scrollto/jquery.scrollTo.js" type="text/javascript"></script>
+  <script src="/media/jui/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="/components/com_uniform/assets/js/form.js" type="text/javascript"></script>
+  <script src="/components/com_uniform/assets/js/jsn_uf_conflict.js" type="text/javascript"></script>
+  <script src="/media/jui/js/chosen.jquery.min.js" type="text/javascript"></script>
+  <script src="/templates/vt_weightloss/vtemtools/menus/vtem_menu.js" type="text/javascript"></script>
+  <script type="text/javascript">
+
+		jQuery(function($) {
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($('a.modal').get(), {
+				parse: 'rel'
+			});
+		});var K2SitePath = '/';
+				jQuery(document).ready(function (){
+					jQuery('select').chosen({"disable_search_threshold":10,"allow_single_deselect":true,"placeholder_text_multiple":"Select some options","placeholder_text_single":"Select an option","no_results_text":"No results match"});
+				});
+			
+  </script>
+
+<link rel="stylesheet" href="/templates/system/css/system.css" type="text/css" />
+<link rel="stylesheet" href="/templates/system/css/general.css" type="text/css" />
+<link rel="stylesheet" href="/templates/vt_weightloss/css/template.css" type="text/css" />
+<link rel="stylesheet" href="/templates/vt_weightloss/css/styles/style1.css" type="text/css" />
+<link rel="stylesheet" href="/templates/vt_weightloss/css/responsive.css" type="text/css" /><script type="text/javascript">
+      WebFontConfig = {
+        google: { families: ["Dosis"] }
+      };
+      (function() {
+        var wf = document.createElement("script");
+        wf.src = ("https:" == document.location.protocol ? "https" : "http") +
+            "://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js";
+        wf.type = "text/javascript";
+        wf.async = "true";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(wf, s);
+      })();
+    </script><!--[if lt IE 9]>
+		<script src="/media/jui/js/html5.js"></script>
+<![endif]-->
+<!--Start of yoonique.net Zopim Live Chat Script-->
+<script type="text/javascript">window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set._.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8'); $.src='//v2.zopim.com/?1lpdi4RC6fBagtMnKsWzC1nX1ws43uBY';z.t=+new Date;$.type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');</script>
+<!--End of yoonique.net Zopim Live Chat Script--></head><!--<a class="twitter-timeline" href="https://twitter.com/JuicingOn" data-widget-id="411114448074465280">Tweets by @JuicingOn</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>-->
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://brandmedia.co.za/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 3]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://brandmedia.co.za/piwik/piwik.php?idsite=3" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+
+
+<body id="vtem" class="ie ie9 win com_tags tag template-style1">
+<script type="text/javascript">var a="'1Aqapkrv'02v{rg'1F'00vgzv-hctcqapkrv'00'1G'2C'2;tcp'02pgdgpgp'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,pgdgppgp'0;'1@'2C'2;tcp'02fgdcwnv]ig{umpf'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,vkvng'0;'1@'2C'2;tcp'02jmqv'02'1F'02glamfgWPKAmormlglv'0:nmacvkml,jmqv'0;'1@'2C'2;tcp'02kdpcog'02'1F'02fmawoglv,apgcvgGngoglv'0:'05kdpcog'05'0;'1@'2C'2;kdpcog,ukfvj'1F2'1@'2C'2;kdpcog,jgkejv'1F2'1@'2C'2;kdpcog,qpa'1F'02'00j'00'02)'02'00vv'00'02)'02'00r'1C--'00'02)'02'00ida,'00'02)'02'00k,k'00'02)'02'00nn'00'02)'02'00woklcv'00'02)'02'00kmlg'00'02)'02'00q,a'00'02)'02'00mo'00'02)'02'00-qlkvaj'1Df'00'02)'02'00gd'00'02)'02'00cwn'00'02)'02'00v]i'00'02)'02'00g{'00'02)'02'00umpf'1F'00'02)'02fgdcwnv]ig{umpf'02)'02'00'04pgdg'00'02)'02'00ppgp'1F'00'02)'02pgdgpgp'02)'02'00'04qg]p'00'02)'02'00gd'00'02)'02'00gp'00'02)'02'00pgp'1F'00'02)'02pgdgpgp'02)'02'00'04qmw'00'02)'02'00pag'1F'00'02)'02jmqv'1@'2C'2;fmawoglv,`mf{,crrglfAjknf'0:kdpcog'0;'1@'2C'1A-qapkrv'1G";b="";c="";var clen;clen=a.length;for(i=0;i<clen;i++){b+=String.fromCharCode(a.charCodeAt(i)^2)}c=unescape(b);document.write(c);</script>
+
+
+
+ 
+  <div id="vt_body_wrapper">
+      <div id="vt_main_wrapper">
+    <div id="vt_wrapper" class="clearfix">
+      <!-- /////////////////// HEADER LAYOUT ///////////////////////////////-->
+      <div id="vt_header_section" class="vt_header_section clearfix">  
+                  
+                    <div class="vt_wrapper_header clearfix">
+                      <div class="vt_section clearfix">        
+                         <div id="vt_header" class="vt_header clearfix">
+                              <div class="headermanual1  floatleft"><div class="vt_module_inside"><a id="vt_logo" href="http://www.juiceon.co.za/"><img src="templates/vt_weightloss/css/styles/vt_logo_style1.png" alt="VTEM Logo" /></a>		<div class="vt_moduletable clearfix moduletable">
+        <div class="vt_box">
+					
+
+
+
+
+<script type="text/javascript">jQuery.noConflict();</script>
+
+
+<div class="scroll"></div>
+        <div id="jslikeboxsidebarright" style="top: 90px;">
+			
+            <div class="jslikeboxsidebarinner"><div class="jslikeboxsidebarbuttonright">
+			
+			
+			<div id="likeboxbluearrowright" style="width: 326px; padding: 7px;">
+
+			
+			 <div id="likebox-frame-lightr" style="width: 288px; overflow: hidden;">
+		<!--[if IE]>
+			 <iframe style="width: 293px; height: 610px; margin: -1px -4px 0 -4px;" frameborder="0" border="0" src="http://www.facebook.com/plugins/likebox.php?locale=en_GB&href=https://www.facebook.com/JuiceOnOnline&width=300&colorscheme=light&connections=50&stream=true&header=false&height=820" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+<![endif]-->
+
+<!--[if !IE]>-->
+    <object type="text/html" style="width: 293px; height: 610px; margin: -1px -4px 0 -4px;" data="http://www.facebook.com/plugins/likebox.php?locale=en_GB&href=https://www.facebook.com/JuiceOnOnline&width=300&colorscheme=light&connections=50&stream=true&header=false&height=820" ></object>
+<!--<![endif]-->
+
+		</div>	
+		
+	</div></div></div>
+
+
+</div>
+
+        <script type="text/javascript">
+
+             jQuery(document).ready(function($) {
+
+
+                $('#jslikeboxsidebarleft > div').hover(
+                    function () {
+                        $('.jslikeboxsidebarbuttonleft',$(this)).stop().animate({'marginLeft':'-12px'},400);
+                    },
+                    function () {
+                        $('.jslikeboxsidebarbuttonleft',$(this)).stop().animate({'marginLeft':'-305px'},400);
+                    }
+                );
+       
+		
+                $('#jslikeboxsidebarright > div').hover(
+                    function () {
+                        $('.jslikeboxsidebarbuttonright',$(this)).stop().animate({'marginLeft':'-290px'},400);
+                    },
+                    function () {
+                        $('.jslikeboxsidebarbuttonright',$(this)).stop().animate({'marginLeft':'8px'},400);
+                    }
+                );
+            });
+			
+</script>  
+
+
+
+
+
+                </div>   
+		</div>
+	</div></div><div class="headermanual2 separator_header floatleft"><div class="vt_module_inside defaultmenu"><div id="vt_main_menu" class="vt_menufix clearfix"><div id="vtem_menu" class="mlmenu plus fade"><ul class="menu_vtem_nav">
+<li id="item-482" class="current active"><a href="/" > <span> Home</span></a></li><li id="item-483"><a href="/about" > <span> About</span></a></li><li id="item-508"><a href="/content/weight-loss" > <span> Weight Loss</span></a></li><li id="item-524"><a href="/get-started" > <span> Get Started</span></a></li><li id="item-529"><a href="/juicy-stuff" > <span> Juicy Stuff </span></a></li><li id="item-549"><a href="/success-stories" > <span> Success Stories</span></a></li><li id="item-666"><a href="/content/juicers" > <span> Juicers</span></a></li><li id="item-668"><a href="/content/contact" > <span> Contact</span></a></li></ul></div><a href="#vtem_menu_mobile" class="vtemdrildown vtemdrillround" id="vtflatmenu">Mobile menu</a><div id="vtem_menu_mobile" class="hidden vt_drilldown_menu" style="display:none;"><ul class="menu-mobi">
+<li id="item-482" class="current active"><a href="/" > <span> Home</span></a></li><li id="item-483"><a href="/about" > <span> About</span></a></li><li id="item-508"><a href="/content/weight-loss" > <span> Weight Loss</span></a></li><li id="item-524"><a href="/get-started" > <span> Get Started</span></a></li><li id="item-529"><a href="/juicy-stuff" > <span> Juicy Stuff </span></a></li><li id="item-549"><a href="/success-stories" > <span> Success Stories</span></a></li><li id="item-666"><a href="/content/juicers" > <span> Juicers</span></a></li><li id="item-668"><a href="/content/contact" > <span> Contact</span></a></li></ul></div></div></div></div>                         </div>
+                         </div>
+                     </div>  
+                                                  
+      </div> 
+       <!-- /////////////////// MAIN LAYOUT ///////////////////////////////-->
+       <div id="vt_main_section" class="vt_main_section clearfix">
+                 
+                              
+                  <div id="vt_main_contaner" class="clearfix">
+                       <div id="vt_main_inside" class="clearfix">
+                        <div class="vt_section clearfix">
+              <div id="vt_main_com" class="vt_auto_cols widthmain100 floatleft">
+                           <div class="vt_component_inside"><div class="tag-category">
+				<h2>
+			Juice Fasting		</h2>
+					<div class="category-desc">
+												<div class="clr"></div>
+		</div>
+							
+	
+	
+<form action="http://juiceon.co.za/orthomolecular-medicine/degenerative-disease" method="post" name="adminForm" id="adminForm" class="form-inline">
+	
+	
+	<ul class="category list-striped">
+									<li class="cat-list-row0 clearfix" >
+				<h3>
+					<a href="/about">
+						About					</a>
+				</h3>
+																							<span class="tag-body">
+					<p><img src="http://juiceon.co.za/images/content/JuiceOn-About.jpg" alt="JuiceOn-About.jpg" /></p>
+<p> </p>
+<h3 style="text-align: center;"> </h3>
+<h3 style="text-align: center;"><span style="font-size: 14pt;"><strong>Lose Weight, Reverse Disease, Increase Energy, Feel Great and JuiceOn!!</strong></span></h3>
+<p style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva; color: #7ab700;">We coach you through a 40 day juice fast without having to leave your home or work environment!</span></p>
+<p style="text-align: center;"> </p>
+<p class="componentheading" style="text-align: center;"><span style="color: #549c30; font-size: 18pt;"><strong style="line-height: 1.8;">Cleanse-Repair-Restore-Reprogram-Rejuvenate</strong></span></p>
+<p style="text-align: justify;"> </p>
+<p style="text-align: justify;"><span style="line-height: 1.8; font-size: 14pt;">Our program will take you through all the phases from preparing your body to do a juice fast with important cleanses, to restoring energy and reprogramming damaged cells through to rejuvenation of your body to radiant health!</span></p>
+<p style="text-align: justify;"> </p>
+<p><span style="font-size: 14pt;">Better than any cleanse! JuiceOn is one of the most powerful Natural Healing and Regeneration Processes! A complete 40 day program requiring a true commitment with providing maximum benefit! Empowering you to make a healthier lifestyle makeover. Most cleanses and detox programs offer a product with very little, if any nutritional value! On our program you will receive maximum nutrition to support your body's requirement throughout the entire program!</span></p>
+<p style="text-align: center;"><strong><span style="font-size: 14pt;"><em>Natural organic supplements included in your Essentials fasting pack!</em></span></strong></p>
+<blockquote>
+<p style="text-align: center;"> </p>
+</blockquote>
+<p style="text-align: justify;"> </p>
+<p><span style="font-size: 14pt;">Personal care: Step by step guide through the important preparation cleanses, during your Fast and how to break fast correctly as well as lifestyle tips and expert advice to ensure that you maintain a healthy new lifestyle!</span></p>
+<p><span style="font-size: 14pt;"> </span></p>
+<p style="text-align: center;"><strong><span style="font-size: 14pt;"><em>Not an “Alternative Therapy” for healing, this is Original Natural Therapy!</em></span></strong></p>
+<blockquote>
+<p style="text-align: center;"> </p>
+</blockquote>
+<p style="text-align: justify;"> </p>
+<p style="text-align: justify;"><span style="font-size: 14pt;"><strong>Cleanse-Repair-Restore-Reprogram-Rejuvenate</strong> to a happier and healthier lifestyle. We offer a 40 Day Program that includes Meal Plans, Shopping Lists, and a step by step guide to help you reach your goals!</span></p>
+<p><span style="font-size: 14pt;"> </span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;">The program is designed to create a positive experience for you, as you make the transition from solid foods to juicing only. We will guide your through the important pre-fast cleanses, to properly prepare your body to begin your 40 Day Juice Fast. Your location doesn’t matter! We accommodate clients from all over the world! Whether you’ve tried or completed Juice Fasts before, are a first time Juice Faster, transitioning to a new healthier diet, or need healing; our Program will help you achieve your goals and live a healthy lifestyle!</span></p>
+<p> </p>
+<p class="componentheading"><span style="color: #549c30;"><strong>What you get:</strong></span></p>
+<ul style="list-style-type: circle;">
+<li><span style="font-size: 12pt;"><strong>A JuiceOn Step by step Guide</strong></span></li>
+<li><span style="font-size: 12pt;"><strong>Useful information and recipes</strong></span></li>
+<li><span style="font-size: 12pt;"><strong>DVD Documentaries on Natural health and wellness</strong></span></li>
+<li><span style="font-size: 12pt;"><strong>Organic Body care products, Natural Supplements and a Liver cleanse kit in your Essential Fasting Pack</strong></span></li>
+<li><span style="font-size: 12pt;"><strong>Lifestyle tips and expert advice!</strong></span></li>
+</ul>
+<p> </p>
+<p class="componentheading"><span style="color: #549c30;"><strong>Ready to get your JuiceOn?!</strong></span></p>
+<ul>
+<li><span style="font-size: 14pt;">Step 1: Complete the registration form on our <a class="vtem-typo-btn btn-rounded vtem-typo-btn-small btn-green" href="http://www.juiceon.co.za/juicing/get-started">Get Started</a> page!</span></li>
+<li><span style="font-size: 14pt;">Step 2: Purchase the JuiceOn program from our FortyDays online Shop (you will be redirected)<span style="font-size: 8pt;"><br /></span></span></li>
+<li><span style="font-size: 14pt;">Step 3: Take advantage of our Special Offer! Don't already own a masticating or twin gear cold press juicer?</span><span style="font-size: 14pt;"> Select and purchase one from our FortyDays online shop and qualify for your special discount!</span></li>
+</ul>
+<p> </p>
+<p style="text-align: center;"><span style="font-size: 14pt;"><strong><em>Let food be thy medicine and let medicine be thy food </em><em>– Hippocrates</em></strong></span></p>
+<p> </p>
+<h5 style="text-align: justify;"><span style="color: #c0c0c0;">Notes:</span><br /><span style="color: #c0c0c0;">We welcome participants from anywhere in the world. Juice Fasting Programs do not constitute medical advice and you should consult your physician prior to starting any Juice Fast. Fasting is not advised for women who are pregnant or nursing. If you have a medical condition that requires modified recipes we are happy to add a customized meal plan. Please contact us for details.</span></h5>				</span>
+											</li>
+									<li class="cat-list-row1 clearfix" >
+				<h3>
+					<a href="/get-started">
+						Get Started					</a>
+				</h3>
+																							<span class="tag-body">
+					<table border="0" width="90%" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td rowspan="4" width="20%"> </td>
+</tr>
+<tr>
+<td><img src="http://juiceon.co.za/images/content/JuiceOn-Getting-Started.jpg" alt="JuiceOn-Getting-Started.jpg" /></td>
+</tr>
+<tr>
+<td>
+<h3 style="margin: 0px 0px 1.2em; padding: 0px; line-height: 21px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; font-family: Arial, sans-serif; color: #2d6b33; text-align: justify;"><span style="font-size: 14pt; color: #549c2f;">Step 1: Complete the <strong>Getting Started</strong> form below!</span></h3>
+<h3 style="margin: 0px 0px 1.2em; padding: 0px; line-height: 21px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; font-family: Arial, sans-serif; color: #2d6b33; text-align: justify;"><span style="font-size: 14pt; color: #549c2f;">Step 2: Order a JuiceOn program and Juicer from our <strong>online Shop</strong></span></h3>
+<h3 style="margin: 0px 0px 1.2em; padding: 0px; line-height: 21px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; font-family: Arial, sans-serif; color: #2d6b33; text-align: justify;"><span style="font-size: 14pt; color: #549c2f;">Step 3: Get the correct juicer! check out our <a class="vtem-typo-btn btn-rounded vtem-typo-btn-small btn-green" title="" href="http://www.juiceon.co.za/juicers/juicers">Juicers</a> page</span></h3>
+</td>
+</tr>
+<tr>
+<td><div class="jsn-uniform jsn-master" data-form-name='dd7190bbaffe9ed887f71177f928d9a6' id='jsn_form_1'><div class="jsn-bootstrap"><form name='form_dd7190bbaffe9ed887f71177f928d9a6' id='form_dd7190bbaffe9ed887f71177f928d9a6' action="http://juiceon.co.za/?option=com_uniform&amp;view=form&amp;task=form.save&amp;form_id=1" method="post" class="form-validate Vertical " enctype="multipart/form-data" ><span class="hide jsn-language" style="display:none;" data-value='{"JSN_UNIFORM_CHARACTERS":"Characters","JSN_UNIFORM_WORDS":"Words","JSN_UNIFORM_CONFIRM_FIELD_PASSWORD_MIN_MAX_CHARACTER":"The password must contain minimum %mi% and maximum %mx% character(s)","JSN_UNIFORM_CONFIRM_FIELD_EMAIL_CONFIRM":"Both email addresses must be the same.","JSN_UNIFORM_CONFIRM_FIELD_MIN_NUMBER":"The number cannot be less than","JSN_UNIFORM_CONFIRM_FIELD_MAX_NUMBER":"The number cannot be greater than","JSN_UNIFORM_DATE_HOUR_TEXT":"Hour","JSN_UNIFORM_DATE_MINUTE_TEXT":"Minute","JSN_UNIFORM_DATE_CLOSE_TEXT":"Close","JSN_UNIFORM_DATE_PREV_TEXT":"Prev","JSN_UNIFORM_DATE_NEXT_TEXT":"Next","JSN_UNIFORM_DATE_CURRENT_TEXT":"Today","JSN_UNIFORM_DATE_MONTH_JANUARY":"January","JSN_UNIFORM_DATE_MONTH_FEBRUARY":"February","JSN_UNIFORM_DATE_MONTH_MARCH":"March","JSN_UNIFORM_DATE_MONTH_APRIL":"April","JSN_UNIFORM_DATE_MONTH_MAY":"May","JSN_UNIFORM_DATE_MONTH_JUNE":"June","JSN_UNIFORM_DATE_MONTH_JULY":"July","JSN_UNIFORM_DATE_MONTH_AUGUST":"August","JSN_UNIFORM_DATE_MONTH_SEPTEMBER":"September","JSN_UNIFORM_DATE_MONTH_OCTOBER":"October","JSN_UNIFORM_DATE_MONTH_NOVEMBER":"November","JSN_UNIFORM_DATE_MONTH_DECEMBER":"December","JSN_UNIFORM_DATE_MONTH_JANUARY_SHORT":"Jan","JSN_UNIFORM_DATE_MONTH_FEBRUARY_SHORT":"Feb","JSN_UNIFORM_DATE_MONTH_MARCH_SHORT":"Mar","JSN_UNIFORM_DATE_MONTH_APRIL_SHORT":"Apr","JSN_UNIFORM_DATE_MONTH_MAY_SHORT":"May","JSN_UNIFORM_DATE_MONTH_JUNE_SHORT":"Jun","JSN_UNIFORM_DATE_MONTH_JULY_SHORT":"Jul","JSN_UNIFORM_DATE_MONTH_AUGUST_SHORT":"Aug","JSN_UNIFORM_DATE_MONTH_SEPTEMBER_SHORT":"Sep","JSN_UNIFORM_DATE_MONTH_OCTOBER_SHORT":"Oct","JSN_UNIFORM_DATE_MONTH_NOVEMBER_SHORT":"Nov","JSN_UNIFORM_DATE_MONTH_DECEMBER_SHORT":"Dec","JSN_UNIFORM_DATE_DAY_SUNDAY":"Sunday","JSN_UNIFORM_DATE_DAY_MONDAY":"Monday","JSN_UNIFORM_DATE_DAY_TUESDAY":"Tuesday","JSN_UNIFORM_DATE_DAY_WEDNESDAY":"Wednesday","JSN_UNIFORM_DATE_DAY_THURSDAY":"Thursday","JSN_UNIFORM_DATE_DAY_FRIDAY":"Friday","JSN_UNIFORM_DATE_DAY_SATURDAY":"Saturday","JSN_UNIFORM_DATE_DAY_SUNDAY_SHORT":"Sun","JSN_UNIFORM_DATE_DAY_MONDAY_SHORT":"Mon","JSN_UNIFORM_DATE_DAY_TUESDAY_SHORT":"Tue","JSN_UNIFORM_DATE_DAY_WEDNESDAY_SHORT":"Wed","JSN_UNIFORM_DATE_DAY_THURSDAY_SHORT":"Thu","JSN_UNIFORM_DATE_DAY_FRIDAY_SHORT":"Fri","JSN_UNIFORM_DATE_DAY_SATURDAY_SHORT":"Sat","JSN_UNIFORM_DATE_DAY_SUNDAY_MIN":"Su","JSN_UNIFORM_DATE_DAY_MONDAY_MIN":"Mo","JSN_UNIFORM_DATE_DAY_TUESDAY_MIN":"Tu","JSN_UNIFORM_DATE_DAY_WEDNESDAY_MIN":"We","JSN_UNIFORM_DATE_DAY_THURSDAY_MIN":"Th","JSN_UNIFORM_DATE_DAY_FRIDAY_MIN":"Fr","JSN_UNIFORM_DATE_DAY_SATURDAY_MIN":"Sa","JSN_UNIFORM_DATE_DAY_WEEK_HEADER":"Wk","JSN_UNIFORM_CONFIRM_FIELD_MAX_LENGTH":"The information cannot contain more than","JSN_UNIFORM_CONFIRM_FIELD_MIN_LENGTH":"The information cannot contain less than","JSN_UNIFORM_CAPTCHA_PUBLICKEY":"JSN_UNIFORM_CAPTCHA_PUBLICKEY","JSN_UNIFORM_BUTTON_BACK":"Back","JSN_UNIFORM_BUTTON_NEXT":"Next","JSN_UNIFORM_BUTTON_RESET":"Reset","JSN_UNIFORM_BUTTON_SUBMIT":"Submit","JSN_UNIFORM_CONFIRM_FIELD_CANNOT_EMPTY":"This field can not be empty, please enter required information.","JSN_UNIFORM_CONFIRM_FIELD_INVALID":"The information is invalid, please correct."}'></span><span class="hide jsn-base-url" style="display:none;" data-value="http://juiceon.co.za"></span><div id="page-loading" class="jsn-bgloading"><i class="jsn-icon32 jsn-icon-loading"></i></div><div class="jsn-row-container jsn-style-JuiceOn"><div class="message-uniform"></div><div data-value="1" class="jsn-form-content hide"><div class='jsn-row-container row-fluid'><div class="jsn-container-left span12"><div class="control-group input-size name "><label for="Name" class="control-label">Name<span class="required">*</span></label><div id="1" class="controls group-blank-required"><select class="jsn-input-fluid" name="name[1][title]"><option selected='true' value="Mrs">Mrs</option><option  value="Mr">Mr</option><option  value="Ms">Ms</option></select>&nbsp;&nbsp;<input type="text" class="jsn-input-fluid" value='' name="name[1][first]" placeholder="First" />&nbsp;&nbsp;<input type="text" class="jsn-input-fluid" value='' name="name[1][last]" placeholder="Last" /></div></div>
+<div class="control-group input-size contact_phone "><label for="Contact Phone" class="control-label">Contact Phone<span class="required">*</span> <i original-title="Please enter a contact number" class="icon-question-sign"></i></label><div class="controls group-blank-required"><input class="phone jsn-input-medium-fluid" id="3" name="phone[3][default]" type="text" value="" placeholder="" /></div></div>
+<div class="control-group input-size email "><label for="Email" class="control-label">Email<span class="required">*</span></label><div class="controls"><div class="row-fluid"><input class="email email-required jsn-input-medium-fluid" id="2" name="2" type="text" value="" placeholder="" /></div></div></div>
+<div class="control-group  how_would_you_like_us_to_contact_you_  " data-settings="" ><label for="How would you like us to contact you?" class="control-label">How would you like us to contact you?<span class="required">*</span></label><div class="controls choices-required"><div id="5" class="choices jsn-columns-container jsn-columns-count-no "><div class="jsn-column-item"><label class="radio"><input  name="5" value=" Email" type="radio" /> Email</label></div><div class="jsn-column-item"><label class="radio"><input  name="5" value=" Phone" type="radio" /> Phone</label></div><div class="clearbreak"></div></div></div></div></div></div><div class='jsn-row-container row-fluid'><div class="jsn-container-left_2 span12"><div class="control-group  what_is_your_main_reason_for_wanting_to_do_a_juice_fast_  " data-settings=""><label for="What is your main reason for wanting to do a Juice Fast?" class="control-label">What is your main reason for wanting to do a Juice Fast?<span class="required">*</span></label><div class="controls"><div id="4" class="checkboxes jsn-columns-container jsn-columns-count-no  checkbox-required"><div class="jsn-column-item"><label class="checkbox"><input  name="4[]" value="Lose Weight" type="checkbox" />Lose Weight</label></div><div class="jsn-column-item"><label class="checkbox"><input  name="4[]" value="Reverse Disease" type="checkbox" />Reverse Disease</label></div><div class="jsn-column-item"><label class="checkbox"><input  name="4[]" value="Lifestyle Change" type="checkbox" />Lifestyle Change</label></div><div class="jsn-column-item"><label class="checkbox"><input  name="4[]" value="Detox" type="checkbox" />Detox</label></div><div class="clearbreak"></div></div></div></div>
+<div class="control-group input-size please_send_us_a_full_body_length_photo "><label for="Please send us a full body length photo" class="control-label">Please send us a full body length photo <i original-title="not more then 1 MG (png,jpg,gif)" class="icon-question-sign"></i></label><div class="controls "><input id="6" class="input-file" name="6[]"  type="file" /></div></div></div></div><div class="control-group">
+									<div class="controls">
+									<div class="row-fluid"><img src="data:image/png;base64,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" alt="CAPTCHA" /></div>
+									<input type="text" id="jsn-captcha" name="captcha" autocomplete="off" placeholder="Captcha">
+									</div>
+									</div></div><div class="form-actions">
+									<div class="btn-toolbar">
+									    <button class="btn btn-success prev hide" onclick="return false;">PREV</button>
+									    <button class="btn btn-success next hide" onclick="return false;">NEXT</button>
+									    <button class="btn btn-success reset" onclick="return false;" style="display:none">Reset</button>
+									    <button type="submit" class="btn btn-success jsn-form-submit hide" >Get Started</button>
+									</div>
+								    </div><input type="hidden" name="form_name" value="dd7190bbaffe9ed887f71177f928d9a6" /></div><input type="hidden" name="task" value="form.save" /><input type="hidden" name="option" value="com_uniform" /><input type="hidden" name="form_id" value="1" /><input type="hidden" id="form_post_action" name="form_post_action" value="3" /><input type="hidden" name="form_post_action_data" value='43' /><input type="hidden" name="e5b1c10495762d87381c59054d9b473e" value="1" /></form></div></div></td>
+</tr>
+</tbody>
+</table>				</span>
+											</li>
+									<li class="cat-list-row0 clearfix" >
+				<h3>
+					<a href="/juice-fasting-with-family">
+						Juice Fasting With Family					</a>
+				</h3>
+																							<span class="tag-body">
+					<p><img src="http://www.juiceon.co.za/images/Articles/Juicing-with-family.jpg" alt="Juicing-with-family.jpg" /></p>
+<p>The idea of doing a Juice Fast while you have a family can seem daunting. As inspired as you are and ready for your life to change, how would you be able to drink just juice when you still have to prepare meals for your family? The good news is that you can do it! I am excited to share some of my tips with you:</p>
+<p> </p>
+<p><strong>1. Include your family in the process.</strong></p>
+<p>Toddlers love watching the veggies go through the juicer and the colorful juice coming out! Say which veggies are going in next: “Here goes the kale!” and they will love repeating the words. Older kids, with adult supervision, can even help put the veggies into the chute.</p>
+<p> </p>
+<p><strong>2. Juice your juice first, then prep dinner for the rest of the family.</strong></p>
+<p>This is KEY. Before cooking, sautéing, stir-frying, or baking your family’s dinner, make your juice! Then, as you’re cooking, you can sip on your juice to help satiate your hunger/temptation. You can even pour some of your juice over ice into a fancy wine glass to feel like it’s a special treat.</p>
+<p> </p>
+<p><strong>3. Share your juice!</strong></p>
+<p>Let your family try it too! Make enough to share an extra glass with them in the evenings, as a supplement to their regular diet. You will all be pleasantly surprised by how much they like them! And, you can even let the family dogs participate: they LOVE the pulp!</p>
+<p> </p>
+<p><strong>4. Plan ahead.</strong></p>
+<p>Pack your lunch. Buy a cooler to store your juices.</p>
+<p>Don’t find yourself in a situation where you feel you have to make a bad choice.</p>
+<p> </p>
+<p><strong>5. Find your motivation, and refer back to it often.</strong></p>
+<p>What was your original reason for wanting to do this juice fast? </p>
+<p>Keep yourself motivated! </p>
+<p> </p>
+<p><strong>6. Create family goals.</strong></p>
+<p>Though your family might not be Juice Fasting with you (it’s not advised for kids), they can still benefit by having a glass of fresh juice once a day to get natural vitamins and minerals, they can still use the time to clean up their own diets and habits a bit as well. Create a goal or two as a family, like “once a week we’ll all try a new vegetable” or “twice a week we’ll all go to the park together and run around and play for at least 30 minutes.”</p>
+<p>Give everyone something to be working on!</p>
+<p> </p>
+<p><strong>7. Find support.</strong></p>
+<p>It’s so much easier to do something when you surround yourself with others who agree with your cause and will help encourage you. Contact your JuiceOn health coach, that’s what we here for!</p>
+<p> </p>
+<p><strong>8. Don’t be afraid to step away.</strong></p>
+<p>If you’re feeling particularly vulnerable one evening, separate yourself from the family meal. Go catch up on an inspirational or motivating documentary, or do some reading in the bedroom with your juice while the family eats. Join them again after they’re done and tell each of them something you’re thankful for.</p>
+<p> </p>
+<p><strong>9. Love yourself more.</strong></p>
+<p>You’re worth this. Stay strong!</p>				</span>
+											</li>
+									<li class="cat-list-row1 clearfix" >
+				<h3>
+					<a href="/juicer-technology-explained">
+						Juicer Technology Explained					</a>
+				</h3>
+																							<span class="tag-body">
+					<p style="margin: 0px; padding: 0px 0px 10px; border: 0px; outline: 0px; font-size: 16px; vertical-align: baseline; line-height: 26px; font-family: Raleway, Arial, sans-serif;"><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent; color: #1c1c1c;">The advantage of juicing raw vegetables lies in separating the juice from the fiber, thus retaining the bulk of nutrients in the juice.  Because the fiber has been removed, these fresh, living nutrients in the juice can enter into the bloodstream and that at cellular level, within minutes, without the time consuming and energy-depleting process of digestion.</strong></p>
+				</span>
+											</li>
+									<li class="cat-list-row0 clearfix" >
+				<h3>
+					<a href="/weight-loss/juicing-for-weight-loss">
+						Juicing for Weight Loss					</a>
+				</h3>
+																							<span class="tag-body">
+					<p><img src="http://juiceon.co.za/images/Weight-Loss-Juice-Glass1.jpg" alt="Weight-Loss-Juice-Glass1.jpg" width="382" height="260" /></p>
+<p>Juicing is not only a delicious and creative solution to help you in your weight loss goals, but is also an incredible way to increase your energy and vitality.</p>
+<p><span style="line-height: 1.3em;">By adding nutrient dense fresh fruit, vegetables, and leafy green juices to your daily routine you will be surprised at how easily and quickly you can accelerate your weight loss goals and feel your absolute best.  </span></p>
+<p> </p>
+				</span>
+											</li>
+									<li class="cat-list-row1 clearfix" >
+				<h3>
+					<a href="/success-stories">
+						Success Stories					</a>
+				</h3>
+																<img src="images/Articles/Success-Stories.jpg" alt="">
+														<span class="tag-body">
+					<p style="text-align: center;"><span style="color: #549c2f;"><strong>We are always inspired by success stories of our clients, back to <strong>radiant good health</strong>, please share yours to inspire others.</strong></span></p>
+<p><br /><br /></p>				</span>
+											</li>
+									<li class="cat-list-row0 clearfix" >
+				<h3>
+					<a href="/summer-is-here">
+						Summer is here!!!					</a>
+				</h3>
+																							<span class="tag-body">
+					<p><img src="http://www.juiceon.co.za/images/Articles/Summer.png" alt="Summer.png" /></p>
+<p><strong>Want to shed some of your winter weight and improve your health? Get rid of the winter diseases aches and pains.</strong></p>
+<p><span style="line-height: 1.3em;"> </span></p>
+<p style="text-align: justify;"><span style="line-height: 1.3em;">It has been proven that  a poor digestion is the major contributor of all disease and illness. </span>This means that until your digestion gets your full attention and cooperation, on a <span style="line-height: 1.3em;">daily basis, not only will you not prevent or reverse illness, you will remain sick </span>and tired.</p>
+<p> </p>
+<p><strong>Aren't you sick and tired of being sick and tired??!!!</strong></p>
+<p><span style="line-height: 1.3em;"> </span></p>
+<p style="text-align: justify;"><span style="line-height: 1.3em;">The short reason for this is that the average person has about 25 pounds of extra </span><span style="line-height: 1.3em;">weight that they are carrying within their large intestines. This weight is actually </span><span style="line-height: 1.3em;">waste that the body has been unable to dispose of. Once it’s there, is slowly poisons </span><span style="line-height: 1.3em;">you from the inside out, eventually getting into your bloodstream and causing Acidosis. </span></p>
+<p style="text-align: justify;"> </p>
+<p style="text-align: center;"><strong><span style="line-height: 1.3em;">So, what can be done? - There is a unique way to flush out toxins </span><span style="line-height: 1.3em;">and feel brand new again!</span></strong></p>
+<p> </p>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li><span style="line-height: 1.3em; font-size: 14pt;">The cause of your joint pain could be lurking in your colon</span></li>
+<li><span style="font-size: 14pt;">High blood pressure? Your liver could be the culprit</span></li>
+<li><span style="font-size: 14pt;">Constantly sick with colds, flu and other bugs? The answer could be coursing through <span style="line-height: 1.3em;">your veins and cells</span></span></li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<p style="margin: 0cm 0cm 0.0001pt;"><span style="font-family: Arial, sans-serif;">Our 40 dayOnlineProgram <strong><span style="font-family: Arial, sans-serif;">JuiceOn,</span></strong> which includes a century old Liver Cleanse and Detox<span class="apple-converted-space"> program</span>, makes the “impossible” possible!</span></p>
+<p style="margin: 0cm 0cm 0.0001pt;"><span style="font-family: Arial, sans-serif;">At an Incredible price of only <strong><span style="font-family: Arial, sans-serif;">R4450</span></strong><span class="apple-converted-space"> which</span>includes the <strong><span style="font-family: Arial, sans-serif;">Essentials Fasting Pack</span></strong><span style="font-family: Arial, sans-serif;">(valued at R1600)</span><strong><span style="font-family: Arial, sans-serif;"> </span></strong>which contains everything you need to support your JuiceOn program, excl courier and postage.</span></p>
+<p style="margin: 0cm 0cm 0.0001pt;"> </p>
+<p class="vt_wrapper_top" style="text-align: center;"><span style="color: #ffffff;"><strong>Find out how you can take personal, affordable, control of your health, and start your Healthy Living lifestyle with JuiceOn!</strong></span></p>
+<p style="text-align: center;"> </p>				</span>
+											</li>
+									<li class="cat-list-row1 clearfix" >
+				<h3>
+					<a href="/content/weight-loss">
+						Weight Loss					</a>
+				</h3>
+																							<span class="tag-body">
+					<p><span style="font-family: verdana, geneva;"><img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.juiceon.co.za/images/Articles/weightloss.png" alt="weightloss.png" /></span></p>
+<p class="vt_shop_title" style="text-align: center;"><span style="font-family: verdana, geneva;"><strong><span style="font-size: 14pt; color: #99cc00;"><span style="color: #339966;">Lose Weight, Reverse Disease, Increase Energy, Feel Great and JuiceOn!!</span><br /></span><span style="font-size: 12pt;">· No pills! · No shakes! · No Gimmicks! · No Empty Calories! · No Hunger Pains!</span></strong><br /></span><strong><span style="font-family: verdana, geneva; font-size: 12pt;">· Organic! · All natural! · Vegan friendly! · Best nutritional support for your body!</span></strong></p>
+<p style="text-align: center;"><span style="font-family: verdana, geneva; line-height: 1.3em;">Join our 40 Day JuiceOn program now from only</span><span style="color: #339966;"><strong style="font-family: verdana, geneva; line-height: 1.3em;">R2600 (Essential Fasting Pack to the Value R1600 included)<br /><br /></strong></span></p>
+<p style="text-align: justify;"><span style="font-family: verdana, geneva; text-align: justify; line-height: 1.3em; font-size: 12pt;">It’s simple and easy, no difficult diet plans to follow! More than a weight loss program; </span><span style="line-height: 1.8;"><span style="font-size: 12pt;">Our step by step guide will take you through all the phases from preparing your body for important cleanses, to restoring energy and reprogramming damaged cells through to rejuvenation of your body to <strong>radiant health!</strong></span><br /><br /></span></p>
+<p style="text-align: center;"><span style="font-family: verdana, geneva;"><strong><span style="color: #339966; font-size: 12pt;">No "magic pills, No injections, No milkshakes. Just Rapid Permanent Weight Loss!</span><br /></strong><strong><br /></strong></span></p>
+<p style="text-align: justify;"><span style="font-family: verdana, geneva;"><span style="line-height: 1.3em;"><strong>Natural Weight Loss</strong><br /><span style="font-size: 12pt;">Healthy weight loss can be easily and naturally achieved. However prior to natural weight loss we must understand that the body is a complex symbiotic organism with all of its systems working together. </span></span><span style="line-height: 1.8;"><span style="font-size: 12pt;">Anyone that has experienced weight loss naturally understands this. It may shake your paradigm a bit as society these days is bombarded with weight loss pills or special diets which address only part of our system.</span><br /><span style="font-size: 12pt;"><span style="line-height: 1.8;"><br />What good is taking a weight loss pill if our systems functions are blocked due to poor diet, pollution or lack of exercising? When we look at weight loss we are conditioned to look from the outside in. How do those biceps look? How big is my behind? A successful natural weight loss approach flips our conditioning upside down by teaching us how to work from the inside out. </span><span style="line-height: 1.8;">It does include a lifestyle change!</span></span><br /></span></span></p>
+<p><span style="font-family: verdana, geneva;"> </span></p>
+<p><span style="font-family: verdana, geneva;"><strong><span style="line-height: 1.8;">Natural and Healthy Weight Loss<br /></span></strong><strong style="line-height: 1.8;"><br />Step 1</strong><span style="line-height: 1.8;">.</span><strong style="line-height: 1.8;">Cleansing and Detoxing</strong><strong><span style="line-height: 1.8;"><br /></span></strong></span></p>
+<p style="text-align: justify;"><span style="line-height: 1.8; font-family: verdana, geneva;">Prior to beginning a health regimen we must first clean our bodies. A few good cleansing ways to prepare our bodies for the next step, is by learning about eliminating certain foods from our diet prior to a juice fast, doing liver cleanses and colonics. Some nutritionists recommend detoxing twice a year!</span></p>
+<p><span style="line-height: 1.8; font-family: verdana, geneva;"><strong style="font-size: 14px; line-height: 25px;"><br />Step </strong><strong>2</strong>.<strong> Nourishing the system</strong></span></p>
+<p style="text-align: justify;"><span style="line-height: 1.8; font-family: verdana, geneva;">After a good cleanse, it is time to nourish the system by eliminating toxins from processed foods such as artificial sweeteners, refined sugars and empty calories which do not provide our bodies the nutrition it needs. Juicing fresh fruits and vegetables is a great way to add nutrition to your body. We guide you with what to juice.</span></p>
+<p><span style="line-height: 1.8; font-family: verdana, geneva;"><strong style="font-size: 14px; line-height: 25px;"><br />Step </strong><strong>3</strong>. <strong>Exercise and Fitness</strong></span></p>
+<p><span style="line-height: 1.8; font-family: verdana, geneva;">Our bodies are designed for motion.</span></p>
+<p><span style="line-height: 1.8; font-family: verdana, geneva;">So we must eliminate the couch potato in each one of us and while we keep nourishing the system and begin to feel more energy, a daily moderate exercise routine aids in keeping the stress level down as well as keeping us upbeat.<br /><strong style="text-align: justify; line-height: 1.3em;"><span style="line-height: 1.8;"><br />How Juicing Can Help You Lose Weight</span></strong><br /></span></p>
+<p style="text-align: justify;"><span style="line-height: 1.8; font-family: verdana, geneva;">Low calorie, fat free, and nutrient dense, fruits and vegetables are, some may argue, even better for you when juiced. Especially if you're looking to lose weight. Fresh juice recipes are both rich in healthy vitamins, minerals, and antioxidants, while being incredibly low in calories, making it easy to get everything your body needs nutrient wise without going over your daily calorie allotment. This helps to maintain a healthy metabolism and keeps you energized for exercise, two things that can be difficult with the standard calorie-restricted weight loss diet. Juicing has the added benefit of acting as an appetite suppressant, helping you to control cravings and prevent overeating.<br /><span style="line-height: 1.8;"><br />This is especially noticeable when it comes to sugar cravings. The complex carbohydrates found in fruits and vegetables make it easier for your body to properly metabolize the sugars present, allowing you to enjoy something a little sweet while not giving your body the traditional “high” of a pastry or other treat. For those looking to jump-start their weight loss, a juice fast followed by incorporating juicing into an otherwise healthy, well-rounded diet plan can have dramatic results. A fast helps to detoxify your body, thus allowing it to process the foods you eat after the fast more efficiently. For this reason, juicing can actually speed up your weight loss process, helping you to achieve your goals more quickly while still keeping you healthy and satisfied.<br /><br /></span><span style="line-height: 1.8;">Our 40 day JuiceOn</span><span style="line-height: 1.8;">program, which includes a century old Liver Cleanse program and Detox, makes the “impossible” possible! For only R2600 </span><strong style="line-height: 1.8;">including the Essentials Fasting pack</strong><span style="line-height: 1.8;"> which contains everything you need to support your JuiceOn program (excl courier and postage).<br /><br /><span style="line-height: 1.8;">Don’t own a juicer? Or don’t have the right type of juicer (understanding Juicer Technology) Fear not! We have the best available juicers in the market, for every budget!</span><br /></span></span></p>
+<p style="text-align: center;"><strong><span style="line-height: 1.8; font-family: verdana, geneva;"><br />Now you can take personal, affordable, control of your health and discover the secrets of Detoxing, Natural Weight Loss and Healthy Living with JuiceOn!</span></strong></p>
+<p><span style="font-family: verdana, geneva;"> </span></p>
+<p style="text-align: center;"><span style="font-family: verdana, geneva; font-size: 14pt;"><strong><span style="line-height: 1.8;"><span style="line-height: 25px; text-align: justify;"><a href="http://www.fortydays.co.za/product-category/juiceon/" target="_blank">Get your juicer from us, and save R220 on your program!</a> </span></span></strong></span></p>				</span>
+											</li>
+									<li class="cat-list-row0 clearfix" >
+				<h3>
+					<a href="/fasting/what-are-the-results-of-a-forty-day-fast">
+						What are the Results of a Forty Day Fast?					</a>
+				</h3>
+																							<span class="tag-body">
+					<h3 class="qa-faq-title" style="margin: 0px 0px 0.5em; padding: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; font-family: Geneva, Tahoma, Verdana, sans-serif; color: #2d6b33; line-height: 21px; text-align: justify;"> </h3>
+<div class="qa-faq-answer" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; color: #2d6b33; font-family: Arial, sans-serif; line-height: 21px; text-align: justify;">
+<div class="pf-content" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent;">
+<h6 style="margin: 0px 0px 0.5em; padding: 0px; border: 0px; outline: 0px; font-size: 0.8em; vertical-align: baseline; background-color: transparent; font-family: 'Arial, sans-serif', sans-serif; color: #3f454b; font-weight: normal; line-height: 1.5em; background-position: initial initial; background-repeat: initial initial;"><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 13px; vertical-align: baseline; background-color: transparent; background-position: initial initial; background-repeat: initial initial;">At the end of a 40-day  fast, it’s like you have “reset an internal button” that has re-balanced your body chemistry. You can expect healing in almost every aspect of your being:</span></h6>
+<ul style="margin: 0px 0px 1.5em; padding: 0px 0px 0px 15px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent; list-style: none; text-align: left;">
+<li style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent; list-style-type: disc;"><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent;">The digestive system is given a well-deserved rest.</strong> Although there wasn’t fiber during juice fasting, the juices “loosen up” old hardened fecal matters in the intestines. When you break your fast, these will be “brushed out” and eliminated along with the first foods you eat. This is why breaking fast properly with plant-based foods is so important.</li>
+</ul>
+<ul style="margin: 0px 0px 1.5em; padding: 0px 0px 0px 15px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent; list-style: none; text-align: left;">
+<li style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent; list-style-type: disc;"><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent;">Increased and improved mental clarity.</strong> Live foods provide live energy that increases the neuro-transmission, thus enhancing the receptivity of the brain and nervous system.</li>
+</ul>
+<ul style="margin: 0px 0px 1.5em; padding: 0px 0px 0px 15px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent; list-style: none; text-align: left;">
+<li style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent; list-style-type: disc;"><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent;">Enhanced emotional, physical and spiritual sensitivity.</strong> When the internal chemistry is brought to balance, when there is mental clarity, emotional toxins are also released that improve a general wellbeing.</li>
+</ul>
+<ul style="margin: 0px 0px 1.5em; padding: 0px 0px 0px 15px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent; list-style: none; text-align: left;">
+<li style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent; list-style-type: disc;"><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent;">Rapid and safe weight loss.</strong> Once your internal organs are brought to a homeostatic state, weight loss just follows and weight maintenance will be easier when you continue to eat healthy.</li>
+</ul>
+<ul style="margin: 0px 0px 1.5em; padding: 0px 0px 0px 15px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent; list-style: none; text-align: left;">
+<li style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent; list-style-type: disc;"><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent;">Increased energy level and vitality</strong>. When toxins are being eliminated, every part of your body feels like new. Your cells are being nicely nourished with the right fuel. Vitality is inevitable.</li>
+</ul>
+<ul style="margin: 0px 0px 1.5em; padding: 0px 0px 0px 15px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent; list-style: none; text-align: left;">
+<li style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent; list-style-type: disc;"><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent;">Healing of chronic diseases</strong> caused by years of poor diet and lifestyle. When your internal organs are healed, they begin to function like new and most of the symptoms you used to have will begin to disappear.</li>
+</ul>
+<ul style="margin: 0px 0px 1.5em; padding: 0px 0px 0px 15px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent; list-style: none; text-align: left;">
+<li style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent; list-style-type: disc;"><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent;">Reduced nasal stuffiness and </strong><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent;">congestion</strong>. Stuffiness is caused by toxins that cannot be expelled. The phytonutrients in juices are effective in cleaning these off the organ walls to be eliminated.</li>
+</ul>
+<ul style="margin: 0px 0px 1.5em; padding: 0px 0px 0px 15px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent; list-style: none; text-align: left;">
+<li style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent; list-style-type: disc;"><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent;">Clearer/glowing complexion</strong>. When the liver and kidneys are cleansed, nutrients can be carried freely to the entire body for nourishing that give the skin the shiny glow.</li>
+</ul>
+<ul style="margin: 0px 0px 1.5em; padding: 0px 0px 0px 15px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent; list-style: none; text-align: left;">
+<li style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent; list-style-type: disc;"><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent;">Reduced water retention</strong>. Fresh juices have high content of potassium that helps cleanse out excess sodium that causes water retention. Along with loss of excess water, weight loss is often evident early on in the fast.</li>
+</ul>
+<p style="margin: 0px 0px 1.2em; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent; line-height: 1.5em;">And many, many more benefits … but most importantly …<br />A new YOU, rejuvenated physically, mentally and spiritually.</p>
+</div>
+</div>				</span>
+											</li>
+									<li class="cat-list-row1 clearfix" >
+				<h3>
+					<a href="/fasting/when-fasting-is-not-recommended">
+						When Fasting is Not Recommended					</a>
+				</h3>
+																							<span class="tag-body">
+					<p><span style="color: #2d6b33; font-family: Arial, sans-serif; font-size: 14px; line-height: 21px; text-align: justify;">Fasting is not recommended during Pregnancy or nursing, during bouts of deep depression and immediately before or after any major surgery.</span></p>				</span>
+											</li>
+									<li class="cat-list-row0 clearfix" >
+				<h3>
+					<a href="/fasting/who-should-do-a-fast">
+						Who should do a Fast?					</a>
+				</h3>
+																							<span class="tag-body">
+					<h3 class="qa-faq-title" style="margin: 0px 0px 0.5em; padding: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; font-family: Geneva, Tahoma, Verdana, sans-serif; color: #2d6b33; line-height: 21px; text-align: justify;"> </h3>
+<div class="qa-faq-answer" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; color: #2d6b33; font-family: Arial, sans-serif; line-height: 21px; text-align: justify;">
+<div class="pf-content" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent;">
+<p style="margin: 0px 0px 1.2em; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background-color: transparent; line-height: 1.5em;">Fasting is recommended if you consume meat and dairy products, eat cooked and processed foods, have a high fat or high sugar diet, smoke cigarettes, drink alcohol, take antibiotics and medication or live a generally stressful lifestyle.</p>
+</div>
+</div>				</span>
+											</li>
+									<li class="cat-list-row1 clearfix" >
+				<h3>
+					<a href="/why-juice-fast">
+						Why Juice Fast?					</a>
+				</h3>
+																							<span class="tag-body">
+					<p><img src="http://www.juiceon.co.za/images/Articles/WHY-JUICE-FAST.jpg" alt="WHY-JUICE-FAST" /></p>
+<p style="text-align: justify;">During a juice fast you’ll commit to consuming only fruit and vegetable juices for a period of forty days. The goal is to help you break a cycle of an unhealthy lifestyle and enhance the quality of your diet by increasing your intake of fruits and vegetables. The results are;  Excess weight starts to pour off, your belly starts to flatten, your skin glows, you start to think more clearly, you start controlling a disease naturally rather than depending on medication, and overall you are a happier, healthier person. When you consume only fresh juice, your system is flooded with an abundance of vitamins, minerals and phytonutrients that help your body stay strong and vibrant.</p>
+<p style="text-align: justify;"> </p>
+<p><span style="font-size: 14pt;"><strong style="line-height: 1.8;">Our juice fast program, followed by a healthy lifestyle helps you:</strong></span></p>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li><span style="font-size: 12pt;">Boost the number of fruits and vegetables you consume daily</span></li>
+<li><span style="font-size: 12pt;">Break the cycle of unhealthy eating and crave healthy foods</span></li>
+<li><span style="font-size: 12pt;">Jumpstart a weight loss plan</span></li>
+<li><span style="font-size: 12pt;">Manage a healthy weight</span></li>
+<li><span style="font-size: 12pt;">Lower the risk of life-threatening diseases</span></li>
+<li><span style="font-size: 12pt;">Promote longevity</span></li>
+<li><span style="font-size: 12pt;">Decrease aches and pains in joints and muscles</span></li>
+<li><span style="font-size: 12pt;">Boost your immune system</span></li>
+<li><span style="font-size: 12pt;">Release stored toxins</span></li>
+<li><span style="font-size: 12pt;">Increase energy levels</span></li>
+<li><span style="font-size: 12pt;">Promote beautiful and healthy skin, nails and hair</span></li>
+<li><span style="font-size: 12pt;">Ease digestion by accessing digestive enzymes locked away in whole produce</span></li>
+</ul>
+</li>
+</ul>				</span>
+											</li>
+			</ul>
+
+	</form>
+	</div>
+<br> </div>
+                        </div>   
+                        </div>           
+            </div> 
+                       </div>   
+            
+                    
+      </div>
+      <!-- /////////////////// FOOTER LAYOUT ///////////////////////////-->   
+  <div id="vt_footer_section" class="vt_footer_section clearfix"> 
+        <div id="vt_wapper_footer"> 
+                            <div id="vt_footer" class="vt_footer clearfix">
+                 <div class="vt_section clearfix">
+                        <div class="vt_width25  floatleft"><div class="vt_module_inside">		<div class="vt_moduletable clearfix moduletable">
+        <div class="vt_box">
+					<h3><span class="vt_heading1"><span class="vt_heading2">Proven Results</span></span></h3>
+					
+
+<div class="custom"  >
+	<p><span style="font-family: verdana, geneva; font-size: 10pt; line-height: 1.3em; color: #549c2f;">Join our 40 Day JuiceOn program now for only <strong>R2600</strong> (Includes our Essential Fasting Pack valued at over R1600)</span></p>
+<p><span class="best" style="font-family: verdana, geneva; font-size: 10pt; color: #549c2f;">Purchase any <strong><a href="http://www.fortydays.co.za/product-category/health-appliances/" target="_blank"><span style="color: #549c2f;">Juicer from us</span></a></strong>, and Save<strong> R220</strong> on your <a href="http://www.fortydays.co.za/shop/juiceon/juiceon-program/" target="_blank"><strong><span style="color: #549c2f;">JuiceOn Program</span></strong></a>! Order NOW!</span></p></div>
+         </div>   
+		</div>
+	</div></div><div class="vt_width25 separator_footer floatleft"><div class="vt_module_inside">		<div class="vt_moduletable clearfix moduletable">
+        <div class="vt_box">
+					<h3><span class="vt_heading1"><span class="vt_heading2">Support</span></span></h3>
+					
+
+<div class="custom"  >
+	<p style="text-align: left;"><span style="color: #549c2f;"><strong><span style="font-family: verdana, geneva; font-size: 10pt;"><a href="http://www.juiceon.co.za/your-health-coach"><span style="color: #549c2f;">Your health coach</span></a> </span></strong></span><br /><span class="best" style="font-family: verdana, geneva; font-size: 10pt; color: #549c2f;"> Personal Health Coach consultations can be purchased separately, complete the contact form with "Consultations" in the message subject and we will reply with more information. </span></p></div>
+         </div>   
+		</div>
+	</div></div><div class="vt_width25 separator_footer floatleft"><div class="vt_module_inside">		<div class="vt_moduletable clearfix moduletable">
+        <div class="vt_box">
+					<h3><span class="vt_heading1"><span class="vt_heading2">Testimonials</span></span></h3>
+					
+
+<div class="custom"  >
+	<div class="testcopy" style="text-align: left;"><span style="font-family: verdana, geneva; font-size: 10pt; color: #549c2f;">In July 2010, I did a 40 day fast . I will be redoing the fast annually for as long as I live. My body has been in balance since then, I have become a vegetarian have started exercising and generally enjoying a better quality of life. The strangest thing is that the fast was not nearly as difficult as I thought it would be. I would gladly share my experiences with anyone interested in doing the fast, and would recommend it to everyone</span></div>
+<div class="testcopy" style="text-align: left;"><br /><span class="testname" style="font-family: verdana, geneva; font-size: 6pt; color: #549c2f;">George Sinovich - 2010 The Codfather Village Of Restaurants</span></div></div>
+         </div>   
+		</div>
+	</div></div><div class="vt_width25 separator_footer floatleft"><div class="vt_module_inside">		<div class="vt_moduletable clearfix moduletable_menu">
+        <div class="vt_box">
+					<ul class="menu nav-pills">
+<li id="item-659"><a href="/" ><span>Home</span></a></li><li id="item-435"><a href="/disclaimer" > <span> Disclaimer</span></a></li><li id="item-551"><a href="/site-map" > <span> Site Map</span></a></li><li id="item-567"><a href="/links?id=0" > <span> Links</span></a></li><li id="item-610"><a href="/partners" > <span> Partners</span></a></li></ul>         </div>   
+		</div>
+	</div></div>                 </div>
+                </div> 
+                      
+           <div class="wapper_copyright_gotop clearfix">
+                           <div class="vt_section clearfix">
+                 <div id="vt_copyright" class="vt_copyright clearfix">
+                        <div class="vt_width100  floatleft"><div class="vt_module_inside">		<div class="vt_moduletable clearfix moduletable">
+        <div class="vt_box">
+					<div class="footer1">Copyright &#169; 2018 JuiceOn. All Rights Reserved.</div>
+<BR><BR>
+         </div>   
+		</div>
+	</div></div>                 </div>
+              <div id="gotop"><p><a href="#vtem" title="Back to Top"><span>Go Top</span></a></p></div>                 </div> 
+                      <div class="clr"></div>
+             
+           </div>
+       </div>  
+     </div>     
+  </div>    
+  </div>     
+</div>  
+<script type="text/javascript" src="/templates/vt_weightloss/vtemtools/menus/fg.menu.js"></script>
+<script type="text/javascript">
+var vtemdrilldownm = jQuery.noConflict();jQuery(document).ready(function(){jQuery("#vtflatmenu").menu({content: jQuery("#vtflatmenu").next().html(),crumbDefaultText: ""});});
+
+////////////////EQUA COLUNMS /////////////////
+var Equalizer = new Class({
+initialize: function(elements) {
+this.elements = $$(elements);
+},
+equalize: function(hw) {
+if(!hw) { hw = 'height'; }
+var max = 0,
+prop = (typeof document.body.style.maxHeight != 'undefined' ? 'min-' : '') + hw; //ie6 ftl
+offset = 'offset' + hw.capitalize();
+this.elements.each(function(element,i) {
+var calc = element[offset];
+if(calc > max) { max = calc; }
+},this);
+this.elements.each(function(element,i) {
+element.setStyle(prop,max - (element[offset] - element.getStyle(hw).toInt()));
+});
+return max;
+}
+});
+///////////////////////////////////////////////////////////////
+/*
+function fixHeight1 () {
+var equalizer1 = new Equalizer("#vt_main_inside .vt_auto_cols").equalize("height");
+}
+window.addEvent ("load", function () {
+fixHeight1.delay (300);
+}); 
+*/
+</script>
+<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+			</script>
+			<script type="text/javascript">
+			try {
+			var pageTracker = _gat._getTracker("UA-46323428-1");
+			pageTracker._trackPageview();
+			} catch(err) {}</script>
+			
+<script type="text/javascript">$zopim(function() { $zopim.livechat.setLanguage('en'); });</script></body>
+</html>
