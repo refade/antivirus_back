@@ -1,0 +1,486 @@
+
+Warning: fopen(/usr/local/hosting/sites/mid/www/data/engine/cache/system/cron.php): failed to open stream: Permission denied in /usr/local/hosting/sites/mid/www/data/engine/modules/functions.php on line 279
+
+Call Stack:
+    0.0003     294608   1. {main}() /usr/local/hosting/sites/mid/www/data/index.php:0
+    0.0017     417600   2. require_once('/usr/local/hosting/sites/mid/www/data/engine/init.php') /usr/local/hosting/sites/mid/www/data/index.php:35
+    0.0089     749992   3. include_once('/usr/local/hosting/sites/mid/www/data/engine/modules/cron.php') /usr/local/hosting/sites/mid/www/data/engine/init.php:52
+    0.0091     750968   4. set_vars() /usr/local/hosting/sites/mid/www/data/engine/modules/cron.php:22
+    0.0094     751272   5. fopen() /usr/local/hosting/sites/mid/www/data/engine/modules/functions.php:279
+
+
+Warning: fwrite() expects parameter 1 to be resource, boolean given in /usr/local/hosting/sites/mid/www/data/engine/modules/functions.php on line 280
+
+Call Stack:
+    0.0003     294608   1. {main}() /usr/local/hosting/sites/mid/www/data/index.php:0
+    0.0017     417600   2. require_once('/usr/local/hosting/sites/mid/www/data/engine/init.php') /usr/local/hosting/sites/mid/www/data/index.php:35
+    0.0089     749992   3. include_once('/usr/local/hosting/sites/mid/www/data/engine/modules/cron.php') /usr/local/hosting/sites/mid/www/data/engine/init.php:52
+    0.0091     750968   4. set_vars() /usr/local/hosting/sites/mid/www/data/engine/modules/cron.php:22
+    0.0097     752000   5. fwrite() /usr/local/hosting/sites/mid/www/data/engine/modules/functions.php:280
+
+
+Warning: fclose() expects parameter 1 to be resource, boolean given in /usr/local/hosting/sites/mid/www/data/engine/modules/functions.php on line 281
+
+Call Stack:
+    0.0003     294608   1. {main}() /usr/local/hosting/sites/mid/www/data/index.php:0
+    0.0017     417600   2. require_once('/usr/local/hosting/sites/mid/www/data/engine/init.php') /usr/local/hosting/sites/mid/www/data/index.php:35
+    0.0089     749992   3. include_once('/usr/local/hosting/sites/mid/www/data/engine/modules/cron.php') /usr/local/hosting/sites/mid/www/data/engine/init.php:52
+    0.0091     750968   4. set_vars() /usr/local/hosting/sites/mid/www/data/engine/modules/cron.php:22
+    0.0099     751800   5. fclose() /usr/local/hosting/sites/mid/www/data/engine/modules/functions.php:281
+
+
+Warning: fopen(/usr/local/hosting/sites/mid/www/data/engine/cache/informer_1_mid.tmp): failed to open stream: Permission denied in /usr/local/hosting/sites/mid/www/data/engine/modules/functions.php on line 340
+
+Call Stack:
+    0.0003     294608   1. {main}() /usr/local/hosting/sites/mid/www/data/index.php:0
+    0.0017     417600   2. require_once('/usr/local/hosting/sites/mid/www/data/engine/init.php') /usr/local/hosting/sites/mid/www/data/index.php:35
+    0.0717    1083128   3. include_once('/usr/local/hosting/sites/mid/www/data/engine/modules/rssinform.php') /usr/local/hosting/sites/mid/www/data/engine/init.php:366
+    0.0738    1150920   4. create_cache() /usr/local/hosting/sites/mid/www/data/engine/modules/rssinform.php:156
+    0.0740    1151328   5. fopen() /usr/local/hosting/sites/mid/www/data/engine/modules/functions.php:340
+
+
+Warning: fwrite() expects parameter 1 to be resource, boolean given in /usr/local/hosting/sites/mid/www/data/engine/modules/functions.php on line 341
+
+Call Stack:
+    0.0003     294608   1. {main}() /usr/local/hosting/sites/mid/www/data/index.php:0
+    0.0017     417600   2. require_once('/usr/local/hosting/sites/mid/www/data/engine/init.php') /usr/local/hosting/sites/mid/www/data/index.php:35
+    0.0717    1083128   3. include_once('/usr/local/hosting/sites/mid/www/data/engine/modules/rssinform.php') /usr/local/hosting/sites/mid/www/data/engine/init.php:366
+    0.0738    1150920   4. create_cache() /usr/local/hosting/sites/mid/www/data/engine/modules/rssinform.php:156
+    0.0740    1152560   5. fwrite() /usr/local/hosting/sites/mid/www/data/engine/modules/functions.php:341
+
+
+Warning: fclose() expects parameter 1 to be resource, boolean given in /usr/local/hosting/sites/mid/www/data/engine/modules/functions.php on line 342
+
+Call Stack:
+    0.0003     294608   1. {main}() /usr/local/hosting/sites/mid/www/data/index.php:0
+    0.0017     417600   2. require_once('/usr/local/hosting/sites/mid/www/data/engine/init.php') /usr/local/hosting/sites/mid/www/data/index.php:35
+    0.0717    1083128   3. include_once('/usr/local/hosting/sites/mid/www/data/engine/modules/rssinform.php') /usr/local/hosting/sites/mid/www/data/engine/init.php:366
+    0.0738    1150920   4. create_cache() /usr/local/hosting/sites/mid/www/data/engine/modules/rssinform.php:156
+    0.0742    1152504   5. fclose() /usr/local/hosting/sites/mid/www/data/engine/modules/functions.php:342
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+</style>
+<title>Материалы за 07.05.2012 &raquo; Медіахолдінг &quot;МИД&quot;</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<meta name="description" content="Медіахолдінг &quot;МИД&quot;" />
+<meta name="keywords" content="Медіахолдінг &quot;МИД&quot;" />
+<meta name="generator" content="DataLife Engine Nulled by M.I.D-Team (http://6dle.ru)" />
+<meta name="robots" content="all" />
+<meta name="revisit-after" content="1 days" />
+<link rel="search" type="application/opensearchdescription+xml" href="http://mid.m-tel.net/engine/opensearch.php" title="Медіахолдінг &quot;МИД&quot;" /><link rel="alternate" type="application/rss+xml" title="Медіахолдінг &quot;МИД&quot;" href="http://mid.m-tel.net/rss.xml" />
+<style type="text/css" media="all">@import url(/templates/mid/css/style.css);</style>
+<style type="text/css" media="all">@import url(/templates/mid/css/engine.css);</style>
+<style type="text/css" media="all">@import url(css/style.css);</style>
+<style type="text/css" media="all">@import url(css/engine.css);</style>
+<script src="/templates/mid/css/boxover.js"></script>
+</head>
+<body >
+<script language="javascript" type="text/javascript">
+<!--
+var dle_root       = '/';
+var dle_admin      = '';
+var dle_login_hash = '';
+var dle_skin       = 'mid';
+var dle_wysiwyg    = 'no';
+var quick_wysiwyg  = '0';
+var menu_short     = 'Быстрое редактирование';
+var menu_full      = 'Полное редактирование';
+var menu_profile   = 'Просмотр профиля';
+var menu_fnews     = 'Найти все публикации';
+var menu_fcomments = 'Найти все комментарии';
+var menu_send      = 'Отправить сообщение';
+var menu_uedit     = 'Админцентр';
+var dle_req_field  = 'Заполните все необходимые поля';
+var dle_del_agree  = 'Вы действительно хотите удалить? Данное действие невозможно будет отменить';
+var dle_del_news   = 'Удалить новость';
+var dle_login_hash = '';
+var allow_dle_delete_news   = false;
+//-->
+</script>
+<script type="text/javascript" src="/engine/ajax/menu.js"></script>
+<script type="text/javascript" src="/engine/ajax/dle_ajax.js"></script>
+<div id="loading-layer" style="display:none;font-family: Verdana;font-size: 11px;width:200px;height:50px;background:#FFF;padding:10px;text-align:center;border:1px solid #000"><div style="font-weight:bold" id="loading-layer-text">Загрузка. Пожалуйста, подождите...</div><br /><img src="/engine/ajax/loading.gif"  border="0" alt="" /></div>
+<div id="busy_layer" style="visibility: hidden; display: block; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background-color: gray; opacity: 0.1; -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=10)'; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=10); "></div>
+<script type="text/javascript" src="/engine/ajax/js_edit.js"></script>
+<div id="sin-bg">
+	<div align="center">
+	<div id="bg_white">
+<div id="volna"></div>
+<div id="shapka_1">
+<table border="0" cellspacing="0" cellpadding="0" align="right">
+  			<tr>
+    			<td>
+					<table border="0" cellspacing="0" cellpadding="0" align="right">
+						<tr>
+						</tr>
+					</table>     
+    			</td>
+  			</tr>
+	<tr>
+		<td>
+			<table border="0" cellspacing="0" cellpadding="0" align="right">
+				<tr>
+					<td id="down_menu">
+						<ul id="split_menu">
+							<li><a href="http://mid.m-tel.net/index.php?do=cat&category=tv"><span>Сатурн-TV</span></a></li> 
+							<li><a href="http://mid.m-tel.net/index.php?do=cat&category=mid-fm"><span>MID-FM</span></a></li> 
+							<li><a href="http://mid.m-tel.net/index.php?do=cat&category=uman"><span>газета "Умань"</span></a></li> 
+							<li><a href="http://mid.m-tel.net/index.php?do=cat&category=autoradio"><span>Авторадио</span></a></li> 
+							<li><a href="http://mid.m-tel.net/index.php?do=cat&category=retro"><span>Ретро-FM</span></a></li> 
+							<li><a href="http://aelita.m-tel.net/"><span>Реклама</span></a></li> 
+							<li><a href="http://mid.m-tel.net/?do=forum"><span>Форум</span></a></li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</div>
+
+<div id="shapka_2">
+<form onsubmit="javascript: showBusyLayer()" method="post" action=''><input type="hidden" name="do" value="search" /> <input type="hidden" name="subaction" value="search" />
+<tr>
+<td>
+
+</td>
+</tr>
+</table>
+	<table width="200" border="0" cellspacing="0" cellpadding="0" align="right" id="poisk">
+		<tr>
+			<td colspan="3"><!--dle_audio_begin:http://stream.m-tel.net:8000/mid-fm-->
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" "http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="275" height="50">
+<param name="movie" value="http://mid.m-tel.net/engine/classes/flashplayer/mp3.swf?mp3url=http://91.202.144.8:8000/mid-fm&#038;txt=mid-fm&#038;bgcolor=#C8C8A8"/>
+
+				<param name="allowFullScreen" value="true" />
+				<param name="quality" value="high" />
+				<param name="bgcolor" value="#E7E9D4" />
+				<param name="wmode" value="opaque" />
+<embed src="http://mid.m-tel.net/engine/classes/flashplayer/mp3.swf?mp3url=http://91.202.144.4:8000/mid-fm&#038;txt=mid-fm&#038;bgcolor=#C8C8A8" quality="high" bgcolor="#E7E9D4" wmode="opaque" width="275" height="50" align="" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+			  </object><!--dle_audio_end--><br /></td>
+			</tr>
+		<tr>
+			<td width="32"><img src="/templates/mid/images/poisk_1.gif" width="32" height="28" /></td>
+			<td width="135"><input name="story" type="text" class="poisk_2 стиль1" style="width:195px" /></td>
+			<td width="43"><input type="image" style="width:43px; height:28px; border:0" src="/templates/mid/images/poisk_3.gif" /></td>
+		</tr>
+	</table>
+</form>
+</div>
+
+
+
+<div id="osnova">
+<!--
+<a href="http://svadbauman.com.ua">
+<img src="/uploads/svadbauman728.gif"></a> -->
+<table border="0" cellspacing="0" cellpadding="0" id="cont" width="100%">
+<tr>
+<td id="left" valign="top">
+
+<div id="space5"></div>
+<div id="allmenu">
+<div id="block_nav"></div>
+<div id="bg_block">
+
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" >
+<tr><td align="left" onMouseOver="bgColor='#EEEEEC'" onMouseOut="bgColor='#FFFFFF'" bgcolor="#FFFFFF"><a href="/index.php" class="tabstyle"><img src="/templates/mid/images/strela.gif" width="5" height="9" align="bottom" border="0" />  Головна</a></td>
+<tr><td align="left" onMouseOver="bgColor='#EEEEEC'" onMouseOut="bgColor='#FFFFFF'" bgcolor="#FFFFFF"><a href="http://mid.m-tel.net/index.php?do=cat&category=tv" class="tabstyle"><img src="/templates/mid/images/strela.gif" width="5" height="9" align="bottom" border="0" /> Телеканал «Сатурн-TV»</a></td>
+</tr>
+<tr><td align="left" onMouseOver="bgColor='#EEEEEC'" onMouseOut="bgColor='#FFFFFF'" bgcolor="#FFFFFF"><a href="http://mid.m-tel.net/index.php?do=cat&category=mid-fm" class="tabstyle"><img src="/templates/mid/images/strela.gif" width="5" height="9" align="bottom" border="0" /> 
+Радіохвиля «МІД - FM»</a></td>
+</tr>
+<tr><td align="left" onMouseOver="bgColor='#EEEEEC'" onMouseOut="bgColor='#FFFFFF'" bgcolor="#FFFFFF"><a href="http://mid.m-tel.net/index.php?do=cat&category=uman" class="tabstyle"><img src="/templates/mid/images/strela.gif" width="5" height="9" align="bottom" border="0" /> Газета «Умань»</a></td>
+</tr>
+<tr><td align="left" onMouseOver="bgColor='#EEEEEC'" onMouseOut="bgColor='#FFFFFF'" bgcolor="#FFFFFF"><a href="http://mid.m-tel.net/index.php?do=cat&category=autoradio" class="tabstyle"><img src="/templates/mid/images/strela.gif" width="5" height="9" align="bottom" border="0" />  Авторадіо</a></td>
+</tr>
+<tr><td align="left" onMouseOver="bgColor='#EEEEEC'" onMouseOut="bgColor='#FFFFFF'" bgcolor="#FFFFFF"><a href="http://mid.m-tel.net/index.php?do=cat&category=retro" class="tabstyle"><img src="/templates/mid/images/strela.gif" width="5" height="9" align="bottom" border="0" />  Ретро-FM</a></td>
+</tr>
+<tr><td align="left" onMouseOver="bgColor='#EEEEEC'" onMouseOut="bgColor='#FFFFFF'" bgcolor="#FFFFFF"><a href="http://aelita.m-tel.net" class="tabstyle"><img src="/templates/mid/images/strela.gif" width="5" height="9" align="bottom" border="0" />  Реклама</a></td>
+</tr>
+
+<tr><td align="left" onMouseOver="bgColor='#EEEEEC'" onMouseOut="bgColor='#FFFFFF'" bgcolor="#FFFFFF"><a href="http://mid.m-tel.net/index.php?do=cat&category=photoalbomall" class="tabstyle"><img src="/templates/mid/images/strela.gif" width="5" height="9" align="bottom" border="0" />  Фотоальбом</a></td>
+</tr>
+<tr><td align="left" onMouseOver="bgColor='#EEEEEC'" onMouseOut="bgColor='#FFFFFF'" bgcolor="#FFFFFF"><a href="http://mid.m-tel.net/index.php?do=cat&category=inf" class="tabstyle"><img src="/templates/mid/images/strela.gif" width="5" height="9" align="bottom" border="0" />  Інформація</a></td>
+</tr>
+<tr><td align="left" onMouseOver="bgColor='#EEEEEC'" onMouseOut="bgColor='#FFFFFF'" bgcolor="#FFFFFF"><a href="http://mid.m-tel.net/?do=forum" class="tabstyle"><img src="/templates/mid/images/strela.gif" width="5" height="9" align="bottom" border="0" />  Форум</a></td>
+</tr>
+</table>
+</div>
+<div id="niz_block"></div>
+</div>
+<div id="space5"></div>
+<div id="allmenu">
+<div id="block_opr"></div>
+<div id="bg_block">
+<div id='vote-layer'><script language="javascript" type="text/javascript">
+<!--
+function doVote( event ){
+
+    var frm = document.vote;
+	var vote_check = '';
+
+    for (var i=0; i < frm.elements.length; i++) {
+        var elmnt = frm.elements[i];
+        if (elmnt.type=='radio') {
+            if(elmnt.checked == true){ vote_check = elmnt.value; break;}
+        }
+    }
+
+	var ajax = new dle_ajax();
+	ajax.onShow ('');
+	var varsString = "";
+	ajax.setVar("vote_id", "3" );
+	ajax.setVar("vote_action", event);
+	ajax.setVar("vote_check", vote_check);
+	ajax.setVar("vote_skin", "mid");
+	ajax.requestFile = dle_root + "engine/ajax/vote.php";
+	ajax.method = 'GET';
+	ajax.element = 'vote-layer';
+	ajax.sendAJAX(varsString);
+}
+//-->
+</script><div id='vote-layer'>
+                              <!-- Voting question start -->
+                              <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                  <td align="left"><strong>Коли ви частіше слухаєте радіо?</strong></td>
+                                </tr>
+                              </table>
+                              <!-- Voting question end -->
+                              <br />
+                              <!-- Voting answers start -->
+                              <form method="post" name="vote" action=''><div id="dle-vote"><div class="vote"><input name="vote_check" type="radio" checked="checked" value="0" /> Вранці</div><div class="vote"><input name="vote_check" type="radio"  value="1" /> Удень</div><div class="vote"><input name="vote_check" type="radio"  value="2" /> Ввечері</div><div class="vote"><input name="vote_check" type="radio"  value="3" /> Вночі</div><div class="vote"><input name="vote_check" type="radio"  value="4" /> Майже 24 години</div></div>
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                  <tr>
+                                    <td width="25" align="left"><img src="/templates/mid/images/spacer.gif" width="25" height="1" /></td>
+                                    <td align="left"><input type="hidden" name="vote_action" value="vote" />
+                                      <input type="hidden" name="vote_id" id="vote_id" value="1" />
+                                      <input type="submit" onclick="doVote('vote'); return false;" class="sinput" style="width:80px; height:18px;" value="Голосовать" /> <input type="submit" onclick="doVote('results'); return false;" class="sinput" style="width:80px; height:18px;" value="Результаты" /></td>
+                                  </tr>
+                                </table>
+                              </form>
+                              <!-- Voting answers end -->
+                              <!-- Voting results start -->
+                              <!-- Voting results end -->
+
+</div>  </div></div>
+<div id="niz_block"></div>
+</div>
+<div id="space5"></div>
+<div id="allmenu">
+<div id="block_fri"></div>
+<div id="bg_block" class="menu_text">
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr><td align="left" onMouseOver="bgColor='#EEEEEC'" onMouseOut="bgColor='#FFFFFF'" bgcolor="#FFFFFF"><a href="http://m-tel.net" class="tabstyle"><img src="/templates/mid/images/strela.gif" width="5" height="9" align="bottom" border="0" />Компанія "М-ТЕЛ"</a></td>
+</tr>
+</table>
+</div>
+<div id="niz_block"></div>
+</div>
+<div id="space5"></div>
+<div id="allmenu">
+<div id="block_ssf"></div>
+<div id="bg_block"><table width="100%" class="menu_text"><tr><td align="left" onMouseOver="bgColor='#EEEEEC'" onMouseOut="bgColor='#FFFFFF'" bgcolor="#FFFFFF">
+<br>
+<font size="+1"><b><a href="http://guzei.com/" title="Клуб РАДИО">Guzei.com - сайт о радио</a></b></font> 
+<br>
+<p ><a href="/mid-fm-oline.M3U" class="tabstyle"><img src="/templates/mid/images/strela.gif" width="5" height="9" align="bottom" border="0" /> 192 Kbit/s MP3</a><br /></p>
+  <p align="center">
+<script type="text/javascript" src="/engine/ajax/Clock.js"></script>
+<body OnLoad="StartClock()" OnUnload="KillClock()">
+<center><div id="clock" name="clock">Загрузка ...</div></center>
+</p></td>
+</tr></table></div>
+<div id="niz_block"></div>
+</div>
+<div id="space5"></div>
+<div id="allmenu">
+<div id="block_forum"></div>
+<div id="bg_block"><table width="100%" class="menu_text"><tr><td align="left" onMouseOver="bgColor='#EEEEEC'" onMouseOut="bgColor='#FFFFFF'" bgcolor="#FFFFFF">
+  <p align="center"></p></td>
+</tr></table></div>
+<div id="niz_block"></div>
+</div>
+
+<div id="space5"></div>
+<div id="allmenu">
+<div id="block_sta"></div>
+<div id="bg_block" class="menu_text">
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr><td align="center" bgcolor="#FFFFFF"><div id="calendar-layer"><table id="calendar" cellpadding="3" class="calendar"><tr><th colspan="7"><center><b><a class="monthlink" onclick="doCalendar('04','2012'); return false;" href="http://mid.m-tel.net/2012/04/" title="Предыдущий месяц">&laquo;</a>&nbsp;&nbsp;&nbsp;&nbsp;Май 2012&nbsp;&nbsp;&nbsp;&nbsp;<a class="monthlink" onclick="doCalendar('06','2012'); return false;" href="http://mid.m-tel.net/2012/06/" title="Следующий месяц">&raquo;</a></b></center></th></tr><tr><th>Пн</th><th>Вт</th><th>Ср</th><th>Чт</th><th>Пт</th><th class="weekday">Сб</th><th class="weekday">Вс</th></tr><tr><td colspan="1">&nbsp;</td><td class="day"><center>1</center></td><td class="day-active-v"><a class="day-active-v" href="http://mid.m-tel.net/2012/05/02/" title="Все посты за 02 мая 2012"><center>2</center></a></td><td class="day-active-v"><a class="day-active-v" href="http://mid.m-tel.net/2012/05/03/" title="Все посты за 03 мая 2012"><center>3</center></a></td><td class="day-active-v"><a class="day-active-v" href="http://mid.m-tel.net/2012/05/04/" title="Все посты за 04 мая 2012"><center>4</center></a></td><td class="weekday"><center>5</center></td><td class="weekday"><center>6</center></td></tr><tr><td class="day-active-v"><a class="day-active-v" href="http://mid.m-tel.net/2012/05/07/" title="Все посты за 07 мая 2012"><center>7</center></a></td><td class="day"><center>8</center></td><td class="day"><center>9</center></td><td class="day-active-v"><a class="day-active-v" href="http://mid.m-tel.net/2012/05/10/" title="Все посты за 10 мая 2012"><center>10</center></a></td><td class="day"><center>11</center></td><td class="day-active"><a class="day-active" href="http://mid.m-tel.net/2012/05/12/" title="Все посты за 12 мая 2012"><center>12</center></a></td><td class="weekday"><center>13</center></td></tr><tr><td class="day-active-v"><a class="day-active-v" href="http://mid.m-tel.net/2012/05/14/" title="Все посты за 14 мая 2012"><center>14</center></a></td><td class="day"><center>15</center></td><td class="day-active-v"><a class="day-active-v" href="http://mid.m-tel.net/2012/05/16/" title="Все посты за 16 мая 2012"><center>16</center></a></td><td class="day-active-v"><a class="day-active-v" href="http://mid.m-tel.net/2012/05/17/" title="Все посты за 17 мая 2012"><center>17</center></a></td><td class="day"><center>18</center></td><td class="weekday"><center>19</center></td><td class="weekday"><center>20</center></td></tr><tr><td class="day-active-v"><a class="day-active-v" href="http://mid.m-tel.net/2012/05/21/" title="Все посты за 21 мая 2012"><center>21</center></a></td><td class="day"><center>22</center></td><td class="day-active-v"><a class="day-active-v" href="http://mid.m-tel.net/2012/05/23/" title="Все посты за 23 мая 2012"><center>23</center></a></td><td class="day"><center>24</center></td><td class="day"><center>25</center></td><td class="day-active"><a class="day-active" href="http://mid.m-tel.net/2012/05/26/" title="Все посты за 26 мая 2012"><center>26</center></a></td><td class="weekday"><center>27</center></td></tr><tr><td class="day-active-v"><a class="day-active-v" href="http://mid.m-tel.net/2012/05/28/" title="Все посты за 28 мая 2012"><center>28</center></a></td><td class="day"><center>29</center></td><td class="day"><center>30</center></td><td class="day-active-v"><a class="day-active-v" href="http://mid.m-tel.net/2012/05/31/" title="Все посты за 31 мая 2012"><center>31</center></a></td><td colspan="3">&nbsp;</td></tr></table></div></td>
+</tr>
+</table>
+</div>
+<div id="niz_block"></div>
+</div>
+<td id="center" valign="top">
+
+<div id="space10"></div>
+<span id='dle-info'></span><div id="newz">
+<span id='dle-info'></span><div id='dle-content'><table width="100%" border="0"  cellspacing="0" cellpadding="0" >
+<tr><td width="100%"><tr><td>
+<table  border="0" width="100%" cellspacing="0" cellpadding="0" align="left" >
+<tr>
+<td width="51" height="50" background="/templates/mid/images/New_4.png" style="background-repeat:no-repeat;background-position:left"></td>
+<td align="left" background="/templates/mid/images/New_6.png" class="crt2"><a href="http://mid.m-tel.net/tv/394-spogadi-veteraniv-umanskogo-rajjonu.html">СПОГАДИ ВЕТЕРАНІВ УМАНСЬКОГО РАЙОНУ</a><br>Автор: <a onclick="return dropdownmenu(this, event, UserNewsMenu('href=&quot;http://mid.m-tel.net/user/%D0%E5%E4%E0%EA%F6%B3%FF/&quot;', 'href=&quot;http://mid.m-tel.net/user/%D0%E5%E4%E0%EA%F6%B3%FF/news/&quot;','%D0%E5%E4%E0%EA%F6%B3%FF', '5'), '170px')" onMouseout="delayhidemenu()" href="http://mid.m-tel.net/user/%D0%E5%E4%E0%EA%F6%B3%FF/">Редакція</a> | Категория: <a href="http://mid.m-tel.net/tv/">Сатурн-TV</a> | Просмотров: 1294 | 7 мая 2012 |</td>
+<td width="17" height="50" background="/templates/mid/images/New_5.png" style="background-repeat:no-repeat;background-position:right"></td>
+</tr>
+</table>
+</td></tr>
+<tr><td>
+<table  border="0" width="100%" cellspacing="0" cellpadding="0" align="left">
+<tr>
+  <td  background="/templates/mid/images/New_7.png" style="background-position:left;"></td>
+  <td   background="/templates/mid/images/New_9.jpg" class="new"><br><div id='news-id-394'><div align="center"><!--dle_video_begin:http://mid.m-tel.net/uploads/Video/Spogadi.flv--><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" "http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="425" height="325">
+				<param name="movie" value="http://mid.m-tel.net/engine/classes/flashplayer/flv_player.swf?config={embedded:true,playList:[{overlayId:'play',url:''},{start:0,url:'http://mid.m-tel.net/uploads/Video/Spogadi.flv?source=1'}],initialScale:'fit',showMenu:false,controlBarGloss:'low',controlBarBackgroundColor:-1,controlsOverVideo:'ease',startingBufferLength:1,showOnLoadBegin:true,loop:false,autoRewind:true,autoBuffering:true,autoPlay:false,showWatermark:'always',watermarkUrl:'/templates/mid/dleimages/flv_watermark.png',watermarkLinkUrl:''}" />
+				<param name="allowFullScreen" value="true" />
+				<param name="quality" value="high" />
+				<param name="bgcolor" value="#000000" />
+				<param name="wmode" value="transparent" />
+				<embed src="http://mid.m-tel.net/engine/classes/flashplayer/flv_player.swf?config={embedded:true,playList:[{overlayId:'play',url:''},{start:0,url:'http://mid.m-tel.net/uploads/Video/Spogadi.flv?source=1'}],initialScale:'fit',showMenu:false,controlBarGloss:'low',controlBarBackgroundColor:-1,controlsOverVideo:'ease',startingBufferLength:1,showOnLoadBegin:true,loop:false,autoRewind:true,autoBuffering:true,autoPlay:false,showWatermark:'always',watermarkUrl:'/templates/mid/dleimages/flv_watermark.png',watermarkLinkUrl:''}" quality="high" bgcolor="#000000" wmode="transparent" allowFullScreen="true" width="425" height="325" align="middle" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+				</object><!--dle_video_end--></div></div><br /></td>
+  <td  background="/templates/mid/images/New_8.png" style="background-position:right">&nbsp;</td>
+</tr>
+<tr>
+  <td  background="/templates/mid/images/New_7.png" style="background-position:left;"></td>
+  <td   background="/templates/mid/images/New_9.jpg" class="ra" ><div  id="concom" class="whitetext" >
+<br>
+<a href="http://mid.m-tel.net/tv/394-spogadi-veteraniv-umanskogo-rajjonu.html">Читать дальше...</a></div></td>
+  <td  background="/templates/mid/images/New_8.png" style="background-position:right">&nbsp;</td>
+</tr>
+<tr>
+<td width="6"  background="/templates/mid/images/New_7.png" style="background-position:left;"></td>
+<td   background="/templates/mid/images/New_9.jpg" style="padding-left:20px;" > <span id='ratig-layer-394'><div class="rating" style="float:left;">
+		<ul class="unit-rating">
+		<li class="current-rating" style="width:85px;">85</li>
+		<li><a href="#" title="Плохо" class="r1-unit" onclick="dleRate('1', '394'); return false;">1</a></li>
+		<li><a href="#" title="Приемлемо" class="r2-unit" onclick="dleRate('2', '394'); return false;">2</a></li>
+		<li><a href="#" title="Средне" class="r3-unit" onclick="dleRate('3', '394'); return false;">3</a></li>
+		<li><a href="#" title="Хорошо" class="r4-unit" onclick="dleRate('4', '394'); return false;">4</a></li>
+		<li><a href="#" title="Отлично" class="r5-unit" onclick="dleRate('5', '394'); return false;">5</a></li>
+		</ul>
+</div></span>
+ </td>
+<td width="6"  background="/templates/mid/images/New_8.png" style="background-position:right">&nbsp;</td>
+</tr>
+</table>
+</td></tr>
+
+<tr><td>
+<table  border="0" width="100%"  cellspacing="0" cellpadding="0" align="left" >
+<tr>
+<td width="18" height="18" background="/templates/mid/images/New_10.png" style="background-repeat:no-repeat;background-position:left"></td>
+<td width="1147" background="/templates/mid/images/New_12.png" style="background-repeat:repeat-x;"></td>
+
+<td width="18" height="18" background="/templates/mid/images/New_11.png" style="background-repeat:no-repeat;background-position:right"></td>
+</tr>
+</table>
+</td></tr>
+
+
+</td></tr>
+</table><br><table width="100%" border="0"  cellspacing="0" cellpadding="0" >
+<tr><td width="100%"><tr><td>
+<table  border="0" width="100%" cellspacing="0" cellpadding="0" align="left" >
+<tr>
+<td width="51" height="50" background="/templates/mid/images/New_4.png" style="background-repeat:no-repeat;background-position:left"></td>
+<td align="left" background="/templates/mid/images/New_6.png" class="crt2"><a href="http://mid.m-tel.net/tv/392-vistavka-studentskikh-robit-udpu.html">ВИСТАВКА СТУДЕНТСЬКИХ РОБІТ УДПУ</a><br>Автор: <a onclick="return dropdownmenu(this, event, UserNewsMenu('href=&quot;http://mid.m-tel.net/user/%D0%E5%E4%E0%EA%F6%B3%FF/&quot;', 'href=&quot;http://mid.m-tel.net/user/%D0%E5%E4%E0%EA%F6%B3%FF/news/&quot;','%D0%E5%E4%E0%EA%F6%B3%FF', '5'), '170px')" onMouseout="delayhidemenu()" href="http://mid.m-tel.net/user/%D0%E5%E4%E0%EA%F6%B3%FF/">Редакція</a> | Категория: <a href="http://mid.m-tel.net/tv/">Сатурн-TV</a> | Просмотров: 1975 | 7 мая 2012 |</td>
+<td width="17" height="50" background="/templates/mid/images/New_5.png" style="background-repeat:no-repeat;background-position:right"></td>
+</tr>
+</table>
+</td></tr>
+<tr><td>
+<table  border="0" width="100%" cellspacing="0" cellpadding="0" align="left">
+<tr>
+  <td  background="/templates/mid/images/New_7.png" style="background-position:left;"></td>
+  <td   background="/templates/mid/images/New_9.jpg" class="new"><br><div id='news-id-392'><div align="center"><!--dle_video_begin:http://mid.m-tel.net/uploads/Video/StaraYman.flv--><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" "http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="425" height="325">
+				<param name="movie" value="http://mid.m-tel.net/engine/classes/flashplayer/flv_player.swf?config={embedded:true,playList:[{overlayId:'play',url:''},{start:0,url:'http://mid.m-tel.net/uploads/Video/StaraYman.flv?source=1'}],initialScale:'fit',showMenu:false,controlBarGloss:'low',controlBarBackgroundColor:-1,controlsOverVideo:'ease',startingBufferLength:1,showOnLoadBegin:true,loop:false,autoRewind:true,autoBuffering:true,autoPlay:false,showWatermark:'always',watermarkUrl:'/templates/mid/dleimages/flv_watermark.png',watermarkLinkUrl:''}" />
+				<param name="allowFullScreen" value="true" />
+				<param name="quality" value="high" />
+				<param name="bgcolor" value="#000000" />
+				<param name="wmode" value="transparent" />
+				<embed src="http://mid.m-tel.net/engine/classes/flashplayer/flv_player.swf?config={embedded:true,playList:[{overlayId:'play',url:''},{start:0,url:'http://mid.m-tel.net/uploads/Video/StaraYman.flv?source=1'}],initialScale:'fit',showMenu:false,controlBarGloss:'low',controlBarBackgroundColor:-1,controlsOverVideo:'ease',startingBufferLength:1,showOnLoadBegin:true,loop:false,autoRewind:true,autoBuffering:true,autoPlay:false,showWatermark:'always',watermarkUrl:'/templates/mid/dleimages/flv_watermark.png',watermarkLinkUrl:''}" quality="high" bgcolor="#000000" wmode="transparent" allowFullScreen="true" width="425" height="325" align="middle" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+				</object><!--dle_video_end--></div></div><br /></td>
+  <td  background="/templates/mid/images/New_8.png" style="background-position:right">&nbsp;</td>
+</tr>
+<tr>
+  <td  background="/templates/mid/images/New_7.png" style="background-position:left;"></td>
+  <td   background="/templates/mid/images/New_9.jpg" class="ra" ><div  id="concom" class="whitetext" >
+<br>
+<a href="http://mid.m-tel.net/tv/392-vistavka-studentskikh-robit-udpu.html">Читать дальше...</a></div></td>
+  <td  background="/templates/mid/images/New_8.png" style="background-position:right">&nbsp;</td>
+</tr>
+<tr>
+<td width="6"  background="/templates/mid/images/New_7.png" style="background-position:left;"></td>
+<td   background="/templates/mid/images/New_9.jpg" style="padding-left:20px;" > <span id='ratig-layer-392'><div class="rating" style="float:left;">
+		<ul class="unit-rating">
+		<li class="current-rating" style="width:0px;">0</li>
+		<li><a href="#" title="Плохо" class="r1-unit" onclick="dleRate('1', '392'); return false;">1</a></li>
+		<li><a href="#" title="Приемлемо" class="r2-unit" onclick="dleRate('2', '392'); return false;">2</a></li>
+		<li><a href="#" title="Средне" class="r3-unit" onclick="dleRate('3', '392'); return false;">3</a></li>
+		<li><a href="#" title="Хорошо" class="r4-unit" onclick="dleRate('4', '392'); return false;">4</a></li>
+		<li><a href="#" title="Отлично" class="r5-unit" onclick="dleRate('5', '392'); return false;">5</a></li>
+		</ul>
+</div></span>
+ </td>
+<td width="6"  background="/templates/mid/images/New_8.png" style="background-position:right">&nbsp;</td>
+</tr>
+</table>
+</td></tr>
+
+<tr><td>
+<table  border="0" width="100%"  cellspacing="0" cellpadding="0" align="left" >
+<tr>
+<td width="18" height="18" background="/templates/mid/images/New_10.png" style="background-repeat:no-repeat;background-position:left"></td>
+<td width="1147" background="/templates/mid/images/New_12.png" style="background-repeat:repeat-x;"></td>
+
+<td width="18" height="18" background="/templates/mid/images/New_11.png" style="background-repeat:no-repeat;background-position:right"></td>
+</tr>
+</table>
+</td></tr>
+
+
+</td></tr>
+</table><br></div></div>
+</td>
+<td id="right" valign="top" ></td>
+</tr>
+</table>
+</div>
+<div id="space20">
+</div>
+<div id="niz">
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td id="niz_1"></td>
+<td id="niz_2" align="left">
+<table border="0" cellpadding="0" cellspacing="0" class="menu_text" height="64">
+<tr>
+<td>2009 © <a href="http://www.m-tel.net"> M-TEL</a> <b>Site</b>
+</td>
+<td width="5"></td>
+<td width="1" bgcolor="#D8D9CB"></td>
+<td width="5"></td>
+<td></td>
+</tr>
+</table>
+</td>
+<td id="niz_3"></td></tr></table>
+<div id="space10"></div>
+<div><center>
+</center></div>
+<div id="space10"></div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+Warning: Unknown: open(/usr/local/hosting/sites/mid/www/data/tmp/sess_3ns41bi1t1429shokugk2kc026, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/usr/local/hosting/sites/mid/www/data/tmp) in Unknown on line 0
+
