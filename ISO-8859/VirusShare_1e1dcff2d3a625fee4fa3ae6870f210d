@@ -1,0 +1,125 @@
+  /*
+ *代码开发：北京盛世阳光公司 
+ * Copyright(c) 2000-2008, 北京盛世阳光公司.
+ * info@gonet.com.cn
+ * http://www.gonet.com.cn
+ * 版本：V1.659
+ */
+
+/*--------------此CSS为测试使用，可视化的盒子----------------*/
+.test
+{
+	border:1px #000 solid;
+}
+
+/*--------------全局样式----------------*/
+body
+{
+	font-family: 宋体,Arial;
+	font-size: 12px;
+	line-height: 20px;
+	width: 1003px;
+	margin: 0 auto;
+	color: #5b5959;
+}
+*
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+img
+{
+	border: 0;
+}
+input
+{
+	height: 22px;
+	border: 1px solid #7f9db9;
+	background-color: #FFF;
+}
+a 
+{
+behavior:url(/style/js/blur.htc)/*去掉链接的虚框*/
+}
+a:link,a:visited
+{
+	color: #5b5959;
+	text-decoration: none;
+}
+a:hover,a:active
+{
+	color: #5b5959;
+	text-decoration: underline;
+}
+/*--------------头部样式----------------*/
+#header
+{
+	height: 80px;
+	clear:both;
+	margin:33px 0px 0px 0px;
+	background:url(/images/top_bg.jpg) no-repeat left bottom;
+}
+
+/*--------------三列样式----------------*/
+#main_con
+{
+	clear: left;
+	background:url(/images/main_bg.jpg) no-repeat left top;
+	margin:0px 0px 10px 0px;
+}
+#main_con:after,#left_con:after,#right_con:after,#mid_con:after
+{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+/*--------------------------------------------------------------左侧*/
+#main_con #left_con
+{
+	width: 207px;
+	float: left;
+	margin:0px 0px 0px 23px;
+}
+/*--------------------------------------------------------------右侧*/
+#main_con #right_con
+{
+	
+	width: 692px;
+	margin:0px 0px 0px 288px;	
+}
+
+
+/*--------------版权信息样式----------------*/
+#copyright
+{
+	clear:both;
+	height:78px;
+	text-align:center;
+	font-family:"黑体";
+	background:url(/images/foot_bg.jpg) repeat-x;
+}
+/*--------------清除浮动、清除边框----------------*/
+.clearleft
+{
+	clear: left;
+}
+.clearright
+{
+	clear: right;
+}
+.clearboth
+{
+	clear: both;
+}
+.clearborder
+{
+	border:0;
+}
+/*--------------全局样式结束----------------*/
+/*--------------没有必要情况下请不要在此文档中增加样式，对应每个文件名称建立对应的样式----------------*/
+
+
