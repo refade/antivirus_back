@@ -1,0 +1,414 @@
+var tabList = {
+  /*商家活动&平行进口车*/
+  modSjpx: [".modSjpx .tab-ctrl>.tab", ".modSjpx .content .con"],
+  /*同价格降价排行*/
+  modPriceCar: [".modPriceCar .btns em", ".modPriceCar .tbA", "click"],
+  modPriceCarA: [
+    ".modPriceCarA .tab-control span",
+    ".modPriceCarA .tab-content ul"
+  ],
+  modPriceCarB: [
+    ".modPriceCarB .tab-control span",
+    ".modPriceCarB .tab-content ul"
+  ],
+  /*本地车讯*/
+
+  modBdcx: ["#modBdcx .tab", "#modBdcx .newList-a"],  
+  /*同级别车型降价排行&汽车销量*/
+
+  modLevelCar: [".modLevelCar .btns em", ".modLevelCar .tbA", "click"],
+  modLevelCarA: [
+    ".modLevelCarA .tab-control span",
+    ".modLevelCarA .tab-content ul"
+  ],
+  modLevelCarB: [
+    ".modLevelCarB .tab-control span",
+    ".modLevelCarB .tab-content ul"
+  ],
+  modQqxl: [".modQqxl .tab-control span", ".modQqxl .con"],
+  modQqxlli: [".modQqxl .con li"],
+  /*车主服务*/
+
+  modCzff: [".modCzff .subTab .tab", ".modCzff .contentDiv"],
+  /*热卖经销商*/
+
+  modRmjxs: [".modRmjxs .thA .tab", ".modRmjxs .tbA>div"],
+  /*最热关注*/
+
+  modZrgz: [".modZrgz .tab-control span", ".modZrgz .tab-content .contentdiv"],
+  /*论坛*/
+
+  modLt: [".modLt .modTabA .thA .tab", ".modLt .tab-content .newList-a"],
+  /*链接*/
+
+  modLink: [".modLink .tab-ctrl .tab", ".modLink .tab-con .con"]
+};
+// 函数去抖
+function debounce(fn, idle) {
+  var last = null;
+  return function() {
+    var _this = this,
+      args = arguments;
+    clearTimeout(last);
+    last = setTimeout(function() {
+      fn.call(_this, args);
+    }, idle);
+  };
+}
+//tabFn S
+function tabFn(c, e, event, fn) {
+  event = event ? event : "mouseenter";
+  var timer = null;
+  $(c).on(event, function() {
+    clearTimeout(timer);
+    _this = $(this);
+    timer = setTimeout(function() {
+      var i = _this.index();
+      _this.siblings().removeClass("current");
+      _this.addClass("current");
+      if ($(e).length > 0) {
+        $(e)
+          .addClass("hide")
+          .eq(i)
+          .removeClass("hide");
+      }
+      fn && fn();
+    }, 150);
+  });
+  if (event == "mouseenter") {
+    $(c).on("mouseout", function() {
+      clearTimeout(timer);
+    });
+  }
+}
+//tabFn B
+function tabFnB(c, e, event, fn) {
+  event = event ? event : "mouseenter";
+  $(document).on(event, c, function() {
+    var i = $(this).index();
+    $(this)
+      .siblings()
+      .removeClass("current");
+    $(this).addClass("current");
+    if ($(e).length > 0) {
+      $(e)
+        .addClass("hide")
+        .eq(i)
+        .removeClass("hide");
+    }
+    fn && fn(this);
+  });
+}
+
+//sliderFn
+function sliderFn(id, con, autoPlay, x, effect) {
+  effect = effect ? "slide" : "base";
+  autoPlay = autoPlay ? true : false;
+  x = x ? "y" : "x";
+  $(id).hover(
+    function() {
+      $(id)
+        .find(".s-btn-l")
+        .show();
+      $(id)
+        .find(".s-btn-r")
+        .show();
+    },
+    function() {
+      $(id)
+        .find(".s-btn-l")
+        .hide();
+      $(id)
+        .find(".s-btn-r")
+        .hide();
+    }
+  );
+  return new Slide({
+    target: $(con),
+    prevBtn: $(id).find(".s-btn-l"),
+    nextBtn: $(id).find(".s-btn-r"),
+    effect: effect,
+    autoPlay: autoPlay,
+    direction: x,
+    stay: "3000",
+    // merge: true,
+    onchange: function(curPage, prevPage, nextPage) {
+      replceSrc(this.target[nextPage], "src1");
+      replceSrc(this.target[curPage], "src1");
+    }
+  });
+}
+
+function replceSrc(target, type) {
+  var imgs = $("img", target);
+  if (!imgs) return;
+  for (var i = 0, len = imgs.length; i < len; i++) {
+    var img = $(imgs).eq(i);
+    if ($(img).attr(type) && !$(img).attr("loaded")) {
+      var picUrl = $(img).attr(type);
+      $(img).attr("src", picUrl);
+      $(img).attr("loaded", "true");
+    }
+  }
+}
+
+var jsList_ = [
+  {
+    id: "Jslide_content",
+    js: function() {
+      sliderFn("#Jslide_content", "#Jslide_content .content .con", 1, 0, 1);
+    }
+  },
+  {
+    id: "modSjpx",
+    js: function() {
+      tabFn(
+        tabList["modSjpx"][0],
+        tabList["modSjpx"][1],
+        tabList["modSjpx"][2]
+      );
+      SqPxInit();
+      tabFnB(
+        tabList["modBdcx"][0],
+        tabList["modBdcx"][1],
+        tabList["modBdcx"][2]
+      );
+
+      'function' == typeof showCoupnData && showCoupnData(); // 优惠券
+    }
+  },
+  {
+    id: "modPriceCar",
+    js: function() {
+      carPriceListInit();
+      tabFn(
+        tabList["modPriceCar"][0],
+        tabList["modPriceCar"][1],
+        tabList["modPriceCar"][2],
+        carPriceListInit
+      );
+      tabFn(
+        tabList["modPriceCarA"][0],
+        tabList["modPriceCarA"][1],
+        tabList["modPriceCarA"][2]
+      );
+      tabFn(
+        tabList["modPriceCarB"][0],
+        tabList["modPriceCarB"][1],
+        tabList["modPriceCarB"][2]
+      );
+    }
+  },
+  {
+    id: "modLevelCar",
+    js: function() {
+      carLevelListInit();
+      tabFn(
+        tabList["modLevelCar"][0],
+        tabList["modLevelCar"][1],
+        tabList["modLevelCar"][2],
+        carLevelListInit
+      );
+      tabFn(
+        tabList["modLevelCarA"][0],
+        tabList["modLevelCarA"][1],
+        tabList["modLevelCarA"][2]
+      );
+      tabFn(
+        tabList["modLevelCarB"][0],
+        tabList["modLevelCarB"][1],
+        tabList["modLevelCarB"][2]
+      );
+    }
+  },
+  {
+    id: "modLt",
+    js: function() {
+      tabFn(tabList["modLt"][0], tabList["modLt"][1], tabList["modLt"][2]);
+    }
+  },
+  {
+    id: "modJxstj",
+    js: function() {
+      getJxsData();
+      tabFn(
+        tabList["modLink"][0],
+        tabList["modLink"][1],
+        tabList["modLink"][2]
+      );
+    }
+  },
+  {
+    id: "modQqxl",
+    js: function() {
+      tabFn(
+        tabList["modQqxl"][0],
+        tabList["modQqxl"][1],
+        tabList["modQqxl"][2],
+        qcxlTab
+      );
+      tabFnB(
+        tabList["modQqxlli"][0],
+        tabList["modQqxlli"][1],
+        tabList["modQqxlli"][2]
+      );
+      qcxlTab();
+    }
+  },
+  {
+    id: "modCzff",
+    js: function() {
+      sliderFn("#modCzff-1", "#modCzff #modCzff-1 .con", 0);
+      sliderFn("#modCzff-2", "#modCzff #modCzff-2 .con", 0);
+      sliderFn("#modCzff-3", "#modCzff #modCzff-3 .con", 0);
+      sliderFn("#modCzff-4", "#modCzff #modCzff-4 .con", 0);
+      tabFn(
+        tabList["modCzff"][0],
+        tabList["modCzff"][1],
+        tabList["modCzff"][2]
+      );
+    }
+  },
+  {
+    id: "modRmjxs",
+    js: function() {
+      xsListInit();
+      tabFn(
+        tabList["modRmjxs"][0],
+        tabList["modRmjxs"][1],
+        tabList["modRmjxs"][2]
+      );
+    }
+  },
+  {
+    id: "modZssj",
+    js: function() {
+      ZsPxInit();
+    }
+  },
+  {
+    id: "modPxjkc",
+    js: function() {}
+  },
+  {
+    id: "modRmsj",
+    js: function() {
+      sliderFn("#modRmsj", ".modRmjxs #modRmsj ul", 0);
+      //热卖商家推荐 样式
+      (function() {
+        var num = $("#modRmsj .control li").length;
+        if (num <= 1) $("#modRmsj .s-btn-box").hide();
+      })();
+    }
+  },
+  {
+    id: "modZrgz",
+    js: function() {
+      tabFn(
+        tabList["modZrgz"][0],
+        tabList["modZrgz"][1],
+        tabList["modZrgz"][2]
+      );
+      // 最热关注 第一个显示
+      $("#modZrgz .tbA .tab-control span:eq(0)").addClass("current");
+      $("#modZrgz .tbA .tab-content .contentdiv:eq(0)").removeClass("hide");
+    }
+  },
+  {
+    id: "modJht",
+    js: function() {
+      sliderFn("#modJht", " #modJht .tbA ul", 0);
+    }
+  },
+  {
+    id: "modHotcar",
+    js: function() {
+      sliderFn("#modHotcar", " #modHotcar .content", 0);
+    }
+  },
+  {
+    id: "J-esc-wrap",
+    js: function() {
+      getSerialData();
+    }
+  }
+];
+
+var lazy = Lazy.create({
+  jsList: jsList_,
+  lazyId: "lazyLoad",
+  trueSrc: "#src",
+  offset: 300,
+  delay: 100,
+  delay_tot: 1000,
+  webpFunc: function(src) {
+    var arrTest = src.match(
+      /^(https?:\/\/img(|0|w|0w)\.pc(?:auto|online)\.com\.cn\/(?:pcauto\/(?:\w+\/)*?|images\/pcautogallery\/modle\/article\/)(\d{4,6})[^.]+\.)(jpg|png)$/i
+    );
+    if (arrTest) {
+      if (arrTest[2] == "" || arrTest[2] == "0") {
+        var sYear = "" + arrTest[3],
+          nYearLen = sYear.length;
+        if (nYearLen == 5) {
+          sYear = sYear.substr(2, 2) + "0" + sYear.substr(4);
+        } else if (nYearLen == 6) {
+          sYear = sYear.substr(2);
+        }
+        if (parseInt(sYear) > 1702) {
+          return arrTest[1] + "webp";
+        } else {
+          return src;
+        }
+      } else {
+        return arrTest[0] + ".webp";
+      }
+    } else {
+      return src;
+    }
+  }
+});
+
+/*绑定events*/
+function addEvents() {
+  $(".btn-xiaomi").on("click", function() {
+    $(".xm-pop").show();
+  });
+  $(".xm-pop .close,.xm-pop .closeBtn").on("click", function(event) {
+    event.stopPropagation();
+    $(".xm-pop").hide();
+    $(".xm-pop .error").hide();
+  });
+}
+
+/*520入口*/
+function enter520() {
+  window.onload = function() {
+    //车市页，导航标签旁
+    var html = '<a href="http://www1.pcauto.com.cn/gz20180520/520/pc/index.html#ad=12330" style="background:#ff4444; color:#fff; padding:0 4px; font-size:14px;position:absolute;top:-13px;right:-32px; height:25px; line-height:25px;">购车优惠</a>';
+
+    $("#chaMenu").css("overflow", "visible");
+    $("#chaMenu ul li").eq(1).css("position", "relative");
+    $("#chaMenu ul li").eq(1).append(html);
+
+      //车市页，汽车商城入口
+      var html3 = '<li>'+
+              '<p class="hd">'+
+                '<em>活动</em>'+
+                '<a href="http://www1.pcauto.com.cn/gz20180520/520/pc/index.html#ad=12333" target="_blank">520购车节</a>'+
+              '</p>'+
+              '<div class="bd" style="height:74px;">'+
+                '<a href="http://www1.pcauto.com.cn/gz20180520/520/pc/index.html#ad=12333" target="_blank" style="display:block;width:100%;height:100%;">'+
+                  '<img style="display:block;width:100%;height:100%;" src="http://www1.pcauto.com.cn/zt/gz20180507520entrance/images/images/300_74.jpg">'+
+                '</a>'+
+              '</div>'+
+              '</li>';
+
+      $("#modSchd ul:first-child li:first-child").replaceWith(html3);
+  }
+}
+
+$().ready(function() {
+  addEvents();
+  Lazy.init(lazy);
+  enter520();
+});
