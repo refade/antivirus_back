@@ -1,0 +1,794 @@
+
+// ============================================================================
+// 
+// ½Ã½ºÅÛ¸í   : GAPCK
+// È­ ÀÏ ¸í   : Common.js 
+// ±â´ÉÁ¤ÀÇ   : °¢ ÆäÀÌÁö¸¶´Ù ÇÊ¿äÇÑ °øÅëº¯¼ö Á¤ÀÇ 
+// ±â´É¼³¸í   : 
+// ÀÛ ¼º ÀÚ   : 
+// ÀÛ ¼º ÀÏ   : 2004. 10.
+// Æ¯±â»çÇ×   : 
+// º¯°æÀÌ·Â   : 
+//
+// ============================================================================
+
+
+
+//***************************************************************************
+// Function : checkSpace
+// Description : ¹®ÀÚ¿­ Áß°£¿¡ °ø¹éÀÌ ÀÖ´ÂÁö ¿©ºÎ È®ÀÎ
+// Argument : str - string
+// Return : true/false(1/0)
+// Event : 
+//***************************************************************************
+function checkSpace( str )
+{
+     if(str.search(/\s/) != -1){
+     	return 1;
+     }
+     else {
+        return 0;
+     }
+}
+
+//***************************************************************************
+// Function : GetCharLength
+// Description : ¹®ÀÚ¼ÂÀ¸·Î º¯°æµÈ ¹®ÀÚ¸¦ ºñ±³ ÇÑ±Û¿©ºÎ È®ÀÎ
+// Argument	: chStr - string
+// Return : 2(ÇÑ±Û) / (1)¿µ¹®¹×¼ýÀÚ
+// Event : 
+//***************************************************************************
+function GetCharLength(chStr) {
+	if (chStr.substring(0, 2) == '%u') {
+		if (chStr.substring(2, 4) == '00')
+			return 1;
+		else
+			return 2;        //ÇÑ±Û 
+	} else if (chStr.substring(0, 1) == '%') {
+		if (parseInt(chStr.substring(1, 3), 16) > 127) 
+			return 2;        //ÇÑ±Û 
+		else
+			return 1; 
+	} else {
+		return 1; 
+	}
+}
+
+//***************************************************************************
+// Function : chkKor
+// Description : ÀÔ·Â¹ÞÀº °ªÀÇ length °è»ê½Ã ÇÑ±ÛÀ» 2 Byte·Î 
+//               ¿µ¹®°ú ¼ýÀÚ´Â 1 Byte·Î Ã³¸®ÇÏ¿© ¹®ÀÚ¿­ÀÇ ±æÀÌ¸¦ ±¸ÇÔ
+// Argument	: str - string
+// Return : int (ÀÔ·ÂµÈ ¹®ÀÚÀÇ byte ±æÀÌ)
+// Event : 
+//***************************************************************************
+function chkKor( str ) {
+	var i; 
+	var ch; 
+	var rtnValue = 0;
+	
+	for (i = 0; i < str.length; i++) { 
+		ch = escape(str.charAt(i));        //ISO-Latin-1 ¹®ÀÚ¼ÂÀ¸·Î º¯°æ 
+		// °¡ ==> %uAC00 
+		// Èþ ==> %uD79D 
+		// ÆR ==> %uD7A3 
+		
+		rtnValue = rtnValue + GetCharLength(ch);
+	}
+
+	return rtnValue; 
+}
+
+//***************************************************************************
+// Function : checkKL_cut
+// Description : ¹®ÀÚ¿­À» Á¦ÇÑµÈ ±æÀÌ±îÁö byteÃ¼Å©ÇØ¼­ ÀÚ¸§
+// Argument	: str - string  ,  MAX_LEN - int
+// Return : string
+// Event : 
+//***************************************************************************
+function checkKL_cut(str, MAX_LEN)
+{
+	 var sumlength=0;
+	 var restr='';
+
+	 for(var i= 0;i < str.length; i++)
+	 {
+		  ch = escape(str.charAt(i));        //ISO-Latin-1 ¹®ÀÚ¼ÂÀ¸·Î º¯°æ 
+
+		  if ( MAX_LEN < (sumlength + GetCharLength(ch)) ) { break; }
+
+		  sumlength += GetCharLength(ch);
+		  restr += str.charAt(i);
+	 }
+
+	 return (restr);
+}
+
+//***************************************************************************
+// Function : checkKL
+// Description : ÅØ½ºÆ® ¹Ú½ºÀÇ ±æÀÌ Ã¼Å©, ±æÀÌ°¡ ³ÑÀ¸¸é ¸Þ¼¼Áö ÈÄ ÀÚ¸§
+// Argument : Tar - TextBox  ,  Val - int
+// Return : TextBox
+// Event : onChange, onKeyDown, onKeyUp, onClick
+//***************************************************************************
+function checkKL(Tar, Val) {
+	str = Tar.value;
+	byteLen = chkKor(str);
+
+	if (byteLen > parseInt(Val)){
+		alert(Val+"byte Á¦ÇÑÀ» ³Ñ¾Æ°¬½À´Ï´Ù. ¹®ÀÚ´Â Á¦ÇÑµÈ ±æÀÌ·Î ÀÚµ¿À¸·Î »èÁ¦µË´Ï´Ù.");
+		
+		Tar.value = checkKL_cut(str,parseInt(Val));
+		return 0;
+	}
+
+	return 1;
+}
+
+//***************************************************************************
+// Function : validID
+// Description : ¾ÆÀÌµð Ã¼Å© ( Ã¹ÀÚ ¿µ¹®ÀÚ, 4~10ÀÚ )
+// Argument : IDS - TextBox
+// Return : true/false(1/0)
+// Event : valid
+//***************************************************************************
+function validID( IDS )
+{
+ 	 str = IDS.value;
+	 
+	 /* check whether input value is included space or not  */
+     if( str == ""){
+     	alert("¾ÆÀÌµð¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		IDS.focus(); 
+		return 0;
+     }
+     
+     if( checkSpace(str) ) {
+        alert("¾ÆÀÌµð´Â ºó °ø°£ ¾øÀÌ ÀÔ·ÂÇÏ½Ã±â ¹Ù¶ø´Ï´Ù.");
+		IDS.focus(); 
+		return 0; 
+     } 
+
+	 var ch = str.charAt(0);
+	 var isCH = /^[a-z]$/;
+	 if ( !isCH.test(ch) ) {
+		alert("¾ÆÀÌµð Ã¹ ¹®ÀÚ´Â ¹Ýµå½Ã ¿µ¹®ÀÚ¸¦ »ç¿ëÇØ ÁÖ¼¼¿ä.");
+		IDS.focus(); 
+		return 0;
+     }
+
+     /* checkFormat  */
+     var isID = /^[a-z0-9]{4,10}$/;
+     if( !isID.test(str) ) {
+        alert("¾ÆÀÌµð´Â 4~10ÀÚÀÇ ¿µ¹® ¼Ò¹®ÀÚ¿Í ¼ýÀÚ¸¸ »ç¿ëÇÒ ¼ö ÀÖ½À´Ï´Ù."); 
+		IDS.focus(); 
+		return 0; 
+     }
+
+     return 1;
+}
+
+//***************************************************************************
+// Function : validPWD
+// Description : ÆÐ½º¿öµå Ã¼Å© ( ¿¬¼ÓµÈ ºñ¹Ð¹øÈ£, 4~8ÀÚ )
+// Argument : PWD - TextBox  ,  PWDS - TextBox
+// Return : true/false
+// Event : valid
+//***************************************************************************
+function validPWD( PWD, PWDS )
+{
+     var cnt=0;
+	 str = PWD.value;
+	 str1 = PWDS.value;
+
+	 if( str == ""){
+     	alert("ºñ¹Ð¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		PWD.focus(); 
+		return 0;
+     }     
+
+     if( checkSpace(str) ) {
+         alert("ºñ¹Ð¹øÈ£´Â ºó°ø°£ ¾øÀÌ ¿¬¼ÓµÈ ¿µ¹® ¼Ò¹®ÀÚ¿Í ¼ýÀÚ¸¸ »ç¿ëÇÒ ¼ö ÀÖ½À´Ï´Ù");
+		 PWD.focus(); 
+		 return 0;
+     }
+
+     /* limitLength */
+     //var isPW = /^[a-z0-9_~`!@\\#\$%\^&\*()-\+=\|\[\]\{\};:'"<,>.?/]{6,12}$/;
+     var isPW = /^[a-z0-9]{4,8}$/;
+     if( !isPW.test(str) ) {
+         alert("ºñ¹Ð¹øÈ£´Â 4~8ÀÚÀÇ ¿µ¹® ¼Ò¹®ÀÚ¿Í ¼ýÀÚ¸¸ »ç¿ëÇÒ ¼ö ÀÖ½À´Ï´Ù"); 
+		 PWD.focus(); 
+		 return 0; 
+     }
+	 
+	 for( var i=0; i < str.length; ++i)
+     {
+         if( str.charAt(0) == str.substring( i, i+1 ) ) ++cnt;
+     }  
+     if( cnt == str.length ) {
+         alert("º¸¾È»óÀÇ ÀÌÀ¯·Î ÇÑ ¹®ÀÚ·Î ¿¬¼ÓµÈ ºñ¹Ð¹øÈ£´Â Çã¿ëÇÏÁö ¾Ê½À´Ï´Ù");
+		 PWD.focus(); 
+		 return 0; 
+     }
+
+     if (str != str1) {
+        alert("ºñ¹Ð¹øÈ£È®ÀÎ°ú ºñ¹Ð¹øÈ£°¡ ÀÏÄ¡ÇÏÁö ¾Ê½À´Ï´Ù");
+		PWD.focus(); 
+		return 0;
+     }
+
+     return 1;
+}
+
+//***************************************************************************
+// Function : validMAIL
+// Description : ¸ÞÀÏ Ã¼Å© ( ÀÌ¸ÞÀÏÁÖ¼Ò )
+// Argument : inputform - TextBox
+// Return : true/false
+// Event : valid
+//***************************************************************************
+function validMAIL( inputform ) 
+{ 
+	var checkString = inputform.value;
+    var newstr = ""; 
+    var at = false; 
+    var dot = false; 
+    var st_length = checkString.length;
+ 
+	 if(checkString == ""){
+     	alert("email ÁÖ¼Ò¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä");
+		inputform.focus(); 
+		return 0;
+     }  
+
+    if ( checkString.substring(0,1) == '@' || checkString.substring( st_length-1,st_length ) == '@'||
+    		checkString.substring(0,1) == '.' || checkString.substring( st_length-1,st_length ) == '.' ) {
+    		alert ("ÀÏ¹ÝÀûÀÎ email ÁÖ¼Ò¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä"); 
+      		inputform.focus(); 
+      		return false; 	
+    }
+    
+    if (checkString.indexOf("@") != -1) { 
+      at = true; 
+    } else if (checkString.indexOf(".") != -1) { 
+      dot = true; 
+    } 
+ 
+    for (var i = 0; i < checkString.length; i++) { 
+        ch = checkString.substring(i, i + 1) 
+        if ((ch >= "A" && ch <= "Z") || (ch >= "a" && ch <= "z") 
+                || (ch == "@") || (ch == ".") || (ch == "_") 
+                || (ch == "-") || (ch >= "0" && ch <= "9")) { 
+                newstr += ch; 
+                if (ch == "@") { 
+                    at=true; 
+                } 
+                if (ch == ".") { 
+                    dot=true; 
+                } 
+        }else {
+        	// DISPLAY ERROR MESSAGE 
+      		alert ("ÀÏ¹ÝÀûÀÎ email ÁÖ¼Ò¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä"); 
+      		inputform.focus(); 
+      		return false; 
+        } 
+    } 
+    
+    if ((at == true) && (dot == true)) { 
+        return true; 
+    } 
+    else { 
+      // DISPLAY ERROR MESSAGE 
+      alert ("ÀÏ¹ÝÀûÀÎ email ÁÖ¼Ò¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä"); 
+      inputform.focus(); 
+      return false; 
+    } 
+}
+
+//***************************************************************************
+// Function : checkZip
+// Description : ¿ìÆí¹øÈ£ Ã¼Å© ( ¿ìÆí¹øÈ£ ÁÖ¼Ò )
+// Argument : post - TextBox(¿ìÆí¹øÈ£ 5ÀÚ¸®)  , 
+//			  addr - TextBox(ÁÖ¼Ò)
+// Return : true/false
+// Event : valid
+//***************************************************************************
+function checkZip(z1, addr )
+{
+	if(z1.value.length==0){
+		alert("¿ìÆí¹øÈ£¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä");
+		return false;
+	}
+	if (z1.value.length != 0 ) {
+		if (z1.value.length != 5) {
+			alert(" ¿ìÆí¹øÈ£ ¾ÕÀÇ 5ÀÚ¸®¸¦ ¹Ù¸£°Ô ÀÔ·ÂÇØ ÁÖ¼¼¿ä.");
+			z1.focus();
+			return false;
+		}else if (addr.value.length == 0) {
+			alert(" µ¿ÀÌÇÏ ÁÖ¼Ò¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä.");
+			addr.focus();
+			return false;
+		}
+	}
+	
+	return true;
+}
+
+//***************************************************************************
+// Function : evaltostr
+// Description : ¹®ÀÚ¿­ µÎÀÚ¸®¸¦ ¼öÄ¡·Î Ä¡È¯
+// Argument : str - string
+//			  i - int( À§Ä¡ )
+// Return : int - (i)*10 + (i+1)
+// Event :
+//***************************************************************************
+function evaltostr(str, i) {
+	var j1 = eval(str.value.charAt(i));
+	var j2 = eval(str.value.charAt(i+1));
+	var j = j1*10 + j2;
+	return j;
+}
+
+//***************************************************************************
+// Function : checkJumin
+// Description : ÁÖ¹Î¹øÈ£ Ã¼Å©
+// Argument : jc1 - TextBox(ÁÖ¹Î¹øÈ£ ¾Õ 6ÀÚ¸®)  ,
+//			  jc2 - TextBox(ÁÖ¹Î¹øÈ£ µÚ 7ÀÚ¸®)  ,  
+// Return : true/false
+// Event : valid
+//***************************************************************************
+function checkJumin(jc1, jc2){
+	if (jc1.value.length != 6) {
+		alert("[ÁÖ¹Îµî·Ï¹øÈ£] ¾Õ 6ÀÚ¸®¸¦ Á¤È®È÷ ÀÔ·ÂÇÏ½Ê½Ã¿À.");
+		jc1.focus();
+		return false;
+	}
+	
+	if (jc2.value.length != 7) {
+		alert("[ÁÖ¹Îµî·Ï¹øÈ£] µÚ 7ÀÚ¸®¸¦ Á¤È®È÷ ÀÔ·ÂÇÏ½Ê½Ã¿À.");
+		jc2.focus();
+		return false;
+	}
+
+	if (evaltostr(jc1, 2) > 12) {
+		alert("[ÁÖ¹Îµî·Ï¹øÈ£] »ý³â¿ùÀÏÀ» Á¤È®È÷ ÀÔ·ÂÇÏ½Ê½Ã¿À.");
+		jc1.focus();
+		return false;
+	}
+	
+	if (evaltostr(jc1, 4) > 31) {
+		alert("[ÁÖ¹Îµî·Ï¹øÈ£] »ý³â¿ùÀÏÀ» Á¤È®È÷ ÀÔ·ÂÇÏ½Ê½Ã¿À.");
+		jc1.focus();
+		return false;
+	}
+
+	var jS = eval(jc2.value.charAt(0));
+	
+	if ((jS < 1)||(jS > 6)) {
+		alert("[ÁÖ¹Îµî·Ï¹øÈ£] Æ²·È½À´Ï´Ù.\n\n ´Ù½Ã ÀÔ·ÂÇÏ¿© ÁÖ¼¼¿ä.");
+		jc2.focus();
+		return false;
+	}
+	
+	var jumin = new String(jc1.value + jc2.value);
+	
+	var Sum = 0;
+	
+	for (var nCnt = 0; nCnt < 12; nCnt++) {
+		Sum += (eval(jumin.charAt(nCnt)) * ((nCnt%8)+2));
+	}
+	
+	var Sub = (11 - (Sum % 11)) % 10;
+
+	return true;
+
+//	if (Sub == eval(jumin.charAt(12))) {
+//		return true;
+//	} else {
+//		alert("[ÁÖ¹Îµî·Ï¹øÈ£] Æ²·È½À´Ï´Ù.\n\n ´Ù½Ã ÀÔ·ÂÇÏ¿© ÁÖ¼¼¿ä.");
+//		jc1.focus();
+//		return false;
+//	}
+}
+
+//***************************************************************************
+// Function : checkDate
+// Description : »ý³â¿ùÀÏÀÌ ³¯Â¥°¡ Á¦´ë·Î ÀÔ·ÂµÇ¾ú´ÂÁö È®ÀÎ
+// Argument : yy - TextBox
+//			  mm - TextBox
+//			  dd - TextBox
+// Return : true/false
+// Event :
+//***************************************************************************
+function checkDate(yy,mm,dd) {
+	if (inspectDate(yy.value + mm.value + dd.value))
+			return 1;
+	else {
+		alert("»ý³â¿ùÀÏÀ» È®ÀÎÇÏ½Ã±â ¹Ù¶ø´Ï´Ù");
+		yy.focus();
+		return 0;
+	}
+}
+
+//***************************************************************************
+// Function : checkTel
+// Description : ÀüÈ­¹øÈ£ ¹× ÈÞ´ëÆù ¹øÈ£ Ã¼Å©
+// Argument : t1 - TextBox  ,  t2 - TextBox  ,  t3 - TextBox
+//			  flag - tel(ÀüÈ­¹øÈ£) , ÈÞ´ëÆù¹øÈ£
+// Return : true/false
+// Event : valid
+//***************************************************************************
+function checkTel(t1, t2, t3, flag)
+{
+	if (t2.value.length == 0 && t3.value.length == 0 )
+	{
+		return true;
+	}
+
+	if (t1.value.length < 2 || t1.value.length > 4) {
+			if(flag=="tel")	alert("ÀüÈ­¹øÈ£¸¦ ¹Ù¸£°Ô ÀÔ·ÂÇØ ÁÖ¼¼¿ä.");
+			else alert("ÈÞ´ëÆù¹øÈ£¸¦ ¹Ù¸£°Ô ÀÔ·ÂÇØ ÁÖ¼¼¿ä.");
+		t1.focus();
+		return false;
+	}
+
+	if (t2.value.length < 3 || t2.value.length > 4) {
+			if(flag=="tel")	alert("ÀüÈ­¹øÈ£¸¦ ¹Ù¸£°Ô ÀÔ·ÂÇØ ÁÖ¼¼¿ä.");
+			else alert("ÈÞ´ëÆù¹øÈ£¸¦ ¹Ù¸£°Ô ÀÔ·ÂÇØ ÁÖ¼¼¿ä.");
+		t2.focus();
+		return false;
+	}
+
+	if (t3.value.length < 4 || t3.value.length > 4) {
+			if(flag=="tel")	alert("ÀüÈ­¹øÈ£¸¦ ¹Ù¸£°Ô ÀÔ·ÂÇØ ÁÖ¼¼¿ä.");
+			else alert("ÈÞ´ëÆù¹øÈ£¸¦ ¹Ù¸£°Ô ÀÔ·ÂÇØ ÁÖ¼¼¿ä.");
+		t3.focus();
+		return false;
+	}
+
+	return true;
+}
+
+//***************************************************************************
+// Function : returnValue
+// Description : ÁöÁ¤µÈ À§Ä¡±îÁö ¹®ÀÚ¿­ ¹ÝÈ¯
+// Argument : szBuff - TextBox  ,  len - int(À§Ä¡)
+// Return : string
+// Event :
+//***************************************************************************
+function returnValue(szBuff, len) {
+	rtnValues = "";
+	for(i=0; i < szBuff.length; i++) {
+		if (i >= len) continue;
+		else rtnValues = rtnValues + szBuff.charAt(i);
+	}
+	return rtnValues;
+}
+
+//***************************************************************************
+// Function : CheckPer
+// Description : % Ã¼Å©¿©ºÎ
+// Argument : val - TextBox
+// Return : true/false
+// Event : onChange, onKeyDown, onKeyUp, onClick
+//***************************************************************************
+function CheckPer(val) {
+	szBuff = val.value;
+   
+   for (i=0;i<val.value.length;i++) {
+		chBuff = val.value.charAt(i);
+
+		if (chBuff=='%') {
+			alert("%´Â ÀÔ·ÂÇÒ ¼ö ¾ø½À´Ï´Ù");
+			val.value = returnValue(szBuff, i);
+			val.blur();
+			val.focus();
+			return false;
+		}
+   }
+
+   return true;
+}
+
+//***************************************************************************
+// Function : isNumberic
+// Description : ¼ýÀÚ ¿©ºÎ Ã¼Å©
+// Argument : objInput - TextBox
+// Return : true/false
+// Event : onChange, onKeyDown, onKeyUp, onClick
+//***************************************************************************
+function isNumberic(objInput) {
+  var szBuff = "";
+  var chBuff = '';
+  var szTemp = "";
+  var i = 0;
+
+  szBuff = objInput.value;
+  for(i=0; i < szBuff.length; i++) {
+    chBuff = szBuff.charAt(i);
+
+	if(chBuff < '0' || chBuff > '9') {
+      alert("¼ýÀÚ¸¸ ÀÔ·Â °¡´ÉÇÕ´Ï´Ù!");
+	  objInput.value = returnValue(szBuff, i);
+	  return;
+	}
+  }
+}
+
+//***************************************************************************
+// Function : isFloatNumber
+// Description : ½Ç¼ö ¿©ºÎ Ã¼Å©
+// Argument : objInput - TextBox
+// Return : true/false
+// Event : onChange, onKeyDown, onKeyUp, onClick
+//***************************************************************************
+function isFloatNumber(objInput) {
+  	var szBuff = "";
+	var chBuff = '';
+	var szTemp = 0;
+	var i = 0;
+	var j = 0;
+	var k = 0;
+
+	szBuff = objInput.value;
+	for(i=0; i < szBuff.length; i++) {
+		chBuff = szBuff.charAt(i);
+
+		if((chBuff < '0' || chBuff > '9') && chBuff != '.') {
+			alert("¼ýÀÚ¸¸ ÀÔ·Â °¡´ÉÇÕ´Ï´Ù!");
+			objInput.value = returnValue(szBuff, i);
+			return;
+		}
+		if (chBuff == '.') {
+			szTemp = szTemp + 1;
+			if (i == 0 || szTemp > 1) {
+				alert("¼ýÀÚ¸¸ ÀÔ·Â °¡´ÉÇÕ´Ï´Ù!");
+				objInput.value = returnValue(szBuff, i);
+				return;
+			}
+		}
+		if (szTemp > 0) {
+			j = j + 1 ;  
+			if (j > 4) {
+				alert("¼Ò¼öÁ¡ 3ÀÚ¸®±îÁö ÀÔ·ÂÇÏ½Ç¼ö ÀÖ½À´Ï´Ù!");
+				objInput.value = returnValue(szBuff, i);
+				return;
+			}
+		}
+		else if (szTemp == 0) {
+			k = k + 1;
+			if (k > 11)	{
+				alert("ÀÔ·Â¹üÀ§¸¦ ÃÊ°úÇÏ¿´½À´Ï´Ù!");
+				objInput.value = returnValue(szBuff, i);
+				return;
+			}
+		}
+	}
+}
+
+//***************************************************************************
+// Function : inspectDate
+// Description : ÀÔ·Â¹ÞÀº ½ºÆ®¸µÀÌ ³¯Â¥·Î À¯È¿ÇÑ°¡ ÆÇÁ¤
+//				 objName(8ÀÚ¸® ½ºÆ®¸µ)
+// Argument : objName - String
+// Return : true/false
+// Event :
+//***************************************************************************
+function inspectDate(objName) {
+  var objDate;
+  var nOldYear;
+  var nOldMonth;
+  var nOldDay;
+  var nNewYear;
+  var nNewMonth;
+  var nNewDay;
+
+  if(objName.length < 8) {
+    return false;
+  }
+
+  nOldYear = parseInt(objName.substring(0, 4), 10);
+  nOldMonth = parseInt(objName.substring(4, 6), 10) - 1;
+  nOldDay = parseInt(objName.substring(6, 8), 10);
+				
+  objDate = new Date(nOldYear, nOldMonth, nOldDay);
+				
+  nNewYear = objDate.getFullYear();
+  nNewMonth = objDate.getMonth();
+  nNewDay = objDate.getDate();
+				
+  if(nOldYear == nNewYear && nOldMonth == nNewMonth && nOldDay == nNewDay) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+//***************************************************************************
+// Function : getNormalNumber
+// Description : ±Ý¾×°ü·Ã ¼ýÀÚ¸¦ ÀÏ¹ÝÀûÀÎ ¼ýÀÚ·Î º¯È¯
+// Argument : strAmt - string
+// Return : string
+// Event :
+//***************************************************************************
+function getNormalNumber(strAmt) {
+  var strResult = "";
+  var strAry;
+  
+  strAry = strAmt.split(',');
+  
+  for(i=0; i < strAry.length; i++)
+    strResult = strResult + strAry[i];
+  
+  if(strResult == "")
+    return "0";
+  else
+    return strResult;
+}
+
+//***************************************************************************
+// Function : setNormalNumber
+// Description : ÀÏ¹ÝÀûÀÎ ¼ýÀÚ¸¦ ±Ý¾×°ü·Ã ¼ýÀÚ·Î º¯È¯(¼Ò¼öÁ¡ °¡´É)
+// Argument : a1 - string
+// Return : string
+// Event :
+//***************************************************************************
+function setNormalNumber(a1)
+{
+	var j = 0;
+	var tmp = "";
+	var tmp1 = "";
+	var tmp2 = "";
+	var tmp3 = "";
+	var dum = 0;
+	
+	var source = a1 + "";
+	
+	
+    var comma = source.indexOf(",");
+    if(comma > 0)
+    {
+    	var len = source.length;
+    	for(var k = 0; k < len; k++)
+    	{
+    		if(source.charAt(k) != ",")
+    		tmp3 = tmp3 + source.charAt(k);
+    	}
+    }
+    else tmp3 = source;
+    
+    var index = tmp3.indexOf(".");
+    if(index > 0)
+    {
+    	tmp1 = tmp3.substring(0, index);
+    	tmp2 = tmp3.substring(index);
+    }
+    else tmp1 = tmp3;
+    
+    for (var i = tmp1.length; i > 0; i--) {
+    	if (i % 3 == 0){
+    		tmp = tmp + ",";
+    	}
+   
+    	tmp = tmp + tmp3.charAt(dum++);
+    }
+    if(tmp.charAt(0) == ",") tmp = tmp.substr(1);
+    f_number = (tmp2 == "")? tmp : tmp+ tmp2; 
+        
+    return f_number;
+}
+
+//***************************************************************************
+// Function : newWindow
+// Description : ÆË¾÷Ã¢
+// Argument : 
+//		url		: ÇØ´ç URL		String
+//		name	: ÇØ´ç Window¸í  String(''À¸·Î »ý·«°¡´É)
+//		width	: »õÃ¢ ³Êºñ		int
+//		height	: »õÃ¢ ³ôÀÌ		int
+//		scroll	: »õÃ¢ scroll	yes/no
+//		resize	: »õÃ¢ resize	yes/no
+// Return :
+// Event :
+//***************************************************************************
+function newWindow(url, name, width, height, scroll, resize)
+{
+	var win= null; 
+	var scleft = (screen.width-width)/2; 
+	var sctop = (screen.height-height)/2; 
+
+	var settings  = 'height='+height+','; 
+		settings += 'width='+width+','; 
+		settings += 'top='+sctop+','; 
+		settings += 'left='+scleft+','; 
+		settings += 'scrollbars='+scroll+','; 
+		settings += 'resizable='+resize;
+
+	win=window.open(url,name,config=settings); 
+	if(parseInt(navigator.appVersion) >= 4){win.window.focus();} 
+}
+
+//***************************************************************************
+// Function : trim
+// Description : ¹®ÀÚ¿­ÀÇ ¾ç´Ü °ø¹é Á¦°Å
+// Argument : tmp - string
+// Return : string
+// Event :
+//***************************************************************************
+function trim(tmp){
+	return tmp.replace(/(^\s*)|(\s*$)/g, ""); 
+}
+
+
+function DelSendList()
+{
+
+	for (i=0;i<document.W_FORM.send_list.length;i++)
+	{
+		if (document.W_FORM.send_list[i].selected)
+		{
+			document.W_FORM.send_list[i] = null;
+			//SendLenCount(0);
+		}
+	}
+
+	document.W_FORM.memberListCnt.value = document.W_FORM.send_list.length;
+}
+
+
+//##################################################################
+// ¾ÆÀÌµð Ã¼Å©
+//##################################################################
+
+function checkId(id) {
+
+    if ((id.value.length == 0)||(id.value.length>10)||(id.value.length<4)) {
+        alert("È¸¿ø ID¸¦ Á¤È®È÷ ÀÔ·ÂÇØ ÁÖ¼¼¿ä. \nÈ¸¿øID´Â ÃÖ¼Ò 4ÀÚ, ÃÖ´ë 10ÀÚ±îÁö ÀÔ´Ï´Ù.");
+        id.focus();
+        return false;
+    }
+
+	var ch = id.value.charAt(0);
+	if (((ch < "A")&&(ch < "a")) || ((ch > "Z")&&(ch > "z"))) {
+		alert("È¸¿ø ID Ã¹ÀÚ´Â ¹Ýµå½Ã ¿µ¹®ÀÚ¸¦ »ç¿ëÇØ ÁÖ¼¼¿ä.");
+		id.focus();
+    	return false;
+    }
+	for (var i = 0; i < id.value.length; i++) { 
+        ch = id.value.substring(i, i + 1) 
+      if ((ch < 'A' || ch > 'Z')&& (ch < 'a' || ch > 'z') && (ch < '0' || ch > '9')){
+      		alert ("È¸¿ø ID¿¡´Â Æ¯¼ö ¹®ÀÚ¸¦ »ç¿ëÇÒ ¼ö ¾ø½À´Ï´Ù.");
+			id.focus();
+			return false;
+       } 
+    } 
+    return true;
+}
+
+//#################################################################
+// ºñ¹Ð¹øÈ£ Ã¼Å©
+//##################################################################
+function checkPassword(p1, p2) {
+    if (p1.value.length < 4) {
+        alert("ºñ¹Ð¹øÈ£¸¦ Àß¸ø ÀÔ·ÂÇÏ¼Ì½À´Ï´Ù. \nºñ¹Ð¹øÈ£´Â 4ÀÚ¸® ÀÌ»óÀÔ´Ï´Ù.");
+        p1.focus();
+        return false;
+    }
+
+    if (p2.value.length < 4) {
+        alert("ºñ¹Ð¹øÈ£¸¦ Àß¸ø ÀÔ·ÂÇÏ¼Ì½À´Ï´Ù. \nºñ¹Ð¹øÈ£´Â 4ÀÚ¸® ÀÌ»óÀÔ´Ï´Ù.");
+        p2.focus();
+        return false;
+    }
+
+    if (p1.value != p2.value) {
+        alert("ºñ¹Ð¹øÈ£°¡ ÀÏÄ¡ÇÏÁö ¾Ê½À´Ï´Ù. \n´Ù½Ã ÀÔ·ÂÇØ ÁÖ¼¼¿ä.");
+        p1.value = "";
+        p2.value = "";
+        p1.focus();
+        return false;
+    }
+
+    return true;
+}
