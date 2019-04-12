@@ -1,0 +1,489 @@
+var oldIE;jQuery.fn.liScroll=function(b){b=jQuery.extend({travelocity:0.07},b);return this.each(function(){function d(h,b){a.animate({left:"-="+h},b,"linear",function(){a.css("left",f);d(e,g)})}var a=jQuery(this);a.addClass("newsticker");var c=1;a.find("li").each(function(a){c+=jQuery(this,a).outerWidth(!0)});a.wrap("<div class='mask'></div>");a.parent().wrap("<div class='tickercontainer'></div>");var f=a.parent().parent().width();a.width(c);var e=c+f,g=e/b.travelocity;d(e,g);a.hover(function(){jQuery(this).stop()}, function(){var a=jQuery(this).offset().left;d(a,a/b.travelocity)})})}; $(document).ready(function(){$("html").is(".ie6, .ie7, .ie8, .ie9")?oldIE=!0:(oldIE=!1,$("#tab_chrome").hide());oldIE&&($("#img_envir_valid").css("top","-28px"),$("#ban_tel").css("background-size","cover"),$("#ban_int").css("background-size","cover"),$("#ban_inf").css("background-size","cover"),$("#ban_vis").css("background-size","cover"),$("#ban_actu").css("background-size","cover"),$("#ban_envir").css("background-size","cover"),$("#img_fond_envir").css("background-size","cover"),$("#vignette_accueil_tel").css("background-size","cover"), $("#vignette_accueil_int").css("background-size","cover"),$("#vignette_accueil_inf").css("background-size","cover"),$("#vignette_accueil_vis").css("background-size","cover"),$("#cover_actu1").css("background-size","cover"),$("#cover_actu2").css("background-size","cover"),$("#cover_actu3").css("background-size","cover"),$("#cover_actu4").css("background-size","cover"));$("ul#ticker01").liScroll({travelocity:0.05});$(".flexslider").flexslider({directionNav:!1,slideshow:!0,slideshowSpeed:4E3});$("#s2").endlessScroll({width:"100%", height:"25px",steps:-2,speed:40,mousestop:!1});/*aff_co();aff_visiteurs()*/}); $(window).load(function(){$("#div_masque").fadeOut("slow");$("#div_masque_loading").fadeOut("slow");$("body").css({overflow:"auto"}); $(".img_croix").click(function(){$("#td_infra_reseaux").fadeOut("slow");$("#td_sauv_reseaux").fadeOut("slow");$("#td_ens").fadeOut("slow");$("#td_borne").fadeOut("slow");$("#td_droite").delay(800).fadeIn("slow");return!1});$("#link_infra_reseaux").click(function(){$("#td_droite").fadeOut("slow");$("#td_infra_reseaux").delay(800).fadeIn("slow");;$("#td_sauv_reseaux").fadeOut("slow");$("#td_video").fadeOut("slow");$("#td_borne").fadeOut("slow");$("#td_ens").fadeOut("slow");return!1});$("#link_sauv_reseau").click(function(){$("#td_droite").stop(!0,!0).fadeOut("slow");$("#td_savoir_plus").stop(!0,!0).fadeOut("slow");$("#td_infra_reseaux").stop(!0,!0).fadeOut("slow");$("#td_video").stop(!0,!0).fadeOut("slow");$("#td_borne").stop(!0,!0).fadeOut("slow");$("#td_ens").stop(!0,!0).fadeOut("slow"); $("#td_sauv_reseaux").delay(800).fadeIn("slow");return!1});$("#link_video").click(function(){$("#td_droite").stop(!0,!0).fadeOut("slow");$("#td_savoir_plus").stop(!0,!0).fadeOut("slow");$("#td_infra_reseaux").stop(!0,!0).fadeOut("slow");$("#td_sauv_reseaux").stop(!0,!0).fadeOut("slow");$("#td_borne").stop(!0,!0).fadeOut("slow");$("#td_ens").stop(!0,!0).fadeOut("slow");$("#td_video").delay(800).fadeIn("slow");return!1});$("#link_borne").click(function(){$("#td_droite").stop(!0,!0).fadeOut("slow");$("#td_savoir_plus").stop(!0, !0).fadeOut("slow");$("#td_infra_reseaux").stop(!0,!0).fadeOut("slow");$("#td_sauv_reseaux").stop(!0,!0).fadeOut("slow");$("#td_video").stop(!0,!0).fadeOut("slow");$("#td_ens").stop(!0,!0).fadeOut("slow");$("#td_borne").delay(800).fadeIn("slow");return!1});$("#link_ens").click(function(){$("#td_droite").stop(!0,!0).fadeOut("slow");$("#td_savoir_plus").stop(!0,!0).fadeOut("slow");$("#td_infra_reseaux").stop(!0,!0).fadeOut("slow");$("#td_sauv_reseaux").stop(!0,!0).fadeOut("slow");$("#td_video").stop(!0, !0).fadeOut("slow");$("#td_borne").stop(!0,!0).fadeOut("slow");$("#td_ens").delay(800).fadeIn("slow");return!1});$("#vision1").click(function(){$("#td_vision_anim_default").stop(!0).hide("fast");$("#td_vision_anim_taille").stop(!0).hide("fast");$("#td_vision_anim_mensuration").stop(!0).hide("fast");$("#td_vision_anim_essayage").stop(!0).hide("fast");$("#td_vision_anim_conception").stop(!0).show("fast");return!1});$("#vision2").click(function(){$("#td_vision_anim_default").stop(!0).hide("fast");$("#td_vision_anim_mensuration").stop(!0).hide("fast"); $("#td_vision_anim_essayage").stop(!0).hide("fast");$("#td_vision_anim_conception").stop(!0).hide("fast");$("#td_vision_anim_taille").stop(!0).show("fast");return!1});$("#vision3").click(function(){$("#td_vision_anim_default").stop(!0).hide("fast");$("#td_vision_anim_essayage").stop(!0).hide("fast");$("#td_vision_anim_conception").stop(!0).hide("fast");$("#td_vision_anim_taille").stop(!0).hide("fast");$("#td_vision_anim_mensuration").stop(!0).show("fast");return!1});$("#vision4").click(function(){$("#td_vision_anim_default").stop(!0).hide("fast"); $("#td_vision_anim_conception").stop(!0).hide("fast");$("#td_vision_anim_taille").stop(!0).hide("fast");$("#td_vision_anim_mensuration").stop(!0).hide("fast");$("#td_vision_anim_essayage").stop(!0).show("fast");return!1});$(".vision_croix").click(function(){$("#td_vision_anim_essayage").stop(!0).hide("fast");$("#td_vision_anim_conception").stop(!0).hide("fast");$("#td_vision_anim_taille").stop(!0).hide("fast");$("#td_vision_anim_mensuration").stop(!0).hide("fast");$("#td_vision_anim_default").show("fast"); $("#img_europe").hide("scale",{percent:0},500)});$(".vision_croix_math").click(function(){$("#tab_form_cont").fadeOut("slow");$("#lbl_msg_vision").html("");$("#tab_math_cont").delay(1E3).fadeIn("slow")});$("#img_vision_uk").click(function(){chg_lg_en()});$("#img_vision_fr").click(function(){chg_lg_fr()});$("#img_vision_it").click(function(){chg_lg_it()});$("#btn_vision_contact").click(function(){$("#tab_math_cont").fadeOut("slow");$("#tab_form_cont").delay(1E3).fadeIn("slow")});$("#arrow_itineraire").click(function(){$("#td_itineraire").is(":visible")? ($("#td_itineraire").slideUp("slow"),$("#img_fleche_itineraire").attr("src","images/fleche_bas.png")):($("#td_itineraire").slideDown("slow"),$("#img_fleche_itineraire").attr("src","images/fleche_haut.png"))});$("#btn_login").mouseover(function(){$("#btn_login").attr("src","images/login-btn-hover.png");return!1});$("#btn_login").mouseout(function(){$("#btn_login").attr("src","images/login-btn.png");return!1});$("#input_mdp").keyup(function(a){13==a.keyCode&&click_co()});$("#btn_mail_submit").click(function(){var a= document.getElementById("Telecom").checked,b=document.getElementById("Internet").checked,c=document.getElementById("Vision").checked,d=document.getElementById("ISI").checked,e=document.getElementById("Msg").value,f=document.getElementById("Nom").value,g=document.getElementById("Nom_entr").value,h=document.getElementById("Email").value,l=document.getElementById("Tel").value,m=document.getElementById("Fax").value,a="rien=rien&msg="+e+"&telecom="+a+"&internet="+b+"&vision="+c+"&isi="+d+"&nom="+f+"&nom_entr="+ g+"&mail="+h+"&tel="+l+"&fax="+m;if(""!=e&&""!=f&&""!=g&&""!=h)return $.ajax({type:"POST",url:"ajax_envoi_mail.php",data:"d="+a,beforeSend:function(){$("#send").html("<img src='images/loading.gif' id='ajax-loader' />")},success:function(a){$("#err_form").html("");$("#ajax-loader").remove();$("radio").attr("checked",!1);$("#Msg").val("");$("#Nom").val("");$("#Nom_entr").val("");$("#Email").val("");$("#Tel").val("");$("#Fax").val("");$("#send").html(a)}}),!1;$("#err_form").html("Votre formulaire contient des erreurs ou des champs incomplets !")}); $("#creer_compte").click(function(){$("#avatar_invite").fadeOut("slow");$("#bulle_compte").fadeOut("slow");$("#div_oubli_mdp").fadeOut("slow");$("#div_nouveau").delay(1E3).fadeIn("slow")});$("#oubli_mdp").click(function(){$("#avatar_invite").fadeOut("slow");$("#bulle_compte").fadeOut("slow");$("#div_nouveau").fadeOut("slow");$("#div_oubli_mdp").delay(1E3).fadeIn("slow")});$("#fermer_nvo_compte").click(function(){$("#div_nouveau").fadeOut("slow");$("#nvo_compte_login").val("");$("#nvo_compte_mail").val(""); $("#nvo_compte_entreprise").val("");$("#nvo_compte_mdp").val("");$("#nvo_compte_cfm_mdp").val("");$("#nvo_compte_mail_telmat").val("");$("#err_form_nvo").hide();$("#avatar_invite").delay(1E3).fadeIn("slow");$("#bulle_compte").delay(1E3).fadeIn("slow")});$("#fermer_oubli_mdp").click(function(){$("#div_oubli_mdp").fadeOut("slow");$("#oubli_mdp_login").val("");$("#oubli_mdp_mail").val("");$("#err_form_oubli_mdp").hide();$("#avatar_invite").delay(1E3).fadeIn("slow");$("#bulle_compte").delay(1E3).fadeIn("slow")});$("#btn_oubli_mdp").click(function(){var a= document.getElementById("oubli_mdp_login").value,b=document.getElementById("oubli_mdp_mail").value,c="rien=rien&login="+a+"&mail="+b;if(""!=a&&""!=b)return $.ajax({type:"POST",url:"ajax_oubli_mdp.php",data:"d="+c,beforeSend:function(){$("#img_oubli_loading").show("fast")},success:function(a){!0==a?($("#img_oubli_loading").hide(),$("#err_form_oubli_mdp").hide(),$("#btn_oubli_mdp").hide(),$("#oubli_mdp_login").prop("disabled",!0),$("#oubli_mdp_mail").prop("disabled",!0),$("#mdp_oubli_success").html("Votre nouveau mot de passe<br>&nbsp;vous a \u00e9t\u00e9 envoy\u00e9 par e-mail !"), $("#mdp_oubli_success").show("fast")):($("#img_oubli_loading").hide(),$("#err_form_oubli_mdp").html("Identifiant et/ou e-mail erron\u00e9s !"),$("#err_form_oubli_mdp").show())}}),!1;$("#err_form_oubli_mdp").html("Champs incomplets !");$("#err_form_oubli_mdp").show()});$("#btn_creer_compte").click(function(){var a=document.getElementById("nvo_compte_login").value,b=document.getElementById("nvo_compte_mail").value,c=document.getElementById("nvo_compte_entreprise").value,d=document.getElementById("nvo_compte_mdp").value,e=document.getElementById("nvo_compte_cfm_mdp").value,t=document.getElementById("nvo_compte_mail_telmat").value,f="rien=rien&login="+a+"&mail="+b+"&entreprise="+c+"&mdp="+d+"&cfm_mdp="+e+"&mail_telmat="+t;if(""!=a&&""!=b&&""!=c&&""!=d&&""!=e&&""!=t&&d==e)return $.ajax({type:"POST",url:"ajax_nvo_compte.php",data:"d="+f,beforeSend:function(){$("#img_nvo_loading").show("fast")},success:function(a){!0==a?($("#img_nvo_loading").hide(),$("#err_form_nvo").hide(),$("#btn_creer_compte").hide(),$("#nvo_compte_login").prop("disabled",!0),$("#nvo_compte_mail").prop("disabled",!0),$("#nvo_compte_entreprise").prop("disabled", !0),$("#nvo_compte_mdp").prop("disabled",!0),$("#nvo_compte_cfm_mdp").prop("disabled",!0),$("#nvo_compte_mail_telmat").prop("disabled",!0),$("#nvo_success").html("Votre compte vient d'\u00eatre cr\u00e9\u00e9<br>&nbsp;et est en attente de validation !"),$("#nvo_success").show("fast")):($("#img_nvo_loading").hide(),$("#err_form_nvo").html("Erreur d'identifiant ou e-mail Telmat non valide !"))}}),!1;$("#err_form_nvo").html("Erreur ou champs incomplets !")});$("#btn_submit_vision").click(function(){var a=document.getElementById("vision_msg").value, b=document.getElementById("vision_nom").value,c=document.getElementById("vision_entr").value,d=document.getElementById("vision_mail").value,e="rien=rien&msg="+a+"&nom="+b+"&nom_entr="+c+"&mail="+d;if(""!=a&&""!=b&&""!=c&&""!=d)return $.ajax({type:"POST",url:"ajax_envoi_mail_vision.php",data:"d="+e,beforeSend:function(){$("#btn_submit_vision").html("<img src='images/loading.gif' id='ajax-loader' />")},success:function(a){$("#lbl_msg_vision").html("");$("#ajax-loader").remove();$("#vision_msg").val(""); $("#vision_nom").val("");$("#vision_entr").val("");$("#vision_mail").val("");$("#lbl_msg_vision").html(a);$("#tab_form_cont").delay(2E3).fadeOut();$("#tab_math_cont").delay(3E3).fadeIn();$("#btn_vision_contact").hide()}}),!1;$("#lbl_msg_vision").html("Votre formulaire contient des erreurs !")})}); 
+
+function closeAll(){
+	$('#td_vision_anim_conception').hide();
+	$('#td_vision_anim_taille').hide();
+	$('#td_vision_anim_mensuration').hide();
+	$('#td_vision_anim_essayage').hide();
+	$('#td_vision_options').hide();
+}
+
+function chg_lg_fr(){
+	$("#lbl_btn_contact").html("Nous contacter");
+	$("#lbl_vision_nom").html("Nom :");
+	$("#lbl_vision_entr").html("Entreprise :");
+	$("#lbl_vision_msg").html("Message :");
+	$("#lbl_btn_envoi").html("Envoyer");
+	$("#titre_vision").html("&nbsp;&nbsp;<strong>&Eacute;quipements de prise de mesure 3D automatique du corps humain</strong>");
+	
+	$.ajax({
+	   type: "GET",
+	   url: 'vision_anim_default_fr.php',
+	   dataType : 'html',
+	   cache: false,
+	   success:function(data){
+	   	//affiche le contenu du fichier dans le conteneur dédié
+		$('#td_vision_anim_default').html(data);
+	}});
+
+	$.ajax({
+	   type: "GET",
+	   url: 'vision_options_fr.php',
+	   dataType : 'html',
+	   cache: false,
+	   success:function(data){
+	   	//affiche le contenu du fichier dans le conteneur dédié
+		$('#td_vision_options').html(data);
+	}});
+
+	 $("#titre_vision1").html("<b>Habillement sur-mesure</b>");
+	 
+	 $.ajax({
+	   type: "GET",
+	   url: 'vision_anim_conception_fr.php',
+	   dataType : 'html',
+	   cache: false,
+	   success:function(data){
+	   	//affiche le contenu du fichier dans le conteneur dédié
+		$('#td_vision_anim_conception').html(data);
+	}});
+	 
+	 $("#titre_vision2").html("<b>Pr&ecirc;t-\u00e0-porter</b>");
+	 
+	 $.ajax({
+	   type: "GET",
+	   url: 'vision_anim_taille_fr.php',
+	   dataType : 'html',
+	   cache: false,
+	   success:function(data){
+	   	//affiche le contenu du fichier dans le conteneur dédié
+		$('#td_vision_anim_taille').html(data);
+	}});
+	 
+	 $("#titre_vision3").html("<b>Campagnes de mensuration</b>");
+	
+	$.ajax({
+	   type: "GET",
+	   url: 'vision_anim_mensuration_fr.php',
+	   dataType : 'html',
+	   cache: false,
+	   success:function(data){
+	   	//affiche le contenu du fichier dans le conteneur dédié
+		$('#td_vision_anim_mensuration').html(data);
+	}});
+	
+	$("#titre_vision4").html("<b>V&ecirc;tements d'image</b>");
+	
+	$.ajax({
+	   type: "GET",
+	   url: 'vision_anim_essayage_fr.php',
+	   dataType : 'html',
+	   cache: false,
+	   success:function(data){
+	   	//affiche le contenu du fichier dans le conteneur dédié
+		$('#td_vision_anim_essayage').html(data);
+	}});
+	
+	} 
+
+function chg_lg_it(){
+
+	$("#lbl_btn_contact").html("Contatto");
+	$("#lbl_vision_nom").html("Nome :");
+	$("#lbl_vision_entr").html("Impresa :");
+	$("#lbl_vision_msg").html("Messagio :");
+	$("#lbl_btn_envoi").html("Inviare");
+	$("#titre_vision").html("&nbsp;&nbsp;<strong>Scansione 3D e misurazione automatizzata del corpo umano</strong>");
+
+$.ajax({
+	   type: "GET",
+	   url: 'vision_anim_default_it.php',
+	   dataType : 'html',
+	   cache: false,
+	   success:function(data){
+	   	//affiche le contenu du fichier dans le conteneur dédié
+		$('#td_vision_anim_default').html(data);
+	}});
+$.ajax({
+	   type: "GET",
+	   url: 'vision_options_it.php',
+	   dataType : 'html',
+	   cache: false,
+	   success:function(data){
+	   	//affiche le contenu du fichier dans le conteneur dédié
+		$('#td_vision_options').html(data);
+	}});
+
+	$("#titre_vision1").html("<b>Abbigliamento su misura</b>");
+	$.ajax({
+	   type: "GET",
+	   url: 'vision_anim_conception_it.php',
+	   dataType : 'html',
+	   cache: false,
+	   success:function(data){
+	   	//affiche le contenu du fichier dans le conteneur dédié
+		$('#td_vision_anim_conception').html(data);
+	}});
+
+	$("#titre_vision2").html("<b>Pr\u00eat-\u00e0-porter</b>");
+	$.ajax({
+	   type: "GET",
+	   url: 'vision_anim_taille_it.php',
+	   dataType : 'html',
+	   cache: false,
+	   success:function(data){
+	   	//affiche le contenu du fichier dans le conteneur dédié
+		$('#td_vision_anim_taille').html(data);
+	}});
+
+	$("#titre_vision3").html("<b>Campagne di misura</b>");
+	$.ajax({
+	   type: "GET",
+	   url: 'vision_anim_mensuration_it.php',
+	   dataType : 'html',
+	   cache: false,
+	   success:function(data){
+	   	//affiche le contenu du fichier dans le conteneur dédié
+		$('#td_vision_anim_mensuration').html(data);
+	}});
+
+	$("#titre_vision4").html("<b>Abbigliamento aziendale</b>");
+	$.ajax({
+	   type: "GET",
+	   url: 'vision_anim_essayage_it.php',
+	   dataType : 'html',
+	   cache: false,
+	   success:function(data){
+	   	//affiche le contenu du fichier dans le conteneur dédié
+		$('#td_vision_anim_essayage').html(data);
+	}});
+
+} 
+
+function chg_lg_en(){
+
+$("#lbl_btn_contact").html("Contact us");
+$("#lbl_vision_nom").html("Name :");
+$("#lbl_vision_entr").html("Company :");
+$("#lbl_vision_msg").html("Message :");
+$("#lbl_btn_envoi").html("Send");
+$("#titre_vision").html("&nbsp;&nbsp;<strong>3D body scanning and automated body measurement equipment</strong>");
+$.ajax({
+	   type: "GET",
+	   url: 'vision_anim_default_en.php',
+	   dataType : 'html',
+	   cache: false,
+	   success:function(data){
+	   	//affiche le contenu du fichier dans le conteneur dédié
+		$('#td_vision_anim_default').html(data);
+	}});
+
+$.ajax({
+	   type: "GET",
+	   url: 'vision_options_en.php',
+	   dataType : 'html',
+	   cache: false,
+	   success:function(data){
+	   	//affiche le contenu du fichier dans le conteneur dédié
+		$('#td_vision_options').html(data);
+	}});
+
+$("#titre_vision1").html("<b>Made-to-measure clothing</b>");
+	$.ajax({
+	   type: "GET",
+	   url: 'vision_anim_conception_en.php',
+	   dataType : 'html',
+	   cache: false,
+	   success:function(data){
+	   	//affiche le contenu du fichier dans le conteneur dédié
+		$('#td_vision_anim_conception').html(data);
+	}});
+
+$("#titre_vision2").html("<b>Ready-to-wear clothing</b>");
+$.ajax({
+	   type: "GET",
+	   url: 'vision_anim_taille_en.php',
+	   dataType : 'html',
+	   cache: false,
+	   success:function(data){
+	   	//affiche le contenu du fichier dans le conteneur dédié
+		$('#td_vision_anim_taille').html(data);
+	}});
+
+$("#titre_vision3").html("<b>Measurement surveys</b>");
+$.ajax({
+	   type: "GET",
+	   url: 'vision_anim_mensuration_en.php',
+	   dataType : 'html',
+	   cache: false,
+	   success:function(data){
+	   	//affiche le contenu du fichier dans le conteneur dédié
+		$('#td_vision_anim_mensuration').html(data);
+	}});
+
+$("#titre_vision4").html("<b>Corporate clothing</b>");
+$.ajax({
+	   type: "GET",
+	   url: 'vision_anim_essayage_en.php',
+	   dataType : 'html',
+	   cache: false,
+	   success:function(data){
+	   	//affiche le contenu du fichier dans le conteneur dédié
+		$('#td_vision_anim_essayage').html(data);
+	}});
+
+} 
+
+/*function map_over(a){
+
+	var b=a.clientX-$("#img_carte").offset().left+window.pageXOffset;
+
+	a=a.clientY+window.pageYOffset;70<b&&250>b&&475<a&&560>a||560<b&&630>b&&511<a&&615>a||720<b&&780>b&&478<a&&560>a?document.getElementById("img_carte").style.cursor="pointer":360<b&&440>b&&430<a&&540>a?(document.getElementById("img_carte").style.cursor="SW-Resize",document.getElementById("img_carte").style.cursor="-moz-zoom-in",document.getElementById("img_carte").style.cursor="-webkit-zoom-in"):document.getElementById("img_carte").style.cursor= "auto"} 
+
+
+function map_click(a){
+
+	var b=a.clientX-$("#img_carte").offset().left+window.pageXOffset,c=a.clientY+window.pageYOffset;360<b&&440>b&&430<c&&540>c&&$("#img_europe").show("scale",{percent:100,direction:"vertical"},500);70<b&&250>b&&475<c&&560>c&&($("#img_carte").fadeOut("slow"),$("#articles_US").delay(1E3).fadeIn("slow"));560<b&&630>b&&511<c&&615>c&&($("#img_carte").fadeOut("slow"),$("#articles_IN").delay(1E3).fadeIn("slow"));720<b&&780>b&&478<c&&560>c&&($("#img_carte").fadeOut("slow"), $("#articles_JP").delay(1E3).fadeIn("slow"))}
+*/
+
+function actu_anim_activ3_click()
+{
+	$("#table_vignette_vis").fadeTo("slow",1);
+	$("#table_vignette_int").fadeTo("slow",0.5);
+	$("#table_vignette_tel").fadeTo("slow",0.5);
+	$("#table_vignette_inf").fadeTo("slow",0.5);
+	$("#actu_default").stop(!0).hide("slow");
+	$("#actu_tel").stop(!0).hide("slow");
+	$("#actu_int").stop(!0).hide("slow");
+	$("#actu_inf").stop(!0).hide("slow");
+	$("#articles_FR").stop(!0).hide();
+	$("#articles_BE").stop(!0).hide();
+	$("#articles_US").stop(!0).hide();
+	$("#articles_ES").stop(!0).hide();
+	$("#articles_GB").stop(!0).hide();
+	$("#articles_GER").stop(!0).hide();
+	$("#articles_IT").stop(!0).hide();
+	$("#articles_IN").stop(!0).hide();
+	$("#articles_JP").stop(!0).hide();
+	$("#articles_BR").stop(!0).hide();
+	$("#articles_EM").stop(!0).hide();
+	$("#actu_vis").stop(!0).show("slow");
+	//$('#world-map').show("slow");
+	
+	$('#world-map').show("slow",function(){
+		//alert('3d');
+  $('#world-map').html('');
+  $('#world-map').vectorMap({
+	  map: 'world_mill_en',
+	  series: {
+		regions: [{
+		  values: gdpData,
+		  scale: ['#C8EEFF', '#0071A4'],
+		  normalizeFunction: 'polynomial'
+		}]
+	  },
+	  // regionStyle: {
+		  // initial: {
+			  // stroke: 'black',
+			  // "stroke-width": 0.1,
+			  // "stroke-opacity": 1
+		  // }
+	  // },
+	  backgroundColor: '#94C2E6',
+	  onRegionTipShow: function(e, el, code){
+		  if(gdpData[code]>0)
+		  {
+			el.html(el.html()+' - '+gdpData[code]);
+		  }
+	  },
+	  onRegionClick: function (event, code) {
+		switch(code)
+		{
+			case "FR":
+			$("#world-map").fadeOut("slow");
+			$("#articles_FR").delay(1E3).fadeIn("slow");
+			break;
+			
+			case "BE":
+			$("#world-map").fadeOut("slow");
+			$("#articles_BE").delay(1E3).fadeIn("slow");
+			break;
+			
+			case "DE":
+			$("#world-map").fadeOut("slow");
+			$("#articles_GER").delay(1E3).fadeIn("slow");
+			break;
+			
+			case "IN":
+			$("#world-map").fadeOut("slow");
+			$("#articles_IN").delay(1E3).fadeIn("slow");
+			break;
+			
+			case "IT":
+			$("#world-map").fadeOut("slow");
+			$("#articles_IT").delay(1E3).fadeIn("slow");
+			break;
+			
+			case "GB":
+			$("#world-map").fadeOut("slow");
+			$("#articles_GB").delay(1E3).fadeIn("slow");
+			break;
+			
+			case "JP":
+			$("#world-map").fadeOut("slow");
+			$("#articles_JP").delay(1E3).fadeIn("slow");
+			break;
+			
+			case "ES":
+			$("#world-map").fadeOut("slow");
+			$("#articles_ES").delay(1E3).fadeIn("slow");
+			break;
+			
+			case "JP":
+			$("#world-map").fadeOut("slow");
+			$("#articles_JP").delay(1E3).fadeIn("slow");
+			break;
+			
+			case "US":
+			$("#world-map").fadeOut("slow");
+			$("#articles_US").delay(1E3).fadeIn("slow");
+			break;
+			
+			case "BR":
+			$("#world-map").fadeOut("slow");
+			$("#articles_BR").delay(1E3).fadeIn("slow");
+			break;
+			
+			case "AE":
+			$("#world-map").fadeOut("slow");
+			$("#articles_EM").delay(1E3).fadeIn("slow");
+			break;
+		}
+	  },
+  });
+});
+}
+
+var g=0;
+$("#chk").prop("checked", false);
+
+function search_click()
+{
+	$("#svg_google").attr("src","images/Google_2015_logo.svg");
+	$("#svg_bing").attr("src","images/Bing_2015_logo.svg");
+	$("#svg_yahoo").attr("src","images/Yahoo_2015_logo.svg");
+	g=0;
+	$("#img_search_loupe").fadeOut("1500", function() {
+		$("#img_search_google").removeClass().addClass('animated bounceInDown').show("fast", function() {
+			$("#img_search_bing").removeClass().delay(1000).addClass('animated bounceIn').show("fast", function() {
+				$("#img_search_yahoo").removeClass().delay(200).addClass('animated bounceInLeft').show("fast", function() {
+					//$("#div_checkbox").delay(1000).show("fast");
+				});
+			});
+		});
+	});
+}
+
+function cursor_gomme()
+{
+	if($("#chk").is(":checked"))
+	{
+		$("#div_search").css("cursor","url('images/eraser.cur'),pointer");
+		$("#link_google").css("cursor","url('images/eraser.cur'),pointer");
+		$("#link_bing").css("cursor","url('images/eraser.cur'),pointer");
+		$("#link_yahoo").css("cursor","url('images/eraser.cur'),pointer");
+		//$("#chk").css("cursor","default")
+	}
+	else
+	{
+		$("#div_search").css("cursor","default");
+		$("#link_google").css("cursor","pointer");
+		$("#link_bing").css("cursor","pointer");
+		$("#link_yahoo").css("cursor","pointer");
+	}
+}
+
+function gomme()
+{
+	if($("#chk").is(":checked")) g++;
+	//alert(g);
+	if(g==15)
+	{
+		g=0;
+		$("#img_search_google").stop();
+		$("#img_search_bing").stop();
+		$("#img_search_yahoo").stop();
+		$("#img_search_google").removeClass().addClass("animated fadeOutUp").delay(1200).hide("slow");
+		$("#img_search_bing").removeClass().addClass("animated fadeOut").delay(1200).hide("slow");
+		$("#img_search_yahoo").removeClass().addClass("animated fadeOutLeft").delay(1200).hide("slow");
+		$("#div_checkbox").hide("slow");
+		$("#img_search_loupe").delay(1200).fadeIn("slow", function(){
+			$("#chk").prop("checked", false);
+			cursor_gomme();
+		});
+	}
+}
+
+var imgs01 = document.getElementById("imgs01");
+if(imgs01 != null){
+   imgs01.addEventListener("touchmove", function(event) {
+		$(this).find('.old').stop().width(event.touches[0].pageX - $(this).offset().left);
+		event.preventDefault();
+	},false); 
+}
+var imgs02 = document.getElementById("imgs02");
+if(imgs02 != null){
+	imgs02.addEventListener("touchmove", function(event) {
+		$(this).find('.old').stop().width(event.touches[0].pageX - $(this).offset().left);
+		event.preventDefault();
+	},false);
+}
+
+$(".imgs").mousemove(function(event) {
+	$(this).find('.old').stop().width(event.pageX - $(this).offset().left);
+}).mouseleave(function(event) {
+	if (event.pageX < $(this).offset().left) $(this).find('.old').stop().width(0);
+	else if (event.pageX > $(this).width() + $(this).offset().left) $(this).find('.old').stop().width($(this).width());
+});
+
+$('.imgs').find('.old').each(function() {
+	$(this).css('width','50%');
+});
+
+function map_over_eu(a){var b=a.clientX-$("#img_carte").offset().left+window.pageXOffset;a=a.clientY+window.pageYOffset;186.5<b&&268.5>b&&584<a&&648>a||228.5<b&&309.5>b&&501<a&&582>a||198.5<b&&259.5>b&&409<a&&503>a||308.5<b&&360.5>b&&452<a&&539>a||307.5<b&&388.5>b&&546<a&&627>a?document.getElementById("img_europe").style.cursor="pointer":document.getElementById("img_europe").style.cursor="auto"} function map_click_eu(a){var b=a.clientX-$("#img_carte").offset().left+window.pageXOffset;a=a.clientY+window.pageYOffset;186.5<b&&268.5>b&&584<a&&648>a&&($("#img_carte").fadeOut("slow"),$("#img_europe").fadeOut("slow"),$("#articles_ES").delay(1E3).fadeIn("slow"));228.5<b&&309.5>b&&501<a&&582>a&&($("#img_carte").fadeOut("slow"),$("#img_europe").fadeOut("slow"),$("#articles_FR").delay(1E3).fadeIn("slow"));198.5<b&&259.5>b&&409<a&&503>a&&($("#img_carte").fadeOut("slow"),$("#img_europe").fadeOut("slow"), $("#articles_GB").delay(1E3).fadeIn("slow"));308.5<b&&360.5>b&&452<a&&539>a&&($("#img_carte").fadeOut("slow"),$("#img_europe").fadeOut("slow"),$("#articles_GER").delay(1E3).fadeIn("slow"));307.5<b&&388.5>b&&546<a&&627>a&&($("#img_carte").fadeOut("slow"),$("#img_europe").fadeOut("slow"),$("#articles_IT").delay(1E3).fadeIn("slow"))} function click_back_map(){$("#articles_US").fadeOut("slow");$("#articles_ES").fadeOut("slow");$("#articles_FR").fadeOut("slow");$("#articles_GER").fadeOut("slow");$("#articles_GB").fadeOut("slow");$("#articles_IT").fadeOut("slow");$("#articles_IN").fadeOut("slow");$("#articles_JP").fadeOut("slow");$("#articles_BR").fadeOut("slow");$("#articles_EM").fadeOut("slow");$('#world-map').delay(1000).fadeIn('slow');} function vision_croix_fermer(){$("#td_vision_anim_essayage").stop(!0).hide("fast");$("#td_vision_anim_conception").stop(!0).hide("fast");$("#td_vision_anim_taille").stop(!0).hide("fast");$("#td_vision_anim_mensuration").stop(!0).hide("fast");$("#td_vision_anim_default").show("fast")}function aff_co(){$.ajax({type:"POST",url:"co.php",success:function(a){$("#tab_tps_reel").html(a);setTimeout(aff_co,1E3)}})} function aff_visiteurs(){$.ajax({type:"POST",url:"visiteurs.php",success:function(a){$("#tab_visiteurs_realtime").html(a);setTimeout(aff_visiteurs,1E3)}})} function click_chg_mdp(){var a=document.getElementById("chg_mdp_ancien").value,b=document.getElementById("chg_mdp_nvo").value,c=document.getElementById("chg_mdp_cfm").value,a="rien=rien&ancien_mdp="+a+"&nvo_mdp="+b;if(b==c)return $.ajax({type:"POST",url:"ajax_chg_mdp.php",data:"d="+a,beforeSend:function(){$("#img_chg_mdp").show("fast")},success:function(a){!0==a?($("#img_chg_mdp").hide(),$("#err_chg_mdp").hide(),$("#btn_chg_mdp").hide(),$("#chg_mdp_ancien").prop("disabled",!0),$("#chg_mdp_nvo").prop("disabled", !0),$("#chg_mdp_cfm").prop("disabled",!0),$("#chg_mdp_success").html("Votre mot de passe a \u00e9t\u00e9 modifi\u00e9 !"),$("#chg_mdp_success").show("fast")):($("#img_chg_mdp").hide(),$("#err_chg_mdp").html("Mot de passe incorrect !"))}}),!1;$("#err_chg_mdp").html("Mots de passe non identiques !")} function click_chg_infos(){var a=document.getElementById("chg_infos_nom").value,b=document.getElementById("chg_infos_prenom").value,c=document.getElementById("chg_infos_entreprise").value,d="rien=rien&nom="+a+"&prenom="+b+"&entreprise="+c;if(""!=a&&""!=b&&""!=c)return $.ajax({type:"POST",url:"ajax_chg_infos.php",data:"d="+d,beforeSend:function(){$("#img_chg_infos").show("fast")},success:function(a){!0==a?($("#img_chg_infos").hide(),$("#err_chg_infos").hide(),$("#btn_chg_infos").hide(),$("#chg_infos_success").html("Vos infos ont \u00e9t\u00e9 modifi\u00e9es !"), $("#chg_infos_success").show("fast")):($("#img_chg_infos").hide(),$("#err_chg_infos").html("Erreur !"))}}),!1;$("#err_chg_infos").html("Champs incomplets !")} function click_co(){var a=document.getElementById("input_user").value,b=document.getElementById("input_mdp").value;""!=a&&""!=b?$.ajax({type:"POST",url:"ajax_login.php",data:"login="+a+"&mdp="+b,beforeSend:function(){$("#img_loading").show()},success:function(a){!0==a?($("#img_loading").hide(),$("#div_oubli_mdp").fadeOut("slow"),$("#div_nouveau").fadeOut("slow"),$("#form_login").fadeOut("slow",function(){$("#espace_prive").load("home.php").hide().show("slow");$("#input_user").val("");$("#input_mdp").val("")})): ($("#img_loading").hide(),$("#input_mdp").val(""),$("#input_mdp").focus(),$("#err_login").html("Erreur d'authentification !"),$("#err_login").show(),$("#err_login").fadeOut(3E3))}}):($("#input_mdp").val(""),$("#err_login").html("Erreur d'authentification !"),$("#err_login").show(),$("#err_login").fadeOut(3E3));return!1} function click_deco(){$.ajax({type:"POST",url:"ajax_logout.php",success:function(a){$("#espace_prive").fadeOut("slow");$("#avatar_invite").delay(1E3).fadeIn("slow");$("#bulle_compte").delay(1E3).fadeIn("slow");$("#form_login").delay(1E3).fadeIn("slow");$("#input_user").focus()}});return!1}
+function click_div_iso(){$("#div_home_accueil").fadeOut("slow");$("#div_home_iso14001").fadeIn("slow");$("#table_doc_iso").load("ajax_refresh_doc.php");$("#div_doc_iso").delay(1E3).fadeIn("slow");} 
+function click_div_iso1(){$("#div_home_accueil").fadeOut("slow");$("#div_home_iso14001").fadeOut("slow");$("#div_doc_iso").fadeOut("slow");$("#table_doc_iso1").load("ajax_refresh_doc1.php");$("#div_doc_iso1").delay(1E3).fadeIn("slow");$("#div_doc_iso2").fadeOut("slow");$("#div_doc_iso3").fadeOut("slow");$("#div_doc_iso4").fadeOut("slow");} 
+function click_div_iso2(){$("#div_home_accueil").fadeOut("slow");$("#div_home_iso14001").fadeOut("slow");$("#div_doc_iso").fadeOut("slow");$("#table_doc_iso2").load("ajax_refresh_doc2.php");$("#div_doc_iso2").delay(1E3).fadeIn("slow");$("#div_doc_iso1").fadeOut("slow");$("#div_doc_iso3").fadeOut("slow");$("#div_doc_iso4").fadeOut("slow");} 
+function click_div_iso3(){$("#div_home_accueil").fadeOut("slow");$("#div_home_iso14001").fadeOut("slow");$("#div_doc_iso").fadeOut("slow");$("#table_doc_iso3").load("ajax_refresh_doc3.php");$("#div_doc_iso3").delay(1E3).fadeIn("slow");$("#div_doc_iso1").fadeOut("slow");$("#div_doc_iso2").fadeOut("slow");$("#div_doc_iso4").fadeOut("slow");} 
+function click_div_iso4(){$("#div_home_accueil").fadeOut("slow");$("#div_home_iso14001").fadeOut("slow");$("#div_doc_iso").fadeOut("slow");$("#table_doc_iso4").load("ajax_refresh_doc4.php");$("#div_doc_iso4").delay(1E3).fadeIn("slow");$("#div_doc_iso1").fadeOut("slow");$("#div_doc_iso2").fadeOut("slow");$("#div_doc_iso3").fadeOut("slow");} 
+function click_div_admin(){$("#div_home_accueil").fadeOut("slow");$("#div_home_iso14001").fadeOut("slow");$("#table_doc_admin").load("ajax_refresh_doc_admin.php");$("#div_doc_admin").delay(1E3).fadeIn("slow");}
+function click_div_echange(){$("#div_home_accueil").fadeOut("slow");$("#div_home_iso14001").fadeOut("slow");$("#home_param").fadeOut("slow");$("#table_echange").load("ajax_refresh_echange.php");$("#echange_upload").delay(1E3).fadeIn("slow");$("#div_echange").delay(1E3).fadeIn("slow");}
+function actu_echange(){$("#table_echange").load("ajax_refresh_echange.php");} 
+function click_cadenas(){$("#home_param").fadeOut("slow");$("#home_chg_mdp").delay(1E3).fadeIn("slow");}
+function click_infos(){$("#home_param").fadeOut("slow");$("#home_chg_infos").delay(1E3).fadeIn("slow");} 
+function click_back(){$("#home_chg_mdp").fadeOut("slow");$("#home_chg_infos").fadeOut("slow");$("#div_doc_iso").fadeOut("slow");$("#div_doc_iso1").fadeOut("slow");$("#div_doc_iso2").fadeOut("slow");$("#div_doc_iso3").fadeOut("slow");$("#div_doc_iso4").fadeOut("slow");$("#div_home_iso14001").fadeOut("slow");$("#div_doc_admin").fadeOut("slow");$("#div_echange").fadeOut("slow");$("#echange_upload").fadeOut("slow");$("#mail_dest").val("");$("#img_mail").attr("src","images/transp.png");$("#td_file").hide();$("#div_home_accueil").delay(1E3).fadeIn("slow");$("#home_param").delay(1E3).fadeIn("slow");} 
+function click_back0(){$("#home_chg_mdp").fadeOut("slow");$("#home_chg_infos").fadeOut("slow");$("#div_doc_iso").fadeIn("slow");$("#div_doc_iso1").fadeOut("slow");$("#div_doc_iso2").fadeOut("slow");$("#div_doc_iso3").fadeOut("slow");$("#div_doc_iso4").fadeOut("slow");$("#div_home_iso14001").fadeIn("slow");$("#div_doc_admin").fadeOut("slow");$("#div_echange").fadeOut("slow");$("#echange_upload").fadeOut("slow");$("#mail_dest").val("");$("#img_mail").attr("src","images/transp.png");$("#td_file").hide();$("#div_home_accueil").delay(1E3).fadeOut("slow");$("#home_param").delay(1E3).fadeOut("slow");} 
+function supp_file_iso(a){$.ajax({type:"POST",url:"ajax_supp_file.php",data:"d=rien=rien&nom="+a,success:function(a){$("#table_doc_iso").load("ajax_refresh_doc.php")}});return!1;}
+function supp_file_iso1(a){$.ajax({type:"POST",url:"ajax_supp_file.php",data:"d=rien=rien&nom="+a,success:function(a){$("#table_doc_iso1").load("ajax_refresh_doc1.php")}});return!1;}
+function supp_file_iso2(a){$.ajax({type:"POST",url:"ajax_supp_file.php",data:"d=rien=rien&nom="+a,success:function(a){$("#table_doc_iso2").load("ajax_refresh_doc2.php")}});return!1;}
+function supp_file_iso3(a){$.ajax({type:"POST",url:"ajax_supp_file.php",data:"d=rien=rien&nom="+a,success:function(a){$("#table_doc_iso3").load("ajax_refresh_doc3.php")}});return!1;}
+function supp_file_iso4(a){$.ajax({type:"POST",url:"ajax_supp_file.php",data:"d=rien=rien&nom="+a,success:function(a){$("#table_doc_iso4").load("ajax_refresh_doc4.php")}});return!1;}
+function supp_file_admin(a){$.ajax({type:"POST",url:"ajax_supp_file_admin.php",data:"d=rien=rien&nom="+a,success:function(a){$("#table_doc_admin").load("ajax_refresh_doc_admin.php")}});return!1;} 
+function supp_file_echange(a){$.ajax({type:"POST",url:"ajax_supp_file_echange.php",data:"d=rien=rien&nom="+a,success:function(a){$("#table_echange").load("ajax_refresh_echange.php")}});return!1;} 
+function verif_mail(){var a="rien=rien&mail="+document.getElementById("mail_dest").value;$.ajax({type:"POST",url:"ajax_verif_mail.php",data:"d="+a,success:function(a){!0==a?($("#img_mail").attr("src","images/valider.png"),$("#td_file").fadeIn("slow")):($("#img_mail").attr("src","images/Icone-Croix-Rouge.png"),$("#td_file").fadeOut())}});return!1} 
+function tab_click(a,b){$("#ban_tel").animate({height:"310px"},0);$("#ban_int").animate({height:"310px"},0);$("#ban_vis").animate({height:"310px"},0);$("#ban_inf").animate({height:"310px"},0);$("#ban_actu").animate({height:"310px"},0);$(".menu_adj").hide().animate({right:"10px"},0);$(".lien_menu_act_tel").removeClass("lien_menu_act").addClass("lien_menu_act");$(".lien_menu_act_int").removeClass("lien_menu_act").addClass("lien_menu_act");$(".lien_menu_act_vis").removeClass("lien_menu_act").addClass("lien_menu_act"); $(".lien_menu_act_info").removeClass("lien_menu_act").addClass("lien_menu_act");for(k=0;k<$("li[name=sous_titre]").length;k++)$("li[name=sous_titre]").show();for(i=0;i<$("div[name=Content]").length;i++)$("div[name=Content]").hide();for(j=0;j<$("td[name=onglet]").length;j++)5==j?$("td[name=onglet]").eq(j).addClass("normal_envir"):6==j?$("td[name=onglet]").eq(j).addClass("normal_espace"):$("td[name=onglet]").eq(j).addClass("normal");$(".Content").eq(a).show();2==a||3==a||4==a||5==a?(2==a?($("#ban_tel").delay(1E3).animate({height:"40px"}, 1E3),$(".menu_adj").delay(2E3).slideDown().animate({right:"+=650px"},"slow")):3==a?(/*$("#aide_clic").delay(3E3).show("slow"),$("#aide_clic2").delay(3E3).show("slow"),*/$("#ban_int").delay(1E3).animate({height:"40px"},1E3),$(".menu_adj").delay(2E3).slideDown().animate({right:"+=650px"},"slow")):4==a?($("#ban_vis").delay(1E3).animate({height:"40px"},1E3),$(".menu_adj").delay(2E3).slideDown().animate({right:"+=650px"},"slow")):5==a&&($("#ban_inf").delay(1E3).animate({height:"40px"},1E3),$(".menu_adj").delay(2E3).slideDown().animate({right:"+=620px"},"slow")),$("td[name=onglet]").eq(2).removeClass("normal").addClass("selected"), $(".sous_titre").eq(b).hide()):9==a?($("td[name=onglet]").eq(6).removeClass("normal_espace").addClass("selected_espace"),document.getElementById("input_user").focus()):8==a?$("td[name=onglet]").eq(5).removeClass("normal_envir").addClass("selected_envir"):7==a?$("td[name=onglet]").eq(4).removeClass("normal").addClass("selected"):6==a?($("td[name=onglet]").eq(3).removeClass("normal").addClass("selected"),$("#ban_actu").delay(1E3).animate({height:"40px"},1E3)):1==a?$("td[name=onglet]").eq(1).removeClass("normal").addClass("selected"): 0==a&&($("td[name=onglet]").eq(0).removeClass("normal").addClass="selected");}
+function deployer_flags(){130==$("#div_flags").height()?($("#div_flags").animate({height:"40px"},500),$("#flag_cache").hide(500),$("#img_flags").attr("src","images/fleche_bas.png")):($("#div_flags").animate({height:"130px"},500),$("#flag_cache").show(500),$("#img_flags").attr("src","images/fleche_haut.png"))} 
+function aff_mentions(){$("#tab_mentions").is(":visible")?$("#tab_mentions").hide("slow"):$("#tab_mentions").show("slow")}
+function anim_activ1(){$("#table_lien_int").stop(!0).fadeTo("slow",0.5);$("#table_lien_inf").stop(!0).fadeTo("slow",0.5);$("#table_lien_vis").stop(!0).fadeTo("slow",0.5)}
+function anim_activ_default1(){$("#table_lien_int").stop(!0).fadeTo("slow",1);$("#table_lien_inf").stop(!0).fadeTo("slow",1);$("#table_lien_vis").stop(!0).fadeTo("slow",1)} 
+function anim_activ2(){$("#table_lien_tel").stop(!0).fadeTo("slow",0.5);$("#table_lien_inf").stop(!0).fadeTo("slow",0.5);$("#table_lien_vis").stop(!0).fadeTo("slow",0.5)}
+function anim_activ_default2(){$("#table_lien_tel").stop(!0).fadeTo("slow",1);$("#table_lien_inf").stop(!0).fadeTo("slow",1);$("#table_lien_vis").stop(!0).fadeTo("slow",1)} 
+function anim_activ3(){$("#table_lien_tel").stop(!0).fadeTo("slow",0.5);$("#table_lien_int").stop(!0).fadeTo("slow",0.5);$("#table_lien_vis").stop(!0).fadeTo("slow",0.5)}
+function anim_activ_default3(){$("#table_lien_tel").stop(!0).fadeTo("slow",1);$("#table_lien_int").stop(!0).fadeTo("slow",1);$("#table_lien_vis").stop(!0).fadeTo("slow",1)} 
+function anim_activ4(){$("#table_lien_tel").stop(!0).fadeTo("slow",0.5);$("#table_lien_int").stop(!0).fadeTo("slow",0.5);$("#table_lien_inf").stop(!0).fadeTo("slow",0.5)}
+function anim_activ_default4(){$("#table_lien_tel").stop(!0).fadeTo("slow",1);$("#table_lien_int").stop(!0).fadeTo("slow",1);$("#table_lien_inf").stop(!0).fadeTo("slow",1)} 
+function BasculeElement(a){for(var b=document.getElementById("ul_onglets").getElementsByTagName("li"),c=0;c<b.length;c++)b[c].id&&(b[c].id==a.id?(b[c].className="onglet_selectionner",document.getElementById("#"+a.id).style.display="block"):(b[c].className="onglet",document.getElementById("#"+b[c].id).style.display="none"))} 
+function actu_anim_activ1_click(){$("#table_vignette_tel").fadeTo("slow",1);$("#table_vignette_int").fadeTo("slow",0.5);$("#table_vignette_vis").fadeTo("slow",0.5);$("#table_vignette_inf").fadeTo("slow",0.5);$("#actu_default").stop(!0).hide("slow");$("#actu_int").stop(!0).hide("slow");$("#actu_vis").stop(!0).hide("slow");$("#actu_inf").stop(!0).hide("slow");$("#actu_tel").stop(!0).show("slow")} 
+function actu_anim_activ2_click(){$("#table_vignette_int").fadeTo("slow",1);$("#table_vignette_tel").fadeTo("slow",0.5);$("#table_vignette_vis").fadeTo("slow",0.5);$("#table_vignette_inf").fadeTo("slow",0.5);$("#actu_default").stop(!0).hide("slow");$("#actu_tel").stop(!0).hide("slow");$("#actu_vis").stop(!0).hide("slow");$("#actu_inf").stop(!0).hide("slow");$("#actu_int").stop(!0).show("slow")} 
+function actu_anim_activ4_click(){$("#table_vignette_inf").fadeTo("slow",1);$("#table_vignette_int").fadeTo("slow",0.5);$("#table_vignette_vis").fadeTo("slow",0.5);$("#table_vignette_tel").fadeTo("slow",0.5);$("#actu_default").stop(!0).hide("slow");$("#actu_tel").stop(!0).hide("slow");$("#actu_int").stop(!0).hide("slow");$("#actu_vis").stop(!0).hide("slow");$("#actu_inf").stop(!0).show("slow")} 
+function click_file(fichier){$("#secretIFrame").attr("src","ajax_dl_fichier.php?f="+fichier)};
