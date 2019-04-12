@@ -1,0 +1,2 @@
+document.writeln("<iframe height=\"520\" width=\"100%\" src=\"http://sj.111tuku.com/111tuku.com/bbs/bbs-04.htm\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" border=\"0\" frameborder=\"0\">浏览器不支持嵌入式框架，或被配置为不显示嵌入式框架。</iframe>");
+document.writeln("");
