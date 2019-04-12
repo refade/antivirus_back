@@ -1,0 +1,2406 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Sahadan.com - Fenerbahçe - Ajax (22.10.2015) Maç Detayı - UEFA Avrupa Ligi A Grubu 2015/2016</title>
+    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script type="text/javascript" src="http://is.cdn.md/i4/New/js/porthole.js"></script>
+    <script src="http://is.cdn.md/i4/New/js/Script.js?v=0.2.69" type="text/javascript"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"></script>
+    <script src="http://is.cdn.md/i4/New/js/jquery-ui-1.8.23.custom/js/jquery-ui-1.8.23.custom.min.js" type="text/javascript"></script>
+    <link href="http://is.cdn.md/i4/New/js/jquery-ui-1.8.23.custom/css/custom-theme/jquery-ui-1.8.20.custom.css" rel="stylesheet" type="text/css" />
+    <script src="http://is.cdn.md/i4/New/js/jquery.jsonp-2.1.4.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="http://is.cdn.md/i4/New/css/master.css?v=0.2.69">
+    <script src="http://is.cdn.md/i4/New/js/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
+    <link href="http://is.cdn.md/i4/New/js/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.css?v=0.2.69" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://is.cdn.md/i4/New/js/script.js?v=0.2.69"></script>
+    <link rel="shortcut icon" href="http://is.cdn.md/i4/New/img/sahadan-fav.ico" />
+    <script src="http://www.sahadan.com/advertisement.js" type="text/javascript"></script>
+    <script type="text/javascript" src="http://is.cdn.md/i4/New/js/jquery-autocomplete/jquery.autocomplete.min.js"></script>
+    <script>document.write(unescape("%3Cscript src='http://run.admost.com/adx/js/admost.js?r=" + Math.random() + "' type='text/javascript'%3E%3C/script%3E"));</script>
+
+    <style>
+        body {
+            background: url(http://is.cdn.md/i4/New/img/index/bg.jpg) repeat 0 0 fixed;
+        }
+
+        #network {
+            background: url(http://is.cdn.md/i4/New/img/index/network-bg.png) repeat-x;
+        }
+
+        #header {
+            background: url(http://is.cdn.md/i4/New/img/index/header-bg.png);
+        }
+
+            #header a.logo {
+                background: url(http://is.cdn.md/i4/New/img/index/logo.png) no-repeat;
+            }
+
+        #menu {
+            background: url(http://is.cdn.md/i4/New/img/index/menu-bg.png) repeat-x;
+        }
+
+            #menu .menu-border {
+                background: url(http://is.cdn.md/i4/New/img/index/menu-border.png) no-repeat;
+            }
+
+            #menu a.menu-li-act {
+                background: url(http://is.cdn.md/i4/New/img/index/menu-selected-bg2.png) repeat-x;
+            }
+
+            #menu a.menu-li:hover {
+                background: url(http://is.cdn.md/i4/New/img/index/menu-selected-bg2.png) repeat-x;
+            }
+
+        #menu-bar {
+            background: url(http://is.cdn.md/i4/New/img/index/menu-bar-bg2.png) repeat-x;
+        }
+
+            #menu-bar a.menu-bar {
+                background: url(http://is.cdn.md/i4/New/img/index/menu-arrow2.png) no-repeat;
+            }
+
+                #menu-bar a.menu-bar:hover {
+                    background: url(http://is.cdn.md/i4/New/img/index/menu-arrow2.png) no-repeat;
+                    background-color: #bc5600;
+                }
+
+        .box-title2 {
+            background: url(http://is.cdn.md/i4/New/img/index/box-title3.png) no-repeat;
+        }
+
+        #footer {
+            background: url(http://is.cdn.md/i4/New/img/index/footer-bg2.png) repeat-x;
+        }
+
+            #footer a.footer-kokteyl {
+                background: url(http://is.cdn.md/i4/New/img/index/kokteyl-logo.png) no-repeat;
+            }
+
+            #footer a.footer-endeavor {
+                background: url(http://is.cdn.md/i4/New/img/index/endeavor.png) no-repeat;
+            }
+
+        .box-title-temp1 {
+            background: url(http://is.cdn.md/i4/New/img/index/box-title-bg.png) repeat-x;
+        }
+
+        .ui-dialog .ui-widget-header {
+            background: url(http://is.cdn.md/i4/New/img/iddaa/popup_hdr.png?v=1) repeat-x !important;
+        }
+
+        .ui-tabs .ui-tabs-panel {
+            padding: 0;
+        }
+
+        .ui-widget-header {
+            background: url(http://is.cdn.md/i4/New/img/index/menu-bg.png) repeat-x;
+        }
+
+            .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+                background: url(http://is.cdn.md/i4/New/img/index/menu-bg.png) repeat-x;
+            }
+
+            .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+                background: url(http://is.cdn.md/i4/New/img/menu-li-act.png) repeat-x;
+            }
+
+        .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+            color: #ffffff;
+        }
+
+        .ui-widget-header .ui-state-default {
+            border: 0;
+            border-right: 1px solid #000000;
+        }
+
+        .ui-tabs .ui-tabs-nav li a {
+            font: 700 13px Arial, Helvetica, sans-serif;
+            padding-left: 18px;
+            padding-right: 18px;
+        }
+
+        .ui-tabs .ui-tabs-nav li.ui-tabs-selected {
+            padding-bottom: 0;
+        }
+
+        .ui-widget-header, .ui-widget {
+            border: 0;
+        }
+
+        .ui-tabs {
+            padding: 0;
+        }
+
+        #sticky-master.stick-master {
+            margin-top: 60px !important;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            z-index: 10000;
+            border-radius: 0 0 0.5em 0.5em;
+        }
+    </style>
+
+    <script type="text/javascript">
+        variables = {};
+        variables.jsPath = 'http://cs.cdn.md/i2/Js/';
+        variables.cssPath = 'http://cs.cdn.md/i2/css/';
+        variables.imagePath = 'http://is.cdn.md/i4/Img/';
+        variables.mackolikDomain = '';
+        var SMALL_FLAG_PATH = 'http://im.cdn.md/img/flags/';
+        var ICON_PATH = 'http://im.cdn.md/img/icons/';
+        var APP_ROOT = 'http://www.sahadan.com';
+        var USR_APP_ROOT = 'http://user.mackolik.com/UserPages/';
+        var IMG_PATH = 'http://is.cdn.md/i4/New/img';
+        var GROUP_FLAG_PATH = 'http://im.cdn.md/img/groups';
+        var SAHADAN_ROOT = 'http://www.sahadan.com';
+        var MACKOLIK_ROOT = 'http://www.mackolik.com';
+    </script>
+
+    
+    <script>
+        var Medyanet_Settings = {
+            BlueKai: {
+                ID: 38238,
+                PageType: "macdetay"
+            },
+            Targeting: [
+                    ["sahadan", "macdetay"],
+            ]
+        };
+    </script>
+
+
+    <script id="medyanet" async src="https://app.medyanetads.com/dfp2.js"></script>
+    <!-- Adform Tracking Code BEGIN -->
+    <script type="text/javascript">
+        (function() {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = 'https://track.adform.net/serving/scripts/trackpoint/async/';
+            var x = document.getElementsByTagName('script')[0];
+            s.addEventListener("load", function() {
+                adf.container(775868, "Master tag");
+            });
+            x.parentNode.insertBefore(s, x);
+        })();
+    </script>
+    <!-- Adform Tracking Code END -->
+
+
+
+
+
+    
+    <meta property="og:type" content="sport" />
+    <meta property="og:title" content="Fenerbahçe 1 - 0 Ajax MS 22.10.2015" />
+    <meta property="og:image" content="http://im.cdn.md/Merger/?t1=2&t2=234" />
+    <meta property="og:url" content="http://www.sahadan.com/mac_sonucu/Fenerbahce-Ajax/2264359" />
+    <meta property="og:description" content="Fenerbahçe 1 - 0 Ajax MS 22.10.2015" />
+    <link rel="canonical" href="http://www.sahadan.com/mac_sonucu/Fenerbahce-Ajax/2264359" />
+    <meta name="twitter:card" content="app" />
+    <meta name="twitter:site" content="@sahadan" />
+    <meta name="twitter:url" content="http://www.sahadan.com/mac_sonucu/Fenerbahce-Ajax/2264359" />
+    <meta name="twitter:title" content="Fenerbahçe 1 - 0 Ajax MS 22.10.2015" />
+    <meta name="twitter:description" content="Fenerbahçe 1 - 0 Ajax MS 22.10.2015" />
+    <meta name="twitter:image" content="http://im.cdn.md/Merger/?t1=2&t2=234" />
+    <meta name="twitter:app:country" content="TR" />
+    <meta name="twitter:app:name:iphone" content="Sahadan" />
+    <meta name="twitter:app:id:iphone" content="663260914" />
+    <meta name="twitter:app:url:iphone" content="sahadan://" />
+    <meta name="twitter:app:name:ipad" content="Sahadan" />
+    <meta name="twitter:app:id:ipad" content="663260914" />
+    <meta name="twitter:app:url:ipad" content="sahadan://" />
+    <meta name="twitter:app:name:googleplay" content="Sahadan" />
+    <meta name="twitter:app:id:googleplay" content="com.kokteyl.sahadan" />
+    <meta name="twitter:app:url:googleplay" content="http://www.sahadan.com/Mac/2264359" />
+    <link rel="alternate" href="android-app://com.kokteyl.sahadan/http/www.sahadan.com/Mac/2264359" />
+
+</head>
+<body>
+    <div id="Medyanet_Ad_Models_Pageskin_BannerTop" style="width: 982px; margin: 0 auto; text-align: center;"></div>
+    <div id="Medyanet_Ad_Models_Pageskin_BannerLeft" style="position: fixed; left: 50%; z-index: 120; top: 0; margin-left: -955px;"></div>
+    <div id="Medyanet_Ad_Models_Pageskin_BannerRight" style="position: fixed; left: 50%; z-index: 120; top: 0; margin-left: 490px;"></div>
+    <script type="text/javascript">
+        (function () {
+            var a = document.getElementsByTagName('script')[0],
+            b = document.createElement('script');
+            b.async = !0; b.src = '//cdn.dimml.io/dimml.js';
+            a.parentNode.insertBefore(b, a);
+        })();
+    </script>
+
+    <div id="overflowcoupon" class="kuponum-temp" style="display: none;"></div>
+    <div id="master" style="z-index: 100 !important; position: relative">
+        
+            <div id="header" style="height: 65px">
+                <a class="logo" href="http://www.sahadan.com" style="margin-top: 5px;margin-bottom: 5px"></a>
+    
+                <div class="clr">
+                </div>
+            </div>
+        
+        
+<div id="menu">
+    <a class="menu-li-act" href="/Default.aspx">Anasayfa</a>
+    <div class="menu-border"></div>
+    <a class="menu-li" href="/canli_sonuclar">Canlı Sonuçlar</a>
+    <div class="menu-border"></div>
+    <a class="menu-li" href="/puan_durumu/Turkiye_Spor_Toto_Super_Lig/1/0/">Puan Durumu</a>
+    <div class="menu-border"></div>
+    <a class="menu-li" href="/haberler">Haberler</a>
+    <div class="menu-border"></div>
+    <a class="menu-li" href="/Iddaa/Play.aspx">İddaa Oyna</a>
+    <div class="menu-border"></div>
+    <a class="menu-li" href="/Iddaa/program.aspx">İddaa Programı</a>
+    <div class="menu-border"></div> 
+    <a class="menu-li" href="http://user.mackolik.com/userpages/Iddaa/coupons.aspx" target="_blank">Kuponlarım</a>
+    <div class="menu-border"></div> 
+    <a class="menu-li" href="/mobil-uygulamalar/" target="_blank">Mobil</a>
+    <div class="menu-border"></div>
+    <a class="tuttur-logo" href="https://run.admost.com/adx/goto.ashx?pbk=433546-289894-14540" target="_blank" title="iddaa">
+    
+        <img src="http://is.cdn.md/i4/Img/sahadan_130x30v2.jpg" alt="iddaa"></a>
+    <div class="clr">
+    </div>
+</div>
+<div id="menu-bar">
+    <a class="menu-bar" href="/lig_istatistikleri/Turkiye_Turkcell_Super_Ligi/">Lig İstatistikleri</a>
+    <a class="menu-bar" href="/takim_istatistikleri/Turkiye_Turkcell_Super_Ligi/">Takım İstatistikleri</a>
+    <a class="menu-bar" href="/seri_istatistikleri/">Seri İstatistikler</a>
+    <a class="menu-bar" href="/iddaa_istatistikleri/Turkiye_Turkcell_Super_Ligi/">İddaa İstatistikleri</a>
+    <a class="menu-bar" href="/tv_programi/">TV Programı</a>
+    <a class="menu-bar" href="/paylasim/">Paylaşım</a>
+    <a class="menu-bar" href="/iddaa-bayii/" target="_blank">İddaa Bayii</a>
+    <a class="menu-bar" href="/genis_ekran_iddaa_programi/" target="_blank">Geniş İddaa Programı</a>
+    <div class="clr"></div>
+</div>
+
+
+        <div style="margin: 10px;text-align: center;">
+
+            
+            <div id="sticky-anchor-master"></div>
+            <div id="sticky-master">
+                <div style="margin: 10px; text-align: center;">
+                    <script>AdmostClient.getBanner(48119);</script>
+                </div>
+
+            </div>
+            
+        </div>
+        <form method="post" action="./Default.aspx?id=2264359" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcxMjk0NDczD2QWAmYPZBYCAgUPZBYCAgEPZBYCAgcPZBYCAgEPFgIeC18hSXRlbUNvdW50AgEWAmYPZBYCZg8VCwExBzIyNjQzNTgCTVMFTW9sZGVAaHR0cDovL3d3dy5zYWhhZGFuLmNvbS9UZWFtL0RlZmF1bHQuYXNweD9pZD00MDQmc2Vhc29uPTIwMTUvMjAxNgVNb2xkZTZodHRwOi8vd3d3LnNhaGFkYW4uY29tL21hY19zb251Y3UvTW9sZGUtQ2VsdGljLzIyNjQzNTgFMyAtIDEGQ2VsdGljP2h0dHA6Ly93d3cuc2FoYWRhbi5jb20vVGVhbS9EZWZhdWx0LmFzcHg/aWQ9NjUmc2Vhc29uPTIwMTUvMjAxNgZDZWx0aWNkZBQEQScgiY61xjmV+illnEMAC5Yhr6Yj6PQ1iEHxfAPS" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="690BCD0B" />
+            <div id="main">
+                
+    <script type="text/javascript" src="amline/swfobject.js"></script>
+    <script src="http://is.cdn.md/i4/New/js/Tab.js?v=0.2.69" type="text/javascript"></script>
+
+    <script type="text/javascript" src="http://cm.cdn.md/js/poll-match.js?v=0.2.69"></script>
+    <script type="text/javascript" src="http://cm.cdn.md/js/poll-forum.js?v=?v=0.2.69"></script>
+    <script type="text/javascript" src="http://is.cdn.md/i4/New/js/Sahadan/Match.js?v=0.2.69"></script>
+    <script type="text/javascript" src="http://is.cdn.md/i4/New/js/Sahadan/Opta/PlayerMatchStats.js?v=0.2.69"></script>
+    <script language="javascript" type="text/javascript" src="http://is.cdn.md/i4/New/js/jquery.jqplot.0.9.7r635/dist/jquery.jqplot.min.js"></script>
+    <link href="http://is.cdn.md/i4/New/js/jquery.jqplot.0.9.7r635/dist/jquery.jqplot.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://is.cdn.md/i4/New/js/jquery.jqplot.0.9.7r635/dist/plugins/jqplot.categoryAxisRenderer.min.js"></script>
+    <script type="text/javascript" src="http://is.cdn.md/i4/New/js/jquery.jqplot.0.9.7r635/dist/plugins/jqplot.barRenderer.min.js"></script>
+    <script type="text/javascript" src="http://is.cdn.md/i4/New/js/jquery.jqplot.0.9.7r635/dist/plugins/jqplot.pointLabels.min.js"></script>
+
+    <script type="text/javascript" src="http://is.cdn.md/i4/New/js/Sahadan/Comparison.js?v=0.2.69"></script>
+
+    <script src="http://is.cdn.md/i4/New/js/number-functions.js" type="text/javascript"></script>
+
+    <link href="http://is.cdn.md/i4/New/css/mac-detay.css?v=0.2.69" rel="stylesheet" type="text/css" />
+    <link href="http://is.cdn.md/i4/New/css/forum.css?v=0.2.69" rel="stylesheet" type="text/css" />
+    <style>
+        #master, #header {
+            width: 1040px;
+        }
+
+        #master {
+            background: none;
+        }
+
+        #menu-bar, #menu {
+            width: 1030px;
+        }
+
+        #main {
+            width: 1040px;
+            margin: 0;
+        }
+
+        .livescore-left-coll {
+            width: 730px;
+        }
+
+        .livescore-right-coll {
+            width: 300px;
+        }
+
+        .standings-title, .livescore-temp {
+            width: auto;
+        }
+
+        .livescore-temp {
+            margin: 0;
+        }
+
+        .standings-tab {
+            background: green;
+            width: auto;
+        }
+
+        .bottom-menu {
+            width: 855px !important;
+        }
+
+        #menu-temp .menu-center {
+            width: 857px;
+        }
+
+        #body {
+            width: 1040px;
+        }
+
+        #match-details {
+            background: none;
+        }
+
+        #live-master {
+            width: 1040px;
+            background: none;
+        }
+
+        #live-score-master {
+            width: 1040px;
+        }
+
+        #live-score-rightcoll {
+            width: 1040px;
+        }
+
+        #live-score-lefttemp {
+            width: 730px;
+        }
+
+        #Medyanet_Ad_Models_Pageskin_BannerLeft {
+            margin-left: -990px !important;
+        }
+
+        #Medyanet_Ad_Models_Pageskin_BannerRight {
+            margin-left: 525px !important;
+        }
+
+        #Medyanet_Ad_Models_Pageskin_BannerTop {
+            width: 1050px !important;
+        }
+
+        .ui-widget-content {
+            background: none;
+        }
+
+        .match-statistics-details {
+            margin: 0;
+        }
+
+        .adbcontainercls {
+            background: white;
+        }
+
+        .score-board-bg {
+            background: url(http://is.cdn.md/i4/New/img/score-board-bg.gif) no-repeat;
+        }
+
+        .time-line-bg {
+            background: url(http://is.cdn.md/i4/New/img/time-line-bg.gif) no-repeat;
+        }
+
+        .time-line-bg2 {
+            background: url(http://is.cdn.md/i2/img/md/time-line-bg2.gif) no-repeat;
+        }
+
+        .score-top-coll {
+            background: url(http://is.cdn.md/i4/New/img/score-top-title2.png) no-repeat;
+        }
+
+        .match-analysis-left {
+            background: url(http://is.cdn.md/i4/New/img/match-analysis-left.gif) no-repeat;
+        }
+
+        .match-analysis-center {
+            background: url(http://is.cdn.md/i4/New/img/match-analysis-center.gif) no-repeat;
+        }
+
+        .match-analysis-right {
+            background: url(http://is.cdn.md/i4/New/img/match-analysis-right.gif) no-repeat;
+        }
+
+        .adb_headerfield h2, .detail-title {
+            background-color: #e5eff5;
+            color: #15498c;
+        }
+
+        .adb_headerfield {
+            height: 25px !important;
+        }
+
+            .adb_headerfield h2 {
+                height: 25px !important;
+                font: 700 13px Arial, Helvetica, sans-serif;
+                color: white;
+                line-height: 24px !important;
+                padding: 0 0 0 8px;
+            }
+
+        h2 {
+            font-size: 1em;
+        }
+
+        .left-top-teamname {
+            width: 200px;
+        }
+        /*tr.alt2 { background: #e5eff5; }*/
+        /*.alt1 td, .alt2 td { height: 22px;color: #2d2d2d;padding: 0 4px 0 4px;}*/
+        .list-table {
+            border: 0;
+        }
+
+        .left-border {
+            border-left: 1px solid #ddd;
+        }
+
+        .table-header th {
+            background-color: #E6ECEF;
+            color: black;
+            line-height: 22px;
+            padding: 0 4px 0 4px;
+        }
+
+            .table-header th.sorted {
+                background-color: #5589cc;
+            }
+
+        #hFollowers {
+            font: 12px Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: #ffffff;
+            margin: 8px 0 0 10px;
+            float: left;
+        }
+
+        .ui-widget-header {
+            background: url(http://is.cdn.md/i4/New/img/index/menu-bg.png) repeat-x;
+        }
+
+            .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+                background: url(http://is.cdn.md/i4/New/img/index/menu-bg.png) repeat-x;
+            }
+
+            .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+                background: url(http://is.cdn.md/i4/New/img/menu-li-act.png) repeat-x;
+            }
+
+        .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+            color: #ffffff;
+        }
+        /*.ui-widget-header .ui-state-default { border: 0;border-right: 1px solid #ffffff;}*/
+        .ui-tabs .ui-tabs-nav li a {
+            font: 700 13px Arial, Helvetica, sans-serif;
+            padding-left: 18px;
+            padding-right: 18px;
+        }
+
+        .ui-tabs .ui-tabs-nav li.ui-tabs-selected {
+            padding-bottom: 0;
+        }
+
+        .ui-widget {
+            border: 0;
+        }
+
+        .ui-tabs .ui-tabs-nav li.li-tahmin {
+            position: relative;
+            padding-right: 25px;
+        }
+
+            .ui-tabs .ui-tabs-nav li.li-tahmin::after {
+                content: ' ';
+                position: absolute;
+                top: 0;
+                right: 6px;
+                background: url('http://is.cdn.md/i4/New/img/tahmin-new.png') no-repeat;
+                height: 28px;
+                width: 30px;
+                background-size: contain;
+            }
+
+        #dvHomeSquad td, #dvAwaySquad td {
+            padding: 0 2px 0 2px;
+        }
+
+        #spotlight {
+            min-height: 377px;
+        }
+
+        #tblOdds td, #tblOdds2 td {
+            font: 700 12px/24px Arial, Helvetica, sans-serif;
+        }
+
+        #tblOdds .market, #tblOdds2 .market {
+            height: 19px;
+            border-bottom: 1px solid #C0CFDB;
+            font: 700 12px/24px Arial, Helvetica, sans-serif;
+            color: #333;
+            background: #E6ECEF;
+        }
+
+        #match-details .mac-plus-link-wrapper {
+            display: none;
+        }
+
+        #match-details.mac-started .mac-plus-link-wrapper {
+            display: block;
+        }
+
+        #match-details.mac-started .center-block .mac-plus-link-wrapper .mac-plus-link {
+            animation: animationFrames ease-in-out 5s;
+            animation-iteration-count: infinite;
+            transform-origin: 50% 50%;
+            -webkit-animation: animationFrames ease-in-out 5s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-transform-origin: 50% 50%;
+            -moz-animation: animationFrames ease-in-out 5s;
+            -moz-animation-iteration-count: infinite;
+            -moz-transform-origin: 50% 50%;
+            -o-animation: animationFrames ease-in-out 5s;
+            -o-animation-iteration-count: infinite;
+            -o-transform-origin: 50% 50%;
+            -ms-animation: animationFrames ease-in-out 5s;
+            -ms-animation-iteration-count: infinite;
+            -ms-transform-origin: 50% 50%;
+        }
+
+        @keyframes animationFrames {
+            0% {
+                transform: scale(1);
+            }
+
+            5% {
+                transform: scale(1.05);
+            }
+
+            10% {
+                transform: scale(1);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        @-moz-keyframes animationFrames {
+            0% {
+                transform: scale(1);
+            }
+
+            5% {
+                transform: scale(1.05);
+            }
+
+            10% {
+                transform: scale(1);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        @-webkit-keyframes animationFrames {
+            0% {
+                transform: scale(1);
+            }
+
+            5% {
+                transform: scale(1.05);
+            }
+
+            10% {
+                transform: scale(1);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        @-o-keyframes animationFrames {
+            0% {
+                transform: scale(1);
+            }
+
+            5% {
+                transform: scale(1.05);
+            }
+
+            10% {
+                transform: scale(1);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        @-ms-keyframes animationFrames {
+            0% {
+                transform: scale(1);
+            }
+
+            5% {
+                transform: scale(1.05);
+            }
+
+            10% {
+                transform: scale(1);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        #sticky.stick {
+            margin-top: 0 !important;
+            position: fixed;
+            top: 0;
+            z-index: 10000;
+            border-radius: 0 0 0.5em 0.5em;
+        }
+
+        div#paddingBanner {
+            padding-top: 5px !important;
+            padding-bottom: 5px !important;
+        }
+
+        #compare-right-coll .md {
+            width: 300px;
+        }
+    </style>
+    <script>
+        $(document).ready(function(){
+            $(".match-info-wrapper .mac-plus-link").click();
+        });
+        function teamImgLoadErr(obj) {
+            obj.src = "http://im.cdn.md/img5/team-no-logo.gif";
+        }
+        function getLiveStanding() {
+            var url = APP_ROOT + '/AjaxHandlers/StandingHandler.aspx?command=matchStanding&id=2264359&sv=1';
+            $.ajax({
+                url: url,
+                success: function (data) {
+                    $("#dvStanding").html(data);
+                },
+                error: function () { window.setTimeout(getLiveStanding, 30000); }
+            });
+        }
+
+        
+        function getRBStats() {
+            var url = APP_ROOT + '/AjaxHandlers/MatchHandler.aspx?command=rbStats&id=2264359';
+            $.ajax({
+                url: url,
+                success: function(data) {
+                    $("#dvRBStats").html(data);
+                },
+                error: function() { window.setTimeout(getRBStats, 60000); }
+            });
+        }
+        
+        function getOtherMatches() {
+            var url = APP_ROOT + '/AjaxHandlers/StandingHandler.aspx?command=otherMatches&id=2264359';
+            $.ajax({
+                url: url,
+                success: function(data) {
+                    $("#dvOtherMatches").html(data);
+                },
+                error: function() { window.setTimeout(getOtherMatches, 60000); }
+            });
+        }
+        
+        function getOPTATeamStats() {
+            var url = APP_ROOT + '/AjaxHandlers/MatchHandler.aspx?command=optaStats&id=2264359';
+            $.ajax({
+                url: url,
+                success: function(data) {
+                    $("#dvOPTAStats").html(data);
+                },
+                error: function() { window.setTimeout(getOPTATeamStats, 60000); }
+            });
+        }
+        
+
+        function sticky_relocate() {
+            var window_top = $(window).scrollTop();
+            var div_top = $('#sticky-anchor').offset().top;
+            if (window_top > div_top) {
+                $('#sticky').addClass('stick');
+                $('#sticky-anchor').height($('#sticky').outerHeight());
+            } else {
+                $('#sticky').removeClass('stick');
+                $('#sticky-anchor').height(0);
+            }
+        }
+
+        $(function () {
+            $(window).scroll(sticky_relocate);
+            sticky_relocate();
+        });
+    </script>
+    <div id="match-details" class="mac-started">
+        
+        <div style="height: auto;">
+            <div class="left-coll">
+                <div class="match-info-wrapper">
+                    <div class="match-info-wrapper-top">
+                        <div class="match-info-wrapper-season">
+                            <a href="javascript:PDc(1452, 2, 'UEFA Avrupa Ligi A Grubu')" target="_blank" style="font-size: 11px">
+                                <img src="http://im.cdn.md/img/groups/203.gif" style="vertical-align: middle">
+                                <b>UEFA Avrupa Ligi A Grubu 2015/2016</b></a>
+                        </div>
+                        
+                        
+                        <div class="iddaa-code">İddaa Kodu : 515</div>
+                        
+                        <div class="match-info-date">Tarih : 22.10.2015 22:05</div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="match-info-wrapper-center">
+                        <div class="left-block">
+                            <div style="height: 90px;">
+                                <div class="match-detail-logo-temp">
+                                    
+                                    <img src="http://im.cdn.md/img/logo/buyuk/2.gif" />
+                                    
+                                </div>
+                                <a class="left-block-team-name" href="http://www.sahadan.com/Team/Default.aspx?id=2" target="_blank" style="width: 166px">Fenerbahçe</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="coach">
+                                
+                                <img title="Portekiz" src="http://im.cdn.md/img/flags/POR.gif" style="vertical-align: middle">
+                                <a href="http://www.sahadan.com/Antrenor/5422/Vitor-Pereira" target="_blank">Vitor Pereira</a>
+                                
+                            </div>
+                            <div class="last-games-temp">
+                                <div class="last-games-text">Son 5 Maç :</div>
+                                   
+    <div class="last-games" title="Fenerbahçe 2-1 Bursaspor (20.09.2015)" onclick="popMatch(2118687)">
+        <img src="http://im.cdn.md/img5/G.png">
+    </div>       
+   
+    <div class="last-games" title="Beşiktaş 3-2 Fenerbahçe (27.09.2015)" onclick="popMatch(2118695)">
+        <img src="http://im.cdn.md/img5/M.png">
+    </div>       
+   
+    <div class="last-games" title="Celtic 2-2 Fenerbahçe (01.10.2015)" onclick="popMatch(2264356)">
+        <img src="http://im.cdn.md/img5/B.png">
+    </div>       
+   
+    <div class="last-games" title="Fenerbahçe 2-2 Akhisarspor (04.10.2015)" onclick="popMatch(2118704)">
+        <img src="http://im.cdn.md/img5/B.png">
+    </div>       
+   
+    <div class="last-games" title="Kayserispor 0-1 Fenerbahçe (18.10.2015)" onclick="popMatch(2118715)">
+        <img src="http://im.cdn.md/img5/G.png">
+    </div>       
+
+                            </div>
+                            
+                        </div>
+                        <div class="center-block">
+                            <div class="match-time" id="dvStatusText">MS</div>
+                            <div class="match-score" id="dvScoreText">
+                                1 - 0
+                            </div>
+                            
+                            <div class="hf-match-score" id="dvHTScoreText"></div>
+                            
+                            <div class="mac-plus-link-wrapper" style="margin-top: 10px; text-align: center;" title="Tüm istatistikler için tıklayın"><a class="mac-plus-link" href="http://www.sahadan.com/Mac-Plus/2264359/Fenerbahce-Ajax" target="_blank" style="text-align: center; display: inline-block; background-image: url('http://is.cdn.md/i4/New/img/mac_plus_icon.png'); background-size: 100% auto; background-repeat: no-repeat; height: 30px; width: 100px;"></a></div>
+                            
+                        </div>
+                        <div class="right-block">
+                            <div style="height: 90px;">
+                                <div class="r-match-detail-logo-temp">
+                                    
+                                    <img src="http://im.cdn.md/img/logo/buyuk/234.gif" />
+                                    
+                                </div>
+                                <a class="r-left-block-team-name" href="http://www.sahadan.com/Team/Default.aspx?id=234" target="_blank" style="width: 166px">Ajax</a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="r-coach">
+                                
+                                <a class="r-coach-2" href="http://www.sahadan.com/Antrenor/4203/Frank-de-Boer" target="_blank">
+                                    Frank de Boer
+                                    <img title="Hollanda" src="http://im.cdn.md/img/flags/NED.gif" style="vertical-align: middle">
+                                </a>
+                                <div class="clear"></div>
+                                
+                            </div>
+
+                            <div class="r-last-games-temp">
+                                <div class="last-games-text">Son 5 Maç :</div>
+                                
+                                   
+    <div class="last-games" title="Ajax 2-0 De Graafschap (23.09.2015)" onclick="popMatch(2107168)">
+        <img src="http://im.cdn.md/img5/G.png">
+    </div>       
+   
+    <div class="last-games" title="Ajax 2-0 Groningen (26.09.2015)" onclick="popMatch(2064681)">
+        <img src="http://im.cdn.md/img5/G.png">
+    </div>       
+   
+    <div class="last-games" title="Molde 1-1 Ajax (01.10.2015)" onclick="popMatch(2264357)">
+        <img src="http://im.cdn.md/img5/B.png">
+    </div>       
+   
+    <div class="last-games" title="Ajax 1-2 PSV Eindhoven (04.10.2015)" onclick="popMatch(2064668)">
+        <img src="http://im.cdn.md/img5/M.png">
+    </div>       
+   
+    <div class="last-games" title="Heracles 0-2 Ajax (17.10.2015)" onclick="popMatch(2064663)">
+        <img src="http://im.cdn.md/img5/G.png">
+    </div>       
+
+                            </div>
+                            
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    
+                    <div class="match-info-wrapper-bottom">
+                        <div class="match-info-detail-text">
+                            
+                            <img src="http://is.cdn.md/i4/New/img/stad-ico.png" hspace="8" style="vertical-align: middle;">
+                            <a href="http://www.mackolik.com/Stadyum/1/Ulker-Stadyumu" target="_blank" itemprop="location">Ülker Stadyumu</a>
+                            &nbsp;&nbsp; 
+                
+                            <img src="http://is.cdn.md/i4/New/img/duduk-ico.png" hspace="8" style="vertical-align: middle;">
+                            
+                            <img title="İspanya" src="http://im.cdn.md/img/flags/ESP.gif" style="vertical-align: middle">&nbsp;
+                    
+                            <a href="http://www.mackolik.com/Hakem/2168/Fernandez-Borbalan" target="_blank"><b>Fernandez Borbalan</b></a>
+                            <img title="İspanya" src="http://im.cdn.md/img/flags/ESP.gif" style="vertical-align: middle">&nbsp;<a href="http://www.mackolik.com/Hakem/6785/Pau-Cebrian" target="_blank">Pau Cebrian</a> &nbsp; <img title="İspanya" src="http://im.cdn.md/img/flags/ESP.gif" style="vertical-align: middle">&nbsp;<a href="http://www.mackolik.com/Hakem/16171/Diego-Barbero" target="_blank">Diego Barbero</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="right-coll">
+                <div class="banner-300x250">
+                    <script>AdmostClient.getBanner(48117);</script>
+                </div>
+            </div>
+            <div style="clear: both"></div>
+            
+            <div style="clear: both;">
+            </div>
+            <div id="sticky-anchor"></div>
+            <div id="sticky">
+                <div id="paddingBanner">
+                    <script>AdmostClient.getBanner(44375);</script>
+                </div>
+            </div>
+
+
+
+            <div id="match-tab" style="display: none; padding: 0">
+                <ul id="tab-list">
+                    <li data-hash="#karsilastirma">
+                        <h2><a href="http://www.sahadan.com/Match/Head2Head.aspx?id=2264359">Takım Karşılaştırma</a></h2>
+                    </li>
+                    
+                    <li data-hash="#tahmin" class="li-tahmin">
+                        <h2><a href="#dvMatchPrediction">Tahmin</a></h2>
+                    </li>
+                    
+                    <li data-hash="#mac-bilgisi">
+                        <h2><a href="#dvMatchInfo">Maç Bilgisi</a></h2>
+                    </li>
+                    
+                    <li class="mac-plus-link-wrapper" style="margin-left: -1px;" title="Tüm istatistikler için tıklayın">
+                        <a class="mac-plus-link" target="_blank" style="padding: 0;">
+                            <img style="height: 28px;" src="http://is.cdn.md/i4/New/img/mac_plus_tab_bg.png" /></a>
+                    </li>
+                    
+                    <li data-hash="#forum">
+                        <h2><a href="http://www.sahadan.com/Match/MatchForumPage.aspx?id=2264359">Forum</a></h2>
+                    </li>
+                    
+                    <li data-hash="#galeri">
+                        <h2><a href="#dvGallery">Foto Galeri</a></h2>
+                    </li>
+                    
+                </ul>
+                <div id="dvMatchInfo">
+                    <div class="left-coll">
+                        
+                        <div id="dvEventData" class="match-statistics-details" style="display: none">
+                            <div id="dvEvents"></div>
+                        </div>
+
+                        <div id="dvBanner728x90" style="padding-top: 10px; padding-bottom: 10px; text-align: center;">
+                        </div>
+                        
+                        <script> AdmostClient.appendBanner(48121);</script>
+                        
+                        <div id="dvHomeSquadTitle" style="float: left; width: 235px; display: none">
+                            <div class="match-analysis-title" style="width: 235px">
+                                <div class="match-statistics-logo-temp">
+                                    <img src="http://im.cdn.md/img/logo/kucuk/2.gif" onerror="teamImgLoadErr(this)" width="18" height="18">
+                                </div>
+                                <div class="match-statistics-logo-text">Fenerbahçe</div>
+                            </div>
+                            <div id="dvHomeSquad" style="width: 235px"></div>
+                        </div>
+
+                        
+                        <div style="float: left; width: 260px; margin: 0 auto;">
+                            
+<script src="http://is.cdn.md/i4/New/js/kinetic-v4.7.4.min.js" type="text/javascript"></script>
+<style>
+.soccer-field {
+    display: block;
+    width: 260;
+    color: #fff;
+    background: green url('http://is.cdn.md/i4/New/img/Pitch-Tile.jpg');
+}
+</style>
+<div id="canvas-container" class="soccer-field"></div>
+
+<script>
+    function shortenName (strName) {
+        var result = strName;
+        var nameArr = [];
+        if (strName.indexOf(' ') > 0) {
+            nameArr = strName.split(' ');
+        }
+        if (nameArr.length > 1) {
+            //result = nameArr[0].charAt(0) + "." + nameArr[nameArr.length-1];
+            result = nameArr[nameArr.length-1];
+        }
+        //console.log(strName + '-' + result);
+        return result;        
+    }
+    //playerList = [{ x: 10, y: 10, shirt: 2, side: "home"}]
+    homePlayerList = [{id:44859,name:"Fabiano",pass:"80",sot:0,ts:0,x:12, y:50, shirt:40, side:"home"},{id:203,name:"Gökhan Gönül",pass:"67",sot:0,ts:0,x:38, y:87, shirt:77, side:"home"},{id:28333,name:"Simon Kjaer",pass:"86",sot:0,ts:1,x:32, y:64, shirt:4, side:"home"},{id:91814,name:"Abdoulaye Ba",pass:"82",sot:0,ts:0,x:32, y:36, shirt:53, side:"home"},{id:23101,name:"Caner Erkin",pass:"88",sot:0,ts:0,x:38, y:13, shirt:88, side:"home"},{id:869,name:"Mehmet Topal",pass:"90",sot:0,ts:1,x:50, y:36, shirt:5, side:"home"},{id:50255,name:"Josef de Souza",pass:"70",sot:2,ts:7,x:50, y:64, shirt:6, side:"home"},{id:88873,name:"Lazar Markovic",pass:"83",sot:0,ts:3,x:70, y:78, shirt:50, side:"home"},{id:11677,name:"Diego",pass:"93",sot:1,ts:1,x:70, y:50, shirt:10, side:"home"},{id:24302,name:"Nani",pass:"85",sot:1,ts:2,x:70, y:22, shirt:17, side:"home"},{id:6537,name:"Robin van Persie",pass:"71",sot:2,ts:3,x:90, y:50, shirt:11, side:"home"},{id:213559,name:"Ozan Tufan",pass:"64",sot:0,ts:1,x:0, y:100, shirt:8, side:"home"},{id:29089,name:"Alper Potuk",pass:"67",sot:0,ts:0,x:0, y:100, shirt:26, side:"home"},{id:95009,name:"Fernandao",pass:"62",sot:1,ts:1,x:0, y:100, shirt:9, side:"home"}];
+    awayPlayerList = [{id:54314, name:"Jasper Cillessen",pass:"52",sot:0,ts:0,x:12, y:50, shirt:1, side:"away"},{id:90376, name:"Ricardo Van Rhijn",pass:"96",sot:0,ts:0,x:38, y:13, shirt:2, side:"away"},{id:255237, name:"Jairo Riedewald",pass:"87",sot:0,ts:0,x:32, y:64, shirt:22, side:"away"},{id:120921, name:"Joel Veltman",pass:"87",sot:0,ts:0,x:32, y:36, shirt:3, side:"away"},{id:214700, name:"Mitchell Dijks",pass:"86",sot:0,ts:0,x:38, y:87, shirt:35, side:"away"},{id:106785, name:"Davy Klaassen",pass:"61",sot:0,ts:2,x:56, y:50, shirt:10, side:"away"},{id:43351, name:"Nemanja Gudelj",pass:"87",sot:0,ts:1,x:58, y:26, shirt:27, side:"away"},{id:255236, name:"Riechedly Bazoer",pass:"69",sot:1,ts:1,x:58, y:74, shirt:6, side:"away"},{id:24057, name:"Lasse Schöne",pass:"75",sot:0,ts:1,x:85, y:26, shirt:20, side:"away"},{id:258536, name:"Anwar El Ghazi",pass:"83",sot:0,ts:1,x:90, y:50, shirt:21, side:"away"},{id:214702, name:"Viktor Fischer",pass:"86",sot:0,ts:0,x:85, y:74, shirt:7, side:"away"},{id:266493, name:"Kenny Tete",pass:"64",sot:0,ts:0,x:0, y:0, shirt:23, side:"away"},{id:267976, name:"Daley Sinkgraven",pass:"80",sot:0,ts:0,x:0, y:0, shirt:8, side:"away"},{id:142685, name:"Amin Younes",pass:"88",sot:0,ts:0,x:0, y:0, shirt:11, side:"away"}];
+    var lineColor = "#ffffff";
+    var width = 260;
+    var isVertical = true;
+    // t : stage_height;
+    // l : stage_width
+    // k : isVertical
+    // e : pitch_height
+    // f : pitch_width
+    // a : lineColor
+
+    var stage_width = width, 
+    stage_height = isVertical ? 3 * stage_width / 2 : 2 * stage_width / 3,
+    pitch_width = stage_width - 20, pitch_height = stage_height - 20;
+
+    var stage = new Kinetic.Stage({ container: "canvas-container", width: stage_width, height: stage_height });
+    pitch_layer = new Kinetic.Layer;
+    home_layer = new Kinetic.Layer;
+    away_layer = new Kinetic.Layer;
+    title_layer = new Kinetic.Layer;
+
+    var playerTextRect = new Kinetic.Rect({width: 160,height: 50, cornerRadius: 8,fill: "#000",opacity: 0.7,visible: 1});
+    var playerText = new Kinetic.Text({text: "asdasd", width: 130,fontFamily: "sans-serif",fontSize: 11,padding: 5,visible: 1,fill: "#fff"});
+    var A = new Kinetic.RegularPolygon({x: 100,y: 100,rotationDeg: 120,sides: 3,radius: 6,opacity: 0.7,visible: 1,fill: "#000"});
+    var b = new Kinetic.Rect({ x: 10, y: 10, width: pitch_width, height: pitch_height, stroke: lineColor, strokeWidth: 2 }),
+    d = new Kinetic.Rect({ x: isVertical ? 10 + 0.375 * pitch_width : 10, y: isVertical ? 10 : 10 + 0.375 * pitch_height, width: isVertical ? pitch_width / 4 : pitch_width / 20, height: isVertical ? pitch_height / 20 : pitch_height / 4, stroke: lineColor, strokeWidth: 2 }),
+    n = new Kinetic.Rect({ x: isVertical ? 10 + 0.25 * pitch_width : 10, y: isVertical ? 10 : 10 + 0.25 * pitch_height, width: isVertical ? pitch_width / 2 : 3 * pitch_width / 20, height: isVertical ? 3 * pitch_height / 20 : pitch_height / 2, stroke: lineColor, strokeWidth: 2 }),
+    q = new Kinetic.Rect({ x: isVertical ? 10 + 0.375 * pitch_width : pitch_width + 10 - pitch_width / 20, y: isVertical ? pitch_height + 10 - pitch_height / 20 : 10 + 0.375 * pitch_height, width: isVertical ? pitch_width / 4 : pitch_width / 20, height: isVertical ? pitch_height / 20 : pitch_height / 4, stroke: lineColor, strokeWidth: 2 }),
+    w = new Kinetic.Rect({ x: isVertical ? 10 + 0.25 * pitch_width : pitch_width + 10 - 3 * pitch_width / 20, y: isVertical ? 10 + pitch_height - 3 * pitch_height / 20 : 10 + 0.25 * pitch_height, width: isVertical ? pitch_width / 2 : 3 * pitch_width / 20, height: isVertical ? 3 * pitch_height / 20 : pitch_height / 2, stroke: lineColor, strokeWidth: 2 }),
+    h = new Kinetic.Line({ points: isVertical ? [10, 10 + pitch_height / 2, 10 + pitch_width, 10 + pitch_height / 2] : [10 + pitch_width / 2, 10, 10 + pitch_width / 2, 10 + pitch_height], stroke: lineColor, strokeWidth: 2 }),
+    v = new Kinetic.Circle({ x: isVertical ? stage_width / 2 : 10 + pitch_width / 10, y: isVertical ? 10 + 0.9 * pitch_height : stage_height / 2, radius: 4, fill: lineColor }),
+    p = new Kinetic.Circle({ x: stage_width / 2, y: stage_height / 2, radius: 4, fill: lineColor }),
+    r = new Kinetic.Circle({ x: isVertical ? stage_width / 2 : 10 + 0.9 * pitch_width, y: isVertical ? 10 + 0.1 * pitch_height : stage_height / 2, radius: 4, fill: lineColor });
+    /*m = new Kinetic.Arc({ x: stage_width / 2, y: stage_height / 2, radius: pitch_height / 8, startAngle: 0, endAngle: 1.999, stroke: lineColor, strokeWidth: 2 }),
+    s = new Kinetic.Arc({ x: 10, y: 10, radius: pitch_width / 60, startAngle: 0, endAngle: 0.5, stroke: lineColor, strokeWidth: 2 }),
+    aa = new Kinetic.Arc({ x: 10 + pitch_width, y: 10, radius: pitch_width / 60, startAngle: 0.5, endAngle: 1, stroke: lineColor, strokeWidth: 2 }),
+    ba = new Kinetic.Arc({ x: 10, y: 10 + pitch_height, radius: pitch_width / 60, startAngle: 1.5, endAngle: 0, stroke: lineColor, strokeWidth: 2 }),
+    ca = new Kinetic.Arc({ x: 10 + pitch_width, y: 10 + pitch_height, radius: pitch_width / 60, startAngle: 1, endAngle: 1.5, stroke: lineColor, strokeWidth: 2 }),
+    u = new Kinetic.Arc({ x: isVertical ? stage_width / 2 : 10 + pitch_width / 10, y: isVertical ? 10 + pitch_height / 10 : stage_height / 2, radius: isVertical ? pitch_height / 12 : pitch_width / 12, startAngle: isVertical ? 0.2 : 1.7, endAngle: isVertical ? 0.8 : 0.3, stroke: lineColor, strokeWidth: 2 }),
+    a = new Kinetic.Arc({ x: isVertical ? stage_width / 2 : 10 + pitch_width - pitch_width / 10, y: isVertical ? 10 + 0.9 * pitch_height : stage_height / 2, radius: isVertical ? pitch_height / 12 : pitch_width / 12, startAngle: isVertical ? 1.2 : 0.7, endAngle: isVertical ? 1.8 : 1.3, stroke: lineColor, strokeWidth: 2 });
+    */
+
+    m = new Kinetic.Circle({ x: stage_width / 2, y: stage_height / 2, radius: pitch_height / 8, stroke: lineColor, strokeWidth: 2 });
+/*    s = new Kinetic.Circle({ x: 10, y: 10, radius: pitch_width / 60, startAngle: 0, endAngle: 0.5, stroke: lineColor, strokeWidth: 2 }),
+    aa = new Kinetic.Circle({ x: 10 + pitch_width, y: 10, radius: pitch_width / 60, startAngle: 0.5, endAngle: 1, stroke: lineColor, strokeWidth: 2 }),
+    ba = new Kinetic.Circle({ x: 10, y: 10 + pitch_height, radius: pitch_width / 60, startAngle: 1.5, endAngle: 0, stroke: lineColor, strokeWidth: 2 }),
+    ca = new Kinetic.Circle({ x: 10 + pitch_width, y: 10 + pitch_height, radius: pitch_width / 60, startAngle: 1, endAngle: 1.5, stroke: lineColor, strokeWidth: 2 }),
+    u = new Kinetic.Circle({ x: isVertical ? stage_width / 2 : 10 + pitch_width / 10, y: isVertical ? 10 + pitch_height / 10 : stage_height / 2, radius: isVertical ? pitch_height / 12 : pitch_width / 12, startAngle: isVertical ? 0.2 : 1.7, endAngle: isVertical ? 0.8 : 0.3, stroke: lineColor, strokeWidth: 2 }),
+    a = new Kinetic.Circle({ x: isVertical ? stage_width / 2 : 10 + pitch_width - pitch_width / 10, y: isVertical ? 10 + 0.9 * pitch_height : stage_height / 2, radius: isVertical ? pitch_height / 12 : pitch_width / 12, startAngle: isVertical ? 1.2 : 0.7, endAngle: isVertical ? 1.8 : 1.3, stroke: lineColor, strokeWidth: 2 });
+    */
+    pitch_layer.add(b);
+    pitch_layer.add(d);
+    pitch_layer.add(q);
+    pitch_layer.add(n);
+    pitch_layer.add(w);
+    pitch_layer.add(h);
+    pitch_layer.add(v);
+    pitch_layer.add(p);
+    pitch_layer.add(r);
+    pitch_layer.add(m);
+
+    pitch_layer.on("click", 
+        function() {
+            clear_title()
+        });
+    pitch_layer.on("tap", function() {
+            clear_title()
+        })
+    /*
+    c.add(s);
+    c.add(aa);
+    c.add(ba);
+    c.add(ca);
+    c.add(u);
+    c.add(a);
+    */
+    stage.add(pitch_layer);
+
+    var player_circles = [], nameArr = [];
+    var player_shirtNos = [];
+    // t : stage_height;
+    // l : stage_width
+    // k : isVertical
+    // e : pitch_height
+    // f : pitch_width
+    // a : lineColor
+
+    draw_player = function (index, player) {
+        // c : index
+        // m : player_x
+        // u : player_y
+        // h : player
+
+        if (player.x == 0 || player.y == 0) {
+            return;
+        }
+        if (isVertical) {
+            player.y = 100 - player.y;
+        }
+        var player_x = isVertical ? 10 + player.y / 100 * pitch_width : 10 + player.x / 200 * pitch_width,
+        player_y = isVertical ? 10 + player.x / 200 * pitch_height : 10 + player.y / 100 * pitch_height;
+        
+        if (player.side == "away") {
+            isVertical ? player_y = stage_height - player_y : player_x = stage_width - player_x;
+        }
+        var layer = player.side == "home" ? home_layer : away_layer;
+
+        player_circles[index] = new Kinetic.Circle({ x: player_x, y: player_y, radius: 9, stroke: "#000", fill: player.side == "home" ? "#3069b0" : "#ea7814", strokeWidth: 1 });
+        var shirtNo = new Kinetic.Text({ x: player_x - 15, y: player_y - 6, width: 30, height: 30, text: player.shirt, fontSize: 10, fontFamily: "Verdana", fontStyle:"bold", fill: "#fff", align:"center", verticalAlign: "middle" });
+        nameArr[index] = new Kinetic.Text({ x: player_x - 40, y: player_y + 10, width: 80, height: 15, text: shortenName(player.name), fontSize: 10, fontStyle:"bold", fontFamily: "Verdana", fill: "#000", align: "center", verticalAlign: "middle",shadowColor: 'white', shadowBlur: 2, shadowOffset: 1, shadowOpacity: 1 });
+        
+        player_circles[index].on("click", function () {
+            showPlayerDetail(player, player_x, player_y);
+        });
+
+        player_circles[index].on("tap", function() {
+            showPlayerDetail(player, player_x, player_y);
+        });
+        player_circles[index].on("mouseover", function() {
+            document.body.style.cursor = "pointer"
+        });
+        player_circles[index].on("mouseout", function() {
+            document.body.style.cursor = "default"
+        });
+        layer.add(player_circles[index]);
+        layer.add(shirtNo);
+        layer.add(nameArr[index]);
+
+        
+    };
+    clear_title = function() {
+        title_layer.removeChildren();
+        title_layer.draw();
+    };
+    draw_crest = function (side, image) {
+        var crest_width = 70;
+        var crest_height = 70, 
+        crest_x, crest_y;
+        isVertical ? (crest_x = (stage_width - crest_width) / 2, crest_y = "home" === side ? 10 + 0.25 * pitch_height - crest_height / 2 : 10 + 0.75 * pitch_height - crest_height / 2) : 
+                     (crest_y = (stage_height - crest_height) / 2, crest_x = "home" === side ? 10 + 0.25 * pitch_width - crest_height / 2 : 10 + 0.75 * pitch_width - crest_height / 2);
+        /*
+        if ("home" === side || "away" === side)
+            isVertical ? crest_y = pitch_height / 2 - crest_height / 2 + 10 : crest_x = stage_height / 2 + 5;
+            */
+        c = new Kinetic.Image({x: crest_x, y: crest_y, opacity: 0.40,image: image,visible: !0,width: crest_width,height: crest_height});            
+        if(side=="home") {
+            home_layer.add(c);
+        } else {
+            away_layer.add(c);
+        }
+    }
+    
+    homeCrest = new Image;
+    homeCrest.src = "http://im.cdn.md/img/logo/buyuk/2.gif";
+    homeCrest.onload = function() {
+        draw_crest("home", homeCrest);
+        for (i = 0; i < homePlayerList.length; i++) {
+            draw_player(i, homePlayerList[i]);
+        }
+        stage.add(home_layer);
+    }
+   
+    awayCrest = new Image;
+    awayCrest.src = "http://im.cdn.md/img/logo/buyuk/234.gif";
+    awayCrest.onload = function() {
+        draw_crest("away", awayCrest);
+        for (i = 0; i < awayPlayerList.length; i++) {
+            draw_player(i, awayPlayerList[i]);
+        } 
+        stage.add(away_layer);
+    }
+    
+
+    function showPlayerDetail(player, x, y) {
+        debugger;
+        var title_x = x;
+        var title_y = y;
+        var v = y + 25;
+        title_layer.add(playerTextRect)
+        title_layer.add(playerText);
+        title_layer.add(A);
+        
+        0 > title_x - 80 ? title_x = 80 : title_x + 80 > stage_width && (title_x += stage_width - (title_x + 80));
+        80 > stage_height - title_y ? (title_y -= 106, v -= 50, A.setRotationDeg(180)) : A.setRotationDeg(120);
+        
+        playerTextRect.setPosition(title_x - 80, title_y + 28);
+        playerTextRect.show();
+        playerText.setText(player.name + "\nPass Yüzdesi: %" + player.pass + "\nŞut: " + player.sot + "/" + player.ts);
+        playerText.setPosition(title_x - 76, title_y + 30)
+        playerText.show();
+        A.setPosition(x, v);
+
+        title_layer.draw();
+        stage.add(title_layer);
+        /*
+        
+        A.show();
+        W(a, k);
+        title_layer.draw();
+        J = g.playerNames[b.id];
+        K = b.id;
+        L = b.teamid;
+        M = a;
+        N = g.teams["home" === a ? 0 : 1].name;
+        $jqOpta.events.trigger.click(d, "player_popup", {player_name: J,player_id: K,team_id: L,side: M,team_name: N,action: "show"})
+        */
+    }
+    
+</script>
+                        </div>
+                        
+
+                        <div id="dvAwaySquadTitle" style="float: right; width: 235px; display: none">
+                            <div class="match-analysis-title" style="width: 235px">
+                                <div class="match-statistics-logo-temp">
+                                    <img src="http://im.cdn.md/img/logo/kucuk/234.gif" onerror="teamImgLoadErr(this)" width="18" height="18">
+                                </div>
+                                <div class="match-statistics-logo-text">Ajax</div>
+                            </div>
+                            <div id="dvAwaySquad" style="width: 235px"></div>
+                        </div>
+
+                        <div style="clear: both"></div>
+
+                        <div style="margin-top: 5px">
+                            
+<script>
+var iLastMessageId = 59692294
+</script>
+<style>
+    #dvForumMessages td { line-height:16px; }
+</style>
+
+<div class="md" style="margin:0">
+    <div class="total_row">
+        <span style="color: #16387C;font-size: 12px;font-family: arial;font-weight: bold;line-height: 30px;margin-left: 5px;">
+        FORUM
+            <div class="frm-btn" style="float:right">
+                <input type="button" class="button-style" style="float:left;" id="Button2" name="btnList" onclick="window.open('http://user.mackolik.com/UserPages/ForumDetails/Default.aspx?type=2&tId=2264359')" value="Mesaj yaz"></input> 
+            </div>                
+            <div class="frm-btn" style="float:right">
+            
+                <input type="button" class="button-style" style="float:left;" id="Button1" name="btnList" onclick="window.location.hash='forum';window.location.reload();" value="Mesajları oku"></input> 
+                            
+                <span></span>
+            </div>
+            <div style="float:right">
+                <input type=checkbox id="chkAutoRefresh" onclick="autoRefresh()">
+                Otomatik Yenile
+            </div>
+        </span>            
+    </div>
+    <div >
+        <table border="0" width="100%" class="list-table" cellpadding="2" cellspacing="0" id="dvForumMessages">
+
+            
+                 <tr class="row alt1"><td><span style="color:Gray"><b>tekereis</b> - 1821018 - 23.10.2015 07:40:49</span>
+                    <br />helal fener ama derbide tam tersi olcak :))</td></tr>
+
+            
+                 <tr class="row alt2"><td><span style="color:Gray"><b>As23</b> - 1872825 - 23.10.2015 00:26:09</span>
+                    <br />salam</td></tr>
+
+            
+                     <tr>
+                         <td style="padding:0">
+                             <script>AdmostClient.getBanner(14950);</script>
+                         </td>
+                     </tr>  
+                   
+                 <tr class="row alt1"><td><span style="color:Gray"><b>mehmetcos1</b> - 1889752 - 23.10.2015 00:14:38</span>
+                    <br />g</td></tr>
+
+            
+                 <tr class="row alt2"><td><span style="color:Gray"><b>19ANIL07</b> - 1879160 - 23.10.2015 00:14:31</span>
+                    <br />noldu salatasaraylilar sustunuz galibaa</td></tr>
+
+            
+                 <tr class="row alt1"><td><span style="color:Gray"><b>zigneccnnn</b> - 1889761 - 22.10.2015 23:55:42</span>
+                    <br />goooool</td></tr>
+
+            
+                 <tr class="row alt2"><td><span style="color:Gray"><b>ferrun19</b> - 1861966 - 22.10.2015 23:55:28</span>
+                    <br />Fenerbahcem benim</td></tr>
+
+            
+                 <tr class="row alt1"><td><span style="color:Gray"><b>MEHMET71</b> - 1788118 - 22.10.2015 23:54:51</span>
+                    <br />gokhan gonul nasildi beyler</td></tr>
+
+            
+                 <tr class="row alt2"><td><span style="color:Gray"><b>19ANIL07</b> - 1879160 - 22.10.2015 23:52:58</span>
+                    <br />goooioiiiillllll</td></tr>
+
+            
+                 <tr class="row alt1"><td><span style="color:Gray"><b>HaLluDbA</b> - 1743102 - 22.10.2015 23:52:57</span>
+                    <br />golllllllllllll kupon geldi       besiktasli olarak ilkdefa  feneri tebrik edirem gooooiiilllll</td></tr>
+
+            
+                 <tr class="row alt2"><td><span style="color:Gray"><b>teknotik</b> - 1507194 - 22.10.2015 23:52:49</span>
+                    <br />boyle bit kurban olayim</td></tr>
+
+            
+        </table>
+    </div>       
+</div>
+    
+<div style="padding: 5px;font: 12px Arial, Helvetica, sans-serif;font-weight: bold;background-color:#E2E7EA; color: #16387C;border-bottom: 1px solid #B0BEC7;">
+</div>
+
+                        </div>
+                    </div>
+
+                    <div class="right-coll" style="float: right;">
+                        
+                        <div id="dvOPTAStats" style="margin-bottom: 5px; width: 300px">
+                            
+<div class="match-analysis-title" style="width:300px;text-align:center;border-top:1px solid #BCC9D1;">
+    <div class="match-statistics-logo-text" style="float:none">İstatistikler</div>   
+</div>
+<div style="margin-bottom: 5px">
+
+<div class="match-statistics-rows"> 
+    <a class="team-1-statistics-temp">
+        <div class="team-1-statistics-color" style="width:32px;"></div>
+    </a>
+    <div class="team-1-statistics-text">%49</div>
+    <div class="statistics-title-text">Topla Oynama</div>
+    <div class="team-2-statistics-text">%51</div>
+    <a class="team-2-statistics-temp">
+        <div class="team-2-statistics-color" style="width:33px;"></div>
+    </a> 
+</div>
+<div class="match-statistics-rows-2"> 
+    <a class="team-1-statistics-temp">
+        <div class="team-1-statistics-color" style="width:50px;"></div>
+    </a>
+    <div class="team-1-statistics-text">20</div>
+    <div class="statistics-title-text">Toplam Şut</div>
+    <div class="team-2-statistics-text">6</div>
+    <a class="team-2-statistics-temp">
+        <div class="team-2-statistics-color" style="width:15px;"></div>
+    </a> 
+</div>
+<div class="match-statistics-rows"> 
+    <a class="team-1-statistics-temp">
+        <div class="team-1-statistics-color" style="width:56px;"></div>
+    </a>
+    <div class="team-1-statistics-text">7</div>
+    <div class="statistics-title-text">İsabetli Şut</div>
+    <div class="team-2-statistics-text">1</div>
+    <a class="team-2-statistics-temp">
+        <div class="team-2-statistics-color" style="width:8px;"></div>
+    </a> 
+</div>
+
+
+<div class="match-statistics-rows-2">
+    <a class="team-1-statistics-temp">
+        <div class="team-1-statistics-color" style="width:53px;"></div>
+    </a>
+    <div class="team-1-statistics-text">%82</div>
+    <div class="statistics-title-text">Pas Yüzdesi</div>
+    <div class="team-2-statistics-text">%79</div>
+    <a class="team-2-statistics-temp">
+        <div class="team-2-statistics-color" style="width:51px;"></div>
+    </a> 
+</div>
+
+<div class="match-statistics-rows"> 
+    <a class="team-1-statistics-temp">
+        <div class="team-1-statistics-color" style="width:36px;"></div>
+    </a>
+    <div class="team-1-statistics-text">5</div>
+    <div class="statistics-title-text">Korner</div>
+    <div class="team-2-statistics-text">4</div>
+    <a class="team-2-statistics-temp">
+        <div class="team-2-statistics-color" style="width:28px;"></div>
+    </a> 
+</div>
+
+<div class="match-statistics-rows-2"> 
+    <a class="team-1-statistics-temp">
+        <div class="team-1-statistics-color" style="width:20px;"></div>
+    </a>
+    <div class="team-1-statistics-text">8/26</div>
+    <div class="statistics-title-text">Orta</div>
+    <div class="team-2-statistics-text">1/17</div>
+    <a class="team-2-statistics-temp">
+        <div class="team-2-statistics-color" style="width:3px;"></div>
+    </a> 
+</div>
+
+<div class="match-statistics-rows"> 
+    <a class="team-1-statistics-temp">
+        <div class="team-1-statistics-color" style="width:35px;"></div>
+    </a>
+    <div class="team-1-statistics-text">18</div>
+    <div class="statistics-title-text">Faul</div>
+    <div class="team-2-statistics-text">15</div>
+    <a class="team-2-statistics-temp">
+        <div class="team-2-statistics-color" style="width:29px;"></div>
+    </a>
+</div>
+
+<div class="match-statistics-rows-2" style="border-bottom:none;"> 
+    <a class="team-1-statistics-temp">
+        <div class="team-1-statistics-color" style="width:43px;"></div>
+    </a>
+    <div class="team-1-statistics-text">4</div>
+    <div class="statistics-title-text">Ofsayt</div>
+    <div class="team-2-statistics-text">2</div>
+    <a class="team-2-statistics-temp">
+        <div class="team-2-statistics-color" style="width:21px;"></div>
+    </a> 
+</div>
+</div>
+
+
+                        </div>
+                        
+                        <div id="dvBanner300x250" style="margin-bottom: 5px; text-align: center">
+                        </div>
+                        <script> AdmostClient.appendBanner(48120);</script>
+
+                        
+                        <div style="margin-bottom: 5px" id="dvStanding">
+                            
+<div style="border:1px solid #c0cfdb;margin:0;margin-right: 7px;width:296px!important;">
+    <div class="detail-title" style="width:auto">UEFA Avrupa Ligi A Grubu Puan Durumu</div>
+    
+    <table width="500" border="0" cellspacing="0" cellpadding="0" class="list-table" id="tblStanding" style="border:0;margin:inherit;">
+    
+        <tr class="table-header">
+            <th colspan="3">&nbsp;</th>
+            <th align="right" width="35"><b>O</b></th>
+            
+            <th align="right" width="31"><b>P</b></th>
+            <th align="right" width="35"><b>Av</b></th>
+        </tr>  
+        
+        <tr class="row alt1" 
+            >
+            <td align=right width="25"><b>1</b></td>
+            <td align=left style="width: 247px;">
+                <a href="http://www.sahadan.com/Team/Default.aspx?id=404&season=2015/2016" target="_blank">Molde</a>
+            </td>
+            <td>&nbsp;</td>
+            <td align="right">6</td>
+            
+            <td align="right"><b>11</b></td>
+            <td align="right">+3</td>
+        </tr>
+    
+        <tr class="row alt2" 
+            
+                style="background-color: #fff3a5"
+            >
+            <td align=right width="25"><b>2</b></td>
+            <td align=left style="width: 247px;">
+                <a href="http://www.sahadan.com/Team/Default.aspx?id=2&season=2015/2016" target="_blank"><b>Fenerbahçe</b></a>
+            </td>
+            <td>&nbsp;</td>
+            <td align="right">6</td>
+            
+            <td align="right"><b>9</b></td>
+            <td align="right">+1</td>
+        </tr>
+    
+        <tr class="row alt1" 
+            
+                style="background-color: #fff3a5"
+            >
+            <td align=right width="25"><b>3</b></td>
+            <td align=left style="width: 247px;">
+                <a href="http://www.sahadan.com/Team/Default.aspx?id=234&season=2015/2016" target="_blank"><b>Ajax</b></a>
+            </td>
+            <td>&nbsp;</td>
+            <td align="right">6</td>
+            
+            <td align="right"><b>7</b></td>
+            <td align="right">0</td>
+        </tr>
+    
+        <tr class="row alt2" 
+            >
+            <td align=right width="25"><b>4</b></td>
+            <td align=left style="width: 247px;">
+                <a href="http://www.sahadan.com/Team/Default.aspx?id=65&season=2015/2016" target="_blank">Celtic</a>
+            </td>
+            <td>&nbsp;</td>
+            <td align="right">6</td>
+            
+            <td align="right"><b>3</b></td>
+            <td align="right">-4</td>
+        </tr>
+    
+    </table>
+</div>
+
+<script>
+
+
+    var data = [[31,"Üst Tur",1,2,"3795FA"]];
+    if ($("#tblStanding")[0]) {
+        for (var i = 0; i < data.length; i++) {
+            for (var j = 0; j < data[i][3]; j++) {
+                var cell = $("#tblStanding .row")[j + data[i][2] - 1].cells[0];
+                cell.title = data[i][1];
+                cell.style.backgroundColor = "#" + data[i][4];
+                cell.style.fontWeight = "bold";
+                cell.style.color = "#ffffff";
+            }
+        }
+    }
+</script>
+
+                        </div>
+                        
+                        <div style="margin-bottom: 5px; width: 300px;" id="dvOtherMatches">
+                            
+<div style="border: 1px solid #c0cfdb">
+    <div class="detail-title" style="width:auto">Diğer Maçlar</div>
+    <table cellspacing=0 cellpadding=2 border=0 id="tblHomeResult" class="list-table" style="width: 100%;">
+    
+            <tr class="row alt1 match_2264358">
+                <td width="40" class="matchStatus"><b>MS</b></td>
+                <td width="100" align=right nowrap title="Molde">
+                    <div style="width:100px;overflow:hidden;height:18px">
+                        <a href="http://www.sahadan.com/Team/Default.aspx?id=404&season=2015/2016" target="_blank">Molde</a>
+                    </div>
+                </td>
+                <td width="55" align=center><b>
+                    <a class="matchScore" href="http://www.sahadan.com/mac_sonucu/Molde-Celtic/2264358" target="_blank">
+                        3 - 1
+                    </a></b></td>
+                <td width="100" nowrap title="Celtic">
+                    <div style="width:100px;overflow:hidden;height:18px">
+                        <a href="http://www.sahadan.com/Team/Default.aspx?id=65&season=2015/2016" target="_blank">Celtic</a>
+                    </div>
+                </td>
+            </tr>
+        
+</table>
+</div>
+
+                        </div>
+
+                        <div id="compare-left-coll" style="margin: 0; padding-bottom: 5px; float: none; width: 300px;">
+                            
+    <div class="md">
+        <div class="detail-title" style="width:auto">
+            İddaa Kodu: 515 MBS: <img src="http://im.cdn.md/img5/iddaa/mbs1.png">
+        </div>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="iddaa-ms-h">
+            <tr align="center" class="iddaa-tab-title">
+                <td colspan="3">Maç Sonucu</td>
+                <td colspan="5">Handikap</td>
+            </tr>
+            <tr align="center" class="iddaa-tab-alt">
+                <td>1</td>
+                <td>X</td>
+                <td class="iddaa-tab-border">2</td>
+                <td>H</td>
+                <td>H1</td>
+                <td>HX</td>
+                <td>H2</td>
+                <td>H</td>
+            </tr>
+            <tr>
+                <td><span class="compare-rate-bg-up" href="#">1.70</span></td>
+                <td><span class="compare-rate-bg-up" href="#">3.30</span></td>
+                <td class="iddaa-tab-border"><span class="compare-rate-bg-up" href="#">3.20</span></td>
+                <td align="center" class="iddaa-tab-h">&nbsp;</td>
+                <td><span class="compare-rate-bg-up" href="#">3.00</span></td>
+                <td><span class="compare-rate-bg-up" href="#">3.75</span></td>
+                <td><span class="compare-rate-bg-up" href="#">1.65</span></td>
+                <td align="center" class="iddaa-tab-h">+1h</td>
+            </tr>
+        </table>
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="iddaa-ms-h">
+            <tr align="center" class="iddaa-tab-title">
+                <td colspan="2">IY 1,5 Gol </td>
+                <td colspan="2">AÜ 1,5 Gol</td>
+                <td colspan="2">AÜ 2,5 Gol</td>
+                <td colspan="2">AÜ 3,5 Gol</td>
+            </tr>
+            <tr align="center" class="iddaa-tab-alt">
+                <td width="17%">Alt</td>
+                <td width="16%" class="iddaa-tab-border">Üst</td>
+                <td width="17%">Alt</td>
+                <td width="16%" class="iddaa-tab-border">Üst</td>
+                <td width="17%">Alt</td>
+                <td width="16%" class="iddaa-tab-border">Üst</td>
+                <td width="17%">Alt</td>
+                <td width="16%">Üst</td>
+            </tr>
+            <tr align="center">
+                <td><span class="compare-rate-bg-up" href="#">1.35</span></td>
+                <td class="iddaa-tab-border"><span class="compare-rate-bg-up" href="#">2.15</span></td>
+                <td><span class="compare-rate-bg-up" href="#">4.00</span></td>
+                <td class="iddaa-tab-border"><span class="compare-rate-bg-up" href="#">1.05</span></td>
+                <td><span class="compare-rate-bg-up" href="#">1.80</span></td>
+                <td class="iddaa-tab-border"><span class="compare-rate-bg-up" href="#">1.55</span></td>
+                <td><span class="compare-rate-bg-up" href="#">1.35</span></td>
+                <td><span class="compare-rate-bg-up" href="#">2.15</span></td>
+            </tr>
+        </table>
+        
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="iddaa-ms-h">
+            <tr align="center" class="iddaa-tab-title">
+                <td colspan="2">Karşılıklı Gol</td>
+                <td colspan="3">İlk Yarı Sonucu</td>
+            </tr>
+            <tr align="center" class="iddaa-tab-alt">
+                <td width="17%">Var</td>
+                <td width="16%" class="iddaa-tab-border">Yok</td>
+                <td width="13%">İY 1</td>
+                <td width="13%">İY 0</td>
+                <td width="15%">İY 2</td>
+            </tr>
+            <tr align="center">
+                <td><span class="compare-rate-bg-up" href="#">1.40</span></td>
+                <td class="iddaa-tab-border"><span class="compare-rate-bg-up" href="#">2.05</span></td>
+                <td><span class="compare-rate-bg-up" href="#">2.20</span></td>
+                <td><span class="compare-rate-bg-up" href="#">2.20</span></td>
+                <td><span class="compare-rate-bg-up" href="#">3.50</span></td>
+            </tr>
+        </table>
+        
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="iddaa-ms-h">
+            <tr align="center" class="iddaa-tab-title">
+                <td colspan="3">Çifte Şans</td>
+                <td colspan="4">Toplam Gol</td>
+            </tr>
+            <tr align="center" class="iddaa-tab-alt">
+                <td width="15%">1-X</td>
+                <td width="15%">1-2</td>
+                <td width="15%" class="iddaa-tab-border">X-2</td>
+                <td width="14%">0-1</td>
+                <td width="14%">2-3</td>
+                <td width="14%">4-6</td>
+                <td width="15%">7+</td>
+            </tr>
+            <tr align="center">
+                <td><span class="compare-rate-bg-up" href="#">1.12</span></td>
+                <td><span class="compare-rate-bg-up" href="#">1.11</span></td>
+                <td class="iddaa-tab-border"><span class="compare-rate-bg-up" href="#">1.62</span></td>
+                <td><span class="compare-rate-bg-up" href="#">4.00</span></td>
+                <td><span class="compare-rate-bg-up" href="#">1.75</span></td>
+                <td><span class="compare-rate-bg-up" href="#">2.40</span></td>
+                <td><span class="compare-rate-bg-up" href="#">16.00</span></td>
+            </tr>
+          </table>
+          
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="iddaa-ms-h">
+            <tbody>
+            <tr class="iddaa-tab-title" align="center">
+                <td colspan="3">İlk Yarı / Maç Sonucu</td>
+            </tr>
+            <tr class="iddaa-tab-alt" align="center">
+                <td>1/1</td>
+                <td>1/X</td>
+                <td>1/2</td>
+            </tr>
+            <tr align="center">
+                <td><span class="compare-rate-bg-up" href="#">2.55</span></td>
+                <td><span class="compare-rate-bg-up" href="#">13.00</span></td>
+                <td><span class="compare-rate-bg-up" href="#">28.00</span></td>
+            </tr><tr class="iddaa-tab-alt" align="center">
+                <td>X/1</td>
+                <td>X/X</td>
+                <td>X/2</td>
+            </tr>
+            <tr align="center">
+                <td><span class="compare-rate-bg-up" href="#">4.50</span></td>
+                <td><span class="compare-rate-bg-up" href="#">5.50</span></td>
+                <td><span class="compare-rate-bg-up" href="#">6.75</span></td>
+            </tr>
+            <tr align="center" class="iddaa-tab-alt" >
+                <td>2/1</td>
+                <td>2/X</td>
+                <td>2/2</td>
+            </tr>
+            <tr align="center">
+                <td><span class="compare-rate-bg-up" href="#">25.00</span></td>
+                <td><span class="compare-rate-bg-up" href="#">12.00</span></td>
+                <td><span class="compare-rate-bg-up" href="#">5.75</span></td>
+            </tr>
+            </tbody>
+        </table>
+        
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="iddaa-ms-h">
+        <tbody>
+        <tr class="iddaa-tab-title" align="center">
+            <td colspan="8">Maç Skoru</td>
+        </tr>
+        <tr class="iddaa-tab-alt" align="center">
+            <td>1:0</td>
+            <td>2:0</td>
+            <td>2:1</td>
+            <td>3:0</td>
+            <td>3:1</td>
+            <td>3:2</td>
+            <td>4:0</td>
+            <td>4:1</td>
+        </tr>
+        <tr align="center">
+            <td><span class="compare-rate-bg-up" href="#">8.00</span></td>
+            <td><span class="compare-rate-bg-up" href="#">7.75</span></td>
+            <td><span class="compare-rate-bg-up" href="#">6.50</span></td>
+            <td><span class="compare-rate-bg-up" href="#">11.50</span></td>
+            <td><span class="compare-rate-bg-up" href="#">9.00</span></td>
+            <td><span class="compare-rate-bg-up" href="#">18.00</span></td>
+            <td><span class="compare-rate-bg-up" href="#">26.00</span></td>
+            <td><span class="compare-rate-bg-up" href="#">24.00</span></td>
+        </tr>
+        <tr class="iddaa-tab-alt" align="center">
+            <td>4:2</td>
+            <td>4:3</td>
+            <td>5+:0</td>
+            <td>5+:1</td>
+            <td>5+:2</td>
+            <td>5+:3</td>
+            <td>5+:4</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr align="center" class="iddaa-tab-border2">
+            <td><span class="compare-rate-bg-up" href="#">45.00</span></td>
+            <td><span class="compare-rate-bg-up" href="#">100</span></td>
+            <td><span class="compare-rate-bg-up" href="#">35.00</span></td>
+            <td><span class="compare-rate-bg-up" href="#">28.00</span></td>
+            <td><span class="compare-rate-bg-up" href="#">55</span></td>
+            <td><span class="compare-rate-bg-up" href="#">150</span></td>
+            <td><span class="compare-rate-bg-up" href="#">250</span></td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr class="iddaa-tab-alt" align="center">
+            <td>0:0</td>
+            <td>1:1</td>
+            <td>2:2</td>
+            <td>3:3</td>
+            <td>4:4</td>
+            <td>5+:5+</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr align="center" class="iddaa-tab-border2">
+            <td><span class="compare-rate-bg-up" href="#">10.50</span></td>
+            <td><span class="compare-rate-bg-up" href="#">5.75</span></td>
+            <td><span class="compare-rate-bg-up" href="#">10.00</span></td>
+            <td><span class="compare-rate-bg-up" href="#">50</span></td>
+            <td><span class="compare-rate-bg-up" href="#">120</span></td>
+            <td><span class="compare-rate-bg-up" href="#">150</span></td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr class="iddaa-tab-alt" align="center">
+            <td>0:1</td>
+            <td>0:2</td>
+            <td>1:2</td>
+            <td>0:3</td>
+            <td>1:3</td>
+            <td>2:3</td>
+            <td>0:4</td>
+            <td>1:4</td>
+        </tr>
+        <tr align="center">
+            <td><span class="compare-rate-bg-up" href="#">10.00</span></td>
+            <td><span class="compare-rate-bg-up" href="#">13.00</span></td>
+            <td><span class="compare-rate-bg-up" href="#">10.50</span></td>
+            <td><span class="compare-rate-bg-up" href="#">28.00</span></td>
+            <td><span class="compare-rate-bg-up" href="#">22.00</span></td>
+            <td><span class="compare-rate-bg-up" href="#">28.00</span></td>
+            <td><span class="compare-rate-bg-up" href="#">100</span></td>
+            <td><span class="compare-rate-bg-up" href="#">75</span></td>
+        </tr>
+        <tr class="iddaa-tab-alt" align="center">
+            <td>2:4</td>
+            <td>3:4</td>
+            <td>0:+5</td>
+            <td>1:+5</td>
+            <td>2:+5</td>
+            <td>3:+5</td>
+            <td>4:+5</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr align="center">
+            <td><span class="compare-rate-bg-up" href="#">120</span></td>
+            <td><span class="compare-rate-bg-up" href="#">150</span></td>
+            <td><span class="compare-rate-bg-up" href="#">150</span></td>
+            <td><span class="compare-rate-bg-up" href="#">120</span></td>
+            <td><span class="compare-rate-bg-up" href="#">120</span></td>
+            <td><span class="compare-rate-bg-up" href="#">250</span></td>
+            <td><span class="compare-rate-bg-up" href="#">400</span></td>
+            <td>&nbsp;</td>
+        </tr>
+        </tbody></table>
+
+        </div>
+   
+   
+   
+                        </div>
+                        
+                        <div id="dvAnket" style="width: 100%">
+                            <script type="text/javascript" language="javascript" src="http://statics.surveey.com/js/firm/1/2264/r_2264359_1.js"></script>
+                            
+                            <script>
+                                eval("adb_rapor_" + eval("adb_surveyid_r_2264359") + "()");
+                            </script>
+                            
+                        </div>
+                        <div style="margin-bottom: 5px;"></div>
+                        
+                    </div>
+                    <div style="clear: both"></div>
+                </div>
+
+                
+                <div id="dvMatchDetails"></div>
+                
+                <div id="dvGallery">
+                    <script src="http://gallery.kokteyl.com/Get.aspx?id=52574&w=970"></script>
+                </div>
+                
+                <div id="dvMatchPrediction">
+                    <div id="compare-right-coll" style="background: white; margin: 4px 2px 0 0px; border: 1px solid #c2d1dc; padding-bottom: 10px;">
+                        <div class="detail-title" style="width: auto; padding: 0 5px; line-height: 25px;">
+                            Fenerbahçe&nbsp;-&nbsp;Ajax&nbsp;Tahmini
+                            <a style="float: right; font-weight: bold;" href="/tahmin" target="_blank">Tüm tahminler için tıklayın&nbsp;&raquo;</a>
+                        </div>
+                        <div style="padding: 20px 10px 10px 10px;">Daha önce iki kez karşılaştığı rakibine iki defa kaybeden Fenerbahçe, Avrupa kupalarında Hollanda takımlarıyla 16 kez karşılaşırken, sadece dört galibiyet alabildi (3B 9M). Ancak Fenerbahçe, Hollanda takımlarıyla oynadığı son altı maçta sadece bir kez yenildi (2G 3B). Fenerbahçe, evinde oynadığı son dokuz Avrupa kupası maçının ikisinde yenildi (5G 2B).<br /><br />Ajax, Türk takımlarıyla Avrupa kupalarında sekiz kez karşı karşıya geldi ve bu maçların tamamını kazandı. Ajax, Avrupa kupalarında oynadığı son 12 maçın 10'unda rakip fileleri havalandırmayı başardı ve bu 10 maçın altısında birden fazla gol attı.<br /><br /><strong><a href="http://www.goal.com/tr/news/598/bahis-iddaa/2015/10/22/16568322/g%C3%BCn%C3%BCn-banko-iddaa-kuponlar%C4%B1-22-ekim?ICID=HP_BN_4" target="_blank">&gt;&gt;>> GÜNÜN MAÇLARINA BOMBA, SÜRPRİZ, MEGA KUPONLAR BURADA... UZMANLAR HAZIRLADI!</a></strong><br /><br />Zor bir randevu olacak ancak iç sahada Fenerbahçe, rakibine göre favori. Takımda Van Persie-Pereira gerginliği son buldu ve Galatasaray maçı öncesinde galibiyet çok önemli. İki takımın da skor üretebileceğini düşünüyorum. 1.40 oranı ile Kg Var ideal ama Fenerbahçe'nin kazanmak zorunda olduğunun da altını çizmek istiyorum. Seyirci desteği ile Kanarya'nın zor da olsa tek farkla kazanacağı bir 90 dakika izleyebiliriz.<br /><br />TAHMİN: KG VAR ideal, H0 denenir</div>
+                        <script>AdmostClient.getBanner(48017);</script>
+                        <a href="javascript: window.location.hash='karsilastirma';window.location.reload();" style="display: block; margin-top: 30px; padding: 0 10px; font-weight: bold;">Takım Karşılaştırma:&nbsp;Fenerbahçe&nbsp;<img src="http://is.cdn.md/i4/New/img/compare.gif" border="0" />&nbsp;Ajax</a>
+                    </div>
+                    <div id="compare-left-coll">
+                        
+    <div class="md">
+        <div class="detail-title" style="width:auto">
+            İddaa Kodu: 515 MBS: <img src="http://im.cdn.md/img5/iddaa/mbs1.png">
+        </div>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="iddaa-ms-h">
+            <tr align="center" class="iddaa-tab-title">
+                <td colspan="3">Maç Sonucu</td>
+                <td colspan="5">Handikap</td>
+            </tr>
+            <tr align="center" class="iddaa-tab-alt">
+                <td>1</td>
+                <td>X</td>
+                <td class="iddaa-tab-border">2</td>
+                <td>H</td>
+                <td>H1</td>
+                <td>HX</td>
+                <td>H2</td>
+                <td>H</td>
+            </tr>
+            <tr>
+                <td><span class="compare-rate-bg-up" href="#">1.70</span></td>
+                <td><span class="compare-rate-bg-up" href="#">3.30</span></td>
+                <td class="iddaa-tab-border"><span class="compare-rate-bg-up" href="#">3.20</span></td>
+                <td align="center" class="iddaa-tab-h">&nbsp;</td>
+                <td><span class="compare-rate-bg-up" href="#">3.00</span></td>
+                <td><span class="compare-rate-bg-up" href="#">3.75</span></td>
+                <td><span class="compare-rate-bg-up" href="#">1.65</span></td>
+                <td align="center" class="iddaa-tab-h">+1h</td>
+            </tr>
+        </table>
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="iddaa-ms-h">
+            <tr align="center" class="iddaa-tab-title">
+                <td colspan="2">IY 1,5 Gol </td>
+                <td colspan="2">AÜ 1,5 Gol</td>
+                <td colspan="2">AÜ 2,5 Gol</td>
+                <td colspan="2">AÜ 3,5 Gol</td>
+            </tr>
+            <tr align="center" class="iddaa-tab-alt">
+                <td width="17%">Alt</td>
+                <td width="16%" class="iddaa-tab-border">Üst</td>
+                <td width="17%">Alt</td>
+                <td width="16%" class="iddaa-tab-border">Üst</td>
+                <td width="17%">Alt</td>
+                <td width="16%" class="iddaa-tab-border">Üst</td>
+                <td width="17%">Alt</td>
+                <td width="16%">Üst</td>
+            </tr>
+            <tr align="center">
+                <td><span class="compare-rate-bg-up" href="#">1.35</span></td>
+                <td class="iddaa-tab-border"><span class="compare-rate-bg-up" href="#">2.15</span></td>
+                <td><span class="compare-rate-bg-up" href="#">4.00</span></td>
+                <td class="iddaa-tab-border"><span class="compare-rate-bg-up" href="#">1.05</span></td>
+                <td><span class="compare-rate-bg-up" href="#">1.80</span></td>
+                <td class="iddaa-tab-border"><span class="compare-rate-bg-up" href="#">1.55</span></td>
+                <td><span class="compare-rate-bg-up" href="#">1.35</span></td>
+                <td><span class="compare-rate-bg-up" href="#">2.15</span></td>
+            </tr>
+        </table>
+        
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="iddaa-ms-h">
+            <tr align="center" class="iddaa-tab-title">
+                <td colspan="2">Karşılıklı Gol</td>
+                <td colspan="3">İlk Yarı Sonucu</td>
+            </tr>
+            <tr align="center" class="iddaa-tab-alt">
+                <td width="17%">Var</td>
+                <td width="16%" class="iddaa-tab-border">Yok</td>
+                <td width="13%">İY 1</td>
+                <td width="13%">İY 0</td>
+                <td width="15%">İY 2</td>
+            </tr>
+            <tr align="center">
+                <td><span class="compare-rate-bg-up" href="#">1.40</span></td>
+                <td class="iddaa-tab-border"><span class="compare-rate-bg-up" href="#">2.05</span></td>
+                <td><span class="compare-rate-bg-up" href="#">2.20</span></td>
+                <td><span class="compare-rate-bg-up" href="#">2.20</span></td>
+                <td><span class="compare-rate-bg-up" href="#">3.50</span></td>
+            </tr>
+        </table>
+        
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="iddaa-ms-h">
+            <tr align="center" class="iddaa-tab-title">
+                <td colspan="3">Çifte Şans</td>
+                <td colspan="4">Toplam Gol</td>
+            </tr>
+            <tr align="center" class="iddaa-tab-alt">
+                <td width="15%">1-X</td>
+                <td width="15%">1-2</td>
+                <td width="15%" class="iddaa-tab-border">X-2</td>
+                <td width="14%">0-1</td>
+                <td width="14%">2-3</td>
+                <td width="14%">4-6</td>
+                <td width="15%">7+</td>
+            </tr>
+            <tr align="center">
+                <td><span class="compare-rate-bg-up" href="#">1.12</span></td>
+                <td><span class="compare-rate-bg-up" href="#">1.11</span></td>
+                <td class="iddaa-tab-border"><span class="compare-rate-bg-up" href="#">1.62</span></td>
+                <td><span class="compare-rate-bg-up" href="#">4.00</span></td>
+                <td><span class="compare-rate-bg-up" href="#">1.75</span></td>
+                <td><span class="compare-rate-bg-up" href="#">2.40</span></td>
+                <td><span class="compare-rate-bg-up" href="#">16.00</span></td>
+            </tr>
+          </table>
+          
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="iddaa-ms-h">
+            <tbody>
+            <tr class="iddaa-tab-title" align="center">
+                <td colspan="3">İlk Yarı / Maç Sonucu</td>
+            </tr>
+            <tr class="iddaa-tab-alt" align="center">
+                <td>1/1</td>
+                <td>1/X</td>
+                <td>1/2</td>
+            </tr>
+            <tr align="center">
+                <td><span class="compare-rate-bg-up" href="#">2.55</span></td>
+                <td><span class="compare-rate-bg-up" href="#">13.00</span></td>
+                <td><span class="compare-rate-bg-up" href="#">28.00</span></td>
+            </tr><tr class="iddaa-tab-alt" align="center">
+                <td>X/1</td>
+                <td>X/X</td>
+                <td>X/2</td>
+            </tr>
+            <tr align="center">
+                <td><span class="compare-rate-bg-up" href="#">4.50</span></td>
+                <td><span class="compare-rate-bg-up" href="#">5.50</span></td>
+                <td><span class="compare-rate-bg-up" href="#">6.75</span></td>
+            </tr>
+            <tr align="center" class="iddaa-tab-alt" >
+                <td>2/1</td>
+                <td>2/X</td>
+                <td>2/2</td>
+            </tr>
+            <tr align="center">
+                <td><span class="compare-rate-bg-up" href="#">25.00</span></td>
+                <td><span class="compare-rate-bg-up" href="#">12.00</span></td>
+                <td><span class="compare-rate-bg-up" href="#">5.75</span></td>
+            </tr>
+            </tbody>
+        </table>
+        
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="iddaa-ms-h">
+        <tbody>
+        <tr class="iddaa-tab-title" align="center">
+            <td colspan="8">Maç Skoru</td>
+        </tr>
+        <tr class="iddaa-tab-alt" align="center">
+            <td>1:0</td>
+            <td>2:0</td>
+            <td>2:1</td>
+            <td>3:0</td>
+            <td>3:1</td>
+            <td>3:2</td>
+            <td>4:0</td>
+            <td>4:1</td>
+        </tr>
+        <tr align="center">
+            <td><span class="compare-rate-bg-up" href="#">8.00</span></td>
+            <td><span class="compare-rate-bg-up" href="#">7.75</span></td>
+            <td><span class="compare-rate-bg-up" href="#">6.50</span></td>
+            <td><span class="compare-rate-bg-up" href="#">11.50</span></td>
+            <td><span class="compare-rate-bg-up" href="#">9.00</span></td>
+            <td><span class="compare-rate-bg-up" href="#">18.00</span></td>
+            <td><span class="compare-rate-bg-up" href="#">26.00</span></td>
+            <td><span class="compare-rate-bg-up" href="#">24.00</span></td>
+        </tr>
+        <tr class="iddaa-tab-alt" align="center">
+            <td>4:2</td>
+            <td>4:3</td>
+            <td>5+:0</td>
+            <td>5+:1</td>
+            <td>5+:2</td>
+            <td>5+:3</td>
+            <td>5+:4</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr align="center" class="iddaa-tab-border2">
+            <td><span class="compare-rate-bg-up" href="#">45.00</span></td>
+            <td><span class="compare-rate-bg-up" href="#">100</span></td>
+            <td><span class="compare-rate-bg-up" href="#">35.00</span></td>
+            <td><span class="compare-rate-bg-up" href="#">28.00</span></td>
+            <td><span class="compare-rate-bg-up" href="#">55</span></td>
+            <td><span class="compare-rate-bg-up" href="#">150</span></td>
+            <td><span class="compare-rate-bg-up" href="#">250</span></td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr class="iddaa-tab-alt" align="center">
+            <td>0:0</td>
+            <td>1:1</td>
+            <td>2:2</td>
+            <td>3:3</td>
+            <td>4:4</td>
+            <td>5+:5+</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr align="center" class="iddaa-tab-border2">
+            <td><span class="compare-rate-bg-up" href="#">10.50</span></td>
+            <td><span class="compare-rate-bg-up" href="#">5.75</span></td>
+            <td><span class="compare-rate-bg-up" href="#">10.00</span></td>
+            <td><span class="compare-rate-bg-up" href="#">50</span></td>
+            <td><span class="compare-rate-bg-up" href="#">120</span></td>
+            <td><span class="compare-rate-bg-up" href="#">150</span></td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr class="iddaa-tab-alt" align="center">
+            <td>0:1</td>
+            <td>0:2</td>
+            <td>1:2</td>
+            <td>0:3</td>
+            <td>1:3</td>
+            <td>2:3</td>
+            <td>0:4</td>
+            <td>1:4</td>
+        </tr>
+        <tr align="center">
+            <td><span class="compare-rate-bg-up" href="#">10.00</span></td>
+            <td><span class="compare-rate-bg-up" href="#">13.00</span></td>
+            <td><span class="compare-rate-bg-up" href="#">10.50</span></td>
+            <td><span class="compare-rate-bg-up" href="#">28.00</span></td>
+            <td><span class="compare-rate-bg-up" href="#">22.00</span></td>
+            <td><span class="compare-rate-bg-up" href="#">28.00</span></td>
+            <td><span class="compare-rate-bg-up" href="#">100</span></td>
+            <td><span class="compare-rate-bg-up" href="#">75</span></td>
+        </tr>
+        <tr class="iddaa-tab-alt" align="center">
+            <td>2:4</td>
+            <td>3:4</td>
+            <td>0:+5</td>
+            <td>1:+5</td>
+            <td>2:+5</td>
+            <td>3:+5</td>
+            <td>4:+5</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr align="center">
+            <td><span class="compare-rate-bg-up" href="#">120</span></td>
+            <td><span class="compare-rate-bg-up" href="#">150</span></td>
+            <td><span class="compare-rate-bg-up" href="#">150</span></td>
+            <td><span class="compare-rate-bg-up" href="#">120</span></td>
+            <td><span class="compare-rate-bg-up" href="#">120</span></td>
+            <td><span class="compare-rate-bg-up" href="#">250</span></td>
+            <td><span class="compare-rate-bg-up" href="#">400</span></td>
+            <td>&nbsp;</td>
+        </tr>
+        </tbody></table>
+
+        </div>
+   
+   
+   
+                    </div>
+                </div>
+                
+            </div>
+            <script>
+                var MATCH_ID = 2264359;
+                Sahadan.Match.init(MATCH_ID);
+                Sahadan.Match.SeasonId = 36956;
+
+                function reOrganizeFrame() {
+                    var phAdvertorial = jQuery("#match-tab .ui-tabs-panel").not(".ui-tabs-hide").find("div[name=td_adv]")[0];
+                    if (phAdvertorial) {
+                        var banner = document.getElementById("frmAdvertorial");
+                        var bannerOffset = cumulativeOffset(phAdvertorial);
+                        bannerTop = bannerOffset[1];
+                        bannerLeft = bannerOffset[0];
+                        banner.style.left = bannerLeft + 'px';
+                        banner.style.top = bannerTop + 'px';
+                        banner.style.display = 'block';
+                    } else {
+                        var banner = document.getElementById("frmAdvertorial");
+                        banner.style.display = 'none';
+                    }
+
+                    var phAdvertorial2 = jQuery("#match-tab .ui-tabs-panel").not(".ui-tabs-hide").find("div[name=td_adv2]")[0];
+                    if (phAdvertorial2) {
+                        var banner = document.getElementById("frmAdvertorial2");
+                        var bannerOffset = cumulativeOffset(phAdvertorial2);
+                        bannerTop = bannerOffset[1];
+                        bannerLeft = bannerOffset[0];
+                        banner.style.left = bannerLeft + 'px';
+                        banner.style.top = bannerTop + 'px';
+                        banner.style.display = 'block';
+                    } else {
+                        var banner = document.getElementById("frmAdvertorial2");
+                        banner.style.display = 'none';
+                    }
+                }                     
+            </script>
+
+            <script>
+
+                var iMessageCount = 0;
+        
+                var successFn = function(messages, deleted, subs) {
+                    for (var i = 0; i < messages.length; i++) {
+                        var message = messages[i];
+                        iMessageCount++;
+                        if (message.id <= iLastMessageId || document.getElementById("msg_" + message.id)) {
+                            continue;
+                        }
+                        var strMessage = "<tr id=\"msg_" + message.id + "\" class=\"row alt" + (iMessageCount % 2 + 1) + "\">";
+                        strMessage += "<td width=\"19%\"><span style=\"color:Gray\"><b>" + message.nick + "</b> - " + message.ref + " - " + message.date + "</span><br/><span style=\"white-space:normal;" + (message.adm ? "color:#CC2222 !important" : "") + "\">" + message.msg + "</span></td></tr>";
+                        //strMessage += "<td style=\"white-space:normal;" + (message.adm ? "color:#CC2222 !important" : "") +  "\" align=\"left\" valign=top>" + message.msg + "</td></tr>";
+                        $("#dvForumMessages").prepend(strMessage);
+
+                        $("#msg_" + message.id).effect("highlight", { }, 5000);
+                    }
+                    if (deleted.length > 0) {
+                        for (var i = 0; i < deleted.length; i++) {
+                            if ($("#msg_" + deleted[i]).length > 0) {
+                                $("#msg_" + deleted[i]).remove();
+                            }
+                        }
+                        $("#dvForumMessages tr").removeClass("alt1 alt2").each(function(index, element) {
+                            $(element).addClass("alt" + (index % 2 + 1));
+                        });
+                    }
+                    $('#dvForumMessages tr:gt(10)').remove();
+                };
+                var errorFn = function(err) {
+                    //alert(err);
+                }
+    
+                var iForumStarted = false;
+                var forumPoll;
+                function autoRefresh() {
+                    if (!iForumStarted) {
+                        forumPoll = new KokteylPoll.pollForum(758978, successFn, errorFn, iLastMessageId);
+                        iForumStarted = true;
+                    } else {
+                        forumPoll.abort();
+                        iForumStarted = false;
+                    }
+                }        
+    
+        
+                var bTabLoading = false;
+                $(function() {
+                    var selectedTab = 2;
+                    if(window.location.hash){
+                        var $tmp = $("#tab-list li[data-hash='"+window.location.hash+"']");
+                        if($tmp.length > 0)
+                            selectedTab = $tmp.prevAll("li[data-hash]").length;
+                    }
+                    if(pageTracker && pageTracker._trackEvent)
+                        pageTracker._trackEvent("MacPage", "ActiveTab", window.location.hash || "", new Date().getTime());
+                    $("#match-tab").css("display", "").tabs({
+                        cache: true,            
+                        select: function(event, ui) {        
+                            window.location.hash = $(ui.tab).parent().parent().data("hash");
+                            window.location.reload();
+                            return false;
+                        },
+                        show: function(event, ui) {
+                            reOrganizeFrame();
+                        },
+                        load: function(event, ui) {
+                            bTabLoading = false;
+                        },
+                        ajaxOptions: { beforeSend: function(xhr) { bTabLoading = true; } },
+                        selected : selectedTab
+                    });
+                    $("#match-tab #tab-list .mac-plus-link-wrapper .mac-plus-link").attr("href","http://www.sahadan.com/Mac-Plus/2264359/Fenerbahce-Ajax");
+                });    
+                var isMatchCastEnabled = false;
+                function getMatchCast(matchId, width) {
+
+                    
+                    if (isMatchCastEnabled) {
+                        return;
+                    }
+                    $.ajax({
+                        url: "http://www.sahadan.com/AjaxHandlers/MatchVisualizationHandler.aspx?matchId=" + matchId + "&id=2264359&width=" + width,
+                        cache:false,
+                        success: function (data) {
+                            $("#dvMatchVisualization").html(data);
+                            isMatchCastEnabled = true;
+                        }
+                    });
+                    
+                }
+            </script>
+
+            <iframe id="frmAdvertorial" src="http://www.sahadan.com/Match/Advertorial.aspx?k=14450" style="display: none; position: absolute; border: 1px solid #bccbc2" height="25" width="466" frameborder="0" scrolling="no"></iframe>
+
+            <iframe id="frmAdvertorial2" src="http://www.sahadan.com/Match/Advertorial.aspx?k=14451" style="display: none; position: absolute; border: 1px solid #bccbc2" height="25" width="466" frameborder="0" scrolling="no"></iframe>
+        </div>
+    </div>
+
+    <div id="dv_Adv" style="display: none">
+        <script>AdmostClient.getBanner(18879);</script>
+    </div>
+    <div id="dv_Adv2" style="display: none">
+        <script>AdmostClient.getBanner(18877);</script>
+    </div>
+
+            </div>
+        </form>
+    </div>
+    <div style="float: left">
+        <script>AdmostClient.getBanner(48118);</script>
+        
+        <!-- Sahadan - TR - TRY - 160x600 - Adblocking -->
+        <!-- JS tag for banner rendering in requested adslot -->
+        <div id='crt-1049547' style="position: fixed; left: 50%; z-index: 0; top: 0px; text-align: right; margin-left: -690px; height: 1000px; background-color: transparent;"></div>
+        <script type='text/javascript'>
+            function callAdblock(zoneid, width, height) {
+                var el = document.getElementById('crt-' + zoneid);
+                el.style.width = width + "px"; el.style.height = height + "px";
+                Criteo.events.push(function () { Criteo.DisplayAcceptableAdIfAdblocked({ 'zoneid': zoneid, 'containerid': 'crt-' + zoneid }); });
+                window.addEventListener("message", function (e) {
+                    if (e.origin == (location.protocol == 'https:' ? 'https://' : 'http://') + 'cas.criteo.com' && e.data == 'passback-' + zoneid) document.getElementById('crt-' + zoneid).style.display = "none";
+                    else return;
+                }, false);
+            } callAdblock(1049547, 160, 600);
+        </script>       
+        
+    </div>
+    <div class="clr">
+    </div>
+    <div id="footer">
+        <div class="footer-coll">
+            <div class="footer-left">
+                <div class="footer-left-title">
+                    İletişim
+                </div>
+                <a class="footer-rows" href="http://www.sahadan.com/medyanet_reklam.html" target="_blank">
+                    <img src="http://is.cdn.md/i4/New/img/index/footer-ico.png" align="absmiddle">Reklam
+                </a>
+                <a class="footer-rows" href="http://www.sahadan.com/destek.aspx" target="_blank">
+                    <img src="http://is.cdn.md/i4/New/img/index/footer-ico.png" align="absmiddle">Bize Ulaşın
+                </a>
+                <a class="footer-rows" href="http://www.sahadan.com/kunye.aspx" target="_blank">
+                    <img src="http://is.cdn.md/i4/New/img/index/footer-ico.png" align="absmiddle">Künye
+                </a>
+            </div>
+            <div class="footer-center">
+                <div class="footer-center-title">
+                    Kurumsal
+                </div>
+                <div class="footer-stencil">
+                    <a class="footer-center-rows" href="http://www.beygir.com" target="_blank">
+                        <img src="http://is.cdn.md/i4/New/img/index/footer-ico.png" align="absmiddle">Beygir.com
+                    </a>
+                    <a class="footer-center-rows" href="http://www.mackolik.com" target="_blank">
+                        <img src="http://is.cdn.md/i4/New/img/index/footer-ico.png" align="absmiddle">Mackolik.com
+                    </a>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-right-title">
+                    Copyright © 2005 Sahadan.com
+                </div>
+            </div>
+        </div>
+        <div class="footer-text">
+            Sahadan.com'da yer alan tüm sayısal veriler, iddaa maç kodları, iddaa oranları, iddaa programı, maç sonuçları, puan durumu, istatistik ve tahmin bilgileri <a href="http://www.mackolik.com" target="_blank">www.mackolik.com</a>'dan sağlanmaktadır ve sadece bilgilendirme amaçlıdır. 
+        Bilgilerin doğruluğunu ve güncelliğini sağlamak için gereken gayret gösterilmektedir ancak bilgilerin doğruluğunun kontrolü kullanıcıların kendi sorumluluğundadır. 
+        Oluşabilecek hatalardan, maddi/manevi zararlardan www.sahadan.com sorumlu tutulamaz.
+        </div>
+    </div>
+
+
+
+    <!-- Start Alexa Certify Javascript -->
+    <script type="text/javascript" src="https://d31qbv1cthcecs.cloudfront.net/atrk.js"></script>
+    <script type="text/javascript">
+        _atrk_opts = { atrk_acct: "Nf8Kg1awO700GA", domain: "sahadan.com" }; atrk();
+    </script>
+    <noscript>
+        <img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=Nf8Kg1awO700GA" style="display: none" height="1" width="1" alt="" />
+    </noscript>
+    <!-- End Alexa Certify Javascript -->
+
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-241588-1");
+            pageTracker._trackPageview();
+        } catch (err) { }</script>
+
+
+
+    <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+    var pp_gemius_identifier = 'nAs6D4Bqi9DP4ampwyOIzJPa.D5G_lioHowQJR4YsbX.F7';
+    // lines below shouldn't be edited
+    function gemius_pending(i) { window[i] = window[i] || function () { var x = window[i + '_pdata'] = window[i + '_pdata'] || []; x[x.length] = arguments; }; }; gemius_pending('gemius_hit'); gemius_pending('gemius_event'); gemius_pending('pp_gemius_hit'); gemius_pending('pp_gemius_event'); (function (d, t) { try { var gt = d.createElement(t), s = d.getElementsByTagName(t)[0], l = 'http' + ((location.protocol == 'https:') ? 's' : ''); gt.setAttribute('async', 'async'); gt.setAttribute('defer', 'defer'); gt.src = l + '://gatr.hit.gemius.pl/xgemius.js'; s.parentNode.insertBefore(gt, s); } catch (e) { } })(document, 'script');
+    //--><!]]>
+    </script>
+
+
+    <!-- Begin comScore Tag -->
+    <script>
+        document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+    </script>
+
+    <script>
+        COMSCORE.beacon({
+            c1: 2,
+            c2: 6035584,
+            c3: "",
+            c4: "",
+            c5: "",
+            c6: "",
+            c15: ""
+        });
+    </script>
+    <noscript>
+        <img src="http://b.scorecardresearch.com/p?c1=2&c2=6035584&c3=&c4=&c5=&c6=&c15=&cj=1" />
+    </noscript>
+    <!-- End comScore Tag -->
+
+    <script>
+        AdmostClient.getBanner(87);
+
+        //$(document).ready(function () {
+        //    if ((typeof (advertisement_not_blocked) === 'undefined' || advertisement_not_blocked !== 1) && window.location.href.indexOf("adblocker.aspx") == -1) {
+        //        window.location.href = "http://www.sahadan.com/adblocker.aspx";
+        //    }
+        //});
+
+
+        var cont = 0;
+        function sticky_relocate_master() {
+
+            var window_top = $(window).scrollTop();
+            var div_top = $('#sticky-anchor-master').offset().top;
+            if (window_top > div_top && cont == 0) {
+                $('#sticky-master').addClass('stick-master');
+                $('#sticky-anchor-master').height($('#sticky-master').outerHeight());
+                setTimeout(function () {
+                    $('#sticky-master').removeClass('stick-master');
+                    $('#sticky-anchor-master').height(0);
+                    //alert("23");
+                    cont = 1;
+                }, 2000);
+
+            } else {
+                $('#sticky-master').removeClass('stick-master');
+                $('#sticky-anchor-master').height(0);
+            }
+        }
+
+        $(function () {
+            $(window).scroll(sticky_relocate_master);
+            sticky_relocate_master();
+        });
+
+    </script>
+    
+    
+    <script>AdmostClient.getBanner(52233);</script>    
+
+</body>
+</html>
