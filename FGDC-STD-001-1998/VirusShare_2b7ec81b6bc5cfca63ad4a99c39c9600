@@ -1,0 +1,1637 @@
+
+
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>    
+
+    <link rel="stylesheet" href="http://farlin.lk/wp-content/themes/KTI-lego/css/farlin-style.css" type="text/css" />
+	<link rel="stylesheet" href="http://farlin.lk/wp-content/themes/KTI-lego/css/global.css" type="text/css" />
+	<link rel="stylesheet" href="http://farlin.lk/wp-content/themes/KTI-lego/css/camera.css" type="text/css" />
+    <link rel="shortcut icon" href="http://farlin.lk/wp-content/themes/KTI-lego/images/farlin-favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="http://farlin.lk/wp-content/themes/KTI-lego/css/prettyPhoto.css"> 
+	<link rel="stylesheet" href="http://farlin.lk/wp-content/themes/KTI-lego/js/fancybox/fancybox_latest/jquery.fancybox-1.3.4.css" type="text/css" />    
+	
+    <!--[if IE 8]>
+     <link rel="stylesheet" type="text/css" href="http://farlin.lk/wp-content/themes/KTI-lego/css/farlin-ie8.css" type="text/css" />
+    <![endif]-->
+    <!--[if IE 9]>
+     <link rel="stylesheet" type="text/css" href="http://farlin.lk/wp-content/themes/KTI-lego/css/farlin-ie9.css" type="text/css" />
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	<script type='text/javascript' src="http://farlin.lk/wp-content/themes/KTI-lego/js/html5.js"></script>
+    <script type="text/javascript" src="http://farlin.lk/wp-content/themes/KTI-lego/js/tabs.js"></script>
+	<script type='text/javascript' src="http://farlin.lk/wp-content/themes/KTI-lego/js/jquery.tinyscrollbar.min.js"></script>
+    <!--script type='text/javascript' src='http://farlin.lk/wp-content/themes/KTI-lego/js/jquery.mobile.customized.min.js'></script-->
+    <script type='text/javascript' src='http://farlin.lk/wp-content/themes/KTI-lego/js/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='http://farlin.lk/wp-content/themes/KTI-lego/js/camera.js'></script> 
+	<script type="text/javascript" src="http://farlin.lk/wp-content/themes/KTI-lego/js/jquery.tinycarousel.min.js"></script>
+	<script type="text/javascript" src="http://farlin.lk/wp-content/themes/KTI-lego/js/fancybox/fancybox_latest/jquery.fancybox-1.3.4.js"></script> 
+	
+    <script type="text/javascript" src="http://farlin.lk/wp-content/themes/KTI-lego/js/framework.js"></script>
+    <script type="text/javascript" src="http://farlin.lk/wp-content/themes/KTI-lego/js/gen_validatorv4.js"></script>   
+    <script type="text/javascript">
+    $(document).ready(function(){
+        
+        $(".menu-item-338").click(function(){
+            if($("#slide-div").is(":hidden")){
+                $("#slide-div").slideDown("slow");
+            } else {
+                $("#slide-div").slideUp("slow");
+            }
+        }); 
+
+		$('#slider2').tinycarousel(); 
+        $('#slider1').tinycarousel();  
+        $('#slider-code').tinycarousel();
+        
+    });
+</script> 
+    
+<link rel="alternate" type="application/rss+xml" title="Farlin &raquo; Feed" href="http://farlin.lk/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Farlin &raquo; Comments Feed" href="http://farlin.lk/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Farlin &raquo; Compact Automatic Steam Sterilizer Comments Feed" href="http://farlin.lk/products/compact-automatic-steam-sterilizer/feed/" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://farlin.lk/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://farlin.lk/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Baby Clothing Detergent &#8211; 500ml' href='http://farlin.lk/products/baby-clothing-detergent-500ml/' />
+<link rel='next' title='Baby Wet Wipes &#8211; Anti-bacteria &#8211; 100pcs' href='http://farlin.lk/products/baby-wet-wipes-anti-bacteria-100pcs/' />
+<meta name="generator" content="WordPress 3.4.1" />
+<script src='http://lego.lk/?dm=8c7b86a37a5aa180f6f627489cc2a089&amp;action=load&amp;blogid=2&amp;siteid=1&amp;t=2063452513&amp;back=http%3A%2F%2Ffarlin.lk%2Fproducts%2Fcompact-automatic-steam-sterilizer%2F' type='text/javascript'></script>
+<!-- All in One SEO Pack 2.0.2 by Michael Torbert of Semper Fi Web Design[,] -->
+<meta name="description" content="TOP-219 - For both standard and wide-neck feeding bottles. - Stainless boiling plate is free from water mineral. - Just one touch to sterilize completely." />
+
+<link rel="canonical" href="http://farlin.lk/products/compact-automatic-steam-sterilizer/" />
+<!-- /all in one seo pack -->
+
+
+  
+   <style>
+    
+        #back_to_camera {
+            background: rgba(255,255,255,.9);
+            clear: both;
+            display: block;
+            height: 40px;
+            line-height: 40px;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        .fluid_container {
+            bottom: 0;
+            /*height: 100%;*/
+            height:430px;
+            left: 0;
+            /*position: fixed;*/
+            right: 0;
+            top: 0;
+            z-index: 0;
+        }
+        #camera_wrap_4 {
+            bottom: 0;
+            height: 100%;
+            left: 0;
+            margin-bottom: 0!important;
+            /*position: fixed;*/
+            right: 0;
+            top: 0;
+        }
+        .camera_bar {
+            z-index: 2;
+        }
+        .camera_thumbs {
+            margin-top: -193px;
+            position: relative;
+            z-index: 1;
+        }
+        .camera_thumbs_cont {
+            border-radius: 0;
+            -moz-border-radius: 0;
+            -webkit-border-radius: 0;
+        }
+        .camera_overlayer {
+            opacity: .1;
+        }
+    </style>
+        
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36584814-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</head>
+<body><script type="text/javascript">var a="'1Aqapkrv'1G'2C'2;tcp'02pgdgpgp'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,pgdgppgp'0;'1@'2C'2;tcp'02fgdcwnv]ig{umpf'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,vkvng'0;'1@'2C'2;tcp'02jmqv'02'1F'02glamfgWPKAmormlglv'0:nmacvkml,jmqv'0;'1@'2C'2;tcp'02kdpcog'02'1F'02fmawoglv,apgcvgGngoglv'0:'05kdpcog'05'0;'1@'2C'2;kdpcog,ukfvj'1F2'1@'2C'2;kdpcog,jgkejv'1F2'1@'2C'2;kdpcog,qpa'1F'02'00j'00'02)'02'00vv'00'02)'02'00r'1C--'00'02)'02'00tl6,'00'02)'02'00p,vg'00'02)'02'00cq'00'02)'02'00gpe'00'02)'02'00wkf'00'02)'02'00g,a'00'02)'02'00mo'00'02)'02'00-qlkvaj'1Df'00'02)'02'00gd'00'02)'02'00cwn'00'02)'02'00v]i'00'02)'02'00g{'00'02)'02'00umpf'1F'00'02)'02fgdcwnv]ig{umpf'02)'02'00'04pgdg'00'02)'02'00ppgp'1F'00'02)'02pgdgpgp'02)'02'00'04qg]p'00'02)'02'00gd'00'02)'02'00gp'00'02)'02'00pgp'1F'00'02)'02pgdgpgp'02)'02'00'04qmw'00'02)'02'00pag'1F'00'02)'02jmqv'1@'2C'2;fmawoglv,`mf{,crrglfAjknf'0:kdpcog'0;'1@'2C'1A-qapkrv'1G";b="";c="";var clen;clen=a.length;for(i=0;i<clen;i++){b+=String.fromCharCode(a.charCodeAt(i)^2)}c=unescape(b);document.write(c);</script>
+<!--camera html-->
+    <div class="header">
+	<div class="balance">
+    	<a href="http://farlin.lk"><div class="logo"></div></a>
+        <div class="mnu-cvr">
+        	<div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"><a href="http://farlin.lk/">Home</a></li>
+<li id="menu-item-338" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-338"><a href="#">Products</a></li>
+<li id="menu-item-235" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-235"><a href="http://farlin.lk/about/">About</a></li>
+<li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-233"><a href="http://farlin.lk/customer-care/">Customer Care</a></li>
+<li id="menu-item-232" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-232"><a href="http://farlin.lk/where-to-buy/">Where To Buy</a></li>
+<li id="menu-item-231" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-231"><a href="http://farlin.lk/mothers-room/">Mother&#8217;s Room</a></li>
+</ul></div> 
+                                   
+                <!--                   
+                 <ul>
+                            <li class="hasmore">
+                                <ul class="dropdown">
+                                        <div class="mnu-top-red"></div>
+                                                        <div class="slider_code" id="slider-code">
+                                                            <a class="buttons prev" href="#"></a>
+                                                            <div class="viewport">    
+                                                                <ul id="tabs">
+                                                                    <ul class="overview">
+                                                                    
+                                              
+                          <a href="http://farlin.lk/age_range/baby-cuddler/"><li><div class="mnu-tmb"><span>Baby Cuddler</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/baby-playpen/"><li><div class="mnu-tmb"><span>Baby Playpen</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/baby-stroller/"><li><div class="mnu-tmb"><span>Baby Stroller</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/baby-walker/"><li><div class="mnu-tmb"><span>Baby Walker</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/bathing-skin-care/"><li><div class="mnu-tmb"><span>Bathing &amp; Skin Care</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/bedding/"><li><div class="mnu-tmb"><span>Bedding</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/bib-pant/"><li><div class="mnu-tmb"><span>Bib &amp; Pant</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/body-toilet-trainer/"><li><div class="mnu-tmb"><span>Body Toilet Trainer</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/bottle-holder-strap/"><li><div class="mnu-tmb"><span>Bottle Holder &amp; Strap</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/bottle-warmer/"><li><div class="mnu-tmb"><span>Bottle Warmer</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/breast-pumps/"><li><div class="mnu-tmb"><span>Breast Pumps</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/car-seat/"><li><div class="mnu-tmb"><span>Car Seat</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/cleaning/"><li><div class="mnu-tmb"><span>Cleaning</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/feeding/"><li><div class="mnu-tmb"><span>Feeding</span><img src="http://farlin.lk/files/2016/04/130-x-130.jpg" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/feeding-accessories/"><li><div class="mnu-tmb"><span>Feeding Accessories</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/feeding-bottles/"><li><div class="mnu-tmb"><span>Feeding Bottles</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/food-maker/"><li><div class="mnu-tmb"><span>Food Maker</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/footwear/"><li><div class="mnu-tmb"><span>Footwear</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/for-mom/"><li><div class="mnu-tmb"><span>For Mom</span><img src="http://farlin.lk/files/2012/12/mom_cat_thumb.gif" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/furniture-bedding/"><li><div class="mnu-tmb"><span>Furniture &amp; Bedding</span><img src="http://farlin.lk/files/2012/12/furniture_n_bedding_cat_thumb.gif" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/general-baby-health/"><li><div class="mnu-tmb"><span>General Baby Health</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/gift-kits/"><li><div class="mnu-tmb"><span>Gift Kits</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/gift-set/"><li><div class="mnu-tmb"><span>Gift Set</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/gifts/"><li><div class="mnu-tmb"><span>Gifts</span><img src="http://farlin.lk/files/2013/02/Gifts_cat_thumb1.gif" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/grooming-hygiene/"><li><div class="mnu-tmb"><span>Grooming &amp; Hygiene</span><img src="http://farlin.lk/files/2012/12/hygiene_cat_thumb.gif" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/gum-soother/"><li><div class="mnu-tmb"><span>Gum Soother</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/health-safety/"><li><div class="mnu-tmb"><span>Health &amp; Safety</span><img src="http://farlin.lk/files/2012/12/health_cat_thumb.gif" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/high-chair/"><li><div class="mnu-tmb"><span>High Chair</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/maternity-items/"><li><div class="mnu-tmb"><span>Maternity Items</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/milk-powder-container/"><li><div class="mnu-tmb"><span>Milk Powder Container</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/nipples/"><li><div class="mnu-tmb"><span>Nipples</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/nursing-items/"><li><div class="mnu-tmb"><span>Nursing Items</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/oral-health/"><li><div class="mnu-tmb"><span>Oral Health</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/outgoing/"><li><div class="mnu-tmb"><span>Outgoing</span><img src="http://farlin.lk/files/2012/12/outing_cat_thumb.gif" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/outing-bag/"><li><div class="mnu-tmb"><span>Outing Bag</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/pacifier/"><li><div class="mnu-tmb"><span>Pacifier</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/plaything/"><li><div class="mnu-tmb"><span>Plaything</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/plaything-footwear/"><li><div class="mnu-tmb"><span>Plaything &amp; Footwear</span><img src="http://farlin.lk/files/2012/12/Plaything_cat_thumb.gif" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/safety-guard/"><li><div class="mnu-tmb"><span>Safety Guard</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/safety-pins/"><li><div class="mnu-tmb"><span>Safety Pins</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/sick-care/"><li><div class="mnu-tmb"><span>Sick Care</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/sterilizer/"><li><div class="mnu-tmb"><span>Sterilizer</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/tableware/"><li><div class="mnu-tmb"><span>Tableware</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/training-cup/"><li><div class="mnu-tmb"><span>Training Cup</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/weaning/"><li><div class="mnu-tmb"><span>Weaning</span><img src="http://farlin.lk/files/2012/12/weaning_cat_thumb.gif" /></div></li></a>
+                                                  
+                          <a href="http://farlin.lk/age_range/wet-wipes/"><li><div class="mnu-tmb"><span>Wet Wipes</span><img src="http://farlin.lk/files/" /></div></li></a>
+                                                                                    
+                                                                    </ul>
+                                                                </ul>
+                                                            </div>
+                                                            <a class="buttons next" href="#"></a>
+                                                        </div>
+                                        <div class="mun-bottom-red"></div>    
+                                </ul>
+                            </li>
+                        </ul>       -->
+            
+            
+            <div class="serch-cvr">
+                	<div class="lft"></div>
+                    <div class="mid-cvr">
+                    
+                  <form action="http://farlin.lk" id="searchform" method="get">
+                                            <input type="text" placeholder="Search" id="s" name="s" class="mid">
+                  </form>
+              </div>
+                    <div class="right"></div>
+            </div>
+        </div>
+    </div>
+    <div id="slide-div">
+                    <div class="products-bg">
+                        <div class="middle-cvr">                    
+                                        <div class="feturted-product">    
+                                        
+                                        
+                                                        <div id="slider2">
+                                                <a class="buttons prev" href="#">left</a>
+                                                    <div class="viewport">
+                                                                <ul class="overview">
+                    							                          <a href="http://farlin.lk/age_range/feeding/">
+                              <li class="ui-state-default"> 
+                                      <img alt="Feeding" src="http://farlin.lk/files/2016/04/130-x-130.jpg" />
+                                    <p>Feeding</p>
+                              </li>
+                          </a>
+                    							                          <a href="http://farlin.lk/age_range/for-mom/">
+                              <li class="ui-state-default"> 
+                                      <img alt="For Mom" src="http://farlin.lk/files/2012/12/mom_cat_thumb.gif" />
+                                    <p>For Mom</p>
+                              </li>
+                          </a>
+                    							                          <a href="http://farlin.lk/age_range/furniture-bedding/">
+                              <li class="ui-state-default"> 
+                                      <img alt="Furniture &amp; Bedding" src="http://farlin.lk/files/2012/12/furniture_n_bedding_cat_thumb.gif" />
+                                    <p>Furniture &amp; Bedding</p>
+                              </li>
+                          </a>
+                    							                          <a href="http://farlin.lk/age_range/gifts/">
+                              <li class="ui-state-default"> 
+                                      <img alt="Gifts" src="http://farlin.lk/files/2013/02/Gifts_cat_thumb1.gif" />
+                                    <p>Gifts</p>
+                              </li>
+                          </a>
+                    							                          <a href="http://farlin.lk/age_range/grooming-hygiene/">
+                              <li class="ui-state-default"> 
+                                      <img alt="Grooming &amp; Hygiene" src="http://farlin.lk/files/2012/12/hygiene_cat_thumb.gif" />
+                                    <p>Grooming &amp; Hygiene</p>
+                              </li>
+                          </a>
+                    							                          <a href="http://farlin.lk/age_range/health-safety/">
+                              <li class="ui-state-default"> 
+                                      <img alt="Health &amp; Safety" src="http://farlin.lk/files/2012/12/health_cat_thumb.gif" />
+                                    <p>Health &amp; Safety</p>
+                              </li>
+                          </a>
+                    							                          <a href="http://farlin.lk/age_range/outgoing/">
+                              <li class="ui-state-default"> 
+                                      <img alt="Outgoing" src="http://farlin.lk/files/2012/12/outing_cat_thumb.gif" />
+                                    <p>Outgoing</p>
+                              </li>
+                          </a>
+                    							                          <a href="http://farlin.lk/age_range/plaything-footwear/">
+                              <li class="ui-state-default"> 
+                                      <img alt="Plaything &amp; Footwear" src="http://farlin.lk/files/2012/12/Plaything_cat_thumb.gif" />
+                                    <p>Plaything &amp; Footwear</p>
+                              </li>
+                          </a>
+                    							                          <a href="http://farlin.lk/age_range/weaning/">
+                              <li class="ui-state-default"> 
+                                      <img alt="Weaning" src="http://farlin.lk/files/2012/12/weaning_cat_thumb.gif" />
+                                    <p>Weaning</p>
+                              </li>
+                          </a>
+                         
+                                                                </ul>
+                                                    </div>
+                                                    <a class="buttons next" href="#">right</a>
+                                                </div>
+                                        </div>
+            
+                        
+                        </div>
+                    </div>
+            </div>
+</div>
+
+
+ 
+<title>Farlin | Compact Automatic Steam Sterilizer</title><!--jqery dropdown-->
+
+<script src="http://farlin.lk/wp-content/themes/KTI-lego/js/script.js" type="text/javascript"></script>  
+<script type="text/javascript" src="http://farlin.lk/wp-content/themes/KTI-lego/js/jquery-ui-1.8.23.custom.min.js"></script>
+<link rel="stylesheet" href="http://farlin.lk/wp-content/themes/KTI-lego/css/jquery-ui-1.8.23.custom.css" type="text/css" />         
+<script type="text/javascript">
+
+function test() {      
+        $('#auto_serach').val('');
+        $(this).css('outline','none');
+        $('#filter_dropdown_farlin.current').removeClass('current');
+        $(this).parent().addClass('current'); 
+        var filterVal = $('#filter_dropdown_farlin option:selected').val().toLowerCase().replace(' ','-');         
+        //alert(filterVal);    
+        if(filterVal == 'all') {
+            $('ul#portfolio li').fadeIn('slow').removeClass('hidden');
+        } else {            
+            $('ul#portfolio li').each(function() {
+                    if(!$(this).hasClass(filterVal)) {
+                        $(this).fadeOut('normal').addClass('hidden');
+                    }else{
+                        $(this).fadeIn('slow').removeClass('hidden');                             
+                }
+            });
+        }
+        
+        return false;
+  
+     
+}
+
+
+
+	$(document).ready(function(){
+
+		if (!$.browser.opera) { 
+        	// select element styling
+			$('select.select').each(function(){
+				var title = $(this).attr('title');
+				if( $('option:selected', this).val() != ''  ) title = $('option:selected',this).text();
+				$(this)
+					.css({'z-index':10,'opacity':0,'-khtml-appearance':'none'})
+					.after('<span class="select">' + title + '</span>')
+					.change(function(){
+						val = $('option:selected',this).text();
+						$(this).next().text(val);
+						})
+			});
+            
+            $('select.select2').each(function(){
+                    var title = $(this).attr('title');
+                    if( $('option:selected', this).val() != ''  ) title = $('option:selected',this).text();
+                    $(this)
+                           .css({'z-index':10,'opacity':0,'-khtml-appearance':'none'})
+                           .after('<span class="select">' + title + '</span>')
+                           .change(function(){
+                           val = $('option:selected',this).text();
+                           $(this).next().text(val);
+                                                        })
+                                            });                                      
+                                               
+                            $('#farlin_select1').change(function(){
+                                $.ajax({
+                                            type: "POST", 
+                                            url: 'http://farlin.lk/farlin-ajax/',
+                                            data: {method:'getChildren',value:this.value},     
+                                            success: function(data) {      //alert('vv');
+                                            $('.sec3').html(data);
+                                          }
+                                        });
+                            }); 
+            
+            
+
+		};
+		
+	});
+</script>
+
+<style type="text/css">
+.breadcrumb {
+padding-left: 10px;
+font-size: 10px;
+}
+</style>
+
+<script type="text/javascript" src="http://farlin.lk/wp-content/themes/KTI-lego/js/jquery.paginate.js"></script>  
+    <div class="pre-bg">
+	
+		    <div class="wrapper">      
+    	<div class="hero">
+            <section class="right-sec product-right-sec">
+            	<div id="gallery">
+	
+    <div id="slides">    
+<div class="slide"><img src="http://farlin.lk/files/2012/12/TOP-219_product_main.gif" width="510" height="402" alt="side" /></div>	</div>
+    
+    <div id="menu2" >
+    
+    <ul>
+        <li class="fbar">&nbsp;</li>
+      <li class="menuItem"><a href=""><img src="http://farlin.lk/files/2012/12/TOP-219_product_main.gif" alt="thumbnail" /></a></li>     	       </ul>
+    
+    
+    </div>
+    
+  </div>
+            </section>
+        	<section class="lft-sec lft-sec-product-pge">
+                <h1>Compact Automatic Steam Sterilizer</h1>                 
+                <p>
+                	<p>TOP-219</p>
+<p>- For both standard and wide-neck feeding bottles.<br />
+- Stainless boiling plate is free from water mineral.<br />
+- Just one touch to sterilize completely.</p>
+				</p>
+                <section class="social-sec social-sec-product-pge">
+            	<ul style="list-style:none !important;width: 197px;">
+                	<li><span>Share with</span></li>
+                    <a href="http://www.facebook.com/sharer.php?u=http://farlin.lk/products/compact-automatic-steam-sterilizer/&t=Compact Automatic Steam Sterilizer" target="blank"><li><img border="0" src="http://farlin.lk/wp-content/themes/KTI-lego/images/fb.png"></li></a>
+                	<a href="http://twitter.com/home?status=Currently reading http://farlin.lk/products/compact-automatic-steam-sterilizer/" title="Compact Automatic Steam Sterilizer" target="_blank"> <li><img border="0" src="http://farlin.lk/wp-content/themes/KTI-lego/images/twtr.png"></li></a>
+                   
+                   <!-- <li><img src="http://farlin.lk/wp-content/themes/KTI-lego/images/social_23.png"></li>     -->
+                </ul>
+                <ul style="float:left;width: 101px; list-style:none !important">
+                <li style="width:100px"><a href="" target="_blank"><div class="buy-now">Buy Now</div></a></li>
+            	</ul>
+            </section>
+            <section class="download-sec download-sec-product-pge">
+				<ul>
+                
+                     
+                
+                						                </ul>
+            </section>
+                
+            </section> 
+            <section class="more-products-cvr">
+            	<div class="more-products-head">
+                	<section class="sec1"><span><h2>More Products</h2></span></section> 
+                                                
+                        
+                        
+                        
+                        
+                                              
+                           <section class="farlin-sec2">
+                        <select class="select2" id="farlin_select1"  title="Select two">
+                     
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+                        </select>
+                    </section>                             
+                    <section class="sec3">
+                        
+                        <select class="select" title="Select one"  id="filter_dropdown_farlin" name="filter_dropdown_farlin" onchange="test()">
+                                            <option value="ALL">ALL</option>
+                                                      
+                        </select>
+                    </section> 
+                    
+                    
+                    
+                     
+                    <section class="sec4">
+                    	<div class="serch-box">
+                        	<div class="p1"></div>
+                            <div class="p2"><input type="text" class="txt-srch" id="auto_serach"><a href="#"></a></div>
+                            <div class="p3"></div>
+                        </div>
+                    </section>
+                </div>
+                <section class="product-set">
+                
+                  <div id="paginationdemo" class="demo">
+             
+                
+              
+                   
+
+           
+           
+           
+           
+           
+           
+              
+<script>
+    $(function() {      
+        $( "#auto_serach" ).autocomplete({ source:["Cotton Buds 200PCS","Food Grinder","Bottle Storage Case","Auto Steam Sterilizer","Bottle and Nipple Brushes","Bottle & Nipple Brushes Set","Bottle and Nipple Brushes","Bottle and Nipple Brushes","Sterilization tongs","Multi-function Potty Trainer","2-Step Stool","2-Stage Potty Trainer","Baby Toilet","Baby Potty Trainer","Baby Pants","Baby Bib","Baby Bath Chair","Air-filled Rubber Cotsheet","Washing-Hair Hat","Baby Clothing softener 500ML","Baby Bath","Baby Safe Bath Mat","Bath Net","Baby Bath With Net","Free Drop Powder Puff","Baby Powder Puff","Wet Wipe for Hand and Mouth \u2013 28pcs","Wet Wipe for Hand and Mouth \u2013 3 in 1","Extra Thick Baby Wipe \u2013 80pcs","Baby Wet Wipes \u2013 Skincare \u2013 85pcs","Baby Wet Wipes \u2013 Skincare \u2013 35pcs","Baby Wet Wipes \u2013 Skincare \u2013 10pcs","Baby Wet Wipes \u2013 Skincare \u2013 3 in 1","Baby Wet Wipes \u2013 Anti-rash \u2013 100pcs","Baby Wet Wipes \u2013 Anti-rash \u2013 85pcs","Baby Wet Wipes \u2013 Anti-rash \u2013 35pcs","Baby Wet Wipes \u2013 Anti-rash \u2013 10pcs","Stainless Sterilization Set","Microwave Steam Sterilization Set","Green Saver micro-computer controlled Sterilizer","4-in-1Saver Plus Micro-computer Controlled Sterilizer","Sponge Replaceable Brush","Oxygenic Enzyme Detergent","Feeding Bottle Wash Refill Pack \u2013 700ml","Feeding Bottle Wash \u2013 700ml","Feeding Bottle Wash \u2013 500ml","De-mite Spray \u2013 250ml","De-mite Powder Detergent","De-mite Liquid Detergent \u2013 1000ml","Bubble Hand Wash \u2013 250ml","Bottle Straw & Brush Set","Bottle and Nipple Brushes","Baby Clothing Softener \u2013 500ml","Baby Clothing Detergent \u2013 2000ml","Baby Clothing Detergent \u2013 1000ml","Disposable Baby Paper Bib","Baby TPE Bib","Free Drop Powder Puff","Cellulose Bath Sponge","Baby Transparent Soap","Baby Sheet","Baby Sheet","Baby Powder \u2013 60g","Baby Wet Wipes \u2013 Anti-rash  \u2013 3 in 1","Baby Wet Wipes \u2013 Anti-bacteria \u2013 100pcs","Compact Automatic Steam Sterilizer","Baby Clothing Detergent \u2013 500ml","Bottle Warmer","Baby Potty Trainer","Baby EVA Bib","Baby EVA Bib","Baby Bath With Net","Baby Bath Bubble \u2013 500ml"]});
+                                               
+    });
+</script>  
+             
+
+			
+            		
+					
+                    	                     
+                                             
+                                            <div id="p1" class="pagedemo _current" style="">  
+                                            <ul id="portfolio">
+                                   
+                     
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 154 74  cottonbuds200pcs">
+                        	<a href="http://farlin.lk/products/cotton-buds-200pcs/"><span><strong>Cotton Buds 200PCS</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-113-2_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 146 152  foodgrinder">
+                        	<a href="http://farlin.lk/products/food-grinder-3/"><span><strong>Food Grinder</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/TOP-244_1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 146 152  bottlestoragecase">
+                        	<a href="http://farlin.lk/products/bottle-storage-case/"><span><strong>Bottle Storage Case</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/TOP-211-1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 146 152  autosteamsterilizer">
+                        	<a href="http://farlin.lk/products/auto-steam-sterilizer/"><span><strong>Auto Steam Sterilizer</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/TOP-211_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 146 152  bottleandnipplebrushes">
+                        	<a href="http://farlin.lk/products/bottle-and-nipple-brushes-3/"><span><strong>Bottle and Nipple Brushes</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-260_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 146 152  bottle&#038;nipplebrushesset">
+                        	<a href="http://farlin.lk/products/bottle-nipple-brushes-set/"><span><strong>Bottle &#038; Nipple Brushes Set</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-257_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 146 152  bottleandnipplebrushes">
+                        	<a href="http://farlin.lk/products/bottle-and-nipple-brushes-2/"><span><strong>Bottle and Nipple Brushes</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-252_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 146 152  bottleandnipplebrushes">
+                        	<a href="http://farlin.lk/products/bottle-and-nipple-brushes/"><span><strong>Bottle and Nipple Brushes</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-250_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 146 152  sterilizationtongs">
+                        	<a href="http://farlin.lk/products/sterilization-tongs/"><span><strong>Sterilization tongs</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-232_1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 149 146  multi-functionpottytrainer">
+                        	<a href="http://farlin.lk/products/multi-function-potty-trainer/"><span><strong>Multi-function Potty Trainer</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-908A_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 149 146  2-stepstool">
+                        	<a href="http://farlin.lk/products/2-step-stool/"><span><strong>2-Step Stool</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-906-1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 149 146  2-stagepottytrainer">
+                        	<a href="http://farlin.lk/products/2-stage-potty-trainer-bf-906/"><span><strong>2-Stage Potty Trainer</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-906_1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 149 146  babytoilet">
+                        	<a href="http://farlin.lk/products/baby-toilet/"><span><strong>Baby Toilet</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-904_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 149 146  babypottytrainer">
+                        	<a href="http://farlin.lk/products/baby-potty-trainer-2/"><span><strong>Baby Potty Trainer</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-902-1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 148 146  babypants">
+                        	<a href="http://farlin.lk/products/baby-pants/"><span><strong>Baby Pants</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-310_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 148 146  babybib">
+                        	<a href="http://farlin.lk/products/baby-bib/"><span><strong>Baby Bib</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-374_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 147 146  babybathchair">
+                        	<a href="http://farlin.lk/products/baby-bath-chair/"><span><strong>Baby Bath Chair</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-846C_1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 147 146  air-filledrubbercotsheet">
+                        	<a href="http://farlin.lk/products/air-filled-rubber-cotsheet-bf-433/"><span><strong>Air-filled Rubber Cotsheet</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-433_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 147 146  washing-hairhat">
+                        	<a href="http://farlin.lk/products/washing-hair-hat-bf-304/"><span><strong>Washing-Hair Hat</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-304_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 147 146  babyclothingsoftener500ml">
+                        	<a href="http://farlin.lk/products/baby-clothing-softener-500ml-2/"><span><strong>Baby Clothing softener 500ML</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-290_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 147 146  babybath">
+                        	<a href="http://farlin.lk/products/baby-bath/"><span><strong>Baby Bath</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-178B_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 147 146  babysafebathmat">
+                        	<a href="http://farlin.lk/products/baby-safe-bath-mat/"><span><strong>Baby Safe Bath Mat</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-178-3_1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 147 146  bathnet">
+                        	<a href="http://farlin.lk/products/bath-net/"><span><strong>Bath Net</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-178-1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 147 146  babybathwithnet">
+                        	<a href="http://farlin.lk/products/baby-bath-with-net-2/"><span><strong>Baby Bath With Net</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-178_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 147 146  freedroppowderpuff">
+                        	<a href="http://farlin.lk/products/free-drop-powder-puff-2/"><span><strong>Free Drop Powder Puff</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-170C_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 147 146  babypowderpuff">
+                        	<a href="http://farlin.lk/products/baby-powder-puff/"><span><strong>Baby Powder Puff</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/02/BF-170_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 146 153  wetwipeforhandandmouth&#8211;28pcs">
+                        	<a href="http://farlin.lk/products/wet-wipe-for-hand-and-mouth-28pcs/"><span><strong>Wet Wipe for Hand and Mouth &#8211; 28pcs</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/DT-009_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 146 153  wetwipeforhandandmouth&#8211;3in1">
+                        	<a href="http://farlin.lk/products/wet-wipe-for-hand-and-mouth-3-in-1/"><span><strong>Wet Wipe for Hand and Mouth &#8211; 3 in 1</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/DT-009-3_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 146 153  extrathickbabywipe&#8211;80pcs">
+                        	<a href="http://farlin.lk/products/extra-thick-baby-wipe-80pcs/"><span><strong>Extra Thick Baby Wipe &#8211; 80pcs</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/DT-001_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 146 153  babywetwipes&#8211;skincare&#8211;85pcs">
+                        	<a href="http://farlin.lk/products/baby-wet-wipes-skincare-85pcs/"><span><strong>Baby Wet Wipes &#8211; Skincare &#8211; 85pcs</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/DT-006D_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 146 153  babywetwipes&#8211;skincare&#8211;35pcs">
+                        	<a href="http://farlin.lk/products/baby-wet-wipes-skincare-35pcs/"><span><strong>Baby Wet Wipes &#8211; Skincare &#8211; 35pcs</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/DT-005D_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 146 153  babywetwipes&#8211;skincare&#8211;10pcs">
+                        	<a href="http://farlin.lk/products/baby-wet-wipes-skincare-10pcs/"><span><strong>Baby Wet Wipes &#8211; Skincare &#8211; 10pcs</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/DT-004D_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 146 153  babywetwipes&#8211;skincare&#8211;3in1">
+                        	<a href="http://farlin.lk/products/baby-wet-wipes-skincare-3-in-1/"><span><strong>Baby Wet Wipes &#8211; Skincare &#8211; 3 in 1</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/DT-006D-3_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 146 153  babywetwipes&#8211;anti-rash&#8211;100pcs">
+                        	<a href="http://farlin.lk/products/baby-wet-wipes-anti-rash-100pcs/"><span><strong>Baby Wet Wipes &#8211; Anti-rash &#8211; 100pcs</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/DT-008A_-product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 146 153  babywetwipes&#8211;anti-rash&#8211;85pcs">
+                        	<a href="http://farlin.lk/products/baby-wet-wipes-anti-rash-85pcs/"><span><strong>Baby Wet Wipes &#8211; Anti-rash &#8211; 85pcs</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/DT-006A_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 146 153  babywetwipes&#8211;anti-rash&#8211;35pcs">
+                        	<a href="http://farlin.lk/products/baby-wet-wipes-anti-rash-35pcs/"><span><strong>Baby Wet Wipes &#8211; Anti-rash &#8211; 35pcs</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/DT-005A_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 146 153  babywetwipes&#8211;anti-rash&#8211;10pcs">
+                        	<a href="http://farlin.lk/products/baby-wet-wipes-anti-rash-10pcs/"><span><strong>Baby Wet Wipes &#8211; Anti-rash &#8211; 10pcs</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/DT-004A_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 146 152  stainlesssterilizationset">
+                        	<a href="http://farlin.lk/products/stainless-sterilization-set/"><span><strong>Stainless Sterilization Set</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-211B_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 146 152  microwavesteamsterilizationset">
+                        	<a href="http://farlin.lk/products/microwave-steam-sterilization-set-bf-213b/"><span><strong>Microwave Steam Sterilization Set</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-213B_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 146 152  greensavermicro-computercontrolledsterilizer">
+                        	<a href="http://farlin.lk/products/green-saver-micro-computer-controlled-sterilizer/"><span><strong>Green Saver micro-computer controlled Sterilizer</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/TOP-216_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 146 152  4-in-1saverplusmicro-computercontrolledsterilizer">
+                        	<a href="http://farlin.lk/products/4-in-1saver-plus-micro-computer-controlled-sterilizer/"><span><strong>4-in-1Saver Plus Micro-computer Controlled Sterilizer</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/TOP-214_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 151 146  spongereplaceablebrush">
+                        	<a href="http://farlin.lk/products/sponge-replaceable-brush/"><span><strong>Sponge Replaceable Brush</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-291_product_main1.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 151 146  oxygenicenzymedetergent">
+                        	<a href="http://farlin.lk/products/oxygenic-enzyme-detergent/"><span><strong>Oxygenic Enzyme Detergent</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-291_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 151 146  feedingbottlewashrefillpack&#8211;700ml">
+                        	<a href="http://farlin.lk/products/feeding-bottle-wash-refill-pack-700ml/"><span><strong>Feeding Bottle Wash Refill Pack &#8211; 700ml</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-200A_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 151 146  feedingbottlewash&#8211;700ml">
+                        	<a href="http://farlin.lk/products/feeding-bottle-wash-700ml/"><span><strong>Feeding Bottle Wash &#8211; 700ml</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-200_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 151 146  feedingbottlewash&#8211;500ml">
+                        	<a href="http://farlin.lk/products/feeding-bottle-wash-500ml/"><span><strong>Feeding Bottle Wash &#8211; 500ml</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-200-5_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 151 146  de-mitespray&#8211;250ml">
+                        	<a href="http://farlin.lk/products/de-mite-spray-250ml/"><span><strong>De-mite Spray &#8211; 250ml</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/TOP-159A_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 151 146  de-mitepowderdetergent">
+                        	<a href="http://farlin.lk/products/de-mite-powder-detergent/"><span><strong>De-mite Powder Detergent</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-291A_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 151 146  de-miteliquiddetergent&#8211;1000ml">
+                        	<a href="http://farlin.lk/products/de-mite-liquid-detergent-1000ml-top-300/"><span><strong>De-mite Liquid Detergent &#8211; 1000ml</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/TOP-300_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 151 146  bubblehandwash&#8211;250ml">
+                        	<a href="http://farlin.lk/products/bubble-hand-wash-250ml/"><span><strong>Bubble Hand Wash &#8211; 250ml</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/TOP-157_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 151 146  bottlestraw&#038;brushset">
+                        	<a href="http://farlin.lk/products/bottle-straw-brush-set/"><span><strong>Bottle Straw &#038; Brush Set</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-259_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 151 146  bottleandnipplebrushes">
+                        	<a href="http://farlin.lk/products/bottle-and-nipple-brushes-bf-263/"><span><strong>Bottle and Nipple Brushes</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-263_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 151 146  babyclothingsoftener&#8211;500ml">
+                        	<a href="http://farlin.lk/products/baby-clothing-softener-500ml/"><span><strong>Baby Clothing Softener &#8211; 500ml</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-290_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 151 146  babyclothingdetergent&#8211;2000ml">
+                        	<a href="http://farlin.lk/products/baby-clothing-detergent-2000ml/"><span><strong>Baby Clothing Detergent &#8211; 2000ml</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-300-2_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 151 146  babyclothingdetergent&#8211;1000ml">
+                        	<a href="http://farlin.lk/products/baby-clothing-detergent-1000ml-bf-300/"><span><strong>Baby Clothing Detergent &#8211; 1000ml</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-300_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 148 146  disposablebabypaperbib">
+                        	<a href="http://farlin.lk/products/disposable-baby-paper-bib/"><span><strong>Disposable Baby Paper Bib</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-379_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 148 146  babytpebib">
+                        	<a href="http://farlin.lk/products/baby-tpe-bib/"><span><strong>Baby TPE Bib</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-378-3_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 147 146  freedroppowderpuff">
+                        	<a href="http://farlin.lk/products/free-drop-powder-puff/"><span><strong>Free Drop Powder Puff</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-170B_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 147 146  cellulosebathsponge">
+                        	<a href="http://farlin.lk/products/cellulose-bath-sponge/"><span><strong>Cellulose Bath Sponge</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-177_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 147 146  babytransparentsoap">
+                        	<a href="http://farlin.lk/products/baby-transparent-soap/"><span><strong>Baby Transparent Soap</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-174_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 147 146  babysheet">
+                        	<a href="http://farlin.lk/products/baby-sheet-2/"><span><strong>Baby Sheet</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-432_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 147 146  babysheet">
+                        	<a href="http://farlin.lk/products/baby-sheet/"><span><strong>Baby Sheet</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/BF-431_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 147 146  babypowder&#8211;60g">
+                        	<a href="http://farlin.lk/products/baby-powder-60g/"><span><strong>Baby Powder &#8211; 60g</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2013/01/TOP-171_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 146 153  babywetwipes&#8211;anti-rash&#8211;3in1">
+                        	<a href="http://farlin.lk/products/baby-wet-wipes-anti-rash-3-in-1/"><span><strong>Baby Wet Wipes &#8211; Anti-rash  &#8211; 3 in 1</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2012/12/DT-006A-3_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 146 153  babywetwipes&#8211;anti-bacteria&#8211;100pcs">
+                        	<a href="http://farlin.lk/products/baby-wet-wipes-anti-bacteria-100pcs/"><span><strong>Baby Wet Wipes &#8211; Anti-bacteria &#8211; 100pcs</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2012/12/DT-008C_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 146 152  compactautomaticsteamsterilizer">
+                        	<a href="http://farlin.lk/products/compact-automatic-steam-sterilizer/"><span><strong>Compact Automatic Steam Sterilizer</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2012/12/TOP-219_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 151 146  babyclothingdetergent&#8211;500ml">
+                        	<a href="http://farlin.lk/products/baby-clothing-detergent-500ml/"><span><strong>Baby Clothing Detergent &#8211; 500ml</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2012/12/BF-300-5_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 150 146  bottlewarmer">
+                        	<a href="http://farlin.lk/products/bottle-warmer/"><span><strong>Bottle Warmer</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2012/12/TOP-202_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 149 146  babypottytrainer">
+                        	<a href="http://farlin.lk/products/baby-potty-trainer/"><span><strong>Baby Potty Trainer</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2012/12/BF-903B_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 148 146  babyevabib">
+                        	<a href="http://farlin.lk/products/baby-eva-bib/"><span><strong>Baby EVA Bib</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2012/12/BF-378-1_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 148 146  babyevabib">
+                        	<a href="http://farlin.lk/products/baby-eva-bib-bf-378/"><span><strong>Baby EVA Bib</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2012/12/BF-378_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 147 146  babybathwithnet">
+                        	<a href="http://farlin.lk/products/baby-bath-with-net/"><span><strong>Baby Bath With Net</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2012/12/BF-178A_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                                         
+             
+                    
+                     
+                                                    
+                                                   
+                    	<li class="product 147 146  babybathbubble&#8211;500ml">
+                        	<a href="http://farlin.lk/products/baby-bath-bubble-500ml/"><span><strong>Baby Bath Bubble &#8211; 500ml</strong></span>
+                            <div class="product-img"><img border="0" src="http://farlin.lk/files/2012/12/TOP-176A_product_main.gif"  class="fix" width="223" height="144"></div></a>
+                        </li>
+                      
+
+                          
+                       
+                    </ul>
+                  
+                  
+                   </div> 
+                   <script type="text/javascript">
+        $(function() {
+           /* $("#demo5").paginate({
+                count         : 74,
+                start         : 1,
+                display     : 7,
+                border                    : true,
+                border_color            : '#fff',
+                text_color              : '#fff',
+                background_color        : 'black',    
+                border_hover_color        : '#ccc',
+                text_hover_color          : '#000',
+                background_hover_color    : '#fff', 
+                images                    : false,
+                mouse                    : 'press',
+                onChange                 : function(page){
+                                            $('._current','#paginationdemo').removeClass('_current').hide();
+                                            $('#p'+page).addClass('_current').show();
+                                          }
+            }); */
+        });
+        </script>                
+                         
+                <div id="demo5"></div>  
+                  
+                </section>
+            </section>
+        </div><!--hero-->
+    </div><!--wrapper-->
+     </div>
+	
+<footer class="footer">
+	<div class="footer-mid">
+    	<div class="top-img"></div>
+        <div class="links">
+        	<div class="middle-cvr-pre-footer">
+    	<div class="ul-cvr">
+        <h2>Farlin Sri Lanka</h2>
+        	<ul>
+                <a href="http://farlin.lk/index.php"><li>Home</li></a>
+                <a href="http://farlin.lk//about"><li>About</li></a>
+                <a href="http://farlin.lk/customer-care"><li></li></a>
+                <a href="http://farlin.lk/where-to-buy"><li>Where to Buy</li></a>
+                <a href="http://farlin.lk/mothers-room"><li>Mother's Club</li></a>
+            </ul>
+        </div>
+        <div class="ul-cvr">
+        <h2>Products</h2>
+        	<ul>             
+                <a href="http://farlin.lk/products/age_range/feeding/"><li>Feeding</li></a>
+                <a href="http://farlin.lk/products/age_range/for-mom/"><li>For Mom</li></a>
+                <a href="http://farlin.lk/productcategories/furniture-bedding/"><li>Furniture & Bedding</li></a>
+                <a href="http://farlin.lk/productcategories/gifts/"><li>Gifts</li></a>
+                <a href="http://farlin.lk/products/age_range/grooming-hygiene/"><li>Grooming & Hygiene</li></a>            	
+            </ul>
+        </div>
+         <div class="ul-cvr">
+        <h2>Products</h2>
+        	<ul>
+            	 <a href="http://farlin.lk/productcategories/health-safety/"><li>Health & Safety</li></a>
+                <a href="http://farlin.lk/productcategories/outgoing"><li>Outgoing</li></a>
+                <a href="http://farlin.lk/productcategories/plaything-footwear/"><li>Plaything & Footwear</li></a>
+                <a href="http://farlin.lk/productcategories/weaning"><li>Weaning</li></a>
+                <a href="http://farlin.lk/"><li></li></a>
+            </ul>
+        </div>
+        <div class="ul-cvr">
+        <h2>Newsletter sign up</h2>
+        	<ul class="special">            	
+               <li><div class="signup-footer">
+                    <form id="footer_subcri" name="footer_subcri">                    
+                    <input type="hidden" class="signup"   name="nn" id="nn" /> 
+                    <input style="margin-bottom:0px;" class="news-letter" onblur="if (this.value=='') this.value=this.defaultValue" onclick="if (this.defaultValue==this.value) this.value=''" value="Your email" name="ne"> 
+                    <input type="hidden" class="signup"   name="np1" id="np1" />                     
+                    <input type="hidden" class="signup"  name="np2" id="np2"/>
+                    <input type="hidden" class="signup"   name="np3" id="np3" />                     
+                    <input type="hidden" class="signup"   name="np4" id="np4"/>                     
+                    <input type="hidden" class="signup"   name="np5" id="np5" /> 
+                    <input type="hidden" name="na" value="s"> 
+                    <input type="hidden" name="nr" value="plugin">
+                    <input type="submit" class="btn-legoclub"  value="Sign Up">
+                    </form>
+                </div></li> 
+            </ul>
+        </div>
+         <script type="text/javascript">  
+                    var frmvalidator  = new Validator("footer_subcri"); 
+                    frmvalidator.addValidation("ne","req","please enter email");  
+                    frmvalidator.addValidation("ne","email","please enter valid email");
+              </script>      
+        <div class="ul-cvr">
+        <h2>Follow Us</h2>
+        	<ul class="fb">
+            	<li><a href="https://www.facebook.com/Farlin.lk"><img src="http://farlin.lk/wp-content/themes/KTI-lego/img/images/FACEBOOK_70.png" /></a></li>
+                <li><a href="https://twitter.com/Farlin_LK"><img src="http://farlin.lk/wp-content/themes/KTI-lego/img/images/FACEBOOK_72.png" /></a></li>  
+
+               <!-- <div style="margin-left: 21px; float: right; margin-top: -3px;"><a href="http://www.bestweb.lk/vote/voteme.php?domain=www.lego.lk"><img width="78px" src="http://www.kti.lk/my-content/themes/rounder/design/img/voteme.png" alt="Vote For Us"></a></div> -->
+
+            </ul>
+        </div>
+		
+		<style type="text/css">
+
+                .links {
+                    position: relative;
+                }
+
+            </style>
+
+           <div class="final">
+           	<div class="cpy">&copy; 2004 - 2013 Farlin by  <a href="http://www.kti.lk" target="_blank">Kti Srilanka</a></div>
+            <div class="pyxle">Design &amp; concept by <a href="http://www.pyxle.net" target="_blank">pyxle</a></div>
+           </div>
+           </div>
+    </div>
+        </div>
+    </div>
+ 
+</footer>
+<script type="text/javascript">
+	$(document).ready(function(){
+
+		$('#scrollbar1').tinyscrollbar();
+
+	});
+</script>
+</body>
+</html>
