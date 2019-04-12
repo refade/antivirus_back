@@ -1,0 +1,417 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><SCRIPT language=javascript author=luxiaoqing><!--
+function initArray(){for(i=0;i<initArray.arguments.length;i++)
+this[i]=initArray.arguments[i];}var isnMonths=new initArray("1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月");var isnDays=new initArray("星期日","星期一","星期二","星期三","星期四","星期五","星期六","星期日");today=new Date();hrs=today.getHours();min=today.getMinutes();sec=today.getSeconds();clckh=""+((hrs>12)?hrs-12:hrs);
+clckm=((min<10)?"0":"")+min;clcks=((sec<10)?"0":"")+sec;clck=(hrs>=12)?"下午":"上午";var stnr="";var ns="0123456789";var a="";
+
+//-->
+
+</SCRIPT>
+<meta http-equiv="Content-Type" content="text/html; charset=GB2312" />
+<title>赣州市公路管理局崇义分局、崇义县防震减灾局、崇义县公安局办公设备、警用摩托车项目（项目编号：GZJD2015-CY-X126-1）的询价公告 - 崇义,崇义县,崇义县公共资源交易中心,招标投标中心,招标,崇义招标投标中心 - 崇义县公共资源交易中心</title>
+<meta name="keywords" content="崇义,崇义县,崇义县公共资源交易中心,招标投标中心,招标,崇义招标投标中心" />
+<meta name="description" content="赣州市公路管理局崇义分局、崇义县防震减灾局、崇义县公安局办公设备、警用摩托车项目（项目编号：GZJD2015-CY-X126-1）的询价公告 崇义,崇义县,崇义县公共资源交易中心,招标投标中心,招标,崇义招标投标中心" />
+<meta http-equiv="Expires" Content="0"/>
+<meta http-equiv="Cache-Control" Content="no-cache"/>
+<meta http-equiv="Pragma" Content="no-cache"/>
+<meta name="MSSmartTagsPreventParsing" content="True" />
+<meta http-equiv="MSThemeCompatible" content="Yes" />
+<link href="/skins/default/style.css" type="text/css" rel="stylesheet"/>
+<script src="/js/main.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="headleft"><div id="headright">
+	<div id="headbody">
+<div id="headmid">
+</div>
+		<div id="headstrap">
+			<div id="hd_strapleft"><SCRIPT language=javascript><!--
+function getFullYear(d){//d is a date object
+yr=d.getYear();if(yr<1000)
+yr+=1900;return yr;};//don't delete this line
+
+/* 每一段代表一种风格,不需要的删除即可*/
+
+document.write("<font color='#FFFFFF'>今天是："
++isnDays[today.getDay()]+","+isnMonths[today.getMonth()]+""
++today.getDate()+"日,"+getFullYear(today)+"年 "+clckh+":"+clckm+":"
++clcks+""+clck+"</font>"); // don't delete this line
+//-->
+</SCRIPT></div><div id="hd_strapright">&nbsp;<a href="http://www.cyztbzx.com/guest"><b><u><在线答疑></u></b></a>&nbsp;|&nbsp;<a href="/users/login.asp">用户登录</a> &nbsp;|&nbsp; <img src="/skins/default/hd_arrowDown.gif" height="7" width="5" alt="" /> <a href="/users/reg.asp" target="_blank">用户注册</a></div><table border="0" width="970" id="table1" cellspacing="0" cellpadding="0" height="180" background="/adfile/UploadPic/2011-7/20117180135285474.jpg">
+	<tr>
+	<td></td>
+	</tr>
+</table>
+			<div id="hd_strapright"><a href="/">首 页</a> ┆
+			<a href="/ask/" title="新云问吧">新云问吧</a> ┆
+			<a href="/flash/" title="动画频道">动画频道</a></div>
+		</div>
+		<div style="clear:both"></div>
+	</div>
+	<div id="globalNavArea">
+		<ul id="globalNavUL">
+			<li class="navdark"><a href="/">首 页</a></li>
+			<li id="tabmenu1"><a href="/Article/list.asp?classid=1" title="新闻中心"><span>新闻中心</span></a></li>
+<li id="tabmenu2"><a href="/Article/list.asp?classid=2" title="建设工程"><span>建设工程</span></a></li>
+<li id="tabmenu3"><a href="/Article/list.asp?classid=3" title="政府采购"><span>政府采购</span></a></li>
+<li id="tabmenu4"><a href="/Article/list.asp?classid=33" title="土地产权"><span>土地产权</span></a></li>
+<li id="tabmenu5"><a href="/Article/list.asp?classid=21" title="开标预告"><span>开标预告</span></a></li>
+<li id="tabmenu6"><a href="http://cyzjcs.cyztbzx.com" target="_blank" title="行政审批中介服务超市"><span>行政审批中介服务超市</span></a></li>
+<li id="tabmenu7"><a href="/Article/list.asp?classid=6" title="文件下载"><span>文件下载</span></a></li>
+<li id="tabmenu8"><a href="/Article/list.asp?classid=5" title="办事指南"><span>办事指南</span></a></li>
+<li id="tabmenu9"><a href="/Article/list.asp?classid=4" title="法律法规"><span>法律法规</span></a></li>
+<li id="tabmenu10"><a href="/Article/list.asp?classid=8" title="学习园地"><span>学习园地</span></a></li>
+
+		</ul>
+		<div style="clear:both"></div>
+		<div id="globalNavmid">
+				<form name="searchform" method="get" action="/search.asp">
+			<div id="sht"><input class="searchtext" type="text" id="sh" name="word" maxlength="150" size="35" value="" /></div>
+			<input type="hidden" name="m" value="1" />
+			<input type="hidden" name="s" value="1" />
+			<!--div id="selsearch">
+				<select name="m" size="1" class="selsearch">
+					<option value="1">文章资料</option>
+				</select>
+			</div-->
+			</div-->
+			<div id="sbox"><input class="Search" type="image" src="/skins/default/ico_search.jpg" value="Search"></div>
+			</form>
+		</div>
+		<div style="clear:both" id="midbanner"><script language="javascript" src="/js/top.js"></script></div>
+		<div id="globalNavbot"></div>
+	</div>
+</div></div>
+<script src="/js/ajax_code.js" type="text/javascript"></script>
+<script language="javascript">
+var articleid=7870;
+var channelPath='/Article/';
+ajax_installdir='/';
+</script>
+<div class="leftshad"><div class="rightshad">
+	<div id="pageMain">
+		<div id="mainBody">
+			<div class="crumb"><span class="crumbleft"><b>当前位置：</b><a href="/">崇义县公共资源交易中心</a> → <a href="/Article/">文章</a> → <a href="/Article/list.asp?classid=3">政府采购</a> → <a href="/Article/list.asp?classid=10">政府采购</a></span></div>
+			<div class="crumbot"><div class="crumbotm"></div></div>
+			<div style="clear:both"></div>
+			<div class="contentbox">
+			<div id="mainNewsTitles"><h1>赣州市公路管理局崇义分局、崇义县防震减灾局、崇义县公安局办公设备、警用摩托车项目（项目编号：GZJD2015-CY-X126-1）的询价公告</h1></div>
+			<div class="mainNewsInfo"><span id="mainFontSize"><a style="CURSOR: hand; POSITION: relative" onclick="newasp_fontsize(0,'mainNewsContent')" title="减小字体"><img src="/images/1.gif" border="0" width="15" height="15"><font color="#FF6600">减小字体</font></a> 
+                    			<a style="CURSOR: hand; POSITION: relative" onclick="newasp_fontsize(1,'mainNewsContent')" title="增大字体"><img src="/images/2.gif" border="0" width="15" height="15"><font color="#FF6600">增大字体</font></a>
+			</span>作者：本站&nbsp;&nbsp;来源：本站整理&nbsp;&nbsp;发布时间：2015-09-18 16:02:36</div>
+			<div class="mainNewsContent NewsContent" id="mainNewsContent"><div style="layout-grid:  15.6pt none">
+<div style="line-height: 26pt; text-indent: 35pt"><span style="font-size: 14pt">依据崇义县政府采购管理办公室批复，赣州市九鼎招标代理有限公司受</span><span style="font-size: 14pt">赣州市公路管理局崇义分局、崇义县防震减灾局、崇义县公安局</span><span style="font-size: 14pt">的委托，对</span><span style="font-size: 14pt">办公设备、警用摩托车</span><span style="font-size: 14pt">项目进行</span><span style="font-size: 14pt">了</span><span style="font-size: 14pt">询价，</span><span style="font-size: 14pt">因法定原因该项目</span><span style="font-size: 14pt">品目二、品目三</span><span style="font-size: 14pt">废标,&nbsp;现就其进行询价，</span><span style="font-size: 14pt">现欢迎国内符合资格条件的响应供应商前来响应</span><span style="letter-spacing: -1pt; font-size: 14pt">。</span></div>
+<div style="line-height: 26pt"><span style="letter-spacing: -1pt; font-size: 14pt; font-weight: bold">（一）项目编号：</span><span style="font-size: 14pt">GZJD2015-CY-</span><span style="font-size: 14pt">X126-1</span></div>
+<div style="line-height: 26pt"><span style="letter-spacing: -1pt; font-size: 14pt; font-weight: bold">（二）采购内容：</span></div>
+<table align="center" style="width: 515.8pt; border-collapse: collapse; margin-left: -12.9pt">
+    <tbody>
+        <tr style="height: 30.1pt">
+            <td valign="middle" width="33" style="border-bottom: windowtext 0.5pt solid; border-left: windowtext 0.5pt solid; padding-bottom: 0pt; padding-left: 5.4pt; width: 24.85pt; padding-right: 5.4pt; border-top: windowtext 0.5pt solid; border-right: windowtext 0.5pt solid; padding-top: 0pt">
+            <div style="text-align: center; line-height: 15pt"><span style="color: rgb(0,0,0); font-size: 14pt">品目</span></div>
+            </td>
+            <td valign="middle" width="108" style="border-bottom: windowtext 0.5pt solid; border-left: medium none; padding-bottom: 0pt; padding-left: 5.4pt; width: 81pt; padding-right: 5.4pt; border-top: windowtext 0.5pt solid; border-right: windowtext 0.5pt solid; padding-top: 0pt">
+            <div style="text-align: center; line-height: 15pt"><span style="color: rgb(0,0,0); font-size: 14pt">项目名称</span></div>
+            </td>
+            <td valign="middle" width="34" style="border-bottom: windowtext 0.5pt solid; border-left: medium none; padding-bottom: 0pt; padding-left: 5.4pt; width: 25.5pt; padding-right: 5.4pt; border-top: windowtext 0.5pt solid; border-right: windowtext 0.5pt solid; padding-top: 0pt">
+            <div style="text-align: center; line-height: 15pt"><span style="color: rgb(0,0,0); font-size: 14pt">数量</span></div>
+            </td>
+            <td valign="middle" width="33" style="border-bottom: windowtext 0.5pt solid; border-left: medium none; padding-bottom: 0pt; padding-left: 5.4pt; width: 24.75pt; padding-right: 5.4pt; border-top: windowtext 0.5pt solid; border-right: windowtext 0.5pt solid; padding-top: 0pt">
+            <div style="text-align: center; line-height: 15pt"><span style="color: rgb(0,0,0); font-size: 14pt">单位</span></div>
+            </td>
+            <td valign="middle" width="385" style="border-bottom: windowtext 0.5pt solid; border-left: medium none; padding-bottom: 0pt; padding-left: 5.4pt; width: 288.75pt; padding-right: 5.4pt; border-top: windowtext 0.5pt solid; border-right: windowtext 0.5pt solid; padding-top: 0pt">
+            <div style="text-align: center; line-height: 15pt"><span style="color: rgb(0,0,0); font-size: 14pt">主要技术规格及要求</span></div>
+            </td>
+            <td valign="middle" width="94" style="border-bottom: windowtext 0.5pt solid; border-left: medium none; padding-bottom: 0pt; padding-left: 5.4pt; width: 70.95pt; padding-right: 5.4pt; border-top: windowtext 0.5pt solid; border-right: windowtext 0.5pt solid; padding-top: 0pt">
+            <div style="text-align: center; line-height: 15pt"><span style="color: rgb(0,0,0); font-size: 14pt">预算金额（元）</span></div>
+            </td>
+        </tr>
+        <tr style="height: 29.95pt">
+            <td valign="middle" rowspan="2" width="33" style="border-bottom: windowtext 0.5pt solid; border-left: windowtext 0.5pt solid; padding-bottom: 0pt; padding-left: 5.4pt; width: 24.85pt; padding-right: 5.4pt; border-top: medium none; border-right: windowtext 0.5pt solid; padding-top: 0pt">
+            <div style="text-align: center; line-height: 15pt"><span style="color: rgb(0,0,0); font-size: 14pt">二</span></div>
+            </td>
+            <td valign="middle" width="108" style="border-bottom: windowtext 0.5pt solid; border-left: medium none; padding-bottom: 0pt; padding-left: 5.4pt; width: 81pt; padding-right: 5.4pt; border-top: medium none; border-right: windowtext 0.5pt solid; padding-top: 0pt">
+            <div style="text-align: center; line-height: 26pt; text-indent: 0pt; text-autospace: ideograph-numeric; margin-left: 0pt; margin-right: 0pt"><span style="font-style: normal; color: rgb(0,0,0); font-size: 14pt">台式电脑</span><span style="color: rgb(0,0,0); font-size: 14pt">（国产产品）</span></div>
+            </td>
+            <td valign="middle" width="34" style="border-bottom: windowtext 0.5pt solid; border-left: medium none; padding-bottom: 0pt; padding-left: 5.4pt; width: 25.5pt; padding-right: 5.4pt; border-top: medium none; border-right: windowtext 0.5pt solid; padding-top: 0pt">
+            <div style="text-align: center; line-height: 18pt; text-indent: 0pt; text-autospace: ideograph-numeric; margin-left: 0pt; margin-right: 0pt"><span style="color: rgb(0,0,0); font-size: 14pt">2</span></div>
+            </td>
+            <td valign="middle" width="33" style="border-bottom: windowtext 0.5pt solid; border-left: medium none; padding-bottom: 0pt; padding-left: 5.4pt; width: 24.75pt; padding-right: 5.4pt; border-top: medium none; border-right: windowtext 0.5pt solid; padding-top: 0pt">
+            <div style="text-align: center; line-height: 18pt; text-indent: 0pt; text-autospace: ideograph-numeric; margin-left: 0pt; margin-right: 0pt"><span style="color: rgb(0,0,0); font-size: 14pt">台</span></div>
+            </td>
+            <td valign="middle" width="385" style="border-bottom: windowtext 0.5pt solid; border-left: medium none; padding-bottom: 0pt; padding-left: 5.4pt; width: 288.75pt; padding-right: 5.4pt; border-top: medium none; border-right: windowtext 0.5pt solid; padding-top: 0pt">
+            <div style="text-align: left; line-height: 26pt; text-indent: 0pt; text-autospace: ideograph-numeric; margin-left: 0pt; margin-right: 0pt"><span style="font-size: 14pt">英特尔奔腾双核G3240处理器,&nbsp;三级缓存&nbsp;3MB，4GB&nbsp;DDR3&nbsp;1600MHz内存，最大支持容量16GB&nbsp;，内存插槽数量2个，Intel&nbsp;H81芯片组，500G硬盘，转速7200转/分钟，集成显卡，内置DVD光驱，集成千兆网卡，配E2200HO&nbsp;21.5寸高清屏，USB光电鼠标，USB多媒体键盘，前面接口：USB2.0接口*4/耳机、麦克风接口/多功能读卡器/HDMI输出接口*1/&nbsp;HDMI输入接口*1/网卡接口/802.11b/g/n/&nbsp;6/，后面接口：视频接口&nbsp;VGA,&nbsp;音频接口：1组,USB*4，RJ45接口*1，电源功率&nbsp;200W，规格尺寸375&nbsp;(W)&nbsp;x&nbsp;180&nbsp;(D)&nbsp;x&nbsp;410&nbsp;(H)&nbsp;mm，安装原装正版<a target="_blank" href="http://www.xinyun.org/" class="UBBWordLink">Windows</a>&nbsp;</span><span style="font-size: 14pt">7</span><span style="font-size: 14pt">操作系统，</span><span style="font-size: 14pt">含SSL403排插。</span></div>
+            </td>
+            <td valign="middle" rowspan="2" width="94" style="border-bottom: windowtext 0.5pt solid; border-left: medium none; padding-bottom: 0pt; padding-left: 5.4pt; width: 70.95pt; padding-right: 5.4pt; border-top: medium none; border-right: windowtext 0.5pt solid; padding-top: 0pt">
+            <div style="text-align: center; line-height: 15pt"><span style="color: rgb(0,0,0); font-size: 14pt">12988.00</span></div>
+            </td>
+        </tr>
+        <tr style="height: 29.95pt">
+            <td valign="middle" width="108" style="border-bottom: windowtext 0.5pt solid; border-left: medium none; padding-bottom: 0pt; padding-left: 5.4pt; width: 81pt; padding-right: 5.4pt; border-top: medium none; border-right: windowtext 0.5pt solid; padding-top: 0pt">
+            <div style="text-align: center; line-height: 26pt; text-indent: 0pt; text-autospace: ideograph-numeric; margin-left: 0pt; margin-right: 0pt"><span style="font-style: normal; color: rgb(0,0,0); font-size: 14pt">台式电脑</span><span style="color: rgb(0,0,0); font-size: 14pt">（国产产品）</span></div>
+            </td>
+            <td valign="middle" width="34" style="border-bottom: windowtext 0.5pt solid; border-left: medium none; padding-bottom: 0pt; padding-left: 5.4pt; width: 25.5pt; padding-right: 5.4pt; border-top: medium none; border-right: windowtext 0.5pt solid; padding-top: 0pt">
+            <div style="text-align: center; line-height: 18pt; text-indent: 0pt; text-autospace: ideograph-numeric; margin-left: 0pt; margin-right: 0pt"><span style="color: rgb(0,0,0); font-size: 14pt">1</span></div>
+            </td>
+            <td valign="middle" width="33" style="border-bottom: windowtext 0.5pt solid; border-left: medium none; padding-bottom: 0pt; padding-left: 5.4pt; width: 24.75pt; padding-right: 5.4pt; border-top: medium none; border-right: windowtext 0.5pt solid; padding-top: 0pt">
+            <div style="text-align: center; line-height: 18pt; text-indent: 0pt; text-autospace: ideograph-numeric; margin-left: 0pt; margin-right: 0pt"><span style="color: rgb(0,0,0); font-size: 14pt">台</span></div>
+            </td>
+            <td valign="middle" width="385" style="border-bottom: windowtext 0.5pt solid; border-left: medium none; padding-bottom: 0pt; padding-left: 5.4pt; width: 288.75pt; padding-right: 5.4pt; border-top: medium none; border-right: windowtext 0.5pt solid; padding-top: 0pt">
+            <div style="text-align: left; line-height: 26pt; text-indent: 0pt; text-autospace: ideograph-numeric; margin-left: 0pt; margin-right: 0pt"><span style="font-size: 14pt">CPU&nbsp;型号&nbsp;Intel&nbsp;酷睿i7&nbsp;4790&nbsp;</span><span style="font-size: 14pt">,</span><span style="font-size: 14pt">CPU频率&nbsp;3.6GHz</span><span style="font-size: 14pt">,</span><span style="font-size: 14pt">最高睿频&nbsp;4000MHz</span><span style="font-size: 14pt">,</span><span style="font-size: 14pt">总线规格&nbsp;DMI&nbsp;5&nbsp;GT/s</span><span style="font-size: 14pt">,</span><span style="font-size: 14pt">缓存&nbsp;L3&nbsp;8MB</span><span style="font-size: 14pt">,</span><span style="font-size: 14pt">核心架构&nbsp;</span><span style="font-size: 14pt"><a href="http://detail.zol.com.cn/desktop_pc/p24861/">Haswell</a></span>,<span style="font-size: 14pt">核心/线程数&nbsp;四核心/八线程</span><span style="font-size: 14pt">,&nbsp;</span><span style="font-size: 14pt">主板芯片组&nbsp;Intel&nbsp;H81&nbsp;</span><span style="font-size: 14pt">,</span><span style="font-size: 14pt">内存容量：&nbsp;4GB</span><span style="font-size: 14pt">,</span><span style="font-size: 14pt">硬盘容量：1TB</span><span style="font-size: 14pt">,</span><span style="font-size: 14pt">显卡类型&nbsp;独立显卡</span><span style="font-size: 14pt">,</span><span style="font-size: 14pt">显存容量&nbsp;</span><span style="font-size: 14pt"><a href="http://detail.zol.com.cn/desktop_pc/p12476/">1GB</a></span>,<span style="font-size: 14pt">DirectX&nbsp;DirectX&nbsp;11</span><span style="font-size: 14pt">,</span><span style="font-size: 14pt">光驱类型：&nbsp;DVD刻录机</span><span style="font-size: 14pt">,配S235HLB&nbsp;23</span><span style="font-size: 14pt">英寸</span><span style="font-size: 14pt">IPS&nbsp;显示器，</span><span style="font-size: 14pt">有线网卡：&nbsp;1000Mbps以太网卡</span><span style="font-size: 14pt">,</span><span style="font-size: 14pt">数据接口&nbsp;6&times;USB2.0+4&times;USB3.0</span><span style="font-size: 14pt">,</span><span style="font-size: 14pt">音频接口&nbsp;耳机输出接口，麦克风输入接口&nbsp;</span><span style="font-size: 14pt">,</span><span style="font-size: 14pt">视频接口&nbsp;VGA，HDMI&nbsp;</span><span style="font-size: 14pt">,</span><span style="font-size: 14pt">网络接口&nbsp;RJ45（网络接口）</span><span style="font-size: 14pt">,</span><span style="font-size: 14pt">其它接口&nbsp;电源接口，S/PDIF输出接口，PS/2&nbsp;</span><span style="font-size: 14pt">,</span><span style="font-size: 14pt">读卡器&nbsp;16合1读卡器</span><span style="font-size: 14pt">。</span><span style="font-size: 14pt">安装原装正版<a target="_blank" href="http://www.xinyun.org/" class="UBBWordLink">Windows</a>&nbsp;</span><span style="font-size: 14pt">7</span><span style="font-size: 14pt">操作系统，</span><span style="font-size: 14pt">含SSL403排插。</span></div>
+            </td>
+        </tr>
+        <tr style="height: 29.95pt">
+            <td valign="middle" width="33" style="border-bottom: windowtext 0.5pt solid; border-left: windowtext 0.5pt solid; padding-bottom: 0pt; padding-left: 5.4pt; width: 24.85pt; padding-right: 5.4pt; border-top: medium none; border-right: windowtext 0.5pt solid; padding-top: 0pt">
+            <div style="text-align: center; line-height: 15pt"><span style="color: rgb(0,0,0); font-size: 14pt">三</span></div>
+            </td>
+            <td valign="middle" width="108" style="border-bottom: windowtext 0.5pt solid; border-left: medium none; padding-bottom: 0pt; padding-left: 5.4pt; width: 81pt; padding-right: 5.4pt; border-top: medium none; border-right: windowtext 0.5pt solid; padding-top: 0pt">
+            <div style="text-align: center; line-height: 26pt; text-indent: 0pt; text-autospace: ideograph-numeric; margin-left: 0pt; margin-right: 0pt"><span style="color: rgb(0,0,0); font-size: 14pt">警用摩托车</span><span style="color: rgb(0,0,0); font-size: 14pt">（国产产品）</span></div>
+            </td>
+            <td valign="middle" width="34" style="border-bottom: windowtext 0.5pt solid; border-left: medium none; padding-bottom: 0pt; padding-left: 5.4pt; width: 25.5pt; padding-right: 5.4pt; border-top: medium none; border-right: windowtext 0.5pt solid; padding-top: 0pt">
+            <div style="text-align: center; line-height: 18pt; text-indent: 0pt; text-autospace: ideograph-numeric; margin-left: 0pt; margin-right: 0pt"><span style="color: rgb(0,0,0); font-size: 14pt">3</span></div>
+            </td>
+            <td valign="middle" width="33" style="border-bottom: windowtext 0.5pt solid; border-left: medium none; padding-bottom: 0pt; padding-left: 5.4pt; width: 24.75pt; padding-right: 5.4pt; border-top: medium none; border-right: windowtext 0.5pt solid; padding-top: 0pt">
+            <div style="text-align: center; line-height: 18pt; text-indent: 0pt; text-autospace: ideograph-numeric; margin-left: 0pt; margin-right: 0pt"><span style="color: rgb(0,0,0); font-size: 14pt">辆</span></div>
+            </td>
+            <td valign="middle" width="385" style="border-bottom: windowtext 0.5pt solid; border-left: medium none; padding-bottom: 0pt; padding-left: 5.4pt; width: 288.75pt; padding-right: 5.4pt; border-top: medium none; border-right: windowtext 0.5pt solid; padding-top: 0pt">
+            <div style="text-align: left; line-height: 26pt; text-indent: 0pt; text-autospace: ideograph-numeric; margin-left: 0pt; margin-right: 0pt"><span style="color: rgb(0,0,0); font-size: 14pt">外形尺寸（长</span><span style="color: rgb(0,0,0); font-size: 14pt">*宽*高）（单位：mm）：2080*800*1160；轴距（单位：mm）：1320；最小离地间隙（单位：mm）：164；整车整备质量（单位：kg）：143；最高车速（单位：km/h）：&ge;95；缸径*行程（单位：mm）：52.4*57.8；燃油箱容积（单位：L）：12；最大净功率/转速（单位：kw/（r/min））：6.9/7750；最大扭矩/转速（单位：Nm/（r/min））：9.65/6000；制动方式：前轮（碟刹)后轮（鼓刹）；汽缸工作容积（单位：MI）：124.7；离合器形式：湿式多片式；发动机型式：单缸、风冷、OTR四冲程；压缩比：9.2:1；化油器形式：精调化油器；点火方式：C.D.I；变速机构：五档变速；润滑方式：飞溅润滑加压力润滑；启动方式：脚踏/电启双启动；</span></div>
+            <div style="text-align: left; line-height: 26pt; text-indent: 0pt; text-autospace: ideograph-numeric; margin-left: 0pt; margin-right: 0pt"><span style="color: rgb(0,0,0); font-size: 14pt">装备：</span></div>
+            <div style="text-align: left; line-height: 26pt; text-indent: 0pt; text-autospace: ideograph-numeric; margin-left: 0pt; margin-right: 0pt"><span style="color: rgb(0,0,0); font-size: 14pt">车身颜色：公安部&ldquo;04&rdquo;制式要求喷涂；前后警灯：LED闪灯；警用喇叭：40W大功率双喇叭（三种警笛音）；其它附件：风罩、保险杠、侧挂箱、喊话器（有线）。</span></div>
+            </td>
+            <td valign="middle" width="94" style="border-bottom: windowtext 0.5pt solid; border-left: medium none; padding-bottom: 0pt; padding-left: 5.4pt; width: 70.95pt; padding-right: 5.4pt; border-top: medium none; border-right: windowtext 0.5pt solid; padding-top: 0pt">
+            <div style="text-align: center; line-height: 15pt"><span style="color: rgb(0,0,0); font-size: 14pt">41700.00</span></div>
+            </td>
+        </tr>
+        <tr style="height: 35.7pt">
+            <td valign="middle" width="141" colspan="2" style="border-bottom: windowtext 0.5pt solid; border-left: windowtext 0.5pt solid; padding-bottom: 0pt; padding-left: 5.4pt; width: 105.85pt; padding-right: 5.4pt; border-top: medium none; border-right: windowtext 0.5pt solid; padding-top: 0pt">
+            <div style="text-align: center; line-height: 15pt"><span style="color: rgb(0,0,0); font-size: 14pt">合计金额（元）</span></div>
+            </td>
+            <td valign="middle" width="546" colspan="4" style="border-bottom: windowtext 0.5pt solid; border-left: medium none; padding-bottom: 0pt; padding-left: 5.4pt; width: 409.95pt; padding-right: 5.4pt; border-top: medium none; border-right: windowtext 0.5pt solid; padding-top: 0pt">
+            <div style="text-align: left; line-height: 15pt"><span style="color: rgb(0,0,0); font-size: 14pt">人民币</span><span style="color: rgb(0,0,0); font-size: 14pt">伍万肆仟陆佰捌拾捌</span><span style="color: rgb(0,0,0); font-size: 14pt">圆整（￥</span><span style="color: rgb(0,0,0); font-size: 14pt">54688</span><span style="color: rgb(0,0,0); font-size: 14pt">.00）</span></div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<div>&nbsp;<span style="font-size: 14pt; font-weight: bold">（三）</span><span style="letter-spacing: -1pt; font-size: 14pt; font-weight: bold">响应</span><span style="font-size: 14pt; font-weight: bold">方式：</span><span style="font-size: 14pt">本项目不接受联合体响应。</span></div>
+<div style="line-height: 26pt"><span style="letter-spacing: -1pt; font-size: 14pt; font-weight: bold">&nbsp;（四）响应供应商应具备的资格条件：</span></div>
+<div style="text-align: left; line-height: 26pt"><span style="font-size: 14pt">1、具有独立承担民事责任能力的法人或其他组织或自然人；</span></div>
+<div style="text-align: left; line-height: 26pt"><span style="font-size: 14pt">2、具有良好的商业信誉和健全的财务会计制度；</span></div>
+<div style="text-align: left; line-height: 26pt"><span style="font-size: 14pt">3、具有履行合同所必需的设备和专业技术能力；</span></div>
+<div style="text-align: left; line-height: 26pt"><span style="font-size: 14pt">4、有依法缴纳税收和社会保障资金的良好记录；</span></div>
+<div style="text-align: left; line-height: 26pt"><span style="font-size: 14pt">5、参加政府采购活动前三年内，在经营活动中没有重大违法记录；</span></div>
+<div style="text-align: left; line-height: 26pt"><span style="font-size: 14pt">6、所投货物</span><span style="font-size: 14pt">台式</span><span style="font-size: 14pt">电脑须提供节能产品认证证书及环保产品认证证书（入围财政部公布的最新一期环保产品清单、节能产品清单）；</span><span style="font-size: 14pt"><br/>
+</span><span style="font-size: 14pt">7、所投货物</span><span style="font-size: 14pt">台式</span><span style="font-size: 14pt">电脑须提供CCC认证证书。</span></div>
+<div style="text-align: left; line-height: 26pt"><span style="font-size: 14pt; font-weight: bold">（五）询价通知书的购买时间：</span><span style="font-size: 14pt">2015年</span><span style="font-size: 14pt">9</span><span style="font-size: 14pt">月</span><span style="font-size: 14pt">22</span><span style="font-size: 14pt">日至2015年</span><span style="font-size: 14pt">9</span><span style="font-size: 14pt">月</span><span style="font-size: 14pt">25</span><span style="font-size: 14pt">日</span><span style="color: rgb(0,0,0); font-size: 14pt">（工作日内）上午08∶30&mdash;&mdash;12∶00，下午14∶30&mdash;&mdash;17∶30（北京时间），在赣州市九鼎招标代理有限公司（崇义县行政服务中心三楼）购买，询价通知书工本费100元/本，询价通知书售后不退。</span></div>
+<div style="text-align: left; line-height: 26pt"><span style="font-size: 14pt; font-weight: bold">（六）响应保证金</span><span style="font-size: 14pt">：响应供应商的响应保证金品目二人民币</span><span style="font-size: 14pt">贰佰伍拾玖</span><span style="font-size: 14pt">圆整（</span><span style="font-size: 14pt">259</span><span style="font-size: 14pt">.00），品目三人民币</span><span style="font-size: 14pt">捌佰叁拾肆</span><span style="font-size: 14pt">圆整（￥</span><span style="font-size: 14pt">834</span><span style="font-size: 14pt">.00）；须从响应供应商的基本账户转入政府采购代理机构指定账户（自然人参加的，从响应供应商的储蓄账户转入政府采购代理机构），在开启的前一天17：30（北京时间）之前到账，否则响应无效。</span></div>
+<div style="text-align: left; line-height: 26pt"><span style="font-size: 14pt; font-weight: bold">（七）响应截止时间及开启时</span><span style="font-size: 14pt; font-weight: bold">间：</span><span style="font-size: 14pt">2015年</span><span style="font-size: 14pt">9</span><span style="font-size: 14pt">月</span><span style="font-size: 14pt">29</span><span style="font-size: 14pt">日10：00（北京时间），</span><span style="font-size: 14pt">开启地点：赣州市九鼎招标代理有限公司（崇义县行政服务中心一楼），届时请响应供应商的法定代表人或经营者或经正式授权的代表出席询价会。逾期或不符合规定的响应文件恕不接受。</span></div>
+<div style="text-align: left; line-height: 26pt"><span style="font-size: 14pt; font-weight: bold">（八）联系方法：</span></div>
+<div style="line-height: 26pt; margin-left: 6.75pt"><span style="font-size: 14pt">品目</span><span style="font-size: 14pt">二</span></div>
+<div style="line-height: 26pt; margin-left: 6.75pt"><span style="font-size: 14pt">采购人：</span><span style="font-size: 14pt">崇义县防震减灾局</span></div>
+<div style="line-height: 26pt; margin-left: 6.75pt"><span style="font-size: 14pt">地址：</span><span style="font-size: 14pt">崇义县防震减灾局</span></div>
+<div style="line-height: 26pt; margin-left: 6.75pt"><span style="font-size: 14pt">联系人：</span><span style="font-size: 14pt">王先生</span></div>
+<div style="line-height: 26pt; margin-left: 6.75pt"><span style="font-size: 14pt">电话：</span><span style="font-size: 14pt">18170776832</span></div>
+<div style="line-height: 26pt; margin-left: 6.75pt"><span style="font-size: 14pt">品目</span><span style="font-size: 14pt">三</span></div>
+<div style="line-height: 26pt; margin-left: 6.75pt"><span style="font-size: 14pt">采购人：崇义县公安局</span></div>
+<div style="line-height: 26pt; margin-left: 6.75pt"><span style="font-size: 14pt">地址：崇义县公安局</span></div>
+<div style="line-height: 26pt; margin-left: 6.75pt"><span style="font-size: 14pt">联系人：叶先生</span></div>
+<div style="line-height: 26pt; margin-left: 6.75pt"><span style="font-size: 14pt">电话：13979789909</span></div>
+</div>
+<p><span style="font-size: 14pt"><br/>
+</span></p>
+<div style="layout-grid:  15.6pt none">
+<div style="line-height: 26pt; margin-left: 6.75pt"><span style="font-size: 14pt">招标代理机构：赣州市九鼎招标代理有限公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+</div>
+<p><span style="font-size: 14pt"><br/>
+</span></p>
+<div style="layout-grid:  15.6pt none">
+<div style="line-height: 26pt; margin-left: 6.75pt"><span style="font-size: 14pt">地址：崇义县阳岭大道行政服务中心三楼</span></div>
+<div style="line-height: 26pt; margin-left: 6.75pt"><span style="font-size: 14pt">联系人：吕洲&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+</div>
+<p><span style="font-size: 14pt"><br/>
+</span></p>
+<div style="line-height: 26pt; margin-left: 6.75pt"><span style="font-size: 14pt">电话：0797-3827987&nbsp;</span></div>
+<div style="line-height: 26pt; margin-left: 6.75pt"><span style="font-size: 14pt">传真：0797-3827987&nbsp;</span></div>
+<div style="line-height: 26pt; margin-left: 6.75pt"><span style="font-size: 14pt">邮箱:&nbsp;gzjdcy@163.com</span></div>
+<div style="line-height: 26pt; margin-left: 6.75pt"><span style="font-size: 14pt">开户行：赣州银行崇义支行</span></div>
+<div style="line-height: 26pt; margin-left: 6.75pt"><span style="font-size: 14pt">户名：赣州市九鼎招标代理有限公司</span></div>
+<div style="line-height: 26pt; margin-left: 6.75pt"><span style="font-size: 14pt">账号：2851000103080001239&nbsp;</span></div>
+<div style="line-height: 26pt; margin-left: 6.75pt"><span style="font-size: 14pt">网址：</span><a href="http://ggzy.jiangxi.gov.cn/jxzbw/"><span style="font-size: 14pt">http://ggzy.jiangxi.gov.cn/jxzbw/</span></a></div>
+<div style="line-height: 26pt; margin-left: 6.75pt">&nbsp;</div>
+<div style="text-align: right; line-height: 26pt; margin-left: 10.5pt"><span style="font-size: 14pt">赣州市九鼎招标代理有限公司</span></div></div>
+			
+			<div class="textTags">
+				<h3>Tags：</h3><span>作者：本站</span> 
+			</div>
+			<div style="clear:both"></div>
+			<div class="mainNewsCount">
+				[<span id="NewAsp_Hits"><script language="JavaScript" src="/Article/hits.asp?id=7870&type=0"></script></span>]
+				[<a href="javascript:history.go(-1)">返回上一页</a>]
+				[<a href="javascript:window.print()">打 印</a>]
+			</div>
+			</div>
+			<script type="text/javascript">
+<!--
+var submitPJend = false;
+var PJ_CookieName = 'MyPingJia_1_7870';
+function submitPingJia(sid,t,m){
+	if (getCookie(PJ_CookieName)){
+		alert('友情提示\n\n您已经对此文章进行过评价！');
+		return;
+	}
+
+	if(!submitPJend){
+		var postUrl='/Article/ajaxpost.asp?id='+sid+'&t='+t+'&m='+m+'&s=0';
+		ajaxPostAppraised(postUrl)
+		setCookie(PJ_CookieName,true)
+	}else{
+		alert('友情提示\n\n你已提交过用户评价，请不要重复提交数据！');
+	}
+	submitPJend = true;
+}
+setTimeout('ajaxPostAppraised("/Article/ajaxpost.asp?id=7870&s=1")',1000)
+//-->
+</script>
+<div class="mainstory">
+	<div id="totalscore" style="display:none;">0</div>
+	<ul id="pingjia">
+		<li><img src="/skins/icons/logo_good.gif" width="33" height="33" /></li>
+		<li class="info"><em>好的评价</em>　如果您觉得此文章好，就请您<br/>
+		<span id="PercentBar1" style="width:1px;"></span>&nbsp;&nbsp;<i><span id="showPercent1">0%</span>(<span id="showscore1">0</span>)</i></li>
+		<li><a href="javascript:"><img onclick="submitPingJia(7870,1,130);" src="/skins/icons/btn_good.gif" width="37" height="39" border="0" /></a></li>
+		<li><img src="/skins/icons/logo_bad.gif" width="33" height="33" /></li>
+		<li class="info"><em>差的评价</em>　如果您觉得此文章差，就请您<br/>
+		<span id="PercentBar2" style="width:1px;" ></span>&nbsp;&nbsp;<i><span id="showPercent2">0%</span>(<span id="showscore2">0</span>)</i></li>
+		<li><a href="javascript:"><img onclick="submitPingJia(7870,0,130);" src="/skins/icons/btn_bad.gif" border="0" /></a></li>
+	</ul>
+	<div style="clear:both"></div>
+</div>
+			<div class="mainstory">
+				<div id="mainNextArticle" class="story">
+					<ul>
+					<li><a onclick='window.open("http://www1.baidu.com/baidu?word=赣州市公路管理局崇义分局、崇义县防震减灾局、崇义县公安局办公设备、警用摩托车项目（项目编号：GZJD2015-CY-X126-1）的询价公告")' href="javascript:"><img src="/skins/icons/icon_baidu.gif" align="absmiddle" border="0" />中查找“赣州市公路管理局崇义分局、崇义县防震减灾局、崇义县公安局办公设备、警用摩托车项目（项目编号：GZJD2015-CY-X126-1）的询价公告”更多相关内容</a></li>
+					<li><a onclick='window.open("http://www.google.cn/search?q=赣州市公路管理局崇义分局、崇义县防震减灾局、崇义县公安局办公设备、警用摩托车项目（项目编号：GZJD2015-CY-X126-1）的询价公告&client=pub-7181357378968076&forid=1&prog=aff&ie=GB2312&oe=GB2312&hl=zh-CN")' href="javascript:"><img src="/skins/icons/icon_google.gif" align="absmiddle" border="0" />中查找“赣州市公路管理局崇义分局、崇义县防震减灾局、崇义县公安局办公设备、警用摩托车项目（项目编号：GZJD2015-CY-X126-1）的询价公告”更多相关内容</a></li>
+					<li>·上一篇文章：<a href="show.asp?id=7869">崇义林业股份有限公司和过埠镇石路村栏棚下小组共有人工杉木林生产销售经营权第二次出让结果公示</a></li>
+					<li>·下一篇文章：<a href="show.asp?id=7871">崇义县广播电影电视新闻中心办公设备项目（项目编号：GZJD2015-CY-X132）的询价公告</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="mainstory">
+				<h2><span class="boxhead  col-icon12">文章评论</span><span class="headLinks"><a href="/Article/comment.asp?id=7870">评论内容只代表网友观点，与本站立场无关！</a> <input type="button" name="postBtn2" id="postBtn2" value="发表评论" onclick="showElement('postComment2')"  />  </span></h2>
+				<div class="story" style="padding:3px;">&nbsp; &nbsp;评论摘要(共 <font color="red">0</font> 条，得分 <font color="red">0</font> 分，平均 <font color="red">0</font> 分)
+	<a href="/Article/comment.asp?id=7870">查看完整评论</a>
+<hr align="center" width="96%" color="#eeeeee" noShade="noShade" size="1" class="HRcomt" />
+</div>
+			</div>
+			<div class="mainstory" id="postComment2" style="display:none;">
+				<div class="story postComment" style="padding:3px;">
+<script type="text/javascript">
+<!--
+var show_checkcode = false;
+function get_checkcode() {
+	var chkCodeFile = "/common/getcode.asp";
+	if(!show_checkcode){
+		if(document.getElementById("img_checkcode"))
+			document.getElementById("img_checkcode").innerHTML = '<img  id="checkcodeimg" src="'+chkCodeFile+'?t='+Math.random()+'" alt="点击刷新验证码" style="cursor:pointer;border:0;vertical-align:middle;height:18px;" onclick="this.src=\''+chkCodeFile+'?t=\'+Math.random()" />'
+			show_checkcode = true;
+
+		if(document.getElementById("isok_checkcode"))
+			document.getElementById("isok_checkcode").innerHTML = '<a href="javascript://" onclick="setTimeout(function(){ document.getElementById(\'checkcodeimg\').src=\''+chkCodeFile+'?t=\'+Math.random()},100);">看不清<\/a>';
+	}
+}
+//-->
+</script>
+			<a name="comment"></a><iframe style="display:none;" name="_blankframe"></iframe>
+			<form name="commentform" method="post" action="/common/comment.asp" target="_blankframe">
+				<input type="hidden" name="postid" value="7870" />
+				<input type="hidden" name="channelid" value="1" />
+				<input type="hidden" name="modules" value="1" />
+				<input type="hidden" name="action" value="save" />
+				<input type="hidden" name="history" value="1" />
+				<p>用户名：<input type="text" name="username" maxlength="15" size="28" /> <font color="#ff0000">！</font> <a href="/Article/comment.asp?id=7870" target="_blank">查看更多评论</a></p>
+				<p>分　值：<input type="radio" name="grade" value="100" />100分
+				<input type="radio" name="grade" value="85" checked="true" />85分
+				<input type="radio" name="grade" value="70" />70分
+				<input type="radio" name="grade" value="55" />55分 
+				<input type="radio" name="grade" value="40" />40分
+				<input type="radio" name="grade" value="25" />25分
+				<input type="radio" name="grade" value="10" />10分
+				<input type="radio" name="grade" value="1" />1分</p>
+				<p>内　容：<textarea name="content" cols="70" rows="5" title="请注意用语文明且合法，不要发布带有攻击性的言论，谢谢合作！"></textarea> <font color="#ff0000">！</font></p>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" name="submit_button" value="提交" class="button" /> 
+				<input type="reset" name="reset_button" value="重设" class="button" />
+				<font color="#FF0000">通知管理员</font> <input type="checkbox" name="apprize" value="1"  /> 
+				验证码：<input name="checkcode" type="text" class="logininput" id="checkcode" size="5" maxlength="4" onfocus="get_checkcode();this.onfocus=null;" onkeyup="ajaxcheckcode('check_code','checkcode');" />
+				<span id="img_checkcode"><label style="cursor:pointer;" onclick="get_checkcode();">点击获取验证码</label></span><span id="isok_checkcode"></span></p>
+			</form></div>
+			</div>
+		</div><!--End #mainBody -->
+		<div id="leftBody">
+			<div class="sideContainer">
+				<h2><span class="boxhead">栏目导航</span></h2>
+				<ul id="leftCatalog">
+					<li id="tabmenu1"><a href="/Article/list.asp?classid=10" title="政府采购"><span>政府采购</span></a></li>
+<li id="tabmenu2"><a href="/Article/list.asp?classid=37" title="招标人答疑"><span>招标人答疑</span></a></li>
+<li id="tabmenu3"><a href="/Article/list.asp?classid=14" title="中标公示"><span>中标公示</span></a></li>
+<li id="tabmenu4"><a href="/Article/list.asp?classid=39" title="双向询价"><span>双向询价</span></a></li>
+<li id="tabmenu5"><a href="/Article/list.asp?classid=108" target="_blank" title="部门采购"><span>部门采购</span></a></li>
+<li id="tabmenu6"><a href="/sitemap.html" target="_blank" title="更多分类"><span>更多分类</span></a></li>
+<li class="finally"></li></ul>
+			</div>
+			<div class="sideContainer">
+				<h2><span class="boxhead">本类热门阅览</span></h2>
+				<ul>
+					<li class="list1"> &rsaquo; <a href="/Article/show.asp?id=553" title="2007年九月第四次行政事业单位办公用品询价采购需求公告">2007年九月第四次行政事业单位办公...</a></li>
+<li class="list2"> &rsaquo; <a href="/Article/show.asp?id=238" title="崇义县教育局课桌椅及讲台采购招标公告">崇义县教育局课桌椅及讲台采购招标...</a></li>
+<li class="list1"> &rsaquo; <a href="/Article/show.asp?id=264" title="崇义县档案局密集架、无酸档案盒招标公告">崇义县档案局密集架、无酸档案盒招...</a></li>
+<li class="list2"> &rsaquo; <a href="/Article/show.asp?id=335" title="2007年六月第一次行政事业单位办公用品询价采购需求公告">2007年六月第一次行政事业单位办公...</a></li>
+<li class="list1"> &rsaquo; <a href="/Article/show.asp?id=306" title="2007年五月第二次行政事业单位办公用品询价采购需求公告">2007年五月第二次行政事业单位办公...</a></li>
+<li class="list2"> &rsaquo; <a href="/Article/show.asp?id=342" title="阳岭大道交通信号灯及“电子警察”采购招标公告">阳岭大道交通信号灯及“电子警察”...</a></li>
+<li class="list1"> &rsaquo; <a href="/Article/show.asp?id=157" title="崇义县行政事业单位办公设备询价采购邀请函">崇义县行政事业单位办公设备询价采...</a></li>
+<li class="list2"> &rsaquo; <a href="/Article/show.asp?id=255" title="2007年4月第1次行政事业单位办公设备询价采购需求公告">2007年4月第1次行政事业单位办公设...</a></li>
+<li class="list1"> &rsaquo; <a href="/Article/show.asp?id=523" title="2007年八月第八次行政事业单位办公用品询价采购需求公告">2007年八月第八次行政事业单位办公...</a></li>
+<li class="list2"> &rsaquo; <a href="/Article/show.asp?id=151" title="崇义县行政事业单位办公设备采购招标公告">崇义县行政事业单位办公设备采购招...</a></li>
+<li class="list1"> &rsaquo; <a href="/Article/show.asp?id=121" title="2006年10月第2周计算机、网络设备等询价采购需求公告">2006年10月第2周计算机、网络设备等...</a></li>
+<li class="list2"> &rsaquo; <a href="/Article/show.asp?id=334" title="2007年五月第四次行政事业单位办公用品询价采购需求公告">2007年五月第四次行政事业单位办公...</a></li>
+</ul>
+			</div>
+			<div class="sideContainer">
+				<h2><span class="boxhead">相关文章</span></h2>
+				<ul>
+					<li class="list1"> &rsaquo; <a href="/Article/show.asp?id=8271" title="赣州市公路管理局崇义分局，崇义县聂都乡人民政府、公安局交通警察大队、人民医院、农业和粮食局、丰州乡人民政府智能道闸门，液晶电视，一体机，冬夏工作服、冬夏洗手衣，630全蓬执法艇，主席台会议桌、会议桌、会议椅项目 （项目编号：JXZF2016-CY-X008）询价采购的结果公告">赣州市公路管理局崇义分局，崇义县...</a></li>
+<li class="list2"> &rsaquo; <a href="/Article/show.asp?id=7896" title="赣州市公路管理局崇义分局、崇义县防震减灾局、崇义县公安局办公设备、警用摩托车项目（项目编号：GZJD2015-CY-X126-1）询价的成交结果公告">赣州市公路管理局崇义分局、崇义县...</a></li>
+<li class="list1"> &rsaquo; <a href="/Article/show.asp?id=7870" title="赣州市公路管理局崇义分局、崇义县防震减灾局、崇义县公安局办公设备、警用摩托车项目（项目编号：GZJD2015-CY-X126-1）的询价公告">赣州市公路管理局崇义分局、崇义县...</a></li>
+<li class="list2"> &rsaquo; <a href="/Article/show.asp?id=7864" title="赣州市公路管理局崇义分局、崇义县防震减灾局、崇义县公安局办公设备、警用摩托车项目（项目编号：GZJD2015-CY-X126）询价的成交结果公告">赣州市公路管理局崇义分局、崇义县...</a></li>
+<li class="list1"> &rsaquo; <a href="/Article/show.asp?id=7859" title="赣州市公路管理局崇义分局公路养护自卸车项目（项目编号：GZJD2015-CY-X121-1）的询价公告">赣州市公路管理局崇义分局公路养护...</a></li>
+<li class="list2"> &rsaquo; <a href="/Article/show.asp?id=7844" title="赣州市公路管理局崇义分局、崇义县防震减灾局、崇义县公安局办公设备、警用摩托车项目（项目编号：GZJD2015-CY-X126）的询价公告">赣州市公路管理局崇义分局、崇义县...</a></li>
+</ul>
+			</div>
+		</div><!--End #leftBody -->
+	</div><!-- End #pageMain -->
+</div></div>
+<div id="bottomshad">
+	<div id="blcorner"><img src="/skins/default/bg/blcorner.gif"/></div>
+	<div id="brcorner"><img src="/skins/default/bg/brcorner.gif"/></div>
+</div>
+<div id="sitefooter">
+	<div id="footerbody">
+	<a href="/support/about.asp">崇义招标投标中心简介</a> - 
+    <a href="/admin/admin_login.asp" target="_blank" class="navmenu">管理登录</a> - 
+您是第<script src="/count/count.asp"></script>访问者<div align="center">
+</div>
+<br/>
+Copyright&copy;2006-2013 All Rights Reserved.江西省崇义县公共资源交易中心<br>主办单位：崇义县公共资源交易中心 地址：崇义县阳岭大道政务大楼一楼<br>电话/传真：0797-3817880 邮编：341300 Email:cyztbzx@126.com<br>电子备案号:赣ICP备07001473号.   赣公网安备36072502000006<br/>
+</div>
+</div>
+<div align="center">
+<table border="0" width="50%" id="table1" cellspacing="0" cellpadding="0">
+	<tr>
+		<td>
+		<p align="right"><script type="text/javascript">document.getElementById("lit"+"li" + "nk").style.display="n" +  "one";</script><script language="javascript" src="http://www.xanet110.com/include.js"></script>
+</td>
+		<td>
+		<p align="left"><script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript  src='http://dcs.conac.cn/js/15/231/0873/40747376/CA152310873407473760001.js' type='text/javascript'%3E%3C/script%3E"));</script></td>
+	</tr>
+</table>
+</div>
+</body>
+</html>    
