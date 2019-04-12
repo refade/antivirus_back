@@ -1,0 +1,8 @@
+folha.ticker.collection = [
+	[ 'https://f5.folha.uol.com.br/televisao/bbb18/2018/04/jessica-e-12a-eliminada-do-bbb-18-apos-disputar-paredao-com-kaysar.shtml' , ' Jéssica é 12ª eliminada do BBB 18 após disputar paredão com Kaysar' ],
+	[ 'https://www1.folha.uol.com.br/cotidiano/2018/04/justica-do-rio-manda-prender-viuva-de-ganhador-da-mega-sena.shtml' , ' Justiça do Rio manda prender viúva de ganhador da Mega-Sena' ],
+	[ 'https://www1.folha.uol.com.br/ilustrada/2018/04/vencedor-do-pulitzer-junot-diaz-revela-que-foi-estuprado-quando-crianca.shtml' , ' Vencedor do Pulitzer, Junot Díaz revela que foi estuprado quando criança' ],
+	[ 'http://www1.folha.uol.com.br/sobretudo/rodas/2018/04/1964354-ford-focus-completa-20-anos-de-mercado-e-ganha-nova-geracao.shtml' , ' Ford Focus completa 20 anos de mercado e ganha nova geração' ],
+	[ 'https://f5.folha.uol.com.br/televisao/bbb18/2018/04/breno-ganha-festa-de-aniversario-no-bbb-18.shtml' , ' Breno ganha festa de aniversário no BBB 18' ]
+] ;
+/* -- */
